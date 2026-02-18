@@ -1,5 +1,6 @@
 *.pkl
 *.json
+!clinical/datasets/**/*.json
 *.zip
 *.png
 *.npy
