@@ -126,16 +126,47 @@ ss_categories = """
 If you're unsure, then it's better to assign it to "Unknown".
 """
 
+dr_categories = """
+1. `case_representation`:
+    Summarizing, reframing, or abstracting the patient presentation into a structured clinical description.
+
+2. `knowledge_activation`:
+    Recalling disease patterns, epidemiology, risk factors, or clinical associations without yet applying them to the specific case.
+
+3. `hypothesis_generation`:
+    Proposing one or more candidate diagnoses as possible explanations.
+
+4. `evidence_evaluation`:
+    Linking case findings to hypotheses OR contrasting hypotheses against findings; weighing support and contradictions.
+
+5. `reconsideration_uncertainty`:
+    Expressing doubt, backtracking, cycling between hypotheses, or recognizing unresolved ambiguity.
+
+6. `diagnostic_verification`:
+    Explicitly checking that the proposed diagnosis accounts for all key findings or confirming that no major contradictions remain before commitment.
+
+7. `diagnostic_commitment`:
+    Selecting and justifying the most likely diagnosis based on prior evaluation.
+
+8. `final_answer_emission`:
+    Explicit statement of the final diagnosis independent of reasoning justification.
+
+9. `unknown`:
+    Use only if the chunk does not fit any of the above tags or is purely stylistic or semantic.
+
+"""
+
 CATEGORIES = {
     "og": og_categories,
     "et": et_categories,
     "etm": etm_categories,
     "pm": pm_categories,
     "sm": sm_categories,
-    "ss": ss_categories
+    "ss": ss_categories,
+    "dr": dr_categories,
 }
 
-DAG_PROMPT = """
+DAG_PROMPT_MATH = """
 You are an expert in interpreting how language models solve math problems using multi-step reasoning. Your task is to analyze a Chain-of-Thought (CoT) reasoning trace, broken into discrete text chunks, and label each chunk with:
 
 1. **function_tags**: One or more labels that describe what this chunk is *doing* functionally in the reasoning process.
@@ -148,86 +179,42 @@ This annotation will be used to build a dependency graph and perform causal anal
 
 ### Function Tags (you may assign multiple per chunk if appropriate):
 
-1. `problem_setup`: 
+1. `problem_setup`:
     Parsing or rephrasing the problem (initial reading or comprehension).
-    
-2. `plan_generation`: 
+
+2. `plan_generation`:
     Stating or deciding on a plan of action (often meta-reasoning).
-    
-3. `fact_retrieval`: 
+
+3. `fact_retrieval`:
     Recalling facts, formulas, problem details (without immediate computation).
-    
-4. `active_computation`: 
+
+4. `active_computation`:
     Performing algebra, calculations, manipulations toward the answer.
-    
-5. `result_consolidation`: 
+
+5. `result_consolidation`:
     Aggregating intermediate results, summarizing, or preparing final answer.
-    
-6. `uncertainty_management`: 
+
+6. `uncertainty_management`:
     Expressing confusion, re-evaluating, proposing alternative plans (includes backtracking).
-    
-7. `final_answer_emission`: 
+
+7. `final_answer_emission`:
     Explicit statement of the final boxed answer or earlier chunks that contain the final answer.
-    
-8. `self_checking`: 
+
+8. `self_checking`:
     Verifying previous steps, Pythagorean checking, re-confirmations.
 
-9. `unknown`: 
+9. `unknown`:
     Use only if the chunk does not fit any of the above tags or is purely stylistic or semantic.
 
 ---
 
-### depends_on Instructions:
-
-For each chunk, include a list of earlier chunk indices that the reasoning in this chunk *uses*. For example:
-- If Chunk 9 performs a computation based on a plan in Chunk 4 and a recalled rule in Chunk 5, then `depends_on: [4, 5]`
-- If Chunk 24 plugs in a final answer to verify correctness from Chunk 23, then `depends_on: [23]`
-- If there's no clear dependency (e.g. a general plan or recall), use an empty list: `[]`
-- If Chunk 13 performs a computation based on information in Chunk 11, which in turn uses information from Chunk 7, then `depends_on: [11, 7]`
-
-Important Notes:
-- Make sure to include all dependencies for each chunk. 
-- Include both long-range and short-range dependencies.
-- Do NOT forget about long-range dependencies. 
-- Try to be as comprehensive as possible.
-- Make sure there is always a path from earlier chunks (e.g. problem_setup and/or active_computation) to the final answer.
+{depends_on_instructions}
 
 ---
 
 ### Output Format:
 
-Return a single dictionary with one entry per chunk, where each entry has:
-- the chunk index (as the key, converted to a string),
-- a dictionary with:
-    - `"function_tags"`: list of tag strings
-    - `"depends_on"`: list of chunk indices, converted to strings
-
-Here's the expected format:
-
-```language=json
-{{
-    "4": {{
-    "function_tags": ["plan_generation"],
-    "depends_on": ["3"]
-    }},
-    "5": {{
-    "function_tags": ["fact_retrieval"],
-    "depends_on": []
-    }},
-    "9": {{
-    "function_tags": ["active_computation"],
-    "depends_on": ["4", "5"]
-    }},
-    "24": {{
-    "function_tags": ["self_checking"],
-    "depends_on": ["23"]
-    }},
-    "25": {{
-    "function_tags": ["final_answer_emission"],
-    "depends_on": ["23"]
-    }}
-}}
-```
+{output_format}
 
 Here is the math problem:
 
@@ -241,3 +228,144 @@ Here is the full Chain of Thought, broken into chunks:
 
 Now label each chunk with function tags and dependencies.
 """
+
+DAG_PROMPT_DIAGNOSTIC = """
+You are an expert in interpreting how language models perform clinical diagnostic reasoning. Your task is to analyze a Chain-of-Thought (CoT) reasoning trace for a medical diagnosis question, broken into discrete text chunks, and label each chunk with:
+
+1. **function_tags**: One or more labels that describe what this chunk is *doing* functionally in the diagnostic reasoning process.
+
+2. **depends_on**: A list of earlier chunk indices that this chunk directly depends on — meaning it uses information, findings, or reasoning introduced in those earlier chunks.
+
+This annotation will be used to build a dependency graph and perform causal analysis of diagnostic reasoning, so please be precise and conservative: only mark a chunk as dependent on another if its reasoning clearly uses a previous step's result or idea.
+
+---
+
+### Function Tags (you may assign multiple per chunk if appropriate):
+
+1. `case_representation`:
+    Summarizing, reframing, or abstracting the patient presentation into a structured clinical description.
+
+2. `knowledge_activation`:
+    Recalling disease patterns, epidemiology, risk factors, or clinical associations without yet applying them to the specific case.
+
+3. `hypothesis_generation`:
+    Proposing one or more candidate diagnoses as possible explanations.
+
+4. `evidence_evaluation`:
+    Linking specific case findings to hypotheses OR contrasting hypotheses against findings; weighing support and contradictions.
+
+5. `reconsideration_uncertainty`:
+    Expressing doubt, backtracking, cycling between hypotheses, or recognizing unresolved ambiguity.
+
+6. `diagnostic_verification`:
+    Explicitly checking that the proposed diagnosis accounts for all key findings or confirming that no major contradictions remain before commitment.
+
+7. `diagnostic_commitment`:
+    Selecting and justifying the most likely diagnosis based on prior evaluation.
+
+8. `final_answer_emission`:
+    Explicit statement of the final diagnosis independent of reasoning justification.
+
+9. `unknown`:
+    Use only if the chunk does not fit any of the above tags or is purely stylistic or semantic.
+
+---
+
+{depends_on_instructions}
+
+---
+
+### Output Format:
+
+{output_format}
+
+Here is the clinical vignette:
+
+[PROBLEM]
+{problem_text}
+
+Here is the full Chain of Thought, broken into chunks:
+
+[CHUNKS]
+{full_chunked_text}
+
+Now label each chunk with function tags and dependencies.
+"""
+
+_DEPENDS_ON_INSTRUCTIONS = """### depends_on Instructions:
+
+For each chunk, include a list of earlier chunk indices that the reasoning in this chunk *uses*. For example:
+- If Chunk 9 evaluates evidence based on a hypothesis in Chunk 4 and a recalled fact in Chunk 5, then `depends_on: [4, 5]`
+- If Chunk 24 reconsiders based on findings discussed in Chunk 23, then `depends_on: [23]`
+- If there's no clear dependency (e.g. a general knowledge recall), use an empty list: `[]`
+- If Chunk 13 evaluates evidence using information from Chunk 11, which in turn uses information from Chunk 7, then `depends_on: [11, 7]`
+
+Important Notes:
+- Make sure to include all dependencies for each chunk.
+- Include both long-range and short-range dependencies.
+- Do NOT forget about long-range dependencies.
+- Try to be as comprehensive as possible.
+- Make sure there is always a path from earlier chunks (e.g. case_representation and/or evidence_evaluation) to the final answer."""
+
+_OUTPUT_FORMAT = """Return a single dictionary with one entry per chunk, where each entry has:
+- the chunk index (as the key, converted to a string),
+- a dictionary with:
+    - `"function_tags"`: list of tag strings
+    - `"depends_on"`: list of chunk indices, converted to strings
+
+Here's the expected format:
+
+```language=json
+{{
+    "0": {{
+    "function_tags": ["case_representation"],
+    "depends_on": []
+    }},
+    "3": {{
+    "function_tags": ["knowledge_activation"],
+    "depends_on": []
+    }},
+    "5": {{
+    "function_tags": ["hypothesis_generation"],
+    "depends_on": ["0", "3"]
+    }},
+    "8": {{
+    "function_tags": ["evidence_evaluation"],
+    "depends_on": ["0", "5"]
+    }},
+    "12": {{
+    "function_tags": ["diagnostic_commitment"],
+    "depends_on": ["5", "8"]
+    }},
+    "13": {{
+    "function_tags": ["final_answer_emission"],
+    "depends_on": ["12"]
+    }}
+}}
+```"""
+
+DAG_PROMPTS = {
+    "math": DAG_PROMPT_MATH,
+    "diagnostic": DAG_PROMPT_DIAGNOSTIC,
+}
+
+# Backward compatibility: DAG_PROMPT defaults to math
+DAG_PROMPT = DAG_PROMPT_MATH
+
+
+def get_dag_prompt(domain="math"):
+    """Get the DAG prompt for the specified domain.
+
+    Args:
+        domain: "math" or "diagnostic"
+
+    Returns:
+        Prompt template string with {problem_text} and {full_chunked_text} placeholders.
+    """
+    template = DAG_PROMPTS[domain]
+    return template.format(
+        depends_on_instructions=_DEPENDS_ON_INSTRUCTIONS,
+        output_format=_OUTPUT_FORMAT,
+        problem_text="{problem_text}",
+        full_chunked_text="{full_chunked_text}",
+    )
