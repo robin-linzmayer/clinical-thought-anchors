@@ -63,11 +63,14 @@ def generate_batch(model, tokenizer, prompts, args):
         outputs = model.generate(**inputs, **generation_config)
 
     results = []
+    pad_token_id = tokenizer.eos_token_id
     for i, (input_ids, output_ids) in enumerate(zip(inputs["input_ids"], outputs)):
         input_length = len(input_ids)
-        generated_text = tokenizer.decode(output_ids[input_length:], skip_special_tokens=True)
-        num_tokens = len(output_ids) - input_length
-        results.append({"text": generated_text, "num_tokens": int(num_tokens)})
+        generated_ids = output_ids[input_length:]
+        generated_text = tokenizer.decode(generated_ids, skip_special_tokens=True)
+        # Count actual (non-pad) tokens in the generated output
+        num_tokens = int((generated_ids != pad_token_id).sum())
+        results.append({"text": generated_text, "num_tokens": num_tokens})
 
     return results
 
