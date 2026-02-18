@@ -12,8 +12,6 @@ SEED = 44
 # Selection band
 MIN_ACCURACY = 0.25
 MAX_ACCURACY = 0.75
-MIN_PROBLEMS = 10
-MAX_PROBLEMS = 50
 
 # Paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -40,8 +38,6 @@ def get_parser(description="Problem selection pipeline"):
     parser.add_argument("--output_dir", type=str, default=str(OUTPUT_DIR), help="Output directory")
     parser.add_argument("--min_accuracy", type=float, default=MIN_ACCURACY, help="Min accuracy for selection")
     parser.add_argument("--max_accuracy", type=float, default=MAX_ACCURACY, help="Max accuracy for selection")
-    parser.add_argument("--min_problems", type=int, default=MIN_PROBLEMS, help="Min problems to select")
-    parser.add_argument("--max_problems", type=int, default=MAX_PROBLEMS, help="Max problems to select")
     parser.add_argument("--batch_size", type=int, default=4, help="Batch size for inference")
     parser.add_argument("--resume", action="store_true", help="Resume from checkpoint")
     parser.add_argument("--quantize", action="store_true", help="Use 4-bit quantization")

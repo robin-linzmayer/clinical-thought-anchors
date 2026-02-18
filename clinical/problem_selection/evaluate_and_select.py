@@ -100,27 +100,13 @@ def plot_accuracy_vs_tokens(metrics, output_dir, min_acc, max_acc):
     print(f"Saved {path}")
 
 
-def select_problems(metrics, args):
-    """Select problems within accuracy band, with fallback widening."""
+def select_candidates(metrics, args):
+    """Select all problems within accuracy band — no min/max cap applied."""
     min_acc = args.min_accuracy
     max_acc = args.max_accuracy
 
-    # Filter to band
     selected = [m for m in metrics if min_acc <= m["accuracy"] <= max_acc]
-    print(f"Found {len(selected)} problems in [{min_acc}, {max_acc}] band")
-
-    # Widen band if too few
-    while len(selected) < args.min_problems and (min_acc > 0 or max_acc < 1):
-        min_acc = max(0.0, min_acc - 0.05)
-        max_acc = min(1.0, max_acc + 0.05)
-        selected = [m for m in metrics if min_acc <= m["accuracy"] <= max_acc]
-        print(f"Widened band to [{min_acc:.2f}, {max_acc:.2f}]: {len(selected)} problems")
-
-    # If too many, prefer problems closest to 50%
-    if len(selected) > args.max_problems:
-        selected.sort(key=lambda m: abs(m["accuracy"] - 0.5))
-        selected = selected[:args.max_problems]
-        print(f"Trimmed to {len(selected)} problems closest to 50% accuracy")
+    print(f"Found {len(selected)} candidates in [{min_acc}, {max_acc}] band")
 
     # Build output in format compatible with existing selected_problems.json
     output = []
@@ -155,6 +141,15 @@ def main():
     problems = load_results(inference_dir)
     print(f"Loaded results for {len(problems)} problems")
 
+    # Check that trials have been evaluated
+    unevaluated = sum(
+        1 for p in problems for t in p["trials"] if "is_correct" not in t
+    )
+    if unevaluated > 0:
+        print(f"Warning: {unevaluated} trials have not been evaluated. "
+              f"Run evaluate_answers.py first.")
+        return
+
     metrics = compute_metrics(problems)
 
     # Print summary
@@ -169,14 +164,14 @@ def main():
     plot_accuracy_distribution(metrics, output_dir, args.min_accuracy, args.max_accuracy)
     plot_accuracy_vs_tokens(metrics, output_dir, args.min_accuracy, args.max_accuracy)
 
-    # Select problems
-    selected = select_problems(metrics, args)
+    # Select candidates (all problems in band, no cap)
+    candidates = select_candidates(metrics, args)
 
     # Save
-    selected_path = output_dir / "selected_problems.json"
-    with open(selected_path, "w", encoding="utf-8") as f:
-        json.dump(selected, f, indent=2, ensure_ascii=False)
-    print(f"Saved {len(selected)} selected problems to {selected_path}")
+    candidates_path = output_dir / "problem_selection_candidates.json"
+    with open(candidates_path, "w", encoding="utf-8") as f:
+        json.dump(candidates, f, indent=2, ensure_ascii=False)
+    print(f"Saved {len(candidates)} candidates to {candidates_path}")
 
     # Also save full metrics for reference
     metrics_path = output_dir / "all_metrics.json"

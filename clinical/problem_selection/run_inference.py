@@ -7,7 +7,7 @@ import torch
 from pathlib import Path
 from tqdm import tqdm
 from config import get_parser, PROMPT_TEMPLATE
-from med_eval import extract_answer, check_answer
+from med_eval import extract_answer
 
 
 def load_model(args):
@@ -103,13 +103,11 @@ def process_question(question, model, tokenizer, args, inference_dir):
             trial_idx = len(existing_trials) + len(all_new_trials)
             raw_output = result["text"]
             extracted = extract_answer(raw_output)
-            is_correct = check_answer(extracted, question["gt_answer"])
 
             all_new_trials.append({
                 "trial_idx": trial_idx,
                 "raw_output": raw_output,
                 "extracted_answer": extracted,
-                "is_correct": is_correct,
                 "num_tokens": result["num_tokens"],
             })
 
@@ -167,9 +165,7 @@ def main():
     # Process each question
     for question in tqdm(questions, desc="Questions"):
         trials = process_question(question, model, tokenizer, args, inference_dir)
-        accuracy = sum(1 for t in trials if t["is_correct"]) / len(trials)
-        print(f"  Problem {question['problem_idx']}: accuracy={accuracy:.1%} "
-              f"({sum(1 for t in trials if t['is_correct'])}/{len(trials)})")
+        print(f"  Problem {question['problem_idx']}: {len(trials)} trials complete")
 
     print("Inference complete.")
 
