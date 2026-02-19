@@ -132,14 +132,20 @@ def main():
             if is_correct:
                 total_correct += 1
 
+        # Compute and store overall accuracy for this problem
+        n_correct = sum(1 for t in trials if t.get("is_correct"))
+        accuracy = n_correct / len(trials) if trials else 0.0
+        if data.get("accuracy") != accuracy:
+            data["accuracy"] = accuracy
+            changed = True
+
         if changed:
             with open(results_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
 
         # Print per-problem summary
-        n_correct = sum(1 for t in trials if t.get("is_correct"))
         problem_idx = data["problem_idx"]
-        print(f"  Problem {problem_idx}: {n_correct}/{len(trials)} correct | gt: {gt_answer}")
+        print(f"  Problem {problem_idx}: {n_correct}/{len(trials)} correct ({accuracy:.0%}) | gt: {gt_answer}")
 
     print(f"\nDone. Evaluated {total_evaluated} new trials across {len(problem_dirs)} problems.")
     print(f"Overall: {total_correct}/{total_trials} correct ({total_correct/total_trials:.1%})" if total_trials else "No trials found.")
