@@ -104,6 +104,44 @@ def load_diagnostic_problems(include_problems: str = None) -> List[Tuple[int, Di
     return sorted(result, key=lambda x: x[0])
 
 
+def _load_base_from_inference(problem_idx: int, problem: Dict, base_solution_type: str) -> Dict | None:
+    """Try to load a base solution from existing inference results (diagnostic domain only).
+
+    Scans clinical/datasets/problem_selection/inference/*/problem_<idx>/results.json
+    and picks the first trial matching the requested correctness.
+    """
+    inference_root = Path(__file__).resolve().parent / "clinical" / "datasets" / "problem_selection" / "inference"
+    if not inference_root.exists():
+        return None
+
+    # Search across all model subdirectories
+    for model_dir in sorted(inference_root.iterdir()):
+        results_file = model_dir / f"problem_{problem_idx}" / "results.json"
+        if not results_file.exists():
+            continue
+
+        with open(results_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        trials = data.get("trials", [])
+        want_correct = base_solution_type == "correct"
+
+        for trial in trials:
+            if trial.get("is_correct") == want_correct and trial.get("raw_output"):
+                prompt = get_prompt(problem, prefix="", domain="diagnostic")
+                solution = trial["raw_output"]
+                answer = trial.get("extracted_answer", "")
+                return {
+                    "prompt": prompt,
+                    "solution": solution,
+                    "full_cot": prompt + solution,
+                    "answer": answer,
+                    "is_correct": want_correct,
+                }
+
+    return None
+
+
 def get_prompt(problem: Dict, prefix: str = "", domain: str = "math") -> str:
     """Build the generation prompt for the given domain."""
     if domain == "diagnostic":
@@ -690,6 +728,15 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
                         json.dump(base_solution, f, indent=2)
     
     # Generate base solution if needed
+    if base_solution is None:
+        # For diagnostic domain, try to pull from existing inference results first
+        if args.domain == "diagnostic":
+            base_solution = _load_base_from_inference(problem_idx, problem, args.base_solution_type)
+            if base_solution:
+                print(f"Problem {problem_idx}: Loaded {args.base_solution_type} base solution from inference results")
+                with open(base_solution_file, 'w', encoding='utf-8') as f:
+                    json.dump(base_solution, f, indent=2)
+
     if base_solution is None:
         print(f"Problem {problem_idx}: Generating {args.base_solution_type} base solution")
         base_solution = await generate_base_solution(problem, args.temperature)
