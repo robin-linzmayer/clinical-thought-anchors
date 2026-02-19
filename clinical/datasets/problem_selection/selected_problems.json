@@ -1,0 +1,182 @@
+[
+  {
+    "problem_idx": "problem_6",
+    "problem": "A 56-year-old man with a history of hypertension presents to his physician with progressive fatigue and new onset muscle cramps. He has had no recent changes to his medication regimen, which includes hydrochlorothiazide, lisinopril, and amlodipine. His temperature is 98.0В°F (36.7В°C), blood pressure is 174/111 mmHg, pulse is 70/min, respirations are 12/min, and oxygen saturation is 98% on room air. The patient's cardiopulmonary and abdominal exams are unremarkable. Laboratory values are ordered as seen below.\n\nSerum:\nNa+: 138 mEq/L\nCl-: 100 mEq/L\nK+: 3.3 mEq/L\nHCO3-: 33 mEq/L\nBUN: 20 mg/dL\nGlucose: 129 mg/dL\n\nWhat is the most likely underlying etiology of this patient's hypertension?",
+    "gt_answer": "Aldosterone excess",
+    "accuracy": 0.3,
+    "approximate_mean_tokens": 1150.8,
+    "incorrect_answers": [
+      "\\text{Essential Hypertension}",
+      "essential hypertension",
+      "Essential Hypertension",
+      "\\text{Primary (Essential) Hypertension}",
+      "The underlying cause of the patient's hypertension is likely **diuretic-induced metabolic alkalosis and hypokalemia**.",
+      "Thiazide-induced electrolyte imbalance"
+    ],
+    "correct_answers": [
+      "The most likely underlying etiology of this patient's hypertension is **primary aldosteronism**. This condition leads to excessive aldosterone production, causing sodium retention and potassium loss, which explains the hypokalemia and hyponatremia observed in his lab results. It also contributes to resistant hypertension despite appropriate antihypertensive therapy.",
+      "Primary Aldosteronism"
+    ]
+  },
+  {
+    "problem_idx": "problem_24",
+    "problem": "A 65-year-old man presents to his primary care physician for a change in his behavior over the past few months. Initially, the patient was noted to be behaving inappropriately including using foul language and grabbing people unexpectedly. This has progressed to a worsening of his memory and trouble caring for himself. His temperature is 98.1В°F (36.7В°C), blood pressure is 162/103 mmHg, pulse is 83/min, respirations are 13/min, and oxygen saturation is 98% on room air. Physical exam is notable for an elderly man who laughs inappropriately at times and who is a poor historian. When he is engaged in conversation, he exhibits word finding difficulty and is rather inattentive. What is the most likely diagnosis?",
+    "gt_answer": "Frontotemporal dementia",
+    "accuracy": 0.4,
+    "approximate_mean_tokens": 923.8,
+    "incorrect_answers": [
+      "Alzheimer's disease",
+      "The diagnosis is based on the chronic progression of symptoms, including inappropriate behavior, memory loss, word-finding difficulty, and inattentiveness, which are characteristic of Alzheimer's. His vascular risk factors, such as high blood pressure, may contribute but are not definitive for this diagnosis.",
+      "Alzheimer's Disease",
+      "Alzheimer's\\ disease"
+    ],
+    "correct_answers": [
+      "Frontotemporal Dementia"
+    ]
+  },
+  {
+    "problem_idx": "problem_84",
+    "problem": "A 52-year-old man presents to the physician because of ongoing shortness of breath, which is more prominent when he lies down. Occasionally, he experiences palpitations, especially during strenuous activities. In addition to this, he has been experiencing difficulty in digestion and often experiences regurgitation and dysphagia. He reports that he emigrated from Mexico 20 years ago and visits his hometown twice a year. The vital signs include: blood pressure 120/75 mm Hg, respiratory rate 19/min, and pulse 100/min. The physical examination shows jugular vein distention along with pitting edema in the ankles. Bilateral basilar crackles and an S3 gallop are heard on auscultation of the chest. A chest X-ray is taken. An electrocardiogram (ECG) shows no significant findings. What is the most likely explanation for this patientвЂ™s physical and diagnostic findings?",
+    "gt_answer": "Parasitic infection",
+    "accuracy": 0.4,
+    "approximate_mean_tokens": 795.3,
+    "incorrect_answers": [
+      "\\text{Left-Sided Heart Failure}",
+      "Congestive Heart Failure",
+      "\\text{Left-Sided Heart Failure with Pulmonary Edema}",
+      "Left-Sided Heart Failure",
+      "The most likely diagnosis for this patient is **left-sided heart failure**. This is supported by the symptoms of orthopnea, dyspnea, and palpitations, along with physical exam findings such as jugular vein distension, pitting edema, bilateral basilar crackles, and an S3 gallop. These signs indicate fluid overload and pulmonary congestion, typical of heart failure.",
+      "The combination of cardiac and respiratory symptoms strongly supports left-sided heart failure as the primary diagnosis."
+    ],
+    "correct_answers": [
+      "Chronic Chagas cardiomyopathy with heart failure",
+      "Chagas Cardiomyopathy with Dilated Cardiomyopathy and Heart Failure",
+      "\\text{Cor pulmonale due to Chagas disease}",
+      "**Diagnosis:** Heart failure due to Chagas disease."
+    ]
+  },
+  {
+    "problem_idx": "problem_95",
+    "problem": "A 38-year-old woman is brought to the emergency department because of three 1-hour episodes of severe, sharp, penetrating abdominal pain in the right upper quadrant. During these episodes, she has had nausea and vomiting. She has no diarrhea, dysuria, or hematuria and is asymptomatic between episodes. She has hypertension and hyperlipidemia. Seven years ago, she underwent resection of the terminal ileum because of severe Crohn's disease. She is 155 cm (5 ft 2 in) tall and weighs 79 kg (175 lb); BMI is 32 kg/m2. Her temperature is 36.9В°C (98.5В°F), pulse is 80/min, and blood pressure is 130/95 mm Hg. There is mild scleral icterus. Cardiopulmonary examination shows no abnormalities. The abdomen is soft, and there is tenderness to palpation of the right upper quadrant without guarding or rebound. Bowel sounds are normal. The stool is brown, and test for occult blood is negative. Laboratory studies show:\nHemoglobin 12.5 g/dL\nLeukocyte count 9,500 mm3\nPlatelet count 170,000 mm3\nSerum\nTotal bilirubin 4.1 mg/dL\nAlkaline phosphatase 348 U/L\nAST 187 U/L\nALT 260 U/L\nAbdominal ultrasonography shows a normal liver, a common bile duct caliber of 10 mm (normal < 6 mm) and a gallbladder with multiple gallstones and no wall thickening or pericholecystic fluid. What is the most likely cause of these findings?\"",
+    "gt_answer": "Choledocholithiasis",
+    "accuracy": 0.7,
+    "approximate_mean_tokens": 1160.5,
+    "incorrect_answers": [
+      "Gallstone-related cholangitis",
+      "\\text{Biliary Colic due to Gallstones}",
+      "Primary Sclerosing Cholangitis"
+    ],
+    "correct_answers": [
+      "**Conclusion:** The patient has gallstone obstruction of the CBD, likely causing the intermittent episodes of pain and cholestasis. This condition is referred to as gallstone cholangiopathy.",
+      "**Diagnosis:** Gallstone-induced common bile duct obstruction with possible stricture due to Crohn's disease.",
+      "Choledocholithiasis",
+      "Biliary Colic due to Gallstones",
+      "\\text{Gallstone-related cholestasis with common bile duct stones}"
+    ]
+  },
+  {
+    "problem_idx": "problem_97",
+    "problem": "A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37В°C (98.6В°F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis?",
+    "gt_answer": "Aortic valve stenosis",
+    "accuracy": 0.3,
+    "approximate_mean_tokens": 1409.1,
+    "incorrect_answers": [
+      "Heart Failure",
+      "Chronic Obstructive Pulmonary Disease (COPD)",
+      "Atherosclerotic Heart Disease with Heart Failure",
+      "Chronic Heart Failure",
+      "Coronary Artery Disease"
+    ],
+    "correct_answers": [
+      "Aortic Stenosis"
+    ]
+  },
+  {
+    "problem_idx": "problem_122",
+    "problem": "A 52-year-old man presents to the clinic with a headache and dizziness for the past month. The patient reports that about 4 weeks ago he developed a вЂњnaggingвЂќ headache. He thought he had a cold, so he tried over the counter ibuprofen that provided only mild and temporary relief. Recently, he also started feeling dizzy and nauseous, which only resolves when he steps outside to shovel the snow. The patientвЂ™s medical history is significant for hypertension, type II diabetes mellitus, and asthma. His medications include amlodipine, metformin, glimepiride, and a fluticasone/salmeterol inhaler. The patient has been living at his upstate cabin for the past 5 weeks but denies other recent travel. He denies smoking tobacco or illicit drug use. The patientвЂ™s temperature is 99В°F (37.2В°C), blood pressure is 130/78 mmHg, pulse is 72/min, and respirations are 16/min with an oxygen saturation of 98% on room air. The patient is currently asymptomatic while sitting in the office, and physical examination is unremarkable. Labs are drawn, as shown below:\n\nHemoglobin: 20 g/dL\nHematocrit: 60%\nLeukocyte count: 10,050 cells/mm^3 with normal differential\nPlatelet count: 350,000/mm^3\n\nWhat underlies the patientвЂ™s most likely diagnosis?",
+    "gt_answer": "Toxic exposure",
+    "accuracy": 0.4,
+    "approximate_mean_tokens": 1067.5,
+    "incorrect_answers": [
+      "\\text{Secondary Polycythemia Due to High Altitude}",
+      "**Final Diagnosis:** Dehydration, likely due to inadequate fluid intake or exposure to a higher altitude environment.",
+      "Carbon Monoxide Poisoning",
+      "Polycythemia Vera"
+    ],
+    "correct_answers": [
+      "**Diagnosis:** Secondary Polycythemia due to high altitude exposure.",
+      "**Final Diagnosis:** Secondary Polycythemia due to Carbon Monoxide Exposure",
+      "This is supported by the environmental context of living in a poorly ventilated cabin, which could lead to elevated CO levels indoors. The symptoms improve upon exposure to fresh air, aligning with the effects of CO poisoning. The lab results showing high Hgb and Hct are consistent with chronic hypoxia from CO exposure.",
+      "\\text{Carbon monoxide poisoning}"
+    ]
+  },
+  {
+    "problem_idx": "problem_207",
+    "problem": "A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis?",
+    "gt_answer": "Coarctation of the aorta",
+    "accuracy": 0.3,
+    "approximate_mean_tokens": 1048.1,
+    "incorrect_answers": [
+      "Aortic Stenosis"
+    ],
+    "correct_answers": [
+      "Coarctation of the Aorta"
+    ]
+  },
+  {
+    "problem_idx": "problem_417",
+    "problem": "A 43-year-old man is brought to the emergency department 25 minutes after being involved in a high-speed motor vehicle collision in which he was a restrained passenger. On arrival, he has shortness of breath and is in severe pain. His pulse is 130/min, respirations are 35/min, and blood pressure is 90/40 mm Hg. Examination shows superficial abrasions and diffuse crepitus at the left shoulder level. Cardiac examination shows tachycardia with no murmurs, rubs, or gallops. The upper part of the left chest wall moves inward during inspiration. Breath sounds are absent on the left. He is intubated and mechanically ventilated. Two large bore intravenous catheters are placed and infusion of 0.9% saline is begun. What is the most likely cause of his symptoms?",
+    "gt_answer": "Flail chest",
+    "accuracy": 0.4,
+    "approximate_mean_tokens": 824.6,
+    "incorrect_answers": [
+      "\\text{Flail chest with tension pneumothorax}",
+      "\\text{Tension Pneumothorax}",
+      "\\text{Tension Pneumothorax with Flail Chest}",
+      "**Diagnosis:** Tension Pneumothorax",
+      "Tension Pneumothorax"
+    ],
+    "correct_answers": [
+      "Flail Chest with Pneumothorax",
+      "Flail chest with associated pneumothorax and rib fractures",
+      "Flail chest with associated pneumothorax",
+      "Flail chest with pneumothorax"
+    ]
+  },
+  {
+    "problem_idx": "problem_467",
+    "problem": "A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9В°C (102В°F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\"",
+    "gt_answer": "Herpes simplex virus",
+    "accuracy": 0.3,
+    "approximate_mean_tokens": 1885.5,
+    "incorrect_answers": [
+      "West Nile virus encephalitis",
+      "West Nile Virus",
+      "Naegleria fowleri",
+      "Naegleria fowleri (Primary Amoebic Meningoencephalitis)"
+    ],
+    "correct_answers": [
+      "\\text{Viral meningitis}",
+      "Herpes Simplex Encephalitis"
+    ]
+  },
+  {
+    "problem_idx": "problem_468",
+    "problem": "A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 В°C (101.5 В°F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\"",
+    "gt_answer": "Thrombotic thrombocytopenic purpura",
+    "accuracy": 0.3,
+    "approximate_mean_tokens": 2243.2,
+    "incorrect_answers": [
+      "Autoimmune Hemolytic Anemia (AIHA)",
+      "\\text{Systemic Lupus Erythematosus Flare with Acute Lupus Nephritis and Hemolytic Anemia}",
+      "Lupus Anticoagulant-Associated Thrombocytopenia",
+      "\\text{Lupus Flare with Hemolytic Anemia and Thrombocytopenia}",
+      "Lupus Hemolytic Anemia",
+      "Lupus-associated hemolytic anemia",
+      "Systemic Lupus Erythematosus (SLE) with acute nephritis, hemolytic anemia, and thrombocytopenia"
+    ],
+    "correct_answers": [
+      "Thrombotic Thrombocytopenic Purpura (TTP)"
+    ]
+  }
+]

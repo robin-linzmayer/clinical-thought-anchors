@@ -1,13 +1,14 @@
 import os
 import json
 import random
+import time
 import numpy as np
 import torch
 import asyncio
 import httpx
 from tqdm import tqdm
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Tuple
 from dotenv import load_dotenv
 from utils import extract_boxed_answers, check_answer, split_solution_into_chunks, load_math_problems
 from transformers import TextStreamer
@@ -21,6 +22,111 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 NOVITA_API_KEY = os.getenv("NOVITA_API_KEY")
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 FIREWORKS_API_KEY = os.getenv("FIREWORKS_API_KEY")
+
+# ── Diagnostic domain helpers ──────────────────────────────────────────────
+
+JUDGE_MODEL = "gpt-4o-mini"
+
+JUDGE_PROMPT = """\
+You are a medical expert evaluating whether a predicted diagnosis is correct.
+
+**Question:** {question}
+
+**Ground truth diagnosis:** {gt_answer}
+
+**Predicted diagnosis:** {predicted}
+
+Is the predicted diagnosis semantically equivalent to the ground truth? \
+The predicted answer does not need to match word-for-word — it is correct if it \
+refers to the same medical condition, even if phrased differently, abbreviated, \
+or includes additional qualifiers.
+
+Respond with ONLY "correct" or "incorrect"."""
+
+openai_client = None  # Initialized lazily when domain == diagnostic
+
+
+def _init_openai_client():
+    """Initialize OpenAI client for diagnostic answer judging."""
+    global openai_client
+    if openai_client is not None:
+        return
+    from openai import OpenAI
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("OPENAI_API_KEY environment variable not set (required for --domain diagnostic)")
+    openai_client = OpenAI(api_key=api_key)
+
+
+def judge_answer(question: str, gt_answer: str, predicted: str) -> bool:
+    """Call GPT-4o-mini to judge whether predicted matches gt_answer."""
+    if not predicted or not predicted.strip():
+        return False
+    _init_openai_client()
+    prompt = JUDGE_PROMPT.format(question=question, gt_answer=gt_answer, predicted=predicted)
+    for attempt in range(3):
+        try:
+            response = openai_client.chat.completions.create(
+                model=JUDGE_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0,
+                max_tokens=10,
+            )
+            verdict = response.choices[0].message.content.strip().lower()
+            return "correct" in verdict and "incorrect" not in verdict
+        except Exception as e:
+            print(f"  Judge API error (attempt {attempt + 1}/3): {e}")
+            time.sleep(2 ** attempt)
+    return False
+
+
+def load_diagnostic_problems(include_problems: str = None) -> List[Tuple[int, Dict]]:
+    """Load selected diagnostic problems from clinical/datasets/problem_selection/selected_problems.json."""
+    selected_path = Path(__file__).resolve().parent / "clinical" / "datasets" / "problem_selection" / "selected_problems.json"
+    if not selected_path.exists():
+        raise FileNotFoundError(f"Selected problems file not found: {selected_path}")
+    with open(selected_path, "r", encoding="utf-8") as f:
+        problems = json.load(f)
+
+    result = []
+    for p in problems:
+        idx = int(p["problem_idx"].split("_")[1])
+        # Align field name with math pipeline expectation
+        entry = dict(p)
+        entry["problem"] = entry.pop("problem", entry.get("question", ""))
+        result.append((idx, entry))
+
+    # Filter if include_problems specified
+    if include_problems:
+        include_set = set(int(x) for x in include_problems.split(","))
+        result = [(idx, p) for idx, p in result if idx in include_set]
+
+    return sorted(result, key=lambda x: x[0])
+
+
+def get_prompt(problem: Dict, prefix: str = "", domain: str = "math") -> str:
+    """Build the generation prompt for the given domain."""
+    if domain == "diagnostic":
+        base = (
+            f"Solve this diagnostic problem step by step. You MUST put your final diagnosis "
+            f"in \\boxed{{}}. Problem: {problem['problem']} Diagnosis: \n<think>\n"
+        )
+    else:
+        base = (
+            f"Solve this math problem step by step. You MUST put your final answer "
+            f"in \\boxed{{}}. Problem: {problem['problem']} Solution: \n<think>\n"
+        )
+    return base + prefix
+
+
+def check_answer_for_domain(answer: str, problem: Dict, domain: str) -> bool:
+    """Check answer correctness using the appropriate method for the domain."""
+    if not answer or not problem.get("gt_answer"):
+        return False
+    if domain == "diagnostic":
+        return judge_answer(problem["problem"], problem["gt_answer"], answer)
+    else:
+        return check_answer(answer, problem["gt_answer"])
 
 # Set up argument parser
 import argparse
@@ -55,7 +161,12 @@ parser.add_argument('-q', '--quantize', default=False, action='store_true', help
 parser.add_argument('-bs', '--batch_size', type=int, default=8, help='Batch size for local model')
 parser.add_argument('-mr', '--max_retries', type=int, default=1, help='Maximum number of retries for API requests')
 parser.add_argument('-os', '--output_suffix', type=str, default=None, help='Suffix to add to the output directory')
+parser.add_argument('--domain', type=str, default='math', choices=['math', 'diagnostic'], help='Problem domain: math or diagnostic')
 args = parser.parse_args()
+
+# Override default output_dir for diagnostic domain
+if args.domain == 'diagnostic' and args.output_dir == 'math_rollouts':
+    args.output_dir = str(Path(__file__).resolve().parent / 'clinical' / 'datasets' / 'rollouts')
 
 # Create output directory
 base_output_dir = Path(args.output_dir) / args.model.split("/")[-1] / f"temperature_{str(args.temperature)}_top_p_{str(args.top_p)}"
@@ -443,24 +554,21 @@ async def generate_base_solution(problem: Dict, temperature: float = 0.6) -> Dic
     Returns:
         Dictionary with the generated solution
     """
-    # Create prompt similar to generate_cots_math.py
-    prompt = f"Solve this math problem step by step. You MUST put your final answer in \\boxed{{}}. Problem: {problem['problem']} Solution: \n<think>\n"
-    
+    # Create prompt
+    prompt = get_prompt(problem, prefix="", domain=args.domain)
+
     max_retries = 3
     retry_delay = 2
-    
+
     for attempt in range(max_retries):
         try:
             response = await make_api_request(prompt, temperature, args.top_p, args.max_tokens)
             solution_text = response['text']
-            
+
             # Extract answer and check correctness
             extracted_answers = extract_boxed_answers(solution_text)
             answer = extracted_answers[0] if extracted_answers else ""
-            is_correct = False
-            
-            if problem.get('gt_answer') and answer:
-                is_correct = check_answer(answer, problem['gt_answer'])
+            is_correct = check_answer_for_domain(answer, problem, args.domain)
             
             return {
                 "prompt": prompt,
@@ -497,10 +605,10 @@ async def generate_rollout(problem: Dict, chunk_text: str, full_cot_prefix: str,
     """
     # Remove the current chunk from the prefix to see how it gets regenerated
     prefix_without_chunk = full_cot_prefix.replace(chunk_text, "").strip()
-    
+
     # Create prompt with the prefix without the current chunk
-    prompt = f"Solve this math problem step by step. You MUST put your final answer in \\boxed{{}}. Problem: {problem['problem']} Solution: \n<think>\n{prefix_without_chunk}"
-    
+    prompt = get_prompt(problem, prefix=prefix_without_chunk, domain=args.domain)
+
     if rollout_type == 'forced_answer':
         prompt += "\n</think>\n\nTherefore, the final answers is \\boxed{"
     
@@ -512,14 +620,11 @@ async def generate_rollout(problem: Dict, chunk_text: str, full_cot_prefix: str,
             response = await make_api_request(prompt, temperature, args.top_p, args.max_tokens)
             rollout_text = response['text']
             chunk_resampled = split_solution_into_chunks(rollout_text)[0]
-            
+
             # Extract answer and check correctness
             extracted_answers = extract_boxed_answers(f"{prompt}{rollout_text}" if rollout_type == 'forced_answer' else rollout_text)
             answer = extracted_answers[0] if extracted_answers else ""
-            is_correct = False
-            
-            if problem.get('gt_answer') and answer:
-                is_correct = check_answer(answer, problem['gt_answer'])
+            is_correct = check_answer_for_domain(answer, problem, args.domain)
             
             return {
                 "chunk_removed": chunk_text,
@@ -572,10 +677,7 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
             if not args.skip_recalculate and 'solution' in base_solution:
                 extracted_answers = extract_boxed_answers(base_solution['solution'])
                 answer = extracted_answers[0] if extracted_answers else ""
-                is_correct = False
-                
-                if problem.get('gt_answer') and answer:
-                    is_correct = check_answer(answer, problem['gt_answer'])
+                is_correct = check_answer_for_domain(answer, problem, args.domain)
                 
                 # Update if different
                 if base_solution.get('answer') != answer or base_solution.get('is_correct') != is_correct:
@@ -669,10 +771,7 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
                         if 'rollout' in rollout and 'error' not in rollout:
                             extracted_answers = extract_boxed_answers(rollout['full_cot'] if args.rollout_type == 'forced_answer' else rollout['rollout'])
                             answer = extracted_answers[0] if extracted_answers else ""
-                            is_correct = False
-                            
-                            if problem.get('gt_answer') and answer:
-                                is_correct = check_answer(answer, problem['gt_answer'])
+                            is_correct = check_answer_for_domain(answer, problem, args.domain)
                             
                             # Update if different
                             if rollout.get('answer') != answer or rollout.get('is_correct') != is_correct:
@@ -703,13 +802,13 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
                 for _ in tqdm(range(num_rollouts_needed), desc="Generating rollouts"):
                     # Remove the current chunk from the prefix to see how it gets regenerated
                     prefix_without_chunk = full_prefix.replace(chunk, "").strip()
-                    
+
                     # Create prompt with the prefix without the current chunk
-                    prompt = f"Solve this math problem step by step. You MUST put your final answer in \\boxed{{}}. Problem: {problem['problem']} Solution: \n<think>\n{prefix_without_chunk}"
-                    
+                    prompt = get_prompt(problem, prefix=prefix_without_chunk, domain=args.domain)
+
                     if args.rollout_type == 'forced_answer':
                         prompt += "\n</think>\n\nTherefore, the final answers is \\boxed{"
-                    
+
                     prompts.append(prompt)
                 
                 # Generate all rollouts in batch
@@ -733,10 +832,7 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
                     prompt = prompts[i]
                     extracted_answers = extract_boxed_answers(f"{prompt}{rollout_text}" if args.rollout_type == 'forced_answer' else rollout_text)
                     answer = extracted_answers[0] if extracted_answers else ""
-                    is_correct = False
-                    
-                    if problem.get('gt_answer') and answer:
-                        is_correct = check_answer(answer, problem['gt_answer'])
+                    is_correct = check_answer_for_domain(answer, problem, args.domain)
                     
                     new_solutions.append({
                         "chunk_removed": chunk,
@@ -765,16 +861,19 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
 
 async def main():
     """Main function to run the script."""
-    # Load problems
-    problems = load_math_problems(problem_type=args.type, level=args.level, num_problems=args.num_problems, split=args.split, include_problems=args.include_problems)
-    
-    if args.exclude_problems:
-        exclude_problems = [int(id) for id in args.exclude_problems.split(",")]
-        problems = [problem for problem in problems if problem[0] not in exclude_problems]
-        
-    if args.include_problems:
-        include_problems = [int(id) for id in args.include_problems.split(",")]
-        problems = [problem for problem in problems if problem[0] in include_problems]
+    # Load problems based on domain
+    if args.domain == "diagnostic":
+        problems = load_diagnostic_problems(include_problems=args.include_problems)
+    else:
+        problems = load_math_problems(problem_type=args.type, level=args.level, num_problems=args.num_problems, split=args.split, include_problems=args.include_problems)
+
+        if args.exclude_problems:
+            exclude_problems = [int(id) for id in args.exclude_problems.split(",")]
+            problems = [problem for problem in problems if problem[0] not in exclude_problems]
+
+        if args.include_problems:
+            include_problems = [int(id) for id in args.include_problems.split(",")]
+            problems = [problem for problem in problems if problem[0] in include_problems]
     
     if not problems:
         print(f"No problems loaded. Exiting.")
