@@ -657,7 +657,8 @@ async def generate_rollout(problem: Dict, chunk_text: str, full_cot_prefix: str,
         try:
             response = await make_api_request(prompt, temperature, args.top_p, args.max_tokens)
             rollout_text = response['text']
-            chunk_resampled = split_solution_into_chunks(rollout_text)[0]
+            chunks_from_rollout = split_solution_into_chunks(rollout_text)
+            chunk_resampled = chunks_from_rollout[0] if chunks_from_rollout else ""
 
             # Extract answer and check correctness
             extracted_answers = extract_boxed_answers(f"{prompt}{rollout_text}" if rollout_type == 'forced_answer' else rollout_text)
@@ -873,7 +874,8 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
                     
                     # Create the rollout object
                     prefix_without_chunk = full_prefix.replace(chunk, "").strip()
-                    chunk_resampled = split_solution_into_chunks(rollout_text)[0] if rollout_text else ""
+                    chunks_from_rollout = split_solution_into_chunks(rollout_text) if rollout_text else []
+                    chunk_resampled = chunks_from_rollout[0] if chunks_from_rollout else ""
                     
                     # Extract answer and check correctness
                     prompt = prompts[i]
