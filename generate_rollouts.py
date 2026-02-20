@@ -279,11 +279,22 @@ if args.domain == 'diagnostic' and args.output_dir == 'math_rollouts':
 
 # Create output directory
 base_output_dir = Path(args.output_dir) / args.model.split("/")[-1] / f"temperature_{str(args.temperature)}_top_p_{str(args.top_p)}"
+# Build suffix: combine output_suffix and adaptive tag
+suffix_parts = []
+if args.output_suffix:
+    suffix_parts.append(args.output_suffix)
+if adaptive_mode:
+    suffix_parts.append("adaptive")
+combined_suffix = "_".join(suffix_parts)
+
 if args.rollout_type == 'forced_answer':
     # NOTE: For forced answer rollouts, we use the correct base solution (we copy the files from the correct base solution directory before running this script)
-    output_dir = base_output_dir / f"{args.base_solution_type}_base_solution_{args.rollout_type}_{args.output_suffix}" if args.output_suffix else base_output_dir / f"{args.base_solution_type}_base_solution_{args.rollout_type}"
+    dir_name = f"{args.base_solution_type}_base_solution_{args.rollout_type}"
 else:
-    output_dir = base_output_dir / f"{args.base_solution_type}_base_solution_{args.output_suffix}" if args.output_suffix else base_output_dir / f"{args.base_solution_type}_base_solution"
+    dir_name = f"{args.base_solution_type}_base_solution"
+if combined_suffix:
+    dir_name = f"{dir_name}_{combined_suffix}"
+output_dir = base_output_dir / dir_name
 output_dir.mkdir(exist_ok=True, parents=True)
 
 # Set random seed for reproducibility
