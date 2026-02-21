@@ -1,0 +1,6 @@
+category,avg_zscore,std_zscore,standard_error,count
+Case Representation,2.359409819106088,0.0,0.0,1
+Knowledge Activation,1.8034502828239933,0.0,0.0,1
+Diagnostic Commitment,1.6079974308310967,0.0,0.0,1
+Evidence Evaluation,1.5753925253374617,0.0,0.0,1
+Reconsideration Uncertainty,1.5459404486226704,0.0,0.0,1

@@ -1,0 +1,24 @@
+{
+  "num_responses": 2,
+  "sentences": {
+    "mean": 46.5,
+    "std": 6.5,
+    "median": 46.5,
+    "min": 40,
+    "max": 53,
+    "ci_95_lower": -36.09033078513551,
+    "ci_95_upper": 129.0903307851355,
+    "sem": 6.499999999999999
+  },
+  "tokens": {
+    "mean": 1476.5,
+    "std": 159.5,
+    "median": 1476.5,
+    "min": 1317,
+    "max": 1636,
+    "ci_95_lower": -550.1396554198636,
+    "ci_95_upper": 3503.1396554198636,
+    "sem": 159.5
+  },
+  "summary": "The average response is 46.5 sentences long (95% CI: [-36.1, 129.1]; this corresponds to 1476 tokens [95% CI: -550, 3503])."
+}

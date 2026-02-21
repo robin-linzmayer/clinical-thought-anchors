@@ -1,0 +1,4 @@
+category,avg_zscore,std_zscore,standard_error,count
+Case Representation,2.1274957169367625,0.2592430540525968,0.14967404704280746,3
+Hypothesis Generation,1.6568627437985115,0.0,0.0,1
+Knowledge Activation,1.5467504243460075,0.0,0.0,1

@@ -13,3 +13,7 @@ math-rollouts_test/
 .cursorindexingignore
 .specstory
 .idea/
+
+# Re-include analysis folder
+!analysis/
+!analysis/**

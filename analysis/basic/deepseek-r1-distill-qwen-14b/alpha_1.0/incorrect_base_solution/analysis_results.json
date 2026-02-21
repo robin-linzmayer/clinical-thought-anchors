@@ -1,0 +1,1003 @@
+[
+  {
+    "problem_idx": "6",
+    "problem_type": null,
+    "problem_level": null,
+    "base_accuracy": false,
+    "num_chunks": 40,
+    "labeled_chunks": [
+      {
+        "chunk": "Okay, so I'm trying to figure out the underlying cause of this patient's hypertension.",
+        "chunk_idx": 0,
+        "summary": "identify hypertension cause",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.0,
+        "resampling_importance_accuracy": 0.25609756097560976,
+        "resampling_importance_kl": 0.0,
+        "forced_importance_accuracy": -0.03999999999999998,
+        "forced_importance_kl": 0.6938367611325177,
+        "accuracy": 0.0
+      },
+      {
+        "chunk": "Let me start by going through the information given.",
+        "chunk_idx": 1,
+        "summary": "review information",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.07601880877742945,
+        "counterfactual_importance_kl": 2.3908823929542327,
+        "different_trajectories_fraction": 0.35365853658536583,
+        "overdeterminedness": 0.7804878048780488,
+        "resampling_importance_accuracy": 0.1302660753880266,
+        "resampling_importance_kl": 2.834770228012595,
+        "forced_importance_accuracy": 0.08999999999999997,
+        "forced_importance_kl": 0.9093901416436073,
+        "accuracy": 0.25609756097560976
+      },
+      {
+        "chunk": "The patient is a 56-year-old man with hypertension, and he's presenting with progressive fatigue and new onset muscle cramps.",
+        "chunk_idx": 2,
+        "summary": "identify symptoms",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.01731062179753501,
+        "counterfactual_importance_kl": 2.0035932815568893,
+        "different_trajectories_fraction": 0.9886363636363636,
+        "overdeterminedness": 0.9318181818181819,
+        "resampling_importance_accuracy": -0.012869660460021914,
+        "resampling_importance_kl": 1.9866015917542141,
+        "forced_importance_accuracy": -0.13999999999999999,
+        "forced_importance_kl": 5.716165958366716,
+        "accuracy": 0.38636363636363635
+      },
+      {
+        "chunk": "His medications are hydrochlorothiazide, lisinopril, and amlodipine, and he hasn't changed them recently.",
+        "chunk_idx": 3,
+        "summary": "list medications",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.7710843373493976,
+        "resampling_importance_accuracy": 0.03126792885829033,
+        "resampling_importance_kl": 3.6841607800264735,
+        "forced_importance_accuracy": 0.23999999999999996,
+        "forced_importance_kl": 1.3714137276161933,
+        "accuracy": 0.37349397590361444
+      },
+      {
+        "chunk": "His vital signs show a high blood pressure of 174/111, which is definitely in the stage 2 hypertension range.",
+        "chunk_idx": 4,
+        "summary": "identify hypertension stage",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.7023809523809523,
+        "resampling_importance_accuracy": -0.05033152501506932,
+        "resampling_importance_kl": 1.0554114763906584,
+        "forced_importance_accuracy": 0.14,
+        "forced_importance_kl": 8.579153417900374,
+        "accuracy": 0.40476190476190477
+      },
+      {
+        "chunk": "His temperature is normal, and his oxygen saturation is good.",
+        "chunk_idx": 5,
+        "summary": "check temperature and saturation",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.05341149649894156,
+        "counterfactual_importance_kl": 1.5489386986146036,
+        "different_trajectories_fraction": 0.8734177215189873,
+        "overdeterminedness": 0.26582278481012656,
+        "resampling_importance_accuracy": 0.06129995733181626,
+        "resampling_importance_kl": 2.1281849008138307,
+        "forced_importance_accuracy": 0.040000000000000036,
+        "forced_importance_kl": 1.0783821591790228,
+        "accuracy": 0.35443037974683544
+      },
+      {
+        "chunk": "Looking at the lab values: Na is 138, which is low-normal.",
+        "chunk_idx": 6,
+        "summary": "identify Na=138",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.07838730998017185,
+        "counterfactual_importance_kl": 1.4925890272602294,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.7865168539325843,
+        "resampling_importance_accuracy": 0.07838730998017185,
+        "resampling_importance_kl": 1.4925890272602294,
+        "forced_importance_accuracy": -0.06000000000000005,
+        "forced_importance_kl": 0.7006038771252046,
+        "accuracy": 0.4157303370786517
+      },
+      {
+        "chunk": "Cl- is 100, which is within normal range.",
+        "chunk_idx": 7,
+        "summary": "check Cl- level",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.02941176470588236,
+        "counterfactual_importance_kl": 1.193871443229015,
+        "different_trajectories_fraction": 0.023529411764705882,
+        "overdeterminedness": 0.8470588235294118,
+        "resampling_importance_accuracy": -0.02352941176470591,
+        "resampling_importance_kl": 1.5023556605216302,
+        "forced_importance_accuracy": -0.039999999999999925,
+        "forced_importance_kl": 3.863733197916087,
+        "accuracy": 0.49411764705882355
+      },
+      {
+        "chunk": "K+ is 3.3, which is slightly low, but not critically so.",
+        "chunk_idx": 8,
+        "summary": "report K+=3.3",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.022727272727272707,
+        "counterfactual_importance_kl": 0.863148869723721,
+        "different_trajectories_fraction": 0.35294117647058826,
+        "overdeterminedness": 0.47058823529411764,
+        "resampling_importance_accuracy": 0.05213903743315507,
+        "resampling_importance_kl": 0.6162512217494723,
+        "forced_importance_accuracy": -0.10000000000000003,
+        "forced_importance_kl": 0.06721074217217005,
+        "accuracy": 0.47058823529411764
+      },
+      {
+        "chunk": "HCO3- is 33, which is a bit elevated, suggesting possible metabolic alkalosis.",
+        "chunk_idx": 9,
+        "summary": "identify metabolic alkalosis",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.2103799814643188,
+        "counterfactual_importance_kl": 0.5058790583767185,
+        "different_trajectories_fraction": 0.14772727272727273,
+        "overdeterminedness": 0.8295454545454546,
+        "resampling_importance_accuracy": -0.040799561883899216,
+        "resampling_importance_kl": 2.863778388324483,
+        "forced_importance_accuracy": 0.03999999999999998,
+        "forced_importance_kl": 1.152278967900068,
+        "accuracy": 0.5227272727272727
+      },
+      {
+        "chunk": "BUN is 20, which is normal, and glucose is 129, which is slightly elevated but not diagnostic of diabetes yet\u2014maybe prediabetes or just a single high reading.",
+        "chunk_idx": 10,
+        "summary": "report glucose=129",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.3902439024390244,
+        "counterfactual_importance_kl": 5.099866405958345,
+        "different_trajectories_fraction": 0.012048192771084338,
+        "overdeterminedness": 0.49397590361445787,
+        "resampling_importance_accuracy": -0.09168380840434909,
+        "resampling_importance_kl": 1.1349767451640047,
+        "forced_importance_accuracy": -0.08000000000000002,
+        "forced_importance_kl": 1.3976213377655684,
+        "accuracy": 0.4819277108433735
+      },
+      {
+        "chunk": "So, his symptoms are fatigue and muscle cramps.",
+        "chunk_idx": 11,
+        "summary": "identify symptoms",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.044900221729489986,
+        "counterfactual_importance_kl": 3.071910597894836,
+        "different_trajectories_fraction": 0.5365853658536586,
+        "overdeterminedness": 0.2682926829268293,
+        "resampling_importance_accuracy": -0.04878048780487804,
+        "resampling_importance_kl": 4.658266970870619,
+        "forced_importance_accuracy": 0.06,
+        "forced_importance_kl": 0.5830602661132658,
+        "accuracy": 0.3902439024390244
+      },
+      {
+        "chunk": "Muscle cramps can be related to electrolyte imbalances, particularly low potassium.",
+        "chunk_idx": 12,
+        "summary": "identify low potassium",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "11"
+        ],
+        "counterfactual_importance_accuracy": 0.043052837573385516,
+        "counterfactual_importance_kl": 2.0284007514031277,
+        "different_trajectories_fraction": 0.8902439024390244,
+        "overdeterminedness": 0.1585365853658537,
+        "resampling_importance_accuracy": -0.05574912891986067,
+        "resampling_importance_kl": 1.8298006358668215,
+        "forced_importance_accuracy": -0.16999999999999998,
+        "forced_importance_kl": 1.4974776839801032,
+        "accuracy": 0.34146341463414637
+      },
+      {
+        "chunk": "His K+ is 3.3, which is just below normal (usually around 3.5-5.0).",
+        "chunk_idx": 13,
+        "summary": "identify K+=3.3",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8",
+          "12"
+        ],
+        "counterfactual_importance_accuracy": 0.14390243902439026,
+        "counterfactual_importance_kl": 2.3742971695969914,
+        "different_trajectories_fraction": 0.2597402597402597,
+        "overdeterminedness": 0.7012987012987013,
+        "resampling_importance_accuracy": -0.029616724738675937,
+        "resampling_importance_kl": 1.178008971346267,
+        "forced_importance_accuracy": -0.12999999999999998,
+        "forced_importance_kl": 1.5886911982161476,
+        "accuracy": 0.2857142857142857
+      },
+      {
+        "chunk": "But he's on hydrochlorothiazide, which is a diuretic that can cause potassium loss.",
+        "chunk_idx": 14,
+        "summary": "potassium loss noted",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "3"
+        ],
+        "counterfactual_importance_accuracy": -0.1378048780487805,
+        "counterfactual_importance_kl": 2.8830824768070467,
+        "different_trajectories_fraction": 0.4878048780487805,
+        "overdeterminedness": 0.5731707317073171,
+        "resampling_importance_accuracy": 0.23170731707317072,
+        "resampling_importance_kl": 2.130299934376858,
+        "forced_importance_accuracy": -0.13,
+        "forced_importance_kl": 0.9045467276182225,
+        "accuracy": 0.25609756097560976
+      },
+      {
+        "chunk": "Lisinopril is an ACE inhibitor, which can sometimes cause hyperkalemia, but in this case, his K is low, so the diuretic is more likely the culprit.",
+        "chunk_idx": 15,
+        "summary": "identify low K",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8",
+          "14"
+        ],
+        "counterfactual_importance_accuracy": -0.09523809523809523,
+        "counterfactual_importance_kl": 3.880173087316063,
+        "different_trajectories_fraction": 0.14634146341463414,
+        "overdeterminedness": 0.4878048780487805,
+        "resampling_importance_accuracy": -0.05923344947735193,
+        "resampling_importance_kl": 1.5496798516844974,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.3211246338401349,
+        "accuracy": 0.4878048780487805
+      },
+      {
+        "chunk": "His blood pressure is significantly high, so we need to think about why his hypertension is resistant to treatment.",
+        "chunk_idx": 16,
+        "summary": "consider hypertension causes",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.4662122687439143,
+        "counterfactual_importance_kl": 1.7775319604900721,
+        "different_trajectories_fraction": 0.7738095238095238,
+        "overdeterminedness": 0.25,
+        "resampling_importance_accuracy": 0.406871609403255,
+        "resampling_importance_kl": 2.393342410372392,
+        "forced_importance_accuracy": 0.31,
+        "forced_importance_kl": 4.666032737695649,
+        "accuracy": 0.42857142857142855
+      },
+      {
+        "chunk": "He's on three medications: a diuretic, an ACE inhibitor, and a calcium channel blocker.",
+        "chunk_idx": 17,
+        "summary": "list medications",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.012820512820512775,
+        "counterfactual_importance_kl": 0.5032380880815877,
+        "different_trajectories_fraction": 0.0759493670886076,
+        "overdeterminedness": 0.8607594936708861,
+        "resampling_importance_accuracy": 0.01071080817916259,
+        "resampling_importance_kl": 2.420451936008756,
+        "forced_importance_accuracy": 0.17000000000000004,
+        "forced_importance_kl": 6.1948017675739795,
+        "accuracy": 0.8354430379746836
+      },
+      {
+        "chunk": "That's combination therapy, which is usually effective, but some patients still have resistant hypertension.",
+        "chunk_idx": 18,
+        "summary": "identify resistant hypertension",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "17"
+        ],
+        "counterfactual_importance_accuracy": -0.15113636363636362,
+        "counterfactual_importance_kl": 3.9445466958359985,
+        "different_trajectories_fraction": 0.8791208791208791,
+        "overdeterminedness": 0.4285714285714286,
+        "resampling_importance_accuracy": 0.1424825174825175,
+        "resampling_importance_kl": 3.689168743323454,
+        "forced_importance_accuracy": -0.38,
+        "forced_importance_kl": 6.93327036904629,
+        "accuracy": 0.8461538461538461
+      },
+      {
+        "chunk": "Looking at the labs again, his HCO3- is elevated.",
+        "chunk_idx": 19,
+        "summary": "identify elevated HCO3-",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.47056407447973714,
+        "counterfactual_importance_kl": 1.4353450429518895,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.23863636363636365,
+        "resampling_importance_accuracy": -0.47056407447973714,
+        "resampling_importance_kl": 1.4353450429518895,
+        "forced_importance_accuracy": 0.69,
+        "forced_importance_kl": 8.232275178102,
+        "accuracy": 0.9886363636363636
+      },
+      {
+        "chunk": "That could be due to several reasons.",
+        "chunk_idx": 20,
+        "summary": "no specific action",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.13398813936249065,
+        "counterfactual_importance_kl": 4.76111628781149,
+        "different_trajectories_fraction": 0.8554216867469879,
+        "overdeterminedness": 0.45783132530120485,
+        "resampling_importance_accuracy": 0.17929613189600502,
+        "resampling_importance_kl": 5.186863300215634,
+        "forced_importance_accuracy": -0.04999999999999993,
+        "forced_importance_kl": 0.8737399665575553,
+        "accuracy": 0.5180722891566265
+      },
+      {
+        "chunk": "In the setting of diuretics, especially hydrochlorothiazide, which is a thiazide diuretic, it can cause a mild metabolic alkalosis because it leads to loss of chloride and potassium, which the body compensates by retaining bicarbonate.",
+        "chunk_idx": 21,
+        "summary": "retain bicarbonate",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "3",
+          "9",
+          "14"
+        ],
+        "counterfactual_importance_accuracy": 0.3597222222222222,
+        "counterfactual_importance_kl": 0.9915527037661377,
+        "different_trajectories_fraction": 0.47368421052631576,
+        "overdeterminedness": 0.19736842105263153,
+        "resampling_importance_accuracy": -0.33486842105263154,
+        "resampling_importance_kl": 1.5462773887420913,
+        "forced_importance_accuracy": -0.26,
+        "forced_importance_kl": 3.3357653666516756,
+        "accuracy": 0.6973684210526315
+      },
+      {
+        "chunk": "So that could explain the elevated HCO3-.",
+        "chunk_idx": 22,
+        "summary": "explain elevated HCO3-",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "9",
+          "21"
+        ],
+        "counterfactual_importance_accuracy": -0.32900432900432897,
+        "counterfactual_importance_kl": 5.116531239249554,
+        "different_trajectories_fraction": 0.4125,
+        "overdeterminedness": 0.5875,
+        "resampling_importance_accuracy": 0.2089285714285714,
+        "resampling_importance_kl": 5.466502026759625,
+        "forced_importance_accuracy": -0.11000000000000004,
+        "forced_importance_kl": 6.433386376107832,
+        "accuracy": 0.3625
+      },
+      {
+        "chunk": "Another possibility is that he has hyperaldosteronism, which can cause both high blood pressure and hypokalemia.",
+        "chunk_idx": 23,
+        "summary": "identify hyperaldosteronism",
+        "function_tags": [
+          "hypothesis_generation"
+        ],
+        "depends_on": [
+          "8",
+          "16"
+        ],
+        "counterfactual_importance_accuracy": -0.3753869969040248,
+        "counterfactual_importance_kl": 6.722167647960036,
+        "different_trajectories_fraction": 0.987012987012987,
+        "overdeterminedness": 0.1298701298701299,
+        "resampling_importance_accuracy": 0.3697478991596639,
+        "resampling_importance_kl": 6.615184943949645,
+        "forced_importance_accuracy": 0.48000000000000004,
+        "forced_importance_kl": 14.362743663249839,
+        "accuracy": 0.5714285714285714
+      },
+      {
+        "chunk": "Aldosterone excess leads to increased sodium reabsorption and potassium excretion, which would fit with his low potassium and high HCO3-.",
+        "chunk_idx": 24,
+        "summary": "increase sodium reabsorption",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8",
+          "9",
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.014145324597975018,
+        "counterfactual_importance_kl": 0.64044718176116,
+        "different_trajectories_fraction": 0.8588235294117647,
+        "overdeterminedness": 0.7411764705882353,
+        "resampling_importance_accuracy": 0.004475703324808178,
+        "resampling_importance_kl": 0.5486695615754883,
+        "forced_importance_accuracy": 0.04999999999999993,
+        "forced_importance_kl": 2.52779828105686,
+        "accuracy": 0.9411764705882353
+      },
+      {
+        "chunk": "But how do we differentiate between diuretic-induced changes and hyperaldosteronism?",
+        "chunk_idx": 25,
+        "summary": "differentiate conditions",
+        "function_tags": [
+          "reconsideration_uncertainty"
+        ],
+        "depends_on": [
+          "23",
+          "24"
+        ],
+        "counterfactual_importance_accuracy": 0.20174973488865322,
+        "counterfactual_importance_kl": 1.046992413280658,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.15217391304347827,
+        "resampling_importance_accuracy": -0.20174973488865322,
+        "resampling_importance_kl": 1.046992413280658,
+        "forced_importance_accuracy": -0.20999999999999996,
+        "forced_importance_kl": 0.27201622653462904,
+        "accuracy": 0.9456521739130435
+      },
+      {
+        "chunk": "Well, hyperaldosteronism can be primary (like in Conn's syndrome) or secondary.",
+        "chunk_idx": 26,
+        "summary": "identify hyperaldosteronism types",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.059259259259259345,
+        "counterfactual_importance_kl": 1.806880757099689,
+        "different_trajectories_fraction": 0.9878048780487805,
+        "overdeterminedness": 0.20731707317073167,
+        "resampling_importance_accuracy": 0.056097560975609806,
+        "resampling_importance_kl": 1.775423269513198,
+        "forced_importance_accuracy": 0.16000000000000003,
+        "forced_importance_kl": 3.9428170703683754,
+        "accuracy": 0.7439024390243902
+      },
+      {
+        "chunk": "It's more likely in patients with resistant hypertension and low potassium.",
+        "chunk_idx": 27,
+        "summary": "identify patient risk",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8",
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.13258426966292125,
+        "counterfactual_importance_kl": 2.530091296462159,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.17647058823529416,
+        "resampling_importance_accuracy": 0.13258426966292125,
+        "resampling_importance_kl": 2.530091296462159,
+        "forced_importance_accuracy": 0.10999999999999999,
+        "forced_importance_kl": 2.3773654233740387,
+        "accuracy": 0.8
+      },
+      {
+        "chunk": "But given that he's on a diuretic, which itself can cause hypokalemia, it's a bit tricky.",
+        "chunk_idx": 28,
+        "summary": "identify hypokalemia risk",
+        "function_tags": [
+          "reconsideration_uncertainty"
+        ],
+        "depends_on": [
+          "8",
+          "14",
+          "23"
+        ],
+        "counterfactual_importance_accuracy": 0.3083823941687692,
+        "counterfactual_importance_kl": 1.6665651768388572,
+        "different_trajectories_fraction": 0.9775280898876404,
+        "overdeterminedness": 0.2247191011235955,
+        "resampling_importance_accuracy": -0.29843792819950665,
+        "resampling_importance_kl": 1.6050094630157266,
+        "forced_importance_accuracy": -0.27,
+        "forced_importance_kl": 0.5492123966527596,
+        "accuracy": 0.9325842696629213
+      },
+      {
+        "chunk": "Sometimes diuretics are used in patients with hyperaldosteronism to manage blood pressure, but the hypokalemia could be from either.",
+        "chunk_idx": 29,
+        "summary": "manage blood pressure",
+        "function_tags": [
+          "reconsideration_uncertainty"
+        ],
+        "depends_on": [
+          "14",
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.16130820399113077,
+        "counterfactual_importance_kl": 1.6814972047045895,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.08536585365853655,
+        "resampling_importance_accuracy": 0.16130820399113077,
+        "resampling_importance_kl": 1.6814972047045895,
+        "forced_importance_accuracy": 0.14,
+        "forced_importance_kl": 2.6481907861430933,
+        "accuracy": 0.6341463414634146
+      },
+      {
+        "chunk": "His BUN is normal, so renal issues like renal artery stenosis might not be the cause here.",
+        "chunk_idx": 30,
+        "summary": "confirm normal BUN",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "10"
+        ],
+        "counterfactual_importance_accuracy": 0.07198022860673459,
+        "counterfactual_importance_kl": 0.3138122844056356,
+        "different_trajectories_fraction": 0.8863636363636364,
+        "overdeterminedness": 0.125,
+        "resampling_importance_accuracy": -0.07256297918948518,
+        "resampling_importance_kl": 1.243177665562255,
+        "forced_importance_accuracy": -0.14,
+        "forced_importance_kl": 1.6363688423010951,
+        "accuracy": 0.7954545454545454
+      },
+      {
+        "chunk": "His glucose is a bit high, but not diagnostic, and he doesn't have symptoms of diabetes, so probably not the main issue.",
+        "chunk_idx": 31,
+        "summary": "assess glucose levels",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "10"
+        ],
+        "counterfactual_importance_accuracy": -0.010822510822510845,
+        "counterfactual_importance_kl": 0.20266484808175933,
+        "different_trajectories_fraction": 0.5301204819277109,
+        "overdeterminedness": 0.3614457831325302,
+        "resampling_importance_accuracy": 0.0152036718301779,
+        "resampling_importance_kl": 0.13578961192951755,
+        "forced_importance_accuracy": -0.15000000000000002,
+        "forced_importance_kl": 0.23319303904573802,
+        "accuracy": 0.7228915662650602
+      },
+      {
+        "chunk": "So putting it together: he's on hydrochlorothiazide, which can cause hypokalemia and metabolic alkalosis.",
+        "chunk_idx": 32,
+        "summary": "identify side effects",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "3",
+          "8",
+          "9",
+          "14"
+        ],
+        "counterfactual_importance_accuracy": -0.08972125435540068,
+        "counterfactual_importance_kl": 1.3753382133853629,
+        "different_trajectories_fraction": 0.9761904761904762,
+        "overdeterminedness": 0.15476190476190477,
+        "resampling_importance_accuracy": 0.08333333333333326,
+        "resampling_importance_kl": 1.3437300291650067,
+        "forced_importance_accuracy": -0.58,
+        "forced_importance_kl": 18.96494092945397,
+        "accuracy": 0.7380952380952381
+      },
+      {
+        "chunk": "His symptoms of muscle cramps align with low potassium.",
+        "chunk_idx": 33,
+        "summary": "identify low potassium",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8",
+          "12"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.8809523809523809,
+        "resampling_importance_accuracy": -0.031305114638447984,
+        "resampling_importance_kl": 0.3473402631746202,
+        "forced_importance_accuracy": 0.1,
+        "forced_importance_kl": 5.965340791455919,
+        "accuracy": 0.8214285714285714
+      },
+      {
+        "chunk": "His hypertension is well-controlled on multiple meds, but it's still high, so maybe resistant hypertension.",
+        "chunk_idx": 34,
+        "summary": "assess resistant hypertension",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "16",
+          "18"
+        ],
+        "counterfactual_importance_accuracy": 0.3142542652724271,
+        "counterfactual_importance_kl": 1.226476653073375,
+        "different_trajectories_fraction": 0.2839506172839506,
+        "overdeterminedness": 0.024691358024691357,
+        "resampling_importance_accuracy": -0.3217690264103766,
+        "resampling_importance_kl": 1.0810980583320557,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 9.967887399199315,
+        "accuracy": 0.7901234567901234
+      },
+      {
+        "chunk": "But the key here is the lab values pointing towards an electrolyte issue, likely from the diuretic.",
+        "chunk_idx": 35,
+        "summary": "identify electrolyte issue",
+        "function_tags": [
+          "diagnostic_verification"
+        ],
+        "depends_on": [
+          "8",
+          "9",
+          "14",
+          "32"
+        ],
+        "counterfactual_importance_accuracy": 0.2605633802816901,
+        "counterfactual_importance_kl": 1.528052364243971,
+        "different_trajectories_fraction": 0.8354430379746836,
+        "overdeterminedness": 0.17721518987341767,
+        "resampling_importance_accuracy": -0.228917810661437,
+        "resampling_importance_kl": 1.4715552970358021,
+        "forced_importance_accuracy": -0.1,
+        "forced_importance_kl": 5.993720371500329,
+        "accuracy": 0.46835443037974683
+      },
+      {
+        "chunk": "Therefore, the most likely underlying cause of his hypertension is essential hypertension, but the lab findings suggest that the diuretic is contributing to his hypokalemia and metabolic alkalosis.",
+        "chunk_idx": 36,
+        "summary": "identify essential hypertension",
+        "function_tags": [
+          "diagnostic_commitment"
+        ],
+        "depends_on": [
+          "35"
+        ],
+        "counterfactual_importance_accuracy": 0.32075471698113206,
+        "counterfactual_importance_kl": 7.925806362879385,
+        "different_trajectories_fraction": 0.7464788732394366,
+        "overdeterminedness": 0.15492957746478875,
+        "resampling_importance_accuracy": -0.23943661971830985,
+        "resampling_importance_kl": 14.11667176544104,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 17.00368478510309,
+        "accuracy": 0.23943661971830985
+      },
+      {
+        "chunk": "However, since he's on the diuretic as part of his treatment, the underlying cause of his hypertension is probably essential (primary) hypertension.",
+        "chunk_idx": 37,
+        "summary": "identify essential hypertension",
+        "function_tags": [
+          "diagnostic_commitment"
+        ],
+        "depends_on": [
+          "36"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 1.209534814169687,
+        "different_trajectories_fraction": 0.8690476190476191,
+        "overdeterminedness": 0.3571428571428571,
+        "resampling_importance_accuracy": 0.0,
+        "resampling_importance_kl": 1.0302511251340558,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 3.3293862071206597,
+        "accuracy": 0.0
+      },
+      {
+        "chunk": "But if we're considering other causes, hyperaldosteronism could be a possibility, but without more specific labs (like aldosterone levels or renin activity), it's hard to confirm.",
+        "chunk_idx": 38,
+        "summary": "consider hyperaldosteronism possibility",
+        "function_tags": [
+          "reconsideration_uncertainty"
+        ],
+        "depends_on": [
+          "23",
+          "24"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.11935948888695037,
+        "different_trajectories_fraction": 0.7790697674418605,
+        "overdeterminedness": 0.5581395348837209,
+        "resampling_importance_accuracy": 0.0,
+        "resampling_importance_kl": 0.1464445695262785,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0005398822452554377,
+        "accuracy": 0.0
+      },
+      {
+        "chunk": "Wait, but the question is asking for the most likely underlying etiology of his hypertension, not necessarily the cause of his current lab issues.",
+        "chunk_idx": 39,
+        "summary": "identify hypertension etiology",
+        "function_tags": [
+          "final_answer_emission"
+        ],
+        "depends_on": [
+          "37"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.0,
+        "resampling_importance_accuracy": 0.0,
+        "resampling_importance_kl": 0.0,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.0
+      }
+    ],
+    "token_counts": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        1524.91
+      ],
+      [
+        2,
+        1538.14
+      ],
+      [
+        3,
+        1532.86
+      ],
+      [
+        4,
+        1483.59
+      ],
+      [
+        5,
+        1673.94
+      ],
+      [
+        6,
+        1624.75
+      ],
+      [
+        7,
+        1444.9
+      ],
+      [
+        8,
+        1530.0
+      ],
+      [
+        9,
+        1492.79
+      ],
+      [
+        10,
+        1443.42
+      ],
+      [
+        11,
+        1475.9
+      ],
+      [
+        12,
+        1527.16
+      ],
+      [
+        13,
+        1431.63
+      ],
+      [
+        14,
+        1381.14
+      ],
+      [
+        15,
+        1350.96
+      ],
+      [
+        16,
+        1397.83
+      ],
+      [
+        17,
+        1311.39
+      ],
+      [
+        18,
+        1304.09
+      ],
+      [
+        19,
+        1309.33
+      ],
+      [
+        20,
+        1306.5
+      ],
+      [
+        21,
+        1348.41
+      ],
+      [
+        22,
+        1421.86
+      ],
+      [
+        23,
+        1398.71
+      ],
+      [
+        24,
+        1359.59
+      ],
+      [
+        25,
+        1332.05
+      ],
+      [
+        26,
+        1529.88
+      ],
+      [
+        27,
+        1511.78
+      ],
+      [
+        28,
+        1481.76
+      ],
+      [
+        29,
+        1560.64
+      ],
+      [
+        30,
+        1515.76
+      ],
+      [
+        31,
+        1520.58
+      ],
+      [
+        32,
+        1559.87
+      ],
+      [
+        33,
+        1513.07
+      ],
+      [
+        34,
+        1541.91
+      ],
+      [
+        35,
+        1557.48
+      ],
+      [
+        36,
+        1579.97
+      ],
+      [
+        37,
+        1529.27
+      ],
+      [
+        38,
+        1493.92
+      ],
+      [
+        39,
+        1491.5
+      ]
+    ],
+    "forced_answer_accuracies": [
+      0.32,
+      0.28,
+      0.37,
+      0.23,
+      0.47,
+      0.61,
+      0.65,
+      0.59,
+      0.55,
+      0.45,
+      0.49,
+      0.41,
+      0.47,
+      0.3,
+      0.17,
+      0.04,
+      0.04,
+      0.35,
+      0.52,
+      0.14,
+      0.83,
+      0.78,
+      0.52,
+      0.41,
+      0.89,
+      0.94,
+      0.73,
+      0.89,
+      1.0,
+      0.73,
+      0.87,
+      0.73,
+      0.58,
+      0.0,
+      0.1,
+      0.1,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]
