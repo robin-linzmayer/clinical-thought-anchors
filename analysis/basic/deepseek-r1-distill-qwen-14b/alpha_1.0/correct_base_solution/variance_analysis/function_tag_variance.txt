@@ -1,0 +1,26 @@
+Function tags with highest variance in importance:
+
+Case Representation:
+  Variance: 0.018854
+  Mean: -0.028212
+  Count: 12
+  Coefficient of Variation: -0.668303
+
+Knowledge Activation:
+  Variance: 0.015495
+  Mean: 0.017664
+  Count: 15
+  Coefficient of Variation: 0.877233
+
+Evidence Evaluation:
+  Variance: 0.006670
+  Mean: -0.046414
+  Count: 15
+  Coefficient of Variation: -0.143700
+
+Reconsideration Uncertainty:
+  Variance: 0.003793
+  Mean: -0.020414
+  Count: 6
+  Coefficient of Variation: -0.185797
+

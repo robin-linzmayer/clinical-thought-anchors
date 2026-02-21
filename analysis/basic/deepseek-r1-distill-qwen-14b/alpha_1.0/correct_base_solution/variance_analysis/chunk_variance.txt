@@ -1,0 +1,71 @@
+Problems with highest variance in chunk importance (potential reasoning forks):
+
+Problem 6: Variance = 0.011686
+  Chunks by importance:
+    1. Chunk 17: 0.2796 - knowledge_activation - 'Hydrochlorothiazide is a diuretic, which can ca...'
+    2. Chunk 18: 0.2405 - knowledge_activation - 'It's a thiazide diuretic, which typically cause...'
+    3. Chunk 6: 0.2322 - case_representation - 'His temperature is slightly below normal at 98....'
+    4. Chunk 9: 0.1154 - case_representation - 'Bicarbonate is 33 mEq/L (normal is 22-28), whic...'
+    5. Chunk 19: 0.1064 - knowledge_activation - 'The sodium might be low if there's some underly...'
+    6. Chunk 8: 0.0844 - case_representation - 'Looking at the lab results, his sodium is 138 m...'
+    7. Chunk 23: 0.0786 - evidence_evaluation - 'But here, sodium is low, so maybe it's just the...'
+    8. Chunk 28: 0.0570 - reconsideration_uncertainty - 'Wait, but the question is about the underlying ...'
+    9. Chunk 26: 0.0431 - evidence_evaluation - 'That explains the new onset cramps.'
+    10. Chunk 39: 0.0330 - knowledge_activation - '4. Coarctation of the aorta: A congenital cause...'
+    11. Chunk 12: 0.0270 - knowledge_activation - 'There are primary (essential) hypertension and ...'
+    12. Chunk 22: 0.0233 - knowledge_activation - 'However, if the diuretic effect is significant,...'
+    13. Chunk 21: 0.0124 - evidence_evaluation - 'That's a classic picture of thiazide-induced di...'
+    14. Chunk 36: 0.0108 - knowledge_activation - '2. Cushing's syndrome: Can cause hypertension, ...'
+    15. Chunk 42: 0.0101 - knowledge_activation - '6. Pheochromocytoma: Causes paroxysmal hyperten...'
+    16. Chunk 37: 0.0090 - reconsideration_uncertainty - 'Not sure if that's the case here.'
+    17. Chunk 0: 0.0000 - case_representation - 'Okay, so I'm trying to figure out the underlyin...'
+    18. Chunk 3: 0.0000 - case_representation - 'He's presenting with progressive fatigue and ne...'
+    19. Chunk 4: 0.0000 - case_representation - 'His medications haven't changed recently, and t...'
+    20. Chunk 10: 0.0000 - case_representation - 'Glucose is 129 mg/dL, which is slightly elevate...'
+    21. Chunk 38: 0.0000 - knowledge_activation - '3. Hyperthyroidism: Usually causes weight loss,...'
+    22. Chunk 40: 0.0000 - knowledge_activation - '5. Renal artery stenosis: Can cause resistant h...'
+    23. Chunk 41: 0.0000 - evidence_evaluation - 'His BUN is slightly high, but not significantly.'
+    24. Chunk 45: 0.0000 - diagnostic_verification - 'Aldosterone excess leads to increased sodium re...'
+    25. Chunk 46: 0.0000 - evidence_evaluation - 'His blood pressure is quite high, and he's resi...'
+    26. Chunk 47: 0.0000 - diagnostic_commitment - 'So, the most likely underlying etiology is prim...'
+    27. Chunk 48: 0.0000 - reconsideration_uncertainty - 'Wait, but hydrochlorothiazide can cause hypokal...'
+    28. Chunk 49: 0.0000 - evidence_evaluation - 'But he's been on it for a while, and his potass...'
+    29. Chunk 50: 0.0000 - reconsideration_uncertainty - 'How do I differentiate?'
+    30. Chunk 51: 0.0000 - knowledge_activation - 'Well, primary aldosteronism usually presents wi...'
+    31. Chunk 52: 0.0000 - diagnostic_commitment - 'Without more info, like aldosterone levels or r...'
+    32. Chunk 14: -0.0002 - evidence_evaluation - 'Looking at his labs, the electrolytes are a bit...'
+    33. Chunk 43: -0.0028 - knowledge_activation - '7. Hyperparathyroidism: Can cause hypertension,...'
+    34. Chunk 44: -0.0156 - diagnostic_verification - 'Given his lab values, primary aldosteronism see...'
+    35. Chunk 34: -0.0186 - evidence_evaluation - 'The patient has low potassium, so this is a pos...'
+    36. Chunk 35: -0.0227 - evidence_evaluation - 'Aldosterone excess leads to sodium retention an...'
+    37. Chunk 31: -0.0273 - evidence_evaluation - 'That's combination therapy, which is often used...'
+    38. Chunk 27: -0.0485 - reconsideration_uncertainty - 'But how does that relate to his hypertension?'
+    39. Chunk 7: -0.0596 - case_representation - 'Pulse and respirations are normal, and oxygen s...'
+    40. Chunk 1: -0.0760 - case_representation - 'Let me start by going through the information g...'
+    41. Chunk 16: -0.0848 - hypothesis_generation - 'This pattern makes me think of a possible elect...'
+    42. Chunk 15: -0.0885 - evidence_evaluation - 'Low sodium and chloride, low potassium, and hig...'
+    43. Chunk 32: -0.0919 - knowledge_activation - 'Possible secondary causes of hypertension include:'
+    44. Chunk 11: -0.1151 - knowledge_activation - 'First, I need to think about the possible cause...'
+    45. Chunk 29: -0.1399 - reconsideration_uncertainty - 'So I need to figure out why he has hypertension.'
+    46. Chunk 13: -0.1440 - evidence_evaluation - 'Since the patient is on multiple antihypertensi...'
+    47. Chunk 5: -0.1477 - case_representation - 'His vital signs show a high blood pressure of 1...'
+    48. Chunk 24: -0.1558 - evidence_evaluation - 'But the key here is that his potassium is low, ...'
+    49. Chunk 2: -0.1675 - case_representation - 'The patient is a 56-year-old man with a history...'
+    50. Chunk 25: -0.1796 - evidence_evaluation - 'So his muscle cramps are likely due to hypokale...'
+    51. Chunk 20: -0.1935 - evidence_evaluation - 'Wait, his sodium is low, chloride is low, potas...'
+    52. Chunk 33: -0.2559 - knowledge_activation - '1. Primary aldosteronism: This can cause high b...'
+    53. Chunk 30: -0.3198 - case_representation - 'He's on three antihypertensives: hydrochlorothi...'
+  Potential reasoning forks:
+    Fork 1: Chunks 3-14
+      Text: 'He's presenting with progressive fatigue and new onset muscle cramps. His medications haven't cha...'
+      Tags: knowledge_activation, case_representation, evidence_evaluation
+    Fork 2: Chunks 17-23
+      Text: 'Hydrochlorothiazide is a diuretic, which can cause electrolyte imbalances. It's a thiazide diuret...'
+      Tags: knowledge_activation, evidence_evaluation
+    Fork 3: Chunks 26-28
+      Text: 'That explains the new onset cramps. Wait, but the question is about the underlying etiology of hi...'
+      Tags: reconsideration_uncertainty, evidence_evaluation
+    Fork 4: Chunks 34-52
+      Text: 'The patient has low potassium, so this is a possibility. 2. Cushing's syndrome: Can cause hyperte...'
+      Tags: diagnostic_verification, diagnostic_commitment, reconsideration_uncertainty, knowledge_activation, evidence_evaluation
+

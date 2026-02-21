@@ -1,0 +1,51 @@
+Problems with high variance in chunk importance (potential reasoning forks):
+
+Problem 6:
+  Overall variance: 0.039749
+  Mean importance: 0.000168
+  Potential fork reasoning steps:
+    Chunk 19:
+      Importance: 0.470564 (z-score: 2.36)
+      Function tags: case_representation
+      Text: Looking at the labs again, his HCO3- is elevated.
+
+    Chunk 16:
+      Importance: -0.466212 (z-score: -2.34)
+      Function tags: case_representation
+      Text: His blood pressure is significantly high, so we need to think about why his hypertension is resistan...
+
+    Chunk 10:
+      Importance: -0.390244 (z-score: -1.96)
+      Function tags: case_representation
+      Text: BUN is 20, which is normal, and glucose is 129, which is slightly elevated but not diagnostic of dia...
+
+    Chunk 23:
+      Importance: -0.375387 (z-score: -1.88)
+      Function tags: hypothesis_generation
+      Text: Another possibility is that he has hyperaldosteronism, which can cause both high blood pressure and ...
+
+    Chunk 21:
+      Importance: 0.359722 (z-score: 1.80)
+      Function tags: knowledge_activation
+      Text: In the setting of diuretics, especially hydrochlorothiazide, which is a thiazide diuretic, it can ca...
+
+    Chunk 22:
+      Importance: -0.329004 (z-score: -1.65)
+      Function tags: evidence_evaluation
+      Text: So that could explain the elevated HCO3-.
+
+    Chunk 36:
+      Importance: 0.320755 (z-score: 1.61)
+      Function tags: diagnostic_commitment
+      Text: Therefore, the most likely underlying cause of his hypertension is essential hypertension, but the l...
+
+    Chunk 34:
+      Importance: 0.314254 (z-score: 1.58)
+      Function tags: evidence_evaluation
+      Text: His hypertension is well-controlled on multiple meds, but it's still high, so maybe resistant hypert...
+
+    Chunk 28:
+      Importance: 0.308382 (z-score: 1.55)
+      Function tags: reconsideration_uncertainty
+      Text: But given that he's on a diuretic, which itself can cause hypokalemia, it's a bit tricky.
+

@@ -1,0 +1,36 @@
+Problems with high variance in chunk importance (potential reasoning forks):
+
+Problem 6:
+  Overall variance: 0.011686
+  Mean importance: -0.018731
+  Potential fork reasoning steps:
+    Chunk 30:
+      Importance: -0.319767 (z-score: -2.78)
+      Function tags: case_representation
+      Text: He's on three antihypertensives: hydrochlorothiazide (diuretic), lisinopril (ACE inhibitor), and aml...
+
+    Chunk 17:
+      Importance: 0.279632 (z-score: 2.76)
+      Function tags: knowledge_activation
+      Text: Hydrochlorothiazide is a diuretic, which can cause electrolyte imbalances.
+
+    Chunk 18:
+      Importance: 0.240498 (z-score: 2.40)
+      Function tags: knowledge_activation
+      Text: It's a thiazide diuretic, which typically causes loss of potassium and chloride, leading to hypokale...
+
+    Chunk 6:
+      Importance: 0.232198 (z-score: 2.32)
+      Function tags: case_representation
+      Text: His temperature is slightly below normal at 98.0°F, but that's probably not significant.
+
+    Chunk 33:
+      Importance: -0.255861 (z-score: -2.19)
+      Function tags: knowledge_activation
+      Text: 1. Primary aldosteronism: This can cause high blood pressure and hypokalemia.
+
+    Chunk 20:
+      Importance: -0.193548 (z-score: -1.62)
+      Function tags: evidence_evaluation
+      Text: Wait, his sodium is low, chloride is low, potassium is low.
+
