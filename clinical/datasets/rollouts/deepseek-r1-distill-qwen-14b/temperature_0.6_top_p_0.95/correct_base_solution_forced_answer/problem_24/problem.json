@@ -1,0 +1,16 @@
+{
+  "problem_idx": "problem_24",
+  "gt_answer": "Frontotemporal dementia",
+  "accuracy": 0.4,
+  "approximate_mean_tokens": 923.8,
+  "incorrect_answers": [
+    "Alzheimer's disease",
+    "The diagnosis is based on the chronic progression of symptoms, including inappropriate behavior, memory loss, word-finding difficulty, and inattentiveness, which are characteristic of Alzheimer's. His vascular risk factors, such as high blood pressure, may contribute but are not definitive for this diagnosis.",
+    "Alzheimer's Disease",
+    "Alzheimer's\\ disease"
+  ],
+  "correct_answers": [
+    "Frontotemporal Dementia"
+  ],
+  "problem": "A 65-year-old man presents to his primary care physician for a change in his behavior over the past few months. Initially, the patient was noted to be behaving inappropriately including using foul language and grabbing people unexpectedly. This has progressed to a worsening of his memory and trouble caring for himself. His temperature is 98.1\u0412\u00b0F (36.7\u0412\u00b0C), blood pressure is 162/103 mmHg, pulse is 83/min, respirations are 13/min, and oxygen saturation is 98% on room air. Physical exam is notable for an elderly man who laughs inappropriately at times and who is a poor historian. When he is engaged in conversation, he exhibits word finding difficulty and is rather inattentive. What is the most likely diagnosis?"
+}
