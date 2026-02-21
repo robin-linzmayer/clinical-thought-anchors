@@ -11,7 +11,7 @@ from tqdm import tqdm
 from transformers import AutoTokenizer
 from openai import OpenAI
 from dotenv import load_dotenv
-from prompts import DAG_PROMPT
+from prompts import get_dag_prompt
 import re
 from collections import Counter, defaultdict
 from sentence_transformers import SentenceTransformer
@@ -248,6 +248,13 @@ parser.add_argument(
     default=False,
     action="store_true",
     help="If True, use global vocabulary from entire dataset for consistent Laplace smoothing across all KL divergence calculations. If False (default), use local vocabulary (union of answers in each pair of chunks)",
+)
+parser.add_argument(
+    "--domain",
+    type=str,
+    default="math",
+    choices=["math", "diagnostic"],
+    help="Problem domain: math or diagnostic (controls which DAG labeling prompt is used)",
 )
 
 args = parser.parse_args()
@@ -503,7 +510,7 @@ def generate_problem_nickname(problem_text: str) -> str:
         return "math problem"
 
 
-def label_chunk(problem_text: str, chunks: List[str], chunk_idx: int) -> Dict:
+def label_chunk(problem_text: str, chunks: List[str], chunk_idx: int, domain: str = "math") -> Dict:
     """
     Label a chunk using OpenAI API with the DAG prompt.
 
@@ -511,6 +518,7 @@ def label_chunk(problem_text: str, chunks: List[str], chunk_idx: int) -> Dict:
         problem_text: The problem text
         chunks: All chunks for context
         chunk_idx: The index of the chunk to label
+        domain: Problem domain ("math" or "diagnostic")
 
     Returns:
         Dictionary with the label information
@@ -521,7 +529,8 @@ def label_chunk(problem_text: str, chunks: List[str], chunk_idx: int) -> Dict:
         full_chunked_text += f"Chunk {i}:\n{chunk}\n\n"
 
     # Format the DAG prompt with the problem and chunks
-    formatted_prompt = DAG_PROMPT.format(
+    dag_prompt = get_dag_prompt(domain)
+    formatted_prompt = dag_prompt.format(
         problem_text=problem_text, full_chunked_text=full_chunked_text
     )
 
@@ -1355,6 +1364,7 @@ def analyze_problem(
     sentence_model: str = "all-MiniLM-L6-v2",
     similarity_threshold: float = 0.8,
     force_metadata: bool = False,
+    domain: str = "math",
 ) -> Dict:
     """
     Analyze a single problem's solution.
@@ -1775,7 +1785,7 @@ def analyze_problem(
 
         # Use the DAG prompt to label all chunks at once
         try:
-            labeled_chunks_result = label_chunk(problem["problem"], chunks, 0)
+            labeled_chunks_result = label_chunk(problem["problem"], chunks, 0, domain=domain)
 
             # Process the result into the expected format
             labeled_chunks = []
@@ -3443,6 +3453,7 @@ def process_rollouts(
     sentence_model: str = "all-MiniLM-L6-v2",
     similarity_threshold: float = 0.8,
     force_metadata: bool = False,
+    domain: str = "math",
 ) -> None:
     """
     Process rollouts from a specific directory and save analysis results.
@@ -3573,6 +3584,7 @@ def process_rollouts(
             sentence_model,
             similarity_threshold,
             force_metadata,
+            domain,
         )
         if result:
             results.append(result)
@@ -4713,6 +4725,7 @@ def main():
             sentence_model=args.sentence_model,
             similarity_threshold=args.similarity_threshold,
             force_metadata=args.force_metadata,
+            domain=args.domain,
         )
 
         # If forced answer data is available, run additional analysis using forced_importance_accuracy
@@ -4840,6 +4853,7 @@ def main():
             sentence_model=args.sentence_model,
             similarity_threshold=args.similarity_threshold,
             force_metadata=args.force_metadata,
+            domain=args.domain,
         )
 
 
