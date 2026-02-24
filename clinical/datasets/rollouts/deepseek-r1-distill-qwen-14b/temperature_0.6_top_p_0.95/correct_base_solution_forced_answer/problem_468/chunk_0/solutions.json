@@ -1,0 +1,902 @@
+[
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out this medical problem.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Disseminated Intravascular Coagulation (DIC)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 49-year-old woman is brought to the emergency department by her daughter because of increasing arthralgia, headache, and somnolence for the past week. She has a history of systemic lupus erythematosus without vital organ involvement. She last received low-dose glucocorticoids 2 months ago. Her temperature is 38.6 \u0412\u00b0C (101.5 \u0412\u00b0F), pulse is 80/min, respirations are 21/min, and blood pressure is 129/80 mm Hg. She is confused and disoriented. Examination shows scleral icterus and ecchymoses over the trunk and legs. Neurological examination is otherwise within normal limits. Laboratory studies show:\nHemoglobin 8.7 g/dL\nLeukocyte count 6,200/mm3\nPlatelet count 25,000/mm3\nProthrombin time 15 seconds\nPartial thromboplastin time 39 seconds\nFibrin split products negative\nSerum\nBilirubin\nTotal 4.9 mg/dL\nDirect 0.5 mg/dL\nA blood smear shows numerous fragmented red blood cells. Urinalysis shows hematuria and proteinuria. What is the most likely diagnosis?\" Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Disseminated Intravascular Coagulation (DIC)}.",
+    "answer": "Disseminated Intravascular Coagulation (DIC)",
+    "is_correct": false
+  }
+]

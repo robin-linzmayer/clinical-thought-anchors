@@ -1,0 +1,407 @@
+[
+  {
+    "chunk": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "chunk_idx": 0,
+    "summary": "determine diagnosis",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.06271230729030572,
+    "counterfactual_importance_kl": 2.4069253355938782,
+    "different_trajectories_fraction": 0.44329896907216493,
+    "overdeterminedness": 0.6597938144329897,
+    "resampling_importance_accuracy": 0.016680180701957592,
+    "resampling_importance_kl": 2.520037527992506,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.261740732369872,
+    "accuracy": 0.18556701030927836
+  },
+  {
+    "chunk": "Let me start by going through the information step by step.",
+    "chunk_idx": 1,
+    "summary": "none",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.004069767441860467,
+    "counterfactual_importance_kl": 5.081021806269696,
+    "different_trajectories_fraction": 0.449438202247191,
+    "overdeterminedness": 0.696629213483146,
+    "resampling_importance_accuracy": 0.01868304154690359,
+    "resampling_importance_kl": 4.239548116926927,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0007100548422063931,
+    "accuracy": 0.20224719101123595
+  },
+  {
+    "chunk": "First, the patient's presenting symptoms are progressive shortness of breath and fatigue over the past month.",
+    "chunk_idx": 2,
+    "summary": "identify symptoms",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.05851063829787234,
+    "counterfactual_importance_kl": 1.5391073821047145,
+    "different_trajectories_fraction": 0.4186046511627907,
+    "overdeterminedness": 0.8604651162790697,
+    "resampling_importance_accuracy": -0.02944087085601188,
+    "resampling_importance_kl": 2.2075873765801157,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.05558051599563026,
+    "accuracy": 0.22093023255813954
+  },
+  {
+    "chunk": "He can't climb more than one flight of stairs without getting short of breath and dizzy.",
+    "chunk_idx": 3,
+    "summary": "struggle with stairs",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9468085106382979,
+    "resampling_importance_accuracy": 0.06432459178624444,
+    "resampling_importance_kl": 3.4996721524804952,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.43282243525189756,
+    "accuracy": 0.19148936170212766
+  },
+  {
+    "chunk": "That makes me think of something that affects his ability to exercise, maybe heart or lung issues.",
+    "chunk_idx": 4,
+    "summary": "identify health issues",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "2",
+      "3"
+    ],
+    "counterfactual_importance_accuracy": -0.024985883681535842,
+    "counterfactual_importance_kl": 3.535036196159669,
+    "different_trajectories_fraction": 0.8953488372093024,
+    "overdeterminedness": 0.34883720930232553,
+    "resampling_importance_accuracy": 0.01592517694641049,
+    "resampling_importance_kl": 3.428873415295544,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.4440555447892085,
+    "accuracy": 0.2558139534883721
+  },
+  {
+    "chunk": "He has a history of hypertension and hyperlipidemia, which are both risk factors for cardiovascular diseases.",
+    "chunk_idx": 5,
+    "summary": "identify risk factors",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9782608695652174,
+    "resampling_importance_accuracy": -0.08655394524959742,
+    "resampling_importance_kl": 3.6263456641481877,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.8978802242968973,
+    "accuracy": 0.2717391304347826
+  },
+  {
+    "chunk": "He's been smoking a pack a day for 50 years, which is a big red flag for lung problems like COPD or maybe even lung cancer, but he doesn't drink alcohol, so that's one less variable.",
+    "chunk_idx": 6,
+    "summary": "identify smoking risk",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.018817204301075252,
+    "counterfactual_importance_kl": 2.565292595771115,
+    "different_trajectories_fraction": 0.14814814814814814,
+    "overdeterminedness": 0.13580246913580252,
+    "resampling_importance_accuracy": 0.08363201911589008,
+    "resampling_importance_kl": 1.7762978520683776,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 5.063863715347506,
+    "accuracy": 0.18518518518518517
+  },
+  {
+    "chunk": "His medications include enalapril (an ACE inhibitor), atorvastatin (a statin for cholesterol), and low-dose aspirin.",
+    "chunk_idx": 7,
+    "summary": "list medications",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.4731182795698925,
+    "resampling_importance_accuracy": -0.04262672811059906,
+    "resampling_importance_kl": 1.9295564783555037,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.7546448005416365,
+    "accuracy": 0.26881720430107525
+  },
+  {
+    "chunk": "Those are standard for hypertension and high cholesterol, so nothing unusual there.",
+    "chunk_idx": 8,
+    "summary": "no unusual findings",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "7"
+    ],
+    "counterfactual_importance_accuracy": 0.0038314176245210496,
+    "counterfactual_importance_kl": 3.41520222284085,
+    "different_trajectories_fraction": 0.9642857142857143,
+    "overdeterminedness": 0.30952380952380953,
+    "resampling_importance_accuracy": -0.0077996715927750315,
+    "resampling_importance_kl": 3.286055310564897,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.04341635112100922,
+    "accuracy": 0.2261904761904762
+  },
+  {
+    "chunk": "Looking at his vital signs: temperature is 37\u00b0C, which is a bit low but within normal range.",
+    "chunk_idx": 9,
+    "summary": "check temperature=37\u00b0C",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.21428571428571427,
+    "counterfactual_importance_kl": 1.0202990935695992,
+    "different_trajectories_fraction": 0.04597701149425287,
+    "overdeterminedness": 0.47126436781609193,
+    "resampling_importance_accuracy": -0.0041050903119868865,
+    "resampling_importance_kl": 2.466337511216404,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0776955477791543,
+    "accuracy": 0.21839080459770116
+  },
+  {
+    "chunk": "Pulse is 70/min, which is average.",
+    "chunk_idx": 10,
+    "summary": "record pulse=70/min",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.21875,
+    "counterfactual_importance_kl": 2.960105066966281,
+    "different_trajectories_fraction": 0.01020408163265306,
+    "overdeterminedness": 0.9591836734693877,
+    "resampling_importance_accuracy": 0.004464285714285726,
+    "resampling_importance_kl": 2.163410571909024,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.29062579865177646,
+    "accuracy": 0.21428571428571427
+  },
+  {
+    "chunk": "Respirations are 18/min, also normal.",
+    "chunk_idx": 11,
+    "summary": "record respirations=18/min",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9479166666666666,
+    "resampling_importance_accuracy": -0.03980263157894737,
+    "resampling_importance_kl": 2.656927322548533,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.050340757322966334,
+    "accuracy": 0.21875
+  },
+  {
+    "chunk": "Blood pressure is 100/80 mm Hg, which is a bit low but could be due to medications like enalapril.",
+    "chunk_idx": 12,
+    "summary": "identify blood pressure=100/80",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.02755376344086022,
+    "counterfactual_importance_kl": 2.0792611957429,
+    "different_trajectories_fraction": 0.6736842105263158,
+    "overdeterminedness": 0.2947368421052632,
+    "resampling_importance_accuracy": 0.036106395019807586,
+    "resampling_importance_kl": 2.677076303303029,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.04656397594105963,
+    "accuracy": 0.17894736842105263
+  },
+  {
+    "chunk": "Physical exam shows weak peripheral pulses.",
+    "chunk_idx": 13,
+    "summary": "assess peripheral pulses",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.22340425531914893,
+    "counterfactual_importance_kl": 1.3632402377678265,
+    "different_trajectories_fraction": 0.021505376344086023,
+    "overdeterminedness": 0.5806451612903225,
+    "resampling_importance_accuracy": 0.008350491878288707,
+    "resampling_importance_kl": 1.7385679510047667,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.019178548311609245,
+    "accuracy": 0.21505376344086022
+  },
+  {
+    "chunk": "That makes me think about decreased blood flow or possible aortic stenosis, where the pulses are weak because the heart isn't pumping effectively.",
+    "chunk_idx": 14,
+    "summary": "consider aortic stenosis",
+    "function_tags": [
+      "hypothesis_generation",
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "13"
+    ],
+    "counterfactual_importance_accuracy": -0.3709028177113283,
+    "counterfactual_importance_kl": 4.730583873374835,
+    "different_trajectories_fraction": 0.7872340425531915,
+    "overdeterminedness": 0.2872340425531915,
+    "resampling_importance_accuracy": 0.40425531914893614,
+    "resampling_importance_kl": 7.562445847545774,
+    "forced_importance_accuracy": 0.73,
+    "forced_importance_kl": 3.6712091066496244,
+    "accuracy": 0.22340425531914893
+  },
+  {
+    "chunk": "Cardiac exam is mentioned but not detailed, so I need to consider what that might show.",
+    "chunk_idx": 15,
+    "summary": "consider cardiac exam",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.06060606060606055,
+    "counterfactual_importance_kl": 0.7868220129030881,
+    "different_trajectories_fraction": 0.35106382978723405,
+    "overdeterminedness": 0.1063829787234043,
+    "resampling_importance_accuracy": 0.03900709219858156,
+    "resampling_importance_kl": 1.5470772797874304,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.40948297465621686,
+    "accuracy": 0.6276595744680851
+  },
+  {
+    "chunk": "Putting it all together: he's an older man with risk factors for heart disease, smoking history, and symptoms of reduced cardiac output.",
+    "chunk_idx": 16,
+    "summary": "identify risk factors",
+    "function_tags": [
+      "case_representation",
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "5",
+      "6",
+      "12",
+      "13"
+    ],
+    "counterfactual_importance_accuracy": 0.17503838561087953,
+    "counterfactual_importance_kl": 1.6951155718686792,
+    "different_trajectories_fraction": 0.9791666666666666,
+    "overdeterminedness": 0.11458333333333337,
+    "resampling_importance_accuracy": -0.18213058419243983,
+    "resampling_importance_kl": 1.6725005860164015,
+    "forced_importance_accuracy": -0.14,
+    "forced_importance_kl": 0.37907465643569754,
+    "accuracy": 0.6666666666666666
+  },
+  {
+    "chunk": "The weak pulses could indicate aortic stenosis, which is a common condition in older adults, especially with a history of hypertension.",
+    "chunk_idx": 17,
+    "summary": "indicate aortic stenosis",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "14",
+      "16"
+    ],
+    "counterfactual_importance_accuracy": -0.5613275613275615,
+    "counterfactual_importance_kl": 0.7452093575438457,
+    "different_trajectories_fraction": 0.14432989690721648,
+    "overdeterminedness": 0.6185567010309279,
+    "resampling_importance_accuracy": 0.5053629074247632,
+    "resampling_importance_kl": 10.171713758821902,
+    "forced_importance_accuracy": 0.41000000000000003,
+    "forced_importance_kl": 9.392460046669909,
+    "accuracy": 0.4845360824742268
+  },
+  {
+    "chunk": "COPD is also possible, but the weak pulses are more indicative of a cardiac issue.",
+    "chunk_idx": 18,
+    "summary": "identify cardiac issue",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6",
+      "14"
+    ],
+    "counterfactual_importance_accuracy": -0.010638297872340385,
+    "counterfactual_importance_kl": 0.21074768064930316,
+    "different_trajectories_fraction": 0.9494949494949495,
+    "overdeterminedness": 0.02020202020202022,
+    "resampling_importance_accuracy": 0.010101010101010055,
+    "resampling_importance_kl": 0.19906994507951895,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.98989898989899
+  },
+  {
+    "chunk": "His blood pressure is on the lower side, but that's probably from the enalapril, so not too concerning.",
+    "chunk_idx": 19,
+    "summary": "assess blood pressure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "12"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.8865979381443299,
+    "overdeterminedness": 0.15463917525773196,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 0.0,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 1.0
+  },
+  {
+    "chunk": "So, considering all this, the most likely diagnosis is aortic stenosis.",
+    "chunk_idx": 20,
+    "summary": "diagnose aortic stenosis",
+    "function_tags": [
+      "diagnostic_commitment",
+      "final_answer_emission"
+    ],
+    "depends_on": [
+      "17",
+      "18",
+      "19"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 0.0,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 1.0
+  }
+]

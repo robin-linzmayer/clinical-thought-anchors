@@ -45,16 +45,16 @@ Problem 6: Variance = 0.039749
   Potential reasoning forks:
     Fork 1: Chunks 7-13
       Text: 'Cl- is 100, which is within normal range. HCO3- is 33, which is a bit elevated, suggesting possib...'
-      Tags: evidence_evaluation, case_representation, knowledge_activation
+      Tags: knowledge_activation, case_representation, evidence_evaluation
     Fork 2: Chunks 19-21
       Text: 'Looking at the labs again, his HCO3- is elevated. In the setting of diuretics, especially hydroch...'
-      Tags: case_representation, knowledge_activation
+      Tags: knowledge_activation, case_representation
     Fork 3: Chunks 28-30
       Text: 'But given that he's on a diuretic, which itself can cause hypokalemia, it's a bit tricky. His BUN...'
       Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-36
       Text: 'His hypertension is well-controlled on multiple meds, but it's still high, so maybe resistant hyp...'
-      Tags: diagnostic_verification, evidence_evaluation, diagnostic_commitment
+      Tags: evidence_evaluation, diagnostic_commitment, diagnostic_verification
 
 Problem 24: Variance = 0.027074
   Chunks by importance:
@@ -85,10 +85,10 @@ Problem 24: Variance = 0.027074
   Potential reasoning forks:
     Fork 1: Chunks 5-6
       Text: 'That sounds like a significant decline, especially in a short period for someone his age. Looking...'
-      Tags: case_representation, evidence_evaluation
+      Tags: evidence_evaluation, case_representation
     Fork 2: Chunks 9-16
       Text: 'On physical exam, he's an elderly man who laughs inappropriately and is a poor historian. That ma...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation, case_representation
 
 Problem 84: Variance = 0.019651
   Chunks by importance:
@@ -129,7 +129,7 @@ Problem 84: Variance = 0.019651
       Tags: case_representation
     Fork 2: Chunks 15-20
       Text: 'The chest X-ray would likely show pulmonary congestion and possibly an enlarged heart, but the EC...'
-      Tags: case_representation, reconsideration_uncertainty, evidence_evaluation
+      Tags: reconsideration_uncertainty, evidence_evaluation, case_representation
 
 Problem 95: Variance = 0.010466
   Chunks by importance:
@@ -182,17 +182,17 @@ Problem 95: Variance = 0.010466
   Potential reasoning forks:
     Fork 1: Chunks 0-3
       Text: 'Okay, so I'm trying to figure out the diagnosis for this 38-year-old woman who's been having thes...'
-      Tags: case_representation, knowledge_activation
+      Tags: knowledge_activation, case_representation
     Fork 2: Chunks 7-9
       Text: 'No diarrhea, dysuria, or hematuria, so it's less likely to be something like appendicitis or a ur...'
       Tags: evidence_evaluation
     Fork 3: Chunks 18-20
       Text: 'Putting this together: She has gallstones, a dilated CBD, and some mild liver enzyme elevations. ...'
-      Tags: hypothesis_generation, evidence_evaluation
+      Tags: evidence_evaluation, hypothesis_generation
     Fork 4: Chunks 23-26
       Text: 'The pain could be due to gallstones passing through the CBD, causing transient obstruction and pa...'
-      Tags: knowledge_activation, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation
     Fork 5: Chunks 30-37
       Text: 'The ileum is involved in bile acid absorption. If there's a stricture or something post-surgery, ...'
-      Tags: evidence_evaluation, knowledge_activation, diagnostic_commitment
+      Tags: knowledge_activation, diagnostic_commitment, evidence_evaluation
 
