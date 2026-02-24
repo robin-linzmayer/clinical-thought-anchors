@@ -71,25 +71,35 @@ TAG_DISPLAY = {
 }
 
 # All metrics available per chunk, with human descriptions
+# Sign convention: positive = chunk helps accuracy, negative = chunk hurts.
+# Counterfactual metrics have the opposite raw sign, so they are negated at display time.
 METRICS = [
     ("forced_importance_accuracy",      "Forced Importance (Accuracy)",
-     "Accuracy change at the next position when the model is forced to commit to a final answer after each chunk. "
-     "Computed as forced_acc(chunk_i+1) - forced_acc(chunk_i)."),
+     "How much the forced-answer accuracy changes after seeing this chunk. "
+     "Positive (green) = this chunk moves the model toward the correct answer. "
+     "Negative (red) = this chunk moves the model away from the correct answer."),
     ("forced_importance_kl",            "Forced Importance (KL)",
-     "KL divergence between the forced-answer distributions at adjacent chunks. "
-     "Measures how much the distribution of final answers shifts between this step and the next under forced answering."),
+     "KL divergence between forced-answer distributions at adjacent chunks. "
+     "Measures how much the model's answer distribution shifts after seeing this chunk. "
+     "Higher magnitude = more influential step (always non-negative)."),
     ("resampling_importance_accuracy",  "Resampling Importance (Accuracy)",
-     "Accuracy change at the next position after resampling (regenerating) this chunk. "
-     "Computed as accuracy(chunk_i+1) - accuracy(chunk_i)."),
+     "How much accuracy changes when this chunk is kept vs resampled (regenerated). "
+     "Positive (green) = keeping this chunk helps accuracy; resampling it would hurt. "
+     "Negative (red) = keeping this chunk hurts accuracy; resampling it would help."),
     ("resampling_importance_kl",        "Resampling Importance (KL)",
-     "KL divergence between the answer distributions of resampled vs original continuations. "
-     "Measures how much regenerating this step shifts the distribution of final answers."),
+     "KL divergence between answer distributions when resampling at this position vs the next. "
+     "Measures how much regenerating this step shifts the final answer distribution. "
+     "Higher magnitude = more influential step (always non-negative)."),
     ("counterfactual_importance_accuracy", "Counterfactual Importance (Accuracy)",
-     "Accuracy difference between rollouts where the resampled chunk is semantically different vs similar to the original. "
-     "Measures how much changing this step (to something 'different') affects accuracy."),
+     "Accuracy impact of this chunk, measured by generating semantically different alternatives "
+     "and comparing final-answer accuracy against the original trace. "
+     "Positive (green) = this chunk helps accuracy; replacing it with something different would hurt. "
+     "Negative (red) = this chunk hurts accuracy; replacing it with something different would help. "
+     "(Sign is flipped from raw metric so that positive = helps, consistent with other metrics.)"),
     ("counterfactual_importance_kl",    "Counterfactual Importance (KL)",
-     "KL divergence between answer distributions of semantically dissimilar vs similar resampled continuations. "
-     "Measures how much changing this step to something different shifts the final answer distribution."),
+     "KL divergence between answer distributions of semantically different vs similar resampled continuations. "
+     "Measures how much replacing this chunk with something different shifts the final answer distribution. "
+     "Higher magnitude = more influential step (always non-negative)."),
     ("different_trajectories_fraction", "Different Trajectories Fraction",
      "Fraction of rollouts where the resampled chunk is semantically different from the removed chunk "
      "(cosine similarity below threshold). Higher = the model often generates a different reasoning path."),
@@ -100,6 +110,10 @@ METRICS = [
      "Fraction of rollout continuations from this chunk onward that produce the correct final answer. "
      "This is the baseline performance at each position in the reasoning trace."),
 ]
+
+# Metrics where the raw sign means "chunk hurts" — negate at display time
+# so that positive = helps, consistent with all other metrics.
+FLIP_SIGN_METRICS = {"counterfactual_importance_accuracy"}
 
 
 def compute_z_scores(chunks, metric):
@@ -373,8 +387,8 @@ def generate_html(all_problems, default_metric):
     legend_items = (
         f'<div class="legend-section">{tag_items}</div>'
         f'<div class="legend-rule"><strong>Bead size</strong> = importance magnitude for selected metric</div>'
-        f'<div class="legend-rule"><strong>Green glow</strong> = positive anchor (removing this step hurts accuracy — the step helps)</div>'
-        f'<div class="legend-rule"><strong>Red glow</strong> = negative anchor (removing this step helps accuracy — the step hurts)</div>'
+        f'<div class="legend-rule"><strong>Green glow / + ANCHOR</strong> = this chunk helps accuracy (positive importance)</div>'
+        f'<div class="legend-rule"><strong>Red glow / - ANCHOR</strong> = this chunk hurts accuracy (negative importance)</div>'
         f'<div class="legend-rule">Anchors have |z-score| &gt; 1.5 on the selected metric</div>'
     )
 
@@ -394,9 +408,12 @@ def generate_html(all_problems, default_metric):
                 "color": TAG_COLORS.get(primary_tag, TAG_COLORS["unknown"]),
                 "tag_short": TAG_SHORT.get(primary_tag, primary_tag),
             }
-            # Add all metric values
+            # Add all metric values (negate flipped metrics so positive = helps)
             for metric_key, _, _ in METRICS:
-                chunk_js[metric_key] = c.get(metric_key, 0.0) or 0.0
+                val = c.get(metric_key, 0.0) or 0.0
+                if metric_key in FLIP_SIGN_METRICS:
+                    val = -val
+                chunk_js[metric_key] = val
             chunks_js.append(chunk_js)
 
         js_data.append({
