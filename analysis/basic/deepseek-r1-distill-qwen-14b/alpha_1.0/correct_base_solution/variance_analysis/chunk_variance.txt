@@ -38,16 +38,16 @@ Problem 24: Variance = 0.037128
   Potential reasoning forks:
     Fork 1: Chunks 1-6
       Text: 'Let me go through the information step by step. First, the patient's presenting complaint is a ch...'
-      Tags: unknown, case_representation
+      Tags: case_representation, unknown
     Fork 2: Chunks 10-15
       Text: 'Physical exam findings include an elderly man who laughs inappropriately and is a poor historian....'
-      Tags: case_representation, evidence_evaluation, knowledge_activation, hypothesis_generation
+      Tags: evidence_evaluation, case_representation, hypothesis_generation, knowledge_activation
     Fork 3: Chunks 19-27
       Text: 'But the symptoms here don't specifically point to vascular causes, like stepwise cognitive declin...'
-      Tags: reconsideration_uncertainty, evidence_evaluation, knowledge_activation, hypothesis_generation
+      Tags: knowledge_activation, reconsideration_uncertainty, evidence_evaluation, hypothesis_generation
     Fork 4: Chunks 30-32
       Text: 'However, Alzheimer's disease is still a strong contender, especially since memory problems are pr...'
-      Tags: diagnostic_verification, reconsideration_uncertainty
+      Tags: reconsideration_uncertainty, diagnostic_verification
 
 Problem 95: Variance = 0.025180
   Chunks by importance:
@@ -82,13 +82,13 @@ Problem 95: Variance = 0.025180
   Potential reasoning forks:
     Fork 1: Chunks 1-6
       Text: 'Let me start by going through the information step by step. First, the patient is a 38-year-old w...'
-      Tags: unknown, case_representation
+      Tags: case_representation, unknown
     Fork 2: Chunks 16-18
       Text: 'Platelets are 170,000, which is on the lower side but not dangerously low. The ultrasound shows a...'
       Tags: case_representation, evidence_evaluation
     Fork 3: Chunks 21-23
       Text: 'The CBD is dilated, but the gallbladder doesn't show signs of acute inflammation. The gallstones ...'
-      Tags: reconsideration_uncertainty, evidence_evaluation, hypothesis_generation
+      Tags: hypothesis_generation, reconsideration_uncertainty, evidence_evaluation
 
 Problem 84: Variance = 0.020460
   Chunks by importance:
@@ -131,13 +131,13 @@ Problem 84: Variance = 0.020460
   Potential reasoning forks:
     Fork 1: Chunks 1-8
       Text: 'Let me read through it again carefully. A 52-year-old man comes in with ongoing shortness of brea...'
-      Tags: unknown, case_representation
+      Tags: case_representation, unknown
     Fork 2: Chunks 13-16
       Text: 'Palpitations during activity could be related to arrhythmia or just increased heart rate. Digesti...'
       Tags: evidence_evaluation
     Fork 3: Chunks 23-35
       Text: 'ECG is normal, which is interesting because in heart failure, ECG can show changes like房颤 or房室传导阻...'
-      Tags: reconsideration_uncertainty, final_answer_emission, hypothesis_generation, diagnostic_commitment, evidence_evaluation, knowledge_activation
+      Tags: hypothesis_generation, knowledge_activation, reconsideration_uncertainty, diagnostic_commitment, final_answer_emission, evidence_evaluation
 
 Problem 6: Variance = 0.011686
   Chunks by importance:
@@ -197,7 +197,7 @@ Problem 6: Variance = 0.011686
   Potential reasoning forks:
     Fork 1: Chunks 3-14
       Text: 'He's presenting with progressive fatigue and new onset muscle cramps. His medications haven't cha...'
-      Tags: case_representation, evidence_evaluation, knowledge_activation
+      Tags: evidence_evaluation, case_representation, knowledge_activation
     Fork 2: Chunks 17-23
       Text: 'Hydrochlorothiazide is a diuretic, which can cause electrolyte imbalances. It's a thiazide diuret...'
       Tags: evidence_evaluation, knowledge_activation
@@ -206,5 +206,5 @@ Problem 6: Variance = 0.011686
       Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-52
       Text: 'The patient has low potassium, so this is a possibility. 2. Cushing's syndrome: Can cause hyperte...'
-      Tags: reconsideration_uncertainty, diagnostic_commitment, diagnostic_verification, evidence_evaluation, knowledge_activation
+      Tags: knowledge_activation, reconsideration_uncertainty, diagnostic_commitment, diagnostic_verification, evidence_evaluation
 
