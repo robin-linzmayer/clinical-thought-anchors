@@ -16,6 +16,7 @@ from visualize_trace import (
     METRICS,
     FLIP_SIGN_METRICS,
     compute_z_scores,
+    discover_problems,
     load_problem_data,
 )
 
@@ -320,18 +321,23 @@ def main():
     parser.add_argument("-ic", "--correct_dir", type=str, default=None)
     parser.add_argument("-ii", "--incorrect_dir", type=str, default=None)
     parser.add_argument(
-        "-p", "--problems", type=str, required=True,
-        help="Comma-separated problem indices",
+        "-p", "--problems", type=str, default=None,
+        help="Comma-separated problem indices (default: auto-discover all)",
     )
     parser.add_argument("-o", "--output_dir", type=str, default="analysis/visualizations")
     args = parser.parse_args()
 
-    problem_indices = [int(x.strip()) for x in args.problems.split(",")]
     output_dir = Path(args.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
 
     correct_dir = Path(args.correct_dir) if args.correct_dir else None
     incorrect_dir = Path(args.incorrect_dir) if args.incorrect_dir else None
+
+    if args.problems:
+        problem_indices = [int(x.strip()) for x in args.problems.split(",")]
+    else:
+        problem_indices = discover_problems(correct_dir, incorrect_dir)
+        print(f"Auto-discovered {len(problem_indices)} problems: {problem_indices}")
 
     all_problems = []
 

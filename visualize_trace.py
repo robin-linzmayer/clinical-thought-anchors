@@ -116,6 +116,21 @@ METRICS = [
 FLIP_SIGN_METRICS = {"counterfactual_importance_accuracy"}
 
 
+def discover_problems(*dirs):
+    """Find all problem indices across the given directories."""
+    indices = set()
+    for d in dirs:
+        if d is None or not d.exists():
+            continue
+        for child in d.iterdir():
+            if child.is_dir() and child.name.startswith("problem_"):
+                try:
+                    indices.add(int(child.name.split("_", 1)[1]))
+                except ValueError:
+                    pass
+    return sorted(indices)
+
+
 def compute_z_scores(chunks, metric):
     values = [c.get(metric, 0.0) or 0.0 for c in chunks]
     arr = np.array(values)
@@ -595,17 +610,22 @@ def main():
     parser = argparse.ArgumentParser(description="Generate HTML reasoning trace visualization")
     parser.add_argument("-ic", "--correct_dir", type=str, default=None)
     parser.add_argument("-ii", "--incorrect_dir", type=str, default=None)
-    parser.add_argument("-p", "--problems", type=str, required=True, help="Comma-separated problem indices")
+    parser.add_argument("-p", "--problems", type=str, default=None, help="Comma-separated problem indices (default: auto-discover all)")
     parser.add_argument("-o", "--output_dir", type=str, default="analysis/visualizations")
     parser.add_argument("-im", "--importance_metric", type=str, default="resampling_importance_accuracy")
     args = parser.parse_args()
 
-    problem_indices = [int(x.strip()) for x in args.problems.split(",")]
     output_dir = Path(args.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
 
     correct_dir = Path(args.correct_dir) if args.correct_dir else None
     incorrect_dir = Path(args.incorrect_dir) if args.incorrect_dir else None
+
+    if args.problems:
+        problem_indices = [int(x.strip()) for x in args.problems.split(",")]
+    else:
+        problem_indices = discover_problems(correct_dir, incorrect_dir)
+        print(f"Auto-discovered {len(problem_indices)} problems: {problem_indices}")
 
     all_problems = []
 
@@ -648,6 +668,14 @@ def main():
     with open(out_file, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"Wrote {out_file} ({len(all_problems)} traces)")
+
+    # Also generate print version
+    from visualize_trace_print import generate_print_html
+    print_html = generate_print_html(all_problems)
+    print_file = output_dir / "traces_print.html"
+    with open(print_file, "w", encoding="utf-8") as f:
+        f.write(print_html)
+    print(f"Wrote {print_file} ({len(all_problems)} traces)")
 
 
 if __name__ == "__main__":
