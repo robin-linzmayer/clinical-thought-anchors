@@ -461,25 +461,26 @@ def generate_chunk_summary(chunk_text: str) -> str:
         return "unknown action"
 
 
-def generate_problem_nickname(problem_text: str) -> str:
+def generate_problem_nickname(problem_text: str, domain: str = "math") -> str:
     """
     Generate a 2-3 word nickname for a problem using OpenAI API.
 
     Args:
         problem_text: The problem statement
+        domain: Problem domain ("math" or "diagnostic")
 
     Returns:
         A 2-4 word nickname for the problem
     """
-    # Create a prompt to get a concise nickname
-    prompt = f"""Please provide a 2-4 word maximum nickname for this math problem that captures its essence. Focus on the main mathematical concept or scenario.
+    if domain == "diagnostic":
+        prompt = f"""Please provide a 2-4 word maximum nickname for this diagnostic/clinical problem that captures its essence. Focus on the main clinical finding, condition, or presentation.
 
     Examples:
-    - "Page counting" (for problems about counting digits in page numbers)
-    - "Coin probability" (for probability problems with coins)
-    - "Triangle area" (for geometry problems about triangles)
-    - "Modular arithmetic" (for problems involving remainders)
-    
+    - "Electrolyte imbalance" (for problems about sodium/potassium abnormalities)
+    - "Behavioral change" (for problems about altered mental status or behavior)
+    - "Chest pain workup" (for problems involving cardiac evaluation)
+    - "Medication side effect" (for problems about adverse drug reactions)
+
     The first word should be capitalized and the rest should be lowercase.
 
     Problem:
@@ -487,6 +488,24 @@ def generate_problem_nickname(problem_text: str) -> str:
 
     Nickname (2-4 words max):
     """
+        fallback = "diagnostic problem"
+    else:
+        prompt = f"""Please provide a 2-4 word maximum nickname for this math problem that captures its essence. Focus on the main mathematical concept or scenario.
+
+    Examples:
+    - "Page counting" (for problems about counting digits in page numbers)
+    - "Coin probability" (for probability problems with coins)
+    - "Triangle area" (for geometry problems about triangles)
+    - "Modular arithmetic" (for problems involving remainders)
+
+    The first word should be capitalized and the rest should be lowercase.
+
+    Problem:
+    {problem_text}
+
+    Nickname (2-4 words max):
+    """
+        fallback = "math problem"
 
     try:
         response = client.chat.completions.create(
@@ -507,7 +526,7 @@ def generate_problem_nickname(problem_text: str) -> str:
 
     except Exception as e:
         print(f"Error generating problem nickname: {e}")
-        return "math problem"
+        return fallback
 
 
 def label_chunk(problem_text: str, chunks: List[str], chunk_idx: int, domain: str = "math") -> Dict:
@@ -1394,7 +1413,7 @@ def analyze_problem(
     ):
         print(f"Problem {problem_dir.name}: Generating problem nickname...")
         try:
-            nickname = generate_problem_nickname(problem["problem"])
+            nickname = generate_problem_nickname(problem["problem"], domain=domain)
             problem["nickname"] = nickname
 
             # Save the updated problem.json

@@ -104,11 +104,25 @@ def load_diagnostic_problems(include_problems: str = None) -> List[Tuple[int, Di
     return sorted(result, key=lambda x: x[0])
 
 
+def _answer_overlap(extracted: str, gt: str) -> float:
+    """Compute word-level overlap between an extracted answer and the ground truth.
+
+    Returns fraction of ground truth words found in the extracted answer (case-insensitive).
+    Higher is better.
+    """
+    gt_words = set(gt.lower().split())
+    extracted_words = set(extracted.lower().split())
+    if not gt_words:
+        return 0.0
+    return len(gt_words & extracted_words) / len(gt_words)
+
+
 def _load_base_from_inference(problem_idx: int, problem: Dict, base_solution_type: str) -> Dict | None:
     """Try to load a base solution from existing inference results (diagnostic domain only).
 
     Scans clinical/datasets/problem_selection/inference/*/problem_<idx>/results.json
-    and picks the first trial matching the requested correctness.
+    and picks the correct trial whose extracted answer has the highest word overlap
+    with the ground truth answer.
     """
     inference_root = Path(__file__).resolve().parent / "clinical" / "datasets" / "problem_selection" / "inference"
     if not inference_root.exists():
@@ -125,19 +139,26 @@ def _load_base_from_inference(problem_idx: int, problem: Dict, base_solution_typ
 
         trials = data.get("trials", [])
         want_correct = base_solution_type == "correct"
+        gt_answer = problem.get("gt_answer", "")
 
-        for trial in trials:
-            if trial.get("is_correct") == want_correct and trial.get("raw_output"):
-                prompt = get_prompt(problem, prefix="", domain="diagnostic")
-                solution = trial["raw_output"]
-                answer = trial.get("extracted_answer", "")
-                return {
-                    "prompt": prompt,
-                    "solution": solution,
-                    "full_cot": prompt + solution,
-                    "answer": answer,
-                    "is_correct": want_correct,
-                }
+        # Collect all matching trials
+        matching = [t for t in trials if t.get("is_correct") == want_correct and t.get("raw_output")]
+        if not matching:
+            continue
+
+        # Pick the trial with highest word overlap to ground truth answer
+        best = max(matching, key=lambda t: _answer_overlap(t.get("extracted_answer", ""), gt_answer))
+        prompt = get_prompt(problem, prefix="", domain="diagnostic")
+        solution = best["raw_output"]
+        answer = best.get("extracted_answer", "")
+        print(f"  Selected trial {best.get('trial_idx', '?')} (answer: {answer[:80]})")
+        return {
+            "prompt": prompt,
+            "solution": solution,
+            "full_cot": prompt + solution,
+            "answer": answer,
+            "is_correct": want_correct,
+        }
 
     return None
 

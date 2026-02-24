@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Problem 24 - Reasoning Trace</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; padding: 20px; max-width: 900px; margin: 0 auto; }
+h1 { font-size: 1.5em; margin-bottom: 8px; }
+.problem-text { background: white; padding: 16px; border-radius: 8px; margin-bottom: 16px; font-size: 0.95em; line-height: 1.5; border: 1px solid #ddd; max-height: 200px; overflow-y: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 0.8em; padding: 2px 8px; background: white; border-radius: 4px; border: 1px solid #ddd; }
+.legend-swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.1); }
+.stats { display: flex; gap: 16px; font-size: 0.85em; color: #666; margin-bottom: 12px; }
+.toggle-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+.toggle-btn { padding: 8px 20px; border: 1px solid #999; border-radius: 6px; background: white; cursor: pointer; font-size: 0.9em; transition: all 0.2s; }
+.toggle-btn.active { background: #333; color: white; border-color: #333; }
+.toggle-btn:hover { background: #eee; }
+.toggle-btn.active:hover { background: #444; }
+.toggle-label { padding: 8px 20px; font-size: 0.9em; font-weight: 600; }
+.trace { display: flex; flex-direction: column; gap: 6px; }
+.chunk { padding: 12px 16px; border-radius: 8px; cursor: pointer; transition: box-shadow 0.2s; }
+.chunk:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+.chunk-header { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.chunk-idx { font-weight: 700; font-size: 0.85em; color: #555; min-width: 30px; }
+.tag-badge { font-size: 0.7em; padding: 2px 8px; border-radius: 10px; font-weight: 500; }
+.anchor-badge { font-size: 0.7em; padding: 2px 8px; border-radius: 10px; background: #D32F2F; color: white; font-weight: 700; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+.metrics { margin-left: auto; display: flex; gap: 10px; font-size: 0.8em; font-family: monospace; }
+.metric { padding: 1px 6px; border-radius: 4px; }
+.metric.imp { background: rgba(0,0,0,0.06); }
+.metric.acc { color: #1565C0; }
+.metric.zscore { color: #666; }
+.chunk-summary { font-style: italic; color: #666; font-size: 0.85em; margin-bottom: 2px; }
+.full-text { display: none; margin-top: 8px; font-size: 0.9em; line-height: 1.5; padding-top: 8px; border-top: 1px solid rgba(0,0,0,0.1); white-space: pre-wrap; }
+.full-text.show { display: block; }
+.thought-anchor { box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.3); }
+.hidden { display: none !important; }
+.back-link { display: inline-block; margin-bottom: 12px; color: #1565C0; text-decoration: none; font-size: 0.9em; }
+.back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back-link">&larr; All Problems</a>
+<h1>Problem 24</h1>
+<div class="problem-text">A 65-year-old man presents to his primary care physician for a change in his behavior over the past few months. Initially, the patient was noted to be behaving inappropriately including using foul language and grabbing people unexpectedly. This has progressed to a worsening of his memory and trouble caring for himself. His temperature is 98.1В°F (36.7В°C), blood pressure is 162/103 mmHg, pulse is 83/min, respirations are 13/min, and oxygen saturation is 98% on room air. Physical exam is notable for an elderly man who laughs inappropriately at times and who is a poor historian. When he is engaged in conversation, he exhibits word finding difficulty and is rather inattentive. What is the most likely diagnosis?</div>
+<div class="legend"><span class="legend-item"><span class="legend-swatch" style="background:#D0E8FF;"></span>Case Representation</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#B2DFDB;"></span>Diagnostic Commitment</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#E1BEE7;"></span>Diagnostic Verification</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#FFF9C4;"></span>Evidence Evaluation</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#FFE0B2;"></span>Hypothesis Generation</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#D0F0D0;"></span>Knowledge Activation</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#FFCDD2;"></span>Reconsideration / Uncertainty</span>
+<span class="legend-item"><span class="legend-swatch" style="background:#E0E0E0;"></span>Unknown</span>
+</div>
+<div class="stats"><span>Correct: 33 chunks, 4 anchors</span><span>Incorrect: 24 chunks, 2 anchors</span><span>Metric: forced_importance_accuracy</span></div>
+
+        <div class="toggle-bar">
+            <button class="toggle-btn active" onclick="showTrace('correct')">Correct Trace</button>
+            <button class="toggle-btn" onclick="showTrace('incorrect')">Incorrect Trace</button>
+        </div>
+<div class="trace" id="correct-trace">
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(46, 125, 50, 0.30373065371821173);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#0</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 22%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.02</span>
+                </span>
+            </div>
+            <div class="chunk-summary">determine diagnosis</div>
+            <div class="full-text">Alright, so I&#x27;m trying to figure out the diagnosis for this 65-year-old man who&#x27;s been having some behavioral and memory issues.</div>
+        </div>
+        <div class="chunk" style="background: #E0E0E0; border: 2px solid rgba(46, 125, 50, 0.30373065371821173);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#1</span>
+                <span class="tag-badge" style="background:#E0E0E0; border: 1px solid rgba(0,0,0,0.15);">Unknown</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 31%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.02</span>
+                </span>
+            </div>
+            <div class="chunk-summary">none</div>
+            <div class="full-text">Let me go through the information step by step.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.3231693230920519);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#2</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -2.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 27%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.12</span>
+                </span>
+            </div>
+            <div class="chunk-summary">change behavior noted</div>
+            <div class="full-text">First, the patient&#x27;s presenting complaint is a change in behavior over the past few months.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#3</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 27%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">exhibit inappropriate behavior</div>
+            <div class="full-text">Initially, he was noted to be behaving inappropriately, using foul language, and grabbing people unexpectedly.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#4</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 40%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">worsening memory noted</div>
+            <div class="full-text">Now, it&#x27;s progressed to worsening memory and trouble taking care of himself.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.31668976663410514);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#5</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 31%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">assess cognitive decline</div>
+            <div class="full-text">That sounds like a significant decline, possibly in cognitive function.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(46, 125, 50, 0.30922845919768166);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#6</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +3.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 31%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">check temperature=98.1°F</div>
+            <div class="full-text">Looking at his vital signs: temperature is 98.1°F, which is a bit low but not significantly so.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.3231693230920519);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#7</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -2.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 26%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.12</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify hypertension risk</div>
+            <div class="full-text">Blood pressure is 162/103 mmHg, which is on the higher side—maybe indicative of hypertension.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.31668976663410514);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#8</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 25%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">check pulse=83/min</div>
+            <div class="full-text">Pulse is 83/min, which is normal.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(46, 125, 50, 0.302748902739735);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#9</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +2.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 33%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.01</span>
+                </span>
+            </div>
+            <div class="chunk-summary">check respiratory status</div>
+            <div class="full-text">Respirations are 13/min, also within normal range, and oxygen saturation is 98% on room air, so no signs of respiratory distress.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.31668976663410514);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#10</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 26%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">describe patient behavior</div>
+            <div class="full-text">Physical exam findings include an elderly man who laughs inappropriately and is a poor historian.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.31668976663410514);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#11</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 22%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify word-finding difficulty</div>
+            <div class="full-text">When engaged in conversation, he has word-finding difficulty and is inattentive.</div>
+        </div>
+        <div class="chunk" style="background: #D0F0D0; border: 2px solid rgba(46, 125, 50, 0.302748902739735);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#12</span>
+                <span class="tag-badge" style="background:#D0F0D0; border: 1px solid rgba(0,0,0,0.15);">Knowledge Activation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +2.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 22%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.01</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify cognitive impairment</div>
+            <div class="full-text">These are classic signs of cognitive impairment, possibly dementia.</div>
+        </div>
+        <div class="chunk" style="background: #FFE0B2; border: 2px solid rgba(198, 40, 40, 0.3231693230920519);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#13</span>
+                <span class="tag-badge" style="background:#FFE0B2; border: 1px solid rgba(0,0,0,0.15);">Hypothesis Generation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -2.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 23%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.12</span>
+                </span>
+            </div>
+            <div class="chunk-summary">consider dementia types</div>
+            <div class="full-text">Now, considering his age and the symptoms, I&#x27;m thinking of different types of dementia.</div>
+        </div>
+        <div class="chunk" style="background: #D0F0D0; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#14</span>
+                <span class="tag-badge" style="background:#D0F0D0; border: 1px solid rgba(0,0,0,0.15);">Knowledge Activation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 16%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">list types of dementia</div>
+            <div class="full-text">Alzheimer&#x27;s disease is the most common, but there are others like vascular dementia, Lewy body dementia, and frontotemporal dementia.</div>
+        </div>
+        <div class="chunk thought-anchor" style="background: #FFF9C4; border: 10px solid rgba(46, 125, 50, 0.9312658791605659);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#15</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                <span class="anchor-badge">ANCHOR</span>
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +99.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 32%</span>
+                    <span class="metric zscore" title="Z-score">z: +3.16</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify dementia symptoms</div>
+            <div class="full-text">His inappropriate behavior and language issues might point more towards frontotemporal dementia, which often affects behavior and language before memory.</div>
+        </div>
+        <div class="chunk thought-anchor" style="background: #FFCDD2; border: 9px solid rgba(198, 40, 40, 0.8350542832698422);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#16</span>
+                <span class="tag-badge" style="background:#FFCDD2; border: 1px solid rgba(0,0,0,0.15);">Reconsideration / Uncertainty</span> 
+                <span class="anchor-badge">ANCHOR</span>
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -81.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 16%</span>
+                    <span class="metric zscore" title="Z-score">z: -2.68</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify memory problems</div>
+            <div class="full-text">However, the memory problems are also present, which can overlap.</div>
+        </div>
+        <div class="chunk" style="background: #FFE0B2; border: 2px solid rgba(198, 40, 40, 0.387964887671519);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#17</span>
+                <span class="tag-badge" style="background:#FFE0B2; border: 1px solid rgba(0,0,0,0.15);">Hypothesis Generation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -12.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 25%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.44</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify vascular dementia</div>
+            <div class="full-text">Another possibility is vascular dementia, which can occur after a stroke or multiple infarcts.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(46, 125, 50, 0.30922845919768166);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#18</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +3.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 29%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify risk factor</div>
+            <div class="full-text">His blood pressure is quite high, which could be a risk factor.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(198, 40, 40, 0.3361284360079453);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#19</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -4.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 31%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.18</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify non-vascular symptoms</div>
+            <div class="full-text">But the symptoms here don&#x27;t specifically point to vascular causes, like stepwise cognitive decline or focal neurological signs, which aren&#x27;t mentioned.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(46, 125, 50, 0.3286671285715218);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#20</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +6.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 20%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.14</span>
+                </span>
+            </div>
+            <div class="chunk-summary">consider lewy body dementia</div>
+            <div class="full-text">Lewy body dementia could also be considered because of the inappropriate laughter and possible attention issues, but usually, it&#x27;s associated with fluctuating cognitive symptoms and visual hallucinations, which aren&#x27;t highlighted here.</div>
+        </div>
+        <div class="chunk" style="background: #D0F0D0; border: 2px solid rgba(198, 40, 40, 0.387964887671519);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#21</span>
+                <span class="tag-badge" style="background:#D0F0D0; border: 1px solid rgba(0,0,0,0.15);">Knowledge Activation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -12.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 8%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.44</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify memory loss</div>
+            <div class="full-text">Alzheimer&#x27;s disease typically presents with memory loss, especially short-term memory, and can eventually involve language and attention.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 4px solid rgba(46, 125, 50, 0.5230538223099231);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#22</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +36.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 9%</span>
+                    <span class="metric zscore" title="Z-score">z: +1.12</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify frontotemporal behavior</div>
+            <div class="full-text">The word-finding difficulty and inattentiveness align with this, but the initial inappropriate behavior is more suggestive of frontotemporal.</div>
+        </div>
+        <div class="chunk" style="background: #FFCDD2; border: 4px solid rgba(198, 40, 40, 0.5434742426622401);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#23</span>
+                <span class="tag-badge" style="background:#FFCDD2; border: 1px solid rgba(0,0,0,0.15);">Reconsideration / Uncertainty</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -36.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 18%</span>
+                    <span class="metric zscore" title="Z-score">z: -1.22</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify subtle changes</div>
+            <div class="full-text">However, sometimes in the early stages, Alzheimer&#x27;s can present with more subtle changes, and the behavior issues might be part of the progression.</div>
+        </div>
+        <div class="chunk" style="background: #B2DFDB; border: 4px solid rgba(46, 125, 50, 0.5360129352258166);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#24</span>
+                <span class="tag-badge" style="background:#B2DFDB; border: 1px solid rgba(0,0,0,0.15);">Diagnostic Commitment</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +38.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 8%</span>
+                    <span class="metric zscore" title="Z-score">z: +1.18</span>
+                </span>
+            </div>
+            <div class="chunk-summary">suggest frontotemporal dementia</div>
+            <div class="full-text">But given the prominence of the behavioral changes like inappropriate language and grabbing, frontotemporal dementia seems more likely.</div>
+        </div>
+        <div class="chunk" style="background: #FFE0B2; border: 2px solid rgba(198, 40, 40, 0.3231693230920519);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#25</span>
+                <span class="tag-badge" style="background:#FFE0B2; border: 1px solid rgba(0,0,0,0.15);">Hypothesis Generation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -2.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 68%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.12</span>
+                </span>
+            </div>
+            <div class="chunk-summary">consider other causes</div>
+            <div class="full-text">I should also consider other causes of cognitive impairment, such as normal pressure hydrocephalus, but that usually presents with gait problems and urinary incontinence, which aren&#x27;t mentioned.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#26</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 51%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">assess infection likelihood</div>
+            <div class="full-text">Infections like meningitis or encephalitis are less likely given the lack of systemic symptoms and normal CSF pressures.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(198, 40, 40, 0.342607992465892);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#27</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -5.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 55%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.21</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify cognitive issues</div>
+            <div class="full-text">Substance abuse or medication side effects could cause some cognitive issues, but there&#x27;s no mention of substance use or medications that could cause this.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(46, 125, 50, 0.40642180606688233);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#28</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +18.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 56%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.53</span>
+                </span>
+            </div>
+            <div class="chunk-summary">assess blood pressure</div>
+            <div class="full-text">His blood pressure is high, but without evidence of strokes or vascular issues on imaging, it&#x27;s less likely to be the primary cause.</div>
+        </div>
+        <div class="chunk thought-anchor" style="background: #B2DFDB; border: 5px solid rgba(46, 125, 50, 0.6202471691791238);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#29</span>
+                <span class="tag-badge" style="background:#B2DFDB; border: 1px solid rgba(0,0,0,0.15);">Diagnostic Commitment</span> 
+                <span class="anchor-badge">ANCHOR</span>
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +51.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 58%</span>
+                    <span class="metric zscore" title="Z-score">z: +1.60</span>
+                </span>
+            </div>
+            <div class="chunk-summary">diagnose frontotemporal dementia</div>
+            <div class="full-text">So, putting it all together, the most likely diagnosis is frontotemporal dementia, given the prominent behavioral and language changes, along with mild memory issues.</div>
+        </div>
+        <div class="chunk thought-anchor" style="background: #FFCDD2; border: 9px solid rgba(198, 40, 40, 0.8350542832698422);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#30</span>
+                <span class="tag-badge" style="background:#FFCDD2; border: 1px solid rgba(0,0,0,0.15);">Reconsideration / Uncertainty</span> 
+                <span class="anchor-badge">ANCHOR</span>
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -81.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 98%</span>
+                    <span class="metric zscore" title="Z-score">z: -2.68</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify memory problems</div>
+            <div class="full-text">However, Alzheimer&#x27;s disease is still a strong contender, especially since memory problems are progressing.</div>
+        </div>
+        <div class="chunk" style="background: #E1BEE7; border: 4px solid rgba(46, 125, 50, 0.5165742658519765);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#31</span>
+                <span class="tag-badge" style="background:#E1BEE7; border: 1px solid rgba(0,0,0,0.15);">Diagnostic Verification</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +35.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 96%</span>
+                    <span class="metric zscore" title="Z-score">z: +1.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">suggest mri testing</div>
+            <div class="full-text">To confirm, further testing like an MRI to look for atrophy patterns, especially in the frontal and temporal lobes for frontotemporal, or hippocampal atrophy for Alzheimer&#x27;s, would be useful.</div>
+        </div>
+        <div class="chunk" style="background: #E1BEE7; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#32</span>
+                <span class="tag-badge" style="background:#E1BEE7; border: 1px solid rgba(0,0,0,0.15);">Diagnostic Verification</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 79%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.05</span>
+                </span>
+            </div>
+            <div class="chunk-summary">differentiate cognitive deficits</div>
+            <div class="full-text">Neuropsychological testing could also help differentiate the types based on the pattern of cognitive deficits.</div>
+        </div></div>
+<div class="trace" id="incorrect-trace">
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#0</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 22%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">determine diagnosis</div>
+            <div class="full-text">Okay, so I&#x27;m trying to figure out the diagnosis for this 65-year-old man who&#x27;s having some behavioral and memory issues.</div>
+        </div>
+        <div class="chunk" style="background: #E0E0E0; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#1</span>
+                <span class="tag-badge" style="background:#E0E0E0; border: 1px solid rgba(0,0,0,0.15);">Unknown</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 25%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">none</div>
+            <div class="full-text">Let me go through this step by step.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#2</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 22%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">change behavior noted</div>
+            <div class="full-text">First, the patient&#x27;s presenting complaint is a change in behavior over the past few months.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#3</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 36%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">use foul language</div>
+            <div class="full-text">Initially, he was using foul language and grabbing people unexpectedly.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(46, 125, 50, 0.3158943882847805);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#4</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 30%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify memory issues</div>
+            <div class="full-text">Now, it&#x27;s progressed to memory problems and trouble taking care of himself.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#5</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 42%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">assess decline significance</div>
+            <div class="full-text">That sounds like a significant decline, especially in a short period for someone his age.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#6</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 28%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">check temperature=98.1°F</div>
+            <div class="full-text">Looking at the vital signs: temperature is 98.1°F, which is a bit low but not necessarily concerning.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 2px solid rgba(198, 40, 40, 0.3158943882847805);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#7</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 36%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify high blood pressure</div>
+            <div class="full-text">Blood pressure is 162/103 mmHg, which is high.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#8</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 33%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">check vital signs</div>
+            <div class="full-text">Pulse is 83/min, normal, and oxygen is 98%, so no issues there.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#9</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 46%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">observe patient behavior</div>
+            <div class="full-text">On physical exam, he&#x27;s an elderly man who laughs inappropriately and is a poor historian.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(46, 125, 50, 0.3158943882847805);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#10</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 28%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">assess cognitive function</div>
+            <div class="full-text">That makes me think his cognitive function is impaired.</div>
+        </div>
+        <div class="chunk" style="background: #D0E8FF; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#11</span>
+                <span class="tag-badge" style="background:#D0E8FF; border: 1px solid rgba(0,0,0,0.15);">Case Representation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 24%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify word-finding difficulty</div>
+            <div class="full-text">When talking to him, he has word-finding difficulty and is inattentive.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(198, 40, 40, 0.3158943882847805);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#12</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 32%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify cognitive decline</div>
+            <div class="full-text">Those are classic signs of cognitive decline.</div>
+        </div>
+        <div class="chunk" style="background: #FFE0B2; border: 2px solid rgba(46, 125, 50, 0.3158943882847805);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#13</span>
+                <span class="tag-badge" style="background:#FFE0B2; border: 1px solid rgba(0,0,0,0.15);">Hypothesis Generation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +1.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 16%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.08</span>
+                </span>
+            </div>
+            <div class="chunk-summary">list possible causes</div>
+            <div class="full-text">Now, considering his age, the sudden onset of symptoms over a few months, and the exam findings, I&#x27;m thinking about possible causes of cognitive impairment.</div>
+        </div>
+        <div class="chunk" style="background: #D0F0D0; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#14</span>
+                <span class="tag-badge" style="background:#D0F0D0; border: 1px solid rgba(0,0,0,0.15);">Knowledge Activation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 43%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">consider dementia progression</div>
+            <div class="full-text">Dementia is a broad category, but given the progression and the age, it&#x27;s something to consider.</div>
+        </div>
+        <div class="chunk" style="background: #D0F0D0; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#15</span>
+                <span class="tag-badge" style="background:#D0F0D0; border: 1px solid rgba(0,0,0,0.15);">Knowledge Activation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 22%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">list possibilities</div>
+            <div class="full-text">Alzheimer&#x27;s disease is the most common form of dementia, but other possibilities include vascular dementia, frontotemporal dementia, or even normal pressure hydrocephalus.</div>
+        </div>
+        <div class="chunk thought-anchor" style="background: #FFF9C4; border: 12px solid rgba(46, 125, 50, 1.0);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#16</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                <span class="anchor-badge">ANCHOR</span>
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +49.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 11%</span>
+                    <span class="metric zscore" title="Z-score">z: +3.89</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify frontotemporal dementia</div>
+            <div class="full-text">However, the patient&#x27;s initial symptoms of inappropriate behavior and then progressing to memory issues might point more towards frontotemporal dementia, which often affects behavior and language early on.</div>
+        </div>
+        <div class="chunk thought-anchor" style="background: #FFE0B2; border: 9px solid rgba(198, 40, 40, 0.8721979782520988);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#17</span>
+                <span class="tag-badge" style="background:#FFE0B2; border: 1px solid rgba(0,0,0,0.15);">Hypothesis Generation</span> 
+                <span class="anchor-badge">ANCHOR</span>
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -36.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 14%</span>
+                    <span class="metric zscore" title="Z-score">z: -2.86</span>
+                </span>
+            </div>
+            <div class="chunk-summary">consider vascular issues</div>
+            <div class="full-text">Another possibility is a stroke or vascular issues, especially since his blood pressure is quite high.</div>
+        </div>
+        <div class="chunk" style="background: #D0F0D0; border: 2px solid rgba(198, 40, 40, 0.4112607179934637);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#18</span>
+                <span class="tag-badge" style="background:#D0F0D0; border: 1px solid rgba(0,0,0,0.15);">Knowledge Activation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -7.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 25%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.56</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify hypertension risks</div>
+            <div class="full-text">Uncontrolled hypertension can lead to small vessel diseases, causing vascular dementia.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 2px solid rgba(198, 40, 40, 0.4112607179934637);" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#19</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: -7.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 28%</span>
+                    <span class="metric zscore" title="Z-score">z: -0.56</span>
+                </span>
+            </div>
+            <div class="chunk-summary">suggest degenerative cause</div>
+            <div class="full-text">But the progression over a few months might be more consistent with Alzheimer&#x27;s or another degenerative cause.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#20</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 1%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">suggest cognitive impairment</div>
+            <div class="full-text">His inattentiveness and word-finding difficulties also suggest a possible cognitive impairment beyond just vascular issues.</div>
+        </div>
+        <div class="chunk" style="background: #FFF9C4; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#21</span>
+                <span class="tag-badge" style="background:#FFF9C4; border: 1px solid rgba(0,0,0,0.15);">Evidence Evaluation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 0%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">identify frontal lobe dysfunction</div>
+            <div class="full-text">The inappropriate laughter and behavior could be due to frontal lobe dysfunction, which is seen in frontotemporal dementia or maybe even a stroke affecting that area.</div>
+        </div>
+        <div class="chunk" style="background: #FFE0B2; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#22</span>
+                <span class="tag-badge" style="background:#FFE0B2; border: 1px solid rgba(0,0,0,0.15);">Hypothesis Generation</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 1%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">consider other possibilities</div>
+            <div class="full-text">I should also consider other possibilities like thyroid issues, vitamin B12 deficiency, or other metabolic disorders, but the patient&#x27;s age and the nature of symptoms make me lean more towards a degenerative dementia.</div>
+        </div>
+        <div class="chunk" style="background: #B2DFDB; border: 1px solid #BDBDBD;" onclick="this.querySelector('.full-text').classList.toggle('show')">
+            <div class="chunk-header">
+                <span class="chunk-idx">#23</span>
+                <span class="tag-badge" style="background:#B2DFDB; border: 1px solid rgba(0,0,0,0.15);">Diagnostic Commitment</span> 
+                
+                <span class="metrics">
+                    <span class="metric imp" title="Importance (forced_importance_accuracy)">imp: +0.0%</span>
+                    <span class="metric acc" title="Accuracy">acc: 1%</span>
+                    <span class="metric zscore" title="Z-score">z: +0.00</span>
+                </span>
+            </div>
+            <div class="chunk-summary">diagnose Alzheimer&#x27;s disease</div>
+            <div class="full-text">Given that, the most likely diagnosis is probably Alzheimer&#x27;s disease, but I can&#x27;t rule out other forms of dementia without further testing.</div>
+        </div></div>
+<script>
+function showTrace(which) {
+    document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    var ct = document.getElementById('correct-trace');
+    var it = document.getElementById('incorrect-trace');
+    if (ct) ct.classList.toggle('hidden', which !== 'correct');
+    if (it) it.classList.toggle('hidden', which !== 'incorrect');
+}
+// Initially hide incorrect trace if both exist
+var it = document.getElementById('incorrect-trace');
+if (it && document.getElementById('correct-trace')) it.classList.add('hidden');
+</script>
+</body>
+</html>
