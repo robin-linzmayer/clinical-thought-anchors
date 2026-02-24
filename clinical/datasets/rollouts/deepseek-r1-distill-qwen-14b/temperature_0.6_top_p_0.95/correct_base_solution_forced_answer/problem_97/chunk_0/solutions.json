@@ -1,0 +1,902 @@
+[
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart Failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart Failure}.",
+    "answer": "Heart Failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor pulmonale}.",
+    "answer": "Cor pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor pulmonale}.",
+    "answer": "Cor pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart failure}.",
+    "answer": "Heart failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary artery disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary artery disease}.",
+    "answer": "Coronary artery disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart failure}.",
+    "answer": "Heart failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary artery disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary artery disease}.",
+    "answer": "Coronary artery disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart Failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart Failure}.",
+    "answer": "Heart Failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease (CAD)}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease (CAD)}.",
+    "answer": "Coronary Artery Disease (CAD)",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary artery disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary artery disease}.",
+    "answer": "Coronary artery disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary artery disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary artery disease}.",
+    "answer": "Coronary artery disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart Failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart Failure}.",
+    "answer": "Heart Failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor pulmonale}.",
+    "answer": "Cor pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}.",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor pulmonale}.",
+    "answer": "Cor pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor pulmonale}.",
+    "answer": "Cor pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart Failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart Failure}.",
+    "answer": "Heart Failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Heart Failure}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Heart Failure}.",
+    "answer": "Heart Failure",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Cor Pulmonale}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Cor Pulmonale}.",
+    "answer": "Cor Pulmonale",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary artery disease}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary artery disease}.",
+    "answer": "Coronary artery disease",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I'm trying to figure out the diagnosis for this 75-year-old man.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coronary Artery Disease}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37\u0412\u00b0C (98.6\u0412\u00b0F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coronary Artery Disease}",
+    "answer": "Coronary Artery Disease",
+    "is_correct": false
+  }
+]

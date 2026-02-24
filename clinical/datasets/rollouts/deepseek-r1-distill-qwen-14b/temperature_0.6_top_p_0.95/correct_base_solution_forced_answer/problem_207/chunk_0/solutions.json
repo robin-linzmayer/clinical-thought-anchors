@@ -1,0 +1,902 @@
+[
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Pulmonary Stenosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Pulmonary Stenosis}.",
+    "answer": "Pulmonary Stenosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+    "prefix_without_chunk": "",
+    "chunk_resampled": "",
+    "rollout": "Coarctation of the Aorta}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A 5-year-old boy presents to his pediatrician for a well-child visit. His mother reports him to be doing well and has no concerns. The boy was born at 39 weeks gestation via spontaneous vaginal delivery. He is up to date on all vaccines and is meeting all developmental milestones. On physical exam, he is noted to have a right upper extremity blood pressure of 150/80 mm Hg. 2+ radial pulses and trace femoral pulses are felt. Cardiac auscultation reveals a regular rate and rhythm with a normal S1 and S2. A 2/6 long systolic murmur with systolic ejection click is heard over left sternal border and back. The point of maximal impact is normal What is the most likely diagnosis? Diagnosis: \n<think>\n\n</think>\n\nTherefore, the final answers is \\boxed{Coarctation of the Aorta}.",
+    "answer": "Coarctation of the Aorta",
+    "is_correct": true
+  }
+]
