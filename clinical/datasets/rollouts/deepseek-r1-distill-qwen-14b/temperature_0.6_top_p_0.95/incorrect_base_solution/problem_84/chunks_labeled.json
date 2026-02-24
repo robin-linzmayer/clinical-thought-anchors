@@ -1,0 +1,621 @@
+[
+  {
+    "chunk": "Okay, so I'm trying to figure out the diagnosis for this 52-year-old man.",
+    "chunk_idx": 0,
+    "summary": "determine diagnosis",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.03929924242424243,
+    "counterfactual_importance_kl": 8.270799768962748,
+    "different_trajectories_fraction": 0.8421052631578947,
+    "overdeterminedness": 0.5394736842105263,
+    "resampling_importance_accuracy": -0.05821371610845294,
+    "resampling_importance_kl": 8.487097784106885,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.5691284807869932,
+    "accuracy": 0.3157894736842105
+  },
+  {
+    "chunk": "Let's break down the information step by step.",
+    "chunk_idx": 1,
+    "summary": "break down information",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.017605633802816878,
+    "counterfactual_importance_kl": 7.2471307502393065,
+    "different_trajectories_fraction": 0.8484848484848485,
+    "overdeterminedness": 0.7121212121212122,
+    "resampling_importance_accuracy": 0.010029876227059309,
+    "resampling_importance_kl": 7.658542901405786,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.1524623973523025,
+    "accuracy": 0.25757575757575757
+  },
+  {
+    "chunk": "First, his main symptoms: he's been having shortness of breath that's worse when lying down.",
+    "chunk_idx": 2,
+    "summary": "identify shortness of breath",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.2894736842105263,
+    "counterfactual_importance_kl": 5.932743789294109,
+    "different_trajectories_fraction": 0.18309859154929578,
+    "overdeterminedness": 0.5352112676056338,
+    "resampling_importance_accuracy": 0.02186805040770945,
+    "resampling_importance_kl": 7.803937259594756,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.238708605347381,
+    "accuracy": 0.2676056338028169
+  },
+  {
+    "chunk": "That makes me think of something related to heart failure because when you lie down, fluid can accumulate in the lungs, making it harder to breathe.",
+    "chunk_idx": 3,
+    "summary": "accumulate fluid",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "2"
+    ],
+    "counterfactual_importance_accuracy": 0.058789954337899575,
+    "counterfactual_importance_kl": 5.120754247188762,
+    "different_trajectories_fraction": 0.3157894736842105,
+    "overdeterminedness": 0.631578947368421,
+    "resampling_importance_accuracy": -0.05659697188175922,
+    "resampling_importance_kl": 6.865056678555339,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 4.595808006998681,
+    "accuracy": 0.2894736842105263
+  },
+  {
+    "chunk": "He also mentions palpitations during strenuous activities, which could be related to an irregular heart rhythm, maybe atrial fibrillation, or it could be something else like a heart murmur.",
+    "chunk_idx": 4,
+    "summary": "identify heart condition",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "2"
+    ],
+    "counterfactual_importance_accuracy": -0.029657089898053712,
+    "counterfactual_importance_kl": 5.868624099110389,
+    "different_trajectories_fraction": 0.1780821917808219,
+    "overdeterminedness": 0.547945205479452,
+    "resampling_importance_accuracy": 0.10447268526159431,
+    "resampling_importance_kl": 6.256522921015435,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0694195899294075,
+    "accuracy": 0.2328767123287671
+  },
+  {
+    "chunk": "Then there's the digestive issues: difficulty digesting, regurgitation, and dysphagia.",
+    "chunk_idx": 5,
+    "summary": "identify digestive issues",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.0013630168105406848,
+    "counterfactual_importance_kl": 4.70180894682611,
+    "different_trajectories_fraction": 0.37349397590361444,
+    "overdeterminedness": 0.8072289156626506,
+    "resampling_importance_accuracy": -0.013405735618530423,
+    "resampling_importance_kl": 7.037430103131652,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0980349473707956,
+    "accuracy": 0.3373493975903614
+  },
+  {
+    "chunk": "Regurgitation could be related to a hiatal hernia, where the stomach pushes up into the chest, causing acid reflux.",
+    "chunk_idx": 6,
+    "summary": "identify hiatal hernia",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "5"
+    ],
+    "counterfactual_importance_accuracy": -0.05031446540880502,
+    "counterfactual_importance_kl": 4.325696295708262,
+    "different_trajectories_fraction": 0.7464788732394366,
+    "overdeterminedness": 0.05633802816901412,
+    "resampling_importance_accuracy": 0.009389671361502316,
+    "resampling_importance_kl": 6.901137480964073,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 3.466296480190512,
+    "accuracy": 0.323943661971831
+  },
+  {
+    "chunk": "Dysphagia might be from a hiatal hernia as well, or maybe something else like esophageal strictures, but given his other symptoms, I'm leaning towards a hiatal hernia.",
+    "chunk_idx": 7,
+    "summary": "suggest hiatal hernia",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "5"
+    ],
+    "counterfactual_importance_accuracy": -0.13179487179487182,
+    "counterfactual_importance_kl": 5.1660667695324625,
+    "different_trajectories_fraction": 0.3472222222222222,
+    "overdeterminedness": 0.20833333333333337,
+    "resampling_importance_accuracy": 0.03846153846153849,
+    "resampling_importance_kl": 6.39143540425731,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 3.4896414259057655,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "chunk": "Looking at his vital signs: blood pressure is 120/75, which is a bit low but not critically so.",
+    "chunk_idx": 8,
+    "summary": "check blood pressure",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.4052631578947369,
+    "counterfactual_importance_kl": 19.49354199518728,
+    "different_trajectories_fraction": 0.0641025641025641,
+    "overdeterminedness": 0.5897435897435898,
+    "resampling_importance_accuracy": 0.022941970310391357,
+    "resampling_importance_kl": 10.023924489958349,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 2.560445817003848,
+    "accuracy": 0.3717948717948718
+  },
+  {
+    "chunk": "Respiratory rate is 19, which is normal.",
+    "chunk_idx": 9,
+    "summary": "identify normal rate",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.12351029252437706,
+    "counterfactual_importance_kl": 9.949133438381908,
+    "different_trajectories_fraction": 0.17105263157894737,
+    "overdeterminedness": 0.7631578947368421,
+    "resampling_importance_accuracy": -0.05670867309117866,
+    "resampling_importance_kl": 8.074119580361282,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 4.250954004541716,
+    "accuracy": 0.39473684210526316
+  },
+  {
+    "chunk": "Pulse is 100, which is a bit on the higher side, maybe tachycardia.",
+    "chunk_idx": 10,
+    "summary": "identify tachycardia",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.09999999999999998,
+    "counterfactual_importance_kl": 10.430530114411976,
+    "different_trajectories_fraction": 0.07042253521126761,
+    "overdeterminedness": 0.4225352112676056,
+    "resampling_importance_accuracy": 0.1619718309859155,
+    "resampling_importance_kl": 8.253466898660497,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.9160745353863324,
+    "accuracy": 0.3380281690140845
+  },
+  {
+    "chunk": "Physical exam findings: jugular vein distension suggests fluid overload, which is a sign of right-sided heart failure or maybe constrictive pericarditis.",
+    "chunk_idx": 11,
+    "summary": "identify fluid overload",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "0",
+      "8"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.8333333333333334,
+    "resampling_importance_accuracy": 0.11250000000000004,
+    "resampling_importance_kl": 9.811305804280304,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 17.364076030649095,
+    "accuracy": 0.5
+  },
+  {
+    "chunk": "Pitting edema in the ankles points to fluid retention, again consistent with heart failure.",
+    "chunk_idx": 12,
+    "summary": "identify fluid retention",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "0",
+      "8"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.8125,
+    "resampling_importance_accuracy": -0.09967948717948727,
+    "resampling_importance_kl": 9.485529591910888,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 3.022164869913643,
+    "accuracy": 0.6125
+  },
+  {
+    "chunk": "Bilateral basilar crackles on chest auscultation are heard in pulmonary edema, which is a classic sign of left-sided heart failure.",
+    "chunk_idx": 13,
+    "summary": "identify crackles",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "0",
+      "8"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.5512820512820513,
+    "resampling_importance_accuracy": -0.02670940170940167,
+    "resampling_importance_kl": 9.565700356611087,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.8599888345317674,
+    "accuracy": 0.5128205128205128
+  },
+  {
+    "chunk": "The S3 gallop is a clear indicator of heart failure; it's an extra heart sound that occurs during ventricular filling, often due to volume overload.",
+    "chunk_idx": 14,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "0",
+      "8"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.125,
+    "resampling_importance_accuracy": 0.10425033467202144,
+    "resampling_importance_kl": 10.45788343094881,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.0679065578113525,
+    "accuracy": 0.4861111111111111
+  },
+  {
+    "chunk": "The chest X-ray would likely show pulmonary congestion and possibly an enlarged heart, but the ECG didn't show anything significant.",
+    "chunk_idx": 15,
+    "summary": "show pulmonary congestion",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "0"
+    ],
+    "counterfactual_importance_accuracy": 0.09842788790157214,
+    "counterfactual_importance_kl": 11.036100535110656,
+    "different_trajectories_fraction": 0.9156626506024096,
+    "overdeterminedness": 0.10843373493975905,
+    "resampling_importance_accuracy": -0.10984196526365203,
+    "resampling_importance_kl": 11.775357591792119,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.5903614457831325
+  },
+  {
+    "chunk": "That's a bit confusing because heart failure usually has some ECG changes, but maybe it's early or the changes are subtle.",
+    "chunk_idx": 16,
+    "summary": "no calculation performed",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "15"
+    ],
+    "counterfactual_importance_accuracy": -0.20420420420420426,
+    "counterfactual_importance_kl": 10.751031364747977,
+    "different_trajectories_fraction": 0.4675324675324675,
+    "overdeterminedness": 0.051948051948051965,
+    "resampling_importance_accuracy": 0.16812916812916817,
+    "resampling_importance_kl": 11.076016562436314,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.4805194805194805
+  },
+  {
+    "chunk": "Alternatively, maybe the ECG was done when he wasn't having symptoms, or it's a different type of heart issue.",
+    "chunk_idx": 17,
+    "summary": "consider different heart issue",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "15"
+    ],
+    "counterfactual_importance_accuracy": 0.07969334997325728,
+    "counterfactual_importance_kl": 13.030516733884655,
+    "different_trajectories_fraction": 0.9594594594594594,
+    "overdeterminedness": 0.31081081081081086,
+    "resampling_importance_accuracy": -0.06637016763599046,
+    "resampling_importance_kl": 12.51151205565877,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.6486486486486487
+  },
+  {
+    "chunk": "Putting this all together: he has signs of fluid overload (jugular distension, edema, S3 gallop, crackles), which points to heart failure.",
+    "chunk_idx": 18,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "counterfactual_importance_accuracy": 0.10235920852359204,
+    "counterfactual_importance_kl": 11.457496654700687,
+    "different_trajectories_fraction": 0.9240506329113924,
+    "overdeterminedness": 0.430379746835443,
+    "resampling_importance_accuracy": -0.05450070323488043,
+    "resampling_importance_kl": 11.106191062680523,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.5822784810126582
+  },
+  {
+    "chunk": "The digestive symptoms could be due to a hiatal hernia, which is common in people with heart failure because of increased abdominal pressure.",
+    "chunk_idx": 19,
+    "summary": "identify hiatal hernia",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6",
+      "7"
+    ],
+    "counterfactual_importance_accuracy": 0.3373205741626794,
+    "counterfactual_importance_kl": 12.82745030240507,
+    "different_trajectories_fraction": 0.6111111111111112,
+    "overdeterminedness": 0.2777777777777778,
+    "resampling_importance_accuracy": -0.25146198830409355,
+    "resampling_importance_kl": 12.450021426793796,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.8915981192693933,
+    "accuracy": 0.5277777777777778
+  },
+  {
+    "chunk": "His history of emigrating from Mexico and visiting twice a year doesn't immediately point to a diagnosis, but it's good to note for any possible infectious diseases, though I don't think that's relevant here.",
+    "chunk_idx": 20,
+    "summary": "note travel history",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.38461538461538464,
+    "counterfactual_importance_kl": 9.185393189489472,
+    "different_trajectories_fraction": 0.6842105263157895,
+    "overdeterminedness": 0.17105263157894735,
+    "resampling_importance_accuracy": -0.27631578947368424,
+    "resampling_importance_kl": 7.688124404981544,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 11.717197028770478,
+    "accuracy": 0.27631578947368424
+  },
+  {
+    "chunk": "So, the most likely diagnosis is right-sided heart failure, possibly due to a chronic condition like cor pulmonale from pulmonary hypertension.",
+    "chunk_idx": 21,
+    "summary": "diagnose right-sided heart failure",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "18"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 4.872618255645176,
+    "different_trajectories_fraction": 0.5949367088607594,
+    "overdeterminedness": 0.240506329113924,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 4.296217054807169,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 25.118903044406732,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "Alternatively, it could be left-sided heart failure leading to right-sided issues.",
+    "chunk_idx": 22,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "18"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 5.681418780792685,
+    "different_trajectories_fraction": 0.8333333333333334,
+    "overdeterminedness": 0.5138888888888888,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 5.160742354737889,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 2.2077606289130016,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "Given the S3 gallop and crackles, it's more likely left-sided heart failure causing pulmonary edema, which can then lead to right-sided issues over time.",
+    "chunk_idx": 23,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "13",
+      "14",
+      "22"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 4.93722996201967,
+    "different_trajectories_fraction": 0.9295774647887324,
+    "overdeterminedness": 0.23943661971830987,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 4.981493995226721,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.26136476413142057,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "Wait, but he's experiencing regurgitation and dysphagia.",
+    "chunk_idx": 24,
+    "summary": "identify symptoms",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "5"
+    ],
+    "counterfactual_importance_accuracy": -0.011904761904761904,
+    "counterfactual_importance_kl": 2.5536205967489556,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.3972602739726028,
+    "resampling_importance_accuracy": 0.011904761904761904,
+    "resampling_importance_kl": 2.5536205967489556,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.010101097090637237,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "That's more about the digestive system.",
+    "chunk_idx": 25,
+    "summary": "discuss digestive system",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "5"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 2.877581218885967,
+    "different_trajectories_fraction": 0.8333333333333334,
+    "overdeterminedness": 0.5595238095238095,
+    "resampling_importance_accuracy": -0.011904761904761904,
+    "resampling_importance_kl": 3.2763503912451664,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.06948566956543176,
+    "accuracy": 0.011904761904761904
+  },
+  {
+    "chunk": "So maybe it's a combination of heart failure and a hiatal hernia.",
+    "chunk_idx": 26,
+    "summary": "identify conditions",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "18",
+      "19"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 2.6840383697103496,
+    "different_trajectories_fraction": 0.22988505747126436,
+    "overdeterminedness": 0.735632183908046,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 1.8167879644410223,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.31004636537654084,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "But the primary issue seems to be the heart failure because the other symptoms could be secondary to that.",
+    "chunk_idx": 27,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "18",
+      "19"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 1.2119393073192946,
+    "different_trajectories_fraction": 0.3493975903614458,
+    "overdeterminedness": 0.5421686746987953,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 3.0901913415277646,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 5.464729655155218,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "So, the main diagnosis would be heart failure, specifically left-sided heart failure, leading to pulmonary edema and fluid retention.",
+    "chunk_idx": 28,
+    "summary": "diagnose heart failure",
+    "function_tags": [
+      "diagnostic_commitment"
+    ],
+    "depends_on": [
+      "23",
+      "26",
+      "27"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 3.089602718456652,
+    "different_trajectories_fraction": 0.5764705882352941,
+    "overdeterminedness": 0.12941176470588234,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 6.1902102647533335,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 16.090831859927423,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "The hiatal hernia would explain the digestive symptoms, but that's a separate issue that might require treatment as well.",
+    "chunk_idx": 29,
+    "summary": "identify hiatal hernia",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "19"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.5206960213309668,
+    "different_trajectories_fraction": 0.7710843373493976,
+    "overdeterminedness": 0.6626506024096386,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 1.0923216556568076,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.0
+  },
+  {
+    "chunk": "I think I'm confident enough to say that the most likely diagnosis is heart failure, specifically left-sided heart failure, with associated pulmonary edema and right-sided signs due to fluid overload.",
+    "chunk_idx": 30,
+    "summary": "diagnose heart failure",
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "depends_on": [
+      "28",
+      "29"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 0.0,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.0
+  }
+]

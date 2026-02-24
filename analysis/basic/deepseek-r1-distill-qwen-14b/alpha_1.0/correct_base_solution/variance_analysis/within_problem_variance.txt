@@ -1,5 +1,87 @@
 Problems with high variance in chunk importance (potential reasoning forks):
 
+Problem 24:
+  Overall variance: 0.037128
+  Mean importance: -0.021453
+  Potential fork reasoning steps:
+    Chunk 24:
+      Importance: -0.596275 (z-score: -2.98)
+      Function tags: diagnostic_commitment
+      Text: But given the prominence of the behavioral changes like inappropriate language and grabbing, frontot...
+
+    Chunk 15:
+      Importance: 0.427644 (z-score: 2.33)
+      Function tags: evidence_evaluation
+      Text: His inappropriate behavior and language issues might point more towards frontotemporal dementia, whi...
+
+    Chunk 29:
+      Importance: -0.408369 (z-score: -2.01)
+      Function tags: diagnostic_commitment
+      Text: So, putting it all together, the most likely diagnosis is frontotemporal dementia, given the promine...
+
+    Chunk 10:
+      Importance: 0.277778 (z-score: 1.55)
+      Function tags: case_representation
+      Text: Physical exam findings include an elderly man who laughs inappropriately and is a poor historian.
+
+    Chunk 14:
+      Importance: -0.316327 (z-score: -1.53)
+      Function tags: knowledge_activation
+      Text: Alzheimer's disease is the most common, but there are others like vascular dementia, Lewy body demen...
+
+Problem 95:
+  Overall variance: 0.023354
+  Mean importance: -0.019487
+  Potential fork reasoning steps:
+    Chunk 23:
+      Importance: 0.290670 (z-score: 2.03)
+      Function tags: hypothesis_generation
+      Text: In someone with a history of Crohn's, a stricture in the common bile duct is a possibility.
+
+    Chunk 10:
+      Importance: -0.312661 (z-score: -1.92)
+      Function tags: case_representation
+      Text: On exam, there's mild scleral icterus, which suggests some mild jaundice.
+
+    Chunk 6:
+      Importance: 0.266010 (z-score: 1.87)
+      Function tags: case_representation
+      Text: During these episodes, she experiences nausea and vomiting.
+
+    Chunk 27:
+      Importance: 0.231707 (z-score: 1.64)
+      Function tags: knowledge_activation
+      Text: PSC causes strictures in the bile ducts and can lead to pain and elevated liver enzymes.
+
+    Chunk 12:
+      Importance: 0.230233 (z-score: 1.63)
+      Function tags: case_representation
+      Text: Bowel sounds are normal, and the stool is brown with no occult blood, so no signs of upper GI bleedi...
+
+    Chunk 4:
+      Importance: -0.254902 (z-score: -1.54)
+      Function tags: knowledge_activation
+      Text: That's important because Crohn's can sometimes lead to complications elsewhere, like in the liver or...
+
+Problem 84:
+  Overall variance: 0.020460
+  Mean importance: -0.021703
+  Potential fork reasoning steps:
+    Chunk 30:
+      Importance: -0.587121 (z-score: -3.95)
+      Function tags: knowledge_activation
+      Text: He's from Mexico, so I should consider possible endemic diseases, like Chagas disease, which can cau...
+
+    Chunk 14:
+      Importance: 0.293924 (z-score: 2.21)
+      Function tags: evidence_evaluation
+      Text: Digestive issues, regurgitation, and dysphagia might point towards a gastrointestinal problem, maybe...
+
+    Chunk 24:
+      Importance: 0.193723 (z-score: 1.51)
+      Function tags: hypothesis_generation
+      Text: Putting this together: The main symptoms and signs point towards heart failure.
+
 Problem 6:
   Overall variance: 0.011686
   Mean importance: -0.018731

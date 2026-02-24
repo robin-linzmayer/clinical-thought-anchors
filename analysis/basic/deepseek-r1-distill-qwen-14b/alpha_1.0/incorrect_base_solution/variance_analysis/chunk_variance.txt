@@ -37,22 +37,162 @@ Problem 6: Variance = 0.039749
     33. Chunk 20: -0.1340 - knowledge_activation - 'That could be due to several reasons.'
     34. Chunk 14: -0.1378 - knowledge_activation - 'But he's on hydrochlorothiazide, which is a diu...'
     35. Chunk 18: -0.1511 - knowledge_activation - 'That's combination therapy, which is usually ef...'
-    36. Chunk 29: -0.1613 - reconsideration_uncertainty - 'Sometimes diuretics are used in patients with h...'
+    36. Chunk 29: -0.1613 - knowledge_activation - 'Sometimes diuretics are used in patients with h...'
     37. Chunk 22: -0.3290 - evidence_evaluation - 'So that could explain the elevated HCO3-.'
     38. Chunk 23: -0.3754 - hypothesis_generation - 'Another possibility is that he has hyperaldoste...'
     39. Chunk 10: -0.3902 - case_representation - 'BUN is 20, which is normal, and glucose is 129,...'
-    40. Chunk 16: -0.4662 - case_representation - 'His blood pressure is significantly high, so we...'
+    40. Chunk 16: -0.4662 - evidence_evaluation - 'His blood pressure is significantly high, so we...'
   Potential reasoning forks:
     Fork 1: Chunks 7-13
       Text: 'Cl- is 100, which is within normal range. HCO3- is 33, which is a bit elevated, suggesting possib...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: case_representation, evidence_evaluation, knowledge_activation
     Fork 2: Chunks 19-21
       Text: 'Looking at the labs again, his HCO3- is elevated. In the setting of diuretics, especially hydroch...'
-      Tags: knowledge_activation, case_representation
+      Tags: case_representation, knowledge_activation
     Fork 3: Chunks 28-30
       Text: 'But given that he's on a diuretic, which itself can cause hypokalemia, it's a bit tricky. His BUN...'
-      Tags: reconsideration_uncertainty, evidence_evaluation
+      Tags: evidence_evaluation, reconsideration_uncertainty
     Fork 4: Chunks 34-36
       Text: 'His hypertension is well-controlled on multiple meds, but it's still high, so maybe resistant hyp...'
       Tags: diagnostic_commitment, evidence_evaluation, diagnostic_verification
+
+Problem 24: Variance = 0.027074
+  Chunks by importance:
+    1. Chunk 11: 0.3503 - case_representation - 'When talking to him, he has word-finding diffic...'
+    2. Chunk 9: 0.3438 - case_representation - 'On physical exam, he's an elderly man who laugh...'
+    3. Chunk 19: 0.3188 - evidence_evaluation - 'But the progression over a few months might be ...'
+    4. Chunk 14: 0.2143 - knowledge_activation - 'Dementia is a broad category, but given the pro...'
+    5. Chunk 12: 0.1590 - evidence_evaluation - 'Those are classic signs of cognitive decline.'
+    6. Chunk 15: 0.1389 - knowledge_activation - 'Alzheimer's disease is the most common form of ...'
+    7. Chunk 5: 0.1358 - evidence_evaluation - 'That sounds like a significant decline, especia...'
+    8. Chunk 6: 0.1354 - case_representation - 'Looking at the vital signs: temperature is 98.1...'
+    9. Chunk 10: 0.0388 - evidence_evaluation - 'That makes me think his cognitive function is i...'
+    10. Chunk 16: 0.0375 - evidence_evaluation - 'However, the patient's initial symptoms of inap...'
+    11. Chunk 1: 0.0331 - unknown - 'Let me go through this step by step.'
+    12. Chunk 20: 0.0101 - evidence_evaluation - 'His inattentiveness and word-finding difficulti...'
+    13. Chunk 4: 0.0000 - case_representation - 'Now, it's progressed to memory problems and tro...'
+    14. Chunk 22: 0.0000 - hypothesis_generation - 'I should also consider other possibilities like...'
+    15. Chunk 23: 0.0000 - diagnostic_commitment - 'Given that, the most likely diagnosis is probab...'
+    16. Chunk 21: -0.0101 - evidence_evaluation - 'The inappropriate laughter and behavior could b...'
+    17. Chunk 18: -0.0328 - knowledge_activation - 'Uncontrolled hypertension can lead to small ves...'
+    18. Chunk 0: -0.0582 - case_representation - 'Okay, so I'm trying to figure out the diagnosis...'
+    19. Chunk 7: -0.0763 - case_representation - 'Blood pressure is 162/103 mmHg, which is high.'
+    20. Chunk 17: -0.1081 - hypothesis_generation - 'Another possibility is a stroke or vascular iss...'
+    21. Chunk 3: -0.1709 - case_representation - 'Initially, he was using foul language and grabb...'
+    22. Chunk 8: -0.1737 - case_representation - 'Pulse is 83/min, normal, and oxygen is 98%, so ...'
+    23. Chunk 2: -0.2180 - case_representation - 'First, the patient's presenting complaint is a ...'
+    24. Chunk 13: -0.2708 - hypothesis_generation - 'Now, considering his age, the sudden onset of s...'
+  Potential reasoning forks:
+    Fork 1: Chunks 5-6
+      Text: 'That sounds like a significant decline, especially in a short period for someone his age. Looking...'
+      Tags: case_representation, evidence_evaluation
+    Fork 2: Chunks 9-16
+      Text: 'On physical exam, he's an elderly man who laughs inappropriately and is a poor historian. That ma...'
+      Tags: case_representation, evidence_evaluation, knowledge_activation
+
+Problem 84: Variance = 0.019651
+  Chunks by importance:
+    1. Chunk 8: 0.4053 - case_representation - 'Looking at his vital signs: blood pressure is 1...'
+    2. Chunk 20: 0.3846 - case_representation - 'His history of emigrating from Mexico and visit...'
+    3. Chunk 19: 0.3373 - evidence_evaluation - 'The digestive symptoms could be due to a hiatal...'
+    4. Chunk 9: 0.1235 - case_representation - 'Respiratory rate is 19, which is normal.'
+    5. Chunk 18: 0.1024 - evidence_evaluation - 'Putting this all together: he has signs of flui...'
+    6. Chunk 15: 0.0984 - evidence_evaluation - 'The chest X-ray would likely show pulmonary con...'
+    7. Chunk 17: 0.0797 - reconsideration_uncertainty - 'Alternatively, maybe the ECG was done when he w...'
+    8. Chunk 3: 0.0588 - knowledge_activation - 'That makes me think of something related to hea...'
+    9. Chunk 0: 0.0393 - case_representation - 'Okay, so I'm trying to figure out the diagnosis...'
+    10. Chunk 11: 0.0000 - evidence_evaluation - 'Physical exam findings: jugular vein distension...'
+    11. Chunk 12: 0.0000 - evidence_evaluation - 'Pitting edema in the ankles points to fluid ret...'
+    12. Chunk 13: 0.0000 - evidence_evaluation - 'Bilateral basilar crackles on chest auscultatio...'
+    13. Chunk 14: 0.0000 - evidence_evaluation - 'The S3 gallop is a clear indicator of heart fai...'
+    14. Chunk 21: 0.0000 - hypothesis_generation - 'So, the most likely diagnosis is right-sided he...'
+    15. Chunk 22: 0.0000 - hypothesis_generation - 'Alternatively, it could be left-sided heart fai...'
+    16. Chunk 23: 0.0000 - evidence_evaluation - 'Given the S3 gallop and crackles, it's more lik...'
+    17. Chunk 25: 0.0000 - reconsideration_uncertainty - 'That's more about the digestive system.'
+    18. Chunk 26: 0.0000 - diagnostic_verification - 'So maybe it's a combination of heart failure an...'
+    19. Chunk 27: 0.0000 - diagnostic_verification - 'But the primary issue seems to be the heart fai...'
+    20. Chunk 28: 0.0000 - diagnostic_commitment - 'So, the main diagnosis would be heart failure, ...'
+    21. Chunk 29: 0.0000 - diagnostic_verification - 'The hiatal hernia would explain the digestive s...'
+    22. Chunk 30: 0.0000 - final_answer_emission - 'I think I'm confident enough to say that the mo...'
+    23. Chunk 5: -0.0014 - case_representation - 'Then there's the digestive issues: difficulty d...'
+    24. Chunk 24: -0.0119 - reconsideration_uncertainty - 'Wait, but he's experiencing regurgitation and d...'
+    25. Chunk 1: -0.0176 - case_representation - 'Let's break down the information step by step.'
+    26. Chunk 4: -0.0297 - knowledge_activation - 'He also mentions palpitations during strenuous ...'
+    27. Chunk 6: -0.0503 - knowledge_activation - 'Regurgitation could be related to a hiatal hern...'
+    28. Chunk 10: -0.1000 - case_representation - 'Pulse is 100, which is a bit on the higher side...'
+    29. Chunk 7: -0.1318 - knowledge_activation - 'Dysphagia might be from a hiatal hernia as well...'
+    30. Chunk 16: -0.2042 - reconsideration_uncertainty - 'That's a bit confusing because heart failure us...'
+    31. Chunk 2: -0.2895 - case_representation - 'First, his main symptoms: he's been having shor...'
+  Potential reasoning forks:
+    Fork 1: Chunks 8-9
+      Text: 'Looking at his vital signs: blood pressure is 120/75, which is a bit low but not critically so. R...'
+      Tags: case_representation
+    Fork 2: Chunks 15-20
+      Text: 'The chest X-ray would likely show pulmonary congestion and possibly an enlarged heart, but the EC...'
+      Tags: reconsideration_uncertainty, case_representation, evidence_evaluation
+
+Problem 95: Variance = 0.010466
+  Chunks by importance:
+    1. Chunk 20: 0.4495 - hypothesis_generation - 'The fact that she has Crohn's disease makes me ...'
+    2. Chunk 26: 0.1949 - knowledge_activation - 'In PSC, the bile ducts are inflamed and narrowe...'
+    3. Chunk 34: 0.1819 - evidence_evaluation - 'But the presence of a dilated CBD suggests some...'
+    4. Chunk 12: 0.1325 - case_representation - 'Lab results: Her bilirubin is elevated at 4.1 m...'
+    5. Chunk 24: 0.1319 - evidence_evaluation - 'However, her labs don't show leukocytosis, and ...'
+    6. Chunk 2: 0.0861 - case_representation - 'First, she has a history of Crohn's disease, wh...'
+    7. Chunk 32: 0.0789 - evidence_evaluation - 'But she had her ileum resected for Crohn's, so ...'
+    8. Chunk 9: 0.0696 - evidence_evaluation - 'Mild scleral icterus indicates some mild jaundi...'
+    9. Chunk 35: 0.0620 - evidence_evaluation - 'She also has a BMI of 32, which is obese, a ris...'
+    10. Chunk 3: 0.0500 - knowledge_activation - 'That makes me think about possible complication...'
+    11. Chunk 1: 0.0357 - case_representation - 'Let me start by going through her history and t...'
+    12. Chunk 18: 0.0287 - evidence_evaluation - 'Putting this together: She has gallstones, a di...'
+    13. Chunk 37: 0.0267 - diagnostic_commitment - 'The combination of gallstones, dilated CBD, and...'
+    14. Chunk 7: 0.0250 - evidence_evaluation - 'No diarrhea, dysuria, or hematuria, so it's les...'
+    15. Chunk 23: 0.0198 - evidence_evaluation - 'The pain could be due to gallstones passing thr...'
+    16. Chunk 31: 0.0144 - knowledge_activation - 'If there's a stricture or something post-surger...'
+    17. Chunk 43: 0.0128 - evidence_evaluation - 'That's possible, but less likely given it was s...'
+    18. Chunk 30: 0.0117 - knowledge_activation - 'The ileum is involved in bile acid absorption.'
+    19. Chunk 0: 0.0104 - case_representation - 'Okay, so I'm trying to figure out the diagnosis...'
+    20. Chunk 6: 0.0098 - case_representation - 'She's asymptomatic between episodes, which sugg...'
+    21. Chunk 27: 0.0069 - evidence_evaluation - 'The elevated bilirubin and liver enzymes suppor...'
+    22. Chunk 36: 0.0057 - evidence_evaluation - 'Her gallbladder has stones, so that's another p...'
+    23. Chunk 4: 0.0000 - case_representation - 'She's presenting with three episodes of sharp, ...'
+    24. Chunk 17: 0.0000 - case_representation - 'The gallbladder has multiple stones but no wall...'
+    25. Chunk 38: 0.0000 - reconsideration_uncertainty - 'Wait, but could it be something else?'
+    26. Chunk 39: 0.0000 - hypothesis_generation - 'Could it be a gallstone in the CBD causing epis...'
+    27. Chunk 40: 0.0000 - evidence_evaluation - 'That could cause pain, elevated bilirubin, and ...'
+    28. Chunk 41: 0.0000 - evidence_evaluation - 'But she doesn't have the typical Charcot's tria...'
+    29. Chunk 44: 0.0000 - diagnostic_commitment - 'Putting it all together, the most likely diagno...'
+    30. Chunk 45: 0.0000 - final_answer_emission - 'It explains the dilated CBD, elevated liver enz...'
+    31. Chunk 13: -0.0018 - case_representation - 'The alkaline phosphatase and AST are also eleva...'
+    32. Chunk 11: -0.0027 - evidence_evaluation - 'Bowel sounds are normal, so not likely an obstr...'
+    33. Chunk 42: -0.0128 - hypothesis_generation - 'Alternatively, considering she had ileal resect...'
+    34. Chunk 8: -0.0152 - case_representation - 'Looking at her vital signs: slightly elevated t...'
+    35. Chunk 14: -0.0247 - case_representation - 'ALT is slightly elevated too.'
+    36. Chunk 15: -0.0357 - case_representation - 'Her CBC is normal except for the platelet count...'
+    37. Chunk 16: -0.0542 - case_representation - 'Abdominal ultrasound shows a normal liver, comm...'
+    38. Chunk 25: -0.0695 - reconsideration_uncertainty - 'Wait, but she has a dilated CBD, which is conce...'
+    39. Chunk 22: -0.0750 - evidence_evaluation - 'Another possibility is gallstone-related pain, ...'
+    40. Chunk 28: -0.0759 - evidence_evaluation - 'Her history of Crohn's increases the risk of PSC.'
+    41. Chunk 29: -0.1006 - reconsideration_uncertainty - 'Another thought: Could it be something related ...'
+    42. Chunk 19: -0.1047 - evidence_evaluation - 'The pain episodes are in the right upper quadra...'
+    43. Chunk 33: -0.1064 - evidence_evaluation - 'The pain episodes being short and sharp make me...'
+    44. Chunk 10: -0.1201 - evidence_evaluation - 'Physical exam shows tenderness in the right upp...'
+    45. Chunk 5: -0.1216 - case_representation - 'Each episode lasts about an hour and is accompa...'
+    46. Chunk 21: -0.2561 - knowledge_activation - 'PSC causes inflammation and stricturing of the ...'
+  Potential reasoning forks:
+    Fork 1: Chunks 0-3
+      Text: 'Okay, so I'm trying to figure out the diagnosis for this 38-year-old woman who's been having thes...'
+      Tags: case_representation, knowledge_activation
+    Fork 2: Chunks 7-9
+      Text: 'No diarrhea, dysuria, or hematuria, so it's less likely to be something like appendicitis or a ur...'
+      Tags: evidence_evaluation
+    Fork 3: Chunks 18-20
+      Text: 'Putting this together: She has gallstones, a dilated CBD, and some mild liver enzyme elevations. ...'
+      Tags: evidence_evaluation, hypothesis_generation
+    Fork 4: Chunks 23-26
+      Text: 'The pain could be due to gallstones passing through the CBD, causing transient obstruction and pa...'
+      Tags: evidence_evaluation, knowledge_activation
+    Fork 5: Chunks 30-37
+      Text: 'The ileum is involved in bile acid absorption. If there's a stricture or something post-surgery, ...'
+      Tags: diagnostic_commitment, evidence_evaluation, knowledge_activation
 

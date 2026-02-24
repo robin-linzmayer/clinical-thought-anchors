@@ -1,5 +1,152 @@
 Problems with highest variance in chunk importance (potential reasoning forks):
 
+Problem 24: Variance = 0.037128
+  Chunks by importance:
+    1. Chunk 15: 0.4276 - evidence_evaluation - 'His inappropriate behavior and language issues ...'
+    2. Chunk 10: 0.2778 - case_representation - 'Physical exam findings include an elderly man w...'
+    3. Chunk 23: 0.1992 - reconsideration_uncertainty - 'However, sometimes in the early stages, Alzheim...'
+    4. Chunk 25: 0.1831 - hypothesis_generation - 'I should also consider other causes of cognitiv...'
+    5. Chunk 31: 0.1751 - diagnostic_verification - 'To confirm, further testing like an MRI to look...'
+    6. Chunk 2: 0.1273 - case_representation - 'First, the patient's presenting complaint is a ...'
+    7. Chunk 20: 0.1200 - evidence_evaluation - 'Lewy body dementia could also be considered bec...'
+    8. Chunk 19: 0.1012 - evidence_evaluation - 'But the symptoms here don't specifically point ...'
+    9. Chunk 13: 0.0410 - hypothesis_generation - 'Now, considering his age and the symptoms, I'm ...'
+    10. Chunk 12: 0.0399 - knowledge_activation - 'These are classic signs of cognitive impairment...'
+    11. Chunk 1: 0.0363 - unknown - 'Let me go through the information step by step.'
+    12. Chunk 21: 0.0322 - knowledge_activation - 'Alzheimer's disease typically presents with mem...'
+    13. Chunk 30: 0.0245 - reconsideration_uncertainty - 'However, Alzheimer's disease is still a strong ...'
+    14. Chunk 4: 0.0000 - case_representation - 'Now, it's progressed to worsening memory and tr...'
+    15. Chunk 5: 0.0000 - case_representation - 'That sounds like a significant decline, possibl...'
+    16. Chunk 6: 0.0000 - case_representation - 'Looking at his vital signs: temperature is 98.1...'
+    17. Chunk 11: 0.0000 - case_representation - 'When engaged in conversation, he has word-findi...'
+    18. Chunk 32: 0.0000 - diagnostic_verification - 'Neuropsychological testing could also help diff...'
+    19. Chunk 27: -0.0148 - evidence_evaluation - 'Substance abuse or medication side effects coul...'
+    20. Chunk 26: -0.0224 - evidence_evaluation - 'Infections like meningitis or encephalitis are ...'
+    21. Chunk 28: -0.0249 - evidence_evaluation - 'His blood pressure is high, but without evidenc...'
+    22. Chunk 17: -0.0468 - hypothesis_generation - 'Another possibility is vascular dementia, which...'
+    23. Chunk 9: -0.0577 - case_representation - 'Respirations are 13/min, also within normal ran...'
+    24. Chunk 3: -0.0646 - case_representation - 'Initially, he was noted to be behaving inapprop...'
+    25. Chunk 22: -0.0719 - evidence_evaluation - 'The word-finding difficulty and inattentiveness...'
+    26. Chunk 8: -0.0846 - case_representation - 'Pulse is 83/min, which is normal.'
+    27. Chunk 0: -0.1024 - case_representation - 'Alright, so I'm trying to figure out the diagno...'
+    28. Chunk 16: -0.1227 - reconsideration_uncertainty - 'However, the memory problems are also present, ...'
+    29. Chunk 7: -0.2500 - case_representation - 'Blood pressure is 162/103 mmHg, which is on the...'
+    30. Chunk 18: -0.3093 - evidence_evaluation - 'His blood pressure is quite high, which could b...'
+    31. Chunk 14: -0.3163 - knowledge_activation - 'Alzheimer's disease is the most common, but the...'
+    32. Chunk 29: -0.4084 - diagnostic_commitment - 'So, putting it all together, the most likely di...'
+    33. Chunk 24: -0.5963 - diagnostic_commitment - 'But given the prominence of the behavioral chan...'
+  Potential reasoning forks:
+    Fork 1: Chunks 1-6
+      Text: 'Let me go through the information step by step. First, the patient's presenting complaint is a ch...'
+      Tags: case_representation, unknown
+    Fork 2: Chunks 10-15
+      Text: 'Physical exam findings include an elderly man who laughs inappropriately and is a poor historian....'
+      Tags: evidence_evaluation, case_representation, hypothesis_generation, knowledge_activation
+    Fork 3: Chunks 19-27
+      Text: 'But the symptoms here don't specifically point to vascular causes, like stepwise cognitive declin...'
+      Tags: reconsideration_uncertainty, evidence_evaluation, knowledge_activation, hypothesis_generation
+    Fork 4: Chunks 30-32
+      Text: 'However, Alzheimer's disease is still a strong contender, especially since memory problems are pr...'
+      Tags: reconsideration_uncertainty, diagnostic_verification
+
+Problem 95: Variance = 0.023354
+  Chunks by importance:
+    1. Chunk 23: 0.2907 - hypothesis_generation - 'In someone with a history of Crohn's, a strictu...'
+    2. Chunk 6: 0.2660 - case_representation - 'During these episodes, she experiences nausea a...'
+    3. Chunk 27: 0.2317 - knowledge_activation - 'PSC causes strictures in the bile ducts and can...'
+    4. Chunk 12: 0.2302 - case_representation - 'Bowel sounds are normal, and the stool is brown...'
+    5. Chunk 2: 0.1890 - case_representation - 'First, the patient is a 38-year-old woman with ...'
+    6. Chunk 9: 0.1387 - case_representation - 'Her vital signs are slightly elevated temperatu...'
+    7. Chunk 28: 0.0958 - evidence_evaluation - 'However, PSC usually progresses more insidiousl...'
+    8. Chunk 16: 0.0833 - case_representation - 'Platelets are 170,000, which is on the lower si...'
+    9. Chunk 29: 0.0698 - evidence_evaluation - 'The fact that the gallbladder has stones but no...'
+    10. Chunk 1: 0.0464 - unknown - 'Let me start by going through the information s...'
+    11. Chunk 22: 0.0312 - reconsideration_uncertainty - 'The gallstones are present, but since she doesn...'
+    12. Chunk 21: 0.0033 - evidence_evaluation - 'The CBD is dilated, but the gallbladder doesn't...'
+    13. Chunk 3: 0.0000 - case_representation - 'She had Crohn's disease seven years ago, which ...'
+    14. Chunk 5: 0.0000 - case_representation - 'She's presenting with three episodes of severe,...'
+    15. Chunk 17: 0.0000 - case_representation - 'The ultrasound shows a normal liver, a common b...'
+    16. Chunk 18: 0.0000 - evidence_evaluation - 'No wall thickening or pericholecystic fluid, wh...'
+    17. Chunk 32: 0.0000 - diagnostic_commitment - 'So, considering her history, presentation, labs...'
+    18. Chunk 8: -0.0467 - evidence_evaluation - 'No diarrhea, dysuria, or hematuria, which rules...'
+    19. Chunk 20: -0.0528 - evidence_evaluation - 'Her elevated liver enzymes and bilirubin point ...'
+    20. Chunk 15: -0.0626 - case_representation - 'Her white blood cell count is 9,500, which is a...'
+    21. Chunk 7: -0.0715 - case_representation - 'She's asymptomatic between episodes, so it's no...'
+    22. Chunk 0: -0.0759 - unknown - 'Okay, so I'm trying to figure out what's going ...'
+    23. Chunk 19: -0.0862 - knowledge_activation - 'So putting this together: She has a history of ...'
+    24. Chunk 25: -0.0870 - knowledge_activation - 'This is sometimes referred to as "gallstone pan...'
+    25. Chunk 13: -0.1205 - case_representation - 'Looking at the labs: Her liver enzymes are elev...'
+    26. Chunk 26: -0.1346 - hypothesis_generation - 'Another consideration is primary sclerosing cho...'
+    27. Chunk 31: -0.1402 - evidence_evaluation - 'The elevated alkaline phosphatase and bilirubin...'
+    28. Chunk 30: -0.1905 - evidence_evaluation - 'The pain is more likely coming from the CBD or ...'
+    29. Chunk 11: -0.2100 - evidence_evaluation - 'The abdomen is soft, with tenderness in the rig...'
+    30. Chunk 14: -0.2314 - case_representation - 'Total bilirubin is 4.1 mg/dL, which is elevated.'
+    31. Chunk 24: -0.2417 - evidence_evaluation - 'The pain episodes could be due to stones passin...'
+    32. Chunk 4: -0.2549 - knowledge_activation - 'That's important because Crohn's can sometimes ...'
+    33. Chunk 10: -0.3127 - case_representation - 'On exam, there's mild scleral icterus, which su...'
+  Potential reasoning forks:
+    Fork 1: Chunks 1-6
+      Text: 'Let me start by going through the information step by step. First, the patient is a 38-year-old w...'
+      Tags: case_representation, unknown
+    Fork 2: Chunks 16-18
+      Text: 'Platelets are 170,000, which is on the lower side but not dangerously low. The ultrasound shows a...'
+      Tags: case_representation, evidence_evaluation
+    Fork 3: Chunks 21-23
+      Text: 'The CBD is dilated, but the gallbladder doesn't show signs of acute inflammation. The gallstones ...'
+      Tags: reconsideration_uncertainty, evidence_evaluation, hypothesis_generation
+    Fork 4: Chunks 27-29
+      Text: 'PSC causes strictures in the bile ducts and can lead to pain and elevated liver enzymes. However,...'
+      Tags: evidence_evaluation, knowledge_activation
+
+Problem 84: Variance = 0.020460
+  Chunks by importance:
+    1. Chunk 14: 0.2939 - evidence_evaluation - 'Digestive issues, regurgitation, and dysphagia ...'
+    2. Chunk 24: 0.1937 - hypothesis_generation - 'Putting this together: The main symptoms and si...'
+    3. Chunk 15: 0.1833 - evidence_evaluation - 'Vital signs: Blood pressure is a bit low, 120/75.'
+    4. Chunk 31: 0.1047 - knowledge_activation - 'Chagas is caused by Trypanosoma cruzi and is co...'
+    5. Chunk 3: 0.1000 - case_representation - 'He also has palpitations during strenuous activ...'
+    6. Chunk 29: 0.0868 - reconsideration_uncertainty - 'Maybe the patient has both issues, but the prim...'
+    7. Chunk 27: 0.0840 - reconsideration_uncertainty - 'Maybe it's intermittent or not captured during ...'
+    8. Chunk 1: 0.0818 - unknown - 'Let me read through it again carefully.'
+    9. Chunk 16: 0.0781 - evidence_evaluation - 'Normal BP is around 120/80, so this is slightly...'
+    10. Chunk 23: 0.0622 - evidence_evaluation - 'ECG is normal, which is interesting because in ...'
+    11. Chunk 25: 0.0215 - evidence_evaluation - 'Orthopnea, JVD, crackles, S3 gallop, and edema ...'
+    12. Chunk 26: 0.0136 - evidence_evaluation - 'The palpitations could be due to房颤 or another a...'
+    13. Chunk 34: 0.0108 - hypothesis_generation - 'COPD could cause crackles, but he doesn't have ...'
+    14. Chunk 4: 0.0000 - case_representation - 'Additionally, he's having trouble digesting foo...'
+    15. Chunk 5: 0.0000 - case_representation - 'He's from Mexico but has been in the US for 20 ...'
+    16. Chunk 6: 0.0000 - case_representation - 'His vital signs are BP 120/75, respiratory rate...'
+    17. Chunk 7: 0.0000 - case_representation - 'Physical exam shows jugular vein distention and...'
+    18. Chunk 8: 0.0000 - case_representation - 'On chest auscultation, there are bilateral basi...'
+    19. Chunk 20: 0.0000 - evidence_evaluation - 'Pitting edema in the ankles suggests fluid rete...'
+    20. Chunk 35: 0.0000 - diagnostic_commitment, final_answer_emission - 'So, the most likely diagnosis is heart failure,...'
+    21. Chunk 2: -0.0013 - case_representation - 'A 52-year-old man comes in with ongoing shortne...'
+    22. Chunk 13: -0.0119 - evidence_evaluation - 'Palpitations during activity could be related t...'
+    23. Chunk 33: -0.0213 - hypothesis_generation - 'Other possibilities: Chronic kidney disease can...'
+    24. Chunk 10: -0.0457 - unknown - 'Alright, let's break this down.'
+    25. Chunk 17: -0.0902 - evidence_evaluation - 'Respiratory rate is 19, which is within normal ...'
+    26. Chunk 11: -0.0923 - unknown - 'First, the symptoms.'
+    27. Chunk 19: -0.0989 - evidence_evaluation - 'Physical exam: Jugular vein distention (JVD) is...'
+    28. Chunk 32: -0.1099 - evidence_evaluation - 'It can cause dilated cardiomyopathy, which woul...'
+    29. Chunk 18: -0.1217 - evidence_evaluation - 'Pulse is 100, which is tachycardic, so heart ra...'
+    30. Chunk 28: -0.1310 - evidence_evaluation - 'The digestive symptoms—regurgitation and dyspha...'
+    31. Chunk 12: -0.1335 - evidence_evaluation - 'Shortness of breath worse when lying down sugge...'
+    32. Chunk 0: -0.1364 - unknown - 'Okay, so I have this case to solve.'
+    33. Chunk 9: -0.1626 - case_representation - 'The chest X-ray is pending, and ECG shows no si...'
+    34. Chunk 21: -0.1629 - evidence_evaluation - 'Bilateral basilar crackles on chest exam are he...'
+    35. Chunk 22: -0.1891 - evidence_evaluation - 'The S3 gallop is an additional sign of heart fa...'
+    36. Chunk 30: -0.5871 - knowledge_activation - 'He's from Mexico, so I should consider possible...'
+  Potential reasoning forks:
+    Fork 1: Chunks 1-8
+      Text: 'Let me read through it again carefully. A 52-year-old man comes in with ongoing shortness of brea...'
+      Tags: case_representation, unknown
+    Fork 2: Chunks 13-16
+      Text: 'Palpitations during activity could be related to arrhythmia or just increased heart rate. Digesti...'
+      Tags: evidence_evaluation
+    Fork 3: Chunks 23-35
+      Text: 'ECG is normal, which is interesting because in heart failure, ECG can show changes like房颤 or房室传导阻...'
+      Tags: diagnostic_commitment, hypothesis_generation, final_answer_emission, knowledge_activation, evidence_evaluation, reconsideration_uncertainty
+
 Problem 6: Variance = 0.011686
   Chunks by importance:
     1. Chunk 17: 0.2796 - knowledge_activation - 'Hydrochlorothiazide is a diuretic, which can ca...'
@@ -58,14 +205,14 @@ Problem 6: Variance = 0.011686
   Potential reasoning forks:
     Fork 1: Chunks 3-14
       Text: 'He's presenting with progressive fatigue and new onset muscle cramps. His medications haven't cha...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: case_representation, evidence_evaluation, knowledge_activation
     Fork 2: Chunks 17-23
       Text: 'Hydrochlorothiazide is a diuretic, which can cause electrolyte imbalances. It's a thiazide diuret...'
-      Tags: knowledge_activation, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation
     Fork 3: Chunks 26-28
       Text: 'That explains the new onset cramps. Wait, but the question is about the underlying etiology of hi...'
       Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-52
       Text: 'The patient has low potassium, so this is a possibility. 2. Cushing's syndrome: Can cause hyperte...'
-      Tags: diagnostic_verification, diagnostic_commitment, reconsideration_uncertainty, knowledge_activation, evidence_evaluation
+      Tags: diagnostic_commitment, knowledge_activation, diagnostic_verification, evidence_evaluation, reconsideration_uncertainty
 

@@ -14,7 +14,7 @@
     "resampling_importance_accuracy": 0.25609756097560976,
     "resampling_importance_kl": 0.0,
     "forced_importance_accuracy": -0.03999999999999998,
-    "forced_importance_kl": 0.6938367611325177,
+    "forced_importance_kl": 0.6938367611325178,
     "accuracy": 0.0
   },
   {
@@ -26,13 +26,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.07601880877742945,
-    "counterfactual_importance_kl": 2.3908823929542327,
+    "counterfactual_importance_kl": 2.390882392954232,
     "different_trajectories_fraction": 0.35365853658536583,
     "overdeterminedness": 0.7804878048780488,
     "resampling_importance_accuracy": 0.1302660753880266,
-    "resampling_importance_kl": 2.834770228012595,
+    "resampling_importance_kl": 2.8347702280125944,
     "forced_importance_accuracy": 0.08999999999999997,
-    "forced_importance_kl": 0.9093901416436073,
+    "forced_importance_kl": 0.9093901416436072,
     "accuracy": 0.25609756097560976
   },
   {
@@ -50,7 +50,7 @@
     "resampling_importance_accuracy": -0.012869660460021914,
     "resampling_importance_kl": 1.9866015917542141,
     "forced_importance_accuracy": -0.13999999999999999,
-    "forced_importance_kl": 5.716165958366716,
+    "forced_importance_kl": 5.716165958366717,
     "accuracy": 0.38636363636363635
   },
   {
@@ -66,7 +66,7 @@
     "different_trajectories_fraction": 0.0,
     "overdeterminedness": 0.7710843373493976,
     "resampling_importance_accuracy": 0.03126792885829033,
-    "resampling_importance_kl": 3.6841607800264735,
+    "resampling_importance_kl": 3.6841607800264726,
     "forced_importance_accuracy": 0.23999999999999996,
     "forced_importance_kl": 1.3714137276161933,
     "accuracy": 0.37349397590361444
@@ -84,7 +84,7 @@
     "different_trajectories_fraction": 0.0,
     "overdeterminedness": 0.7023809523809523,
     "resampling_importance_accuracy": -0.05033152501506932,
-    "resampling_importance_kl": 1.0554114763906584,
+    "resampling_importance_kl": 1.0554114763906581,
     "forced_importance_accuracy": 0.14,
     "forced_importance_kl": 8.579153417900374,
     "accuracy": 0.40476190476190477
@@ -98,13 +98,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.05341149649894156,
-    "counterfactual_importance_kl": 1.5489386986146036,
+    "counterfactual_importance_kl": 1.5489386986146039,
     "different_trajectories_fraction": 0.8734177215189873,
     "overdeterminedness": 0.26582278481012656,
     "resampling_importance_accuracy": 0.06129995733181626,
-    "resampling_importance_kl": 2.1281849008138307,
+    "resampling_importance_kl": 2.1281849008138303,
     "forced_importance_accuracy": 0.040000000000000036,
-    "forced_importance_kl": 1.0783821591790228,
+    "forced_importance_kl": 1.0783821591790226,
     "accuracy": 0.35443037974683544
   },
   {
@@ -116,11 +116,11 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.07838730998017185,
-    "counterfactual_importance_kl": 1.4925890272602294,
+    "counterfactual_importance_kl": 1.4925890272602298,
     "different_trajectories_fraction": 1.0,
     "overdeterminedness": 0.7865168539325843,
     "resampling_importance_accuracy": 0.07838730998017185,
-    "resampling_importance_kl": 1.4925890272602294,
+    "resampling_importance_kl": 1.4925890272602298,
     "forced_importance_accuracy": -0.06000000000000005,
     "forced_importance_kl": 0.7006038771252046,
     "accuracy": 0.4157303370786517
@@ -128,7 +128,7 @@
   {
     "chunk": "Cl- is 100, which is within normal range.",
     "chunk_idx": 7,
-    "summary": "check Cl- level",
+    "summary": "check cl-=100",
     "function_tags": [
       "case_representation"
     ],
@@ -152,11 +152,11 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.022727272727272707,
-    "counterfactual_importance_kl": 0.863148869723721,
+    "counterfactual_importance_kl": 0.8631488697237208,
     "different_trajectories_fraction": 0.35294117647058826,
     "overdeterminedness": 0.47058823529411764,
     "resampling_importance_accuracy": 0.05213903743315507,
-    "resampling_importance_kl": 0.6162512217494723,
+    "resampling_importance_kl": 0.6162512217494722,
     "forced_importance_accuracy": -0.10000000000000003,
     "forced_importance_kl": 0.06721074217217005,
     "accuracy": 0.47058823529411764
@@ -164,7 +164,7 @@
   {
     "chunk": "HCO3- is 33, which is a bit elevated, suggesting possible metabolic alkalosis.",
     "chunk_idx": 9,
-    "summary": "identify metabolic alkalosis",
+    "summary": "identify elevated HCO3-",
     "function_tags": [
       "case_representation"
     ],
@@ -174,7 +174,7 @@
     "different_trajectories_fraction": 0.14772727272727273,
     "overdeterminedness": 0.8295454545454546,
     "resampling_importance_accuracy": -0.040799561883899216,
-    "resampling_importance_kl": 2.863778388324483,
+    "resampling_importance_kl": 2.8637783883244823,
     "forced_importance_accuracy": 0.03999999999999998,
     "forced_importance_kl": 1.152278967900068,
     "accuracy": 0.5227272727272727
@@ -182,7 +182,7 @@
   {
     "chunk": "BUN is 20, which is normal, and glucose is 129, which is slightly elevated but not diagnostic of diabetes yet\u2014maybe prediabetes or just a single high reading.",
     "chunk_idx": 10,
-    "summary": "report glucose=129",
+    "summary": "report BUN=20, glucose=129",
     "function_tags": [
       "case_representation"
     ],
@@ -206,7 +206,7 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": 0.044900221729489986,
-    "counterfactual_importance_kl": 3.071910597894836,
+    "counterfactual_importance_kl": 3.0719105978948344,
     "different_trajectories_fraction": 0.5365853658536586,
     "overdeterminedness": 0.2682926829268293,
     "resampling_importance_accuracy": -0.04878048780487804,
@@ -222,23 +222,21 @@
     "function_tags": [
       "knowledge_activation"
     ],
-    "depends_on": [
-      "11"
-    ],
+    "depends_on": [],
     "counterfactual_importance_accuracy": 0.043052837573385516,
-    "counterfactual_importance_kl": 2.0284007514031277,
+    "counterfactual_importance_kl": 2.028400751403128,
     "different_trajectories_fraction": 0.8902439024390244,
     "overdeterminedness": 0.1585365853658537,
     "resampling_importance_accuracy": -0.05574912891986067,
     "resampling_importance_kl": 1.8298006358668215,
     "forced_importance_accuracy": -0.16999999999999998,
-    "forced_importance_kl": 1.4974776839801032,
+    "forced_importance_kl": 1.497477683980103,
     "accuracy": 0.34146341463414637
   },
   {
     "chunk": "His K+ is 3.3, which is just below normal (usually around 3.5-5.0).",
     "chunk_idx": 13,
-    "summary": "identify K+=3.3",
+    "summary": "identify low K+ level",
     "function_tags": [
       "evidence_evaluation"
     ],
@@ -247,13 +245,13 @@
       "12"
     ],
     "counterfactual_importance_accuracy": 0.14390243902439026,
-    "counterfactual_importance_kl": 2.3742971695969914,
+    "counterfactual_importance_kl": 2.374297169596992,
     "different_trajectories_fraction": 0.2597402597402597,
     "overdeterminedness": 0.7012987012987013,
     "resampling_importance_accuracy": -0.029616724738675937,
     "resampling_importance_kl": 1.178008971346267,
     "forced_importance_accuracy": -0.12999999999999998,
-    "forced_importance_kl": 1.5886911982161476,
+    "forced_importance_kl": 1.5886911982161473,
     "accuracy": 0.2857142857142857
   },
   {
@@ -263,17 +261,15 @@
     "function_tags": [
       "knowledge_activation"
     ],
-    "depends_on": [
-      "3"
-    ],
+    "depends_on": [],
     "counterfactual_importance_accuracy": -0.1378048780487805,
-    "counterfactual_importance_kl": 2.8830824768070467,
+    "counterfactual_importance_kl": 2.883082476807047,
     "different_trajectories_fraction": 0.4878048780487805,
     "overdeterminedness": 0.5731707317073171,
     "resampling_importance_accuracy": 0.23170731707317072,
     "resampling_importance_kl": 2.130299934376858,
     "forced_importance_accuracy": -0.13,
-    "forced_importance_kl": 0.9045467276182225,
+    "forced_importance_kl": 0.9045467276182224,
     "accuracy": 0.25609756097560976
   },
   {
@@ -302,17 +298,19 @@
     "chunk_idx": 16,
     "summary": "consider hypertension causes",
     "function_tags": [
-      "case_representation"
+      "evidence_evaluation"
     ],
-    "depends_on": [],
+    "depends_on": [
+      "4"
+    ],
     "counterfactual_importance_accuracy": -0.4662122687439143,
     "counterfactual_importance_kl": 1.7775319604900721,
     "different_trajectories_fraction": 0.7738095238095238,
     "overdeterminedness": 0.25,
     "resampling_importance_accuracy": 0.406871609403255,
-    "resampling_importance_kl": 2.393342410372392,
+    "resampling_importance_kl": 2.3933424103723917,
     "forced_importance_accuracy": 0.31,
-    "forced_importance_kl": 4.666032737695649,
+    "forced_importance_kl": 4.66603273769565,
     "accuracy": 0.42857142857142855
   },
   {
@@ -328,9 +326,9 @@
     "different_trajectories_fraction": 0.0759493670886076,
     "overdeterminedness": 0.8607594936708861,
     "resampling_importance_accuracy": 0.01071080817916259,
-    "resampling_importance_kl": 2.420451936008756,
+    "resampling_importance_kl": 2.4204519360087566,
     "forced_importance_accuracy": 0.17000000000000004,
-    "forced_importance_kl": 6.1948017675739795,
+    "forced_importance_kl": 6.19480176757398,
     "accuracy": 0.8354430379746836
   },
   {
@@ -340,15 +338,13 @@
     "function_tags": [
       "knowledge_activation"
     ],
-    "depends_on": [
-      "17"
-    ],
+    "depends_on": [],
     "counterfactual_importance_accuracy": -0.15113636363636362,
     "counterfactual_importance_kl": 3.9445466958359985,
     "different_trajectories_fraction": 0.8791208791208791,
     "overdeterminedness": 0.4285714285714286,
     "resampling_importance_accuracy": 0.1424825174825175,
-    "resampling_importance_kl": 3.689168743323454,
+    "resampling_importance_kl": 3.689168743323453,
     "forced_importance_accuracy": -0.38,
     "forced_importance_kl": 6.93327036904629,
     "accuracy": 0.8461538461538461
@@ -380,13 +376,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.13398813936249065,
-    "counterfactual_importance_kl": 4.76111628781149,
+    "counterfactual_importance_kl": 4.761116287811488,
     "different_trajectories_fraction": 0.8554216867469879,
     "overdeterminedness": 0.45783132530120485,
     "resampling_importance_accuracy": 0.17929613189600502,
-    "resampling_importance_kl": 5.186863300215634,
+    "resampling_importance_kl": 5.1868633002156335,
     "forced_importance_accuracy": -0.04999999999999993,
-    "forced_importance_kl": 0.8737399665575553,
+    "forced_importance_kl": 0.8737399665575554,
     "accuracy": 0.5180722891566265
   },
   {
@@ -397,12 +393,10 @@
       "knowledge_activation"
     ],
     "depends_on": [
-      "3",
-      "9",
       "14"
     ],
     "counterfactual_importance_accuracy": 0.3597222222222222,
-    "counterfactual_importance_kl": 0.9915527037661377,
+    "counterfactual_importance_kl": 0.9915527037661378,
     "different_trajectories_fraction": 0.47368421052631576,
     "overdeterminedness": 0.19736842105263153,
     "resampling_importance_accuracy": -0.33486842105263154,
@@ -429,7 +423,7 @@
     "resampling_importance_accuracy": 0.2089285714285714,
     "resampling_importance_kl": 5.466502026759625,
     "forced_importance_accuracy": -0.11000000000000004,
-    "forced_importance_kl": 6.433386376107832,
+    "forced_importance_kl": 6.433386376107831,
     "accuracy": 0.3625
   },
   {
@@ -439,16 +433,13 @@
     "function_tags": [
       "hypothesis_generation"
     ],
-    "depends_on": [
-      "8",
-      "16"
-    ],
+    "depends_on": [],
     "counterfactual_importance_accuracy": -0.3753869969040248,
-    "counterfactual_importance_kl": 6.722167647960036,
+    "counterfactual_importance_kl": 6.7221676479600365,
     "different_trajectories_fraction": 0.987012987012987,
     "overdeterminedness": 0.1298701298701299,
     "resampling_importance_accuracy": 0.3697478991596639,
-    "resampling_importance_kl": 6.615184943949645,
+    "resampling_importance_kl": 6.615184943949647,
     "forced_importance_accuracy": 0.48000000000000004,
     "forced_importance_kl": 14.362743663249839,
     "accuracy": 0.5714285714285714
@@ -466,7 +457,7 @@
       "23"
     ],
     "counterfactual_importance_accuracy": -0.014145324597975018,
-    "counterfactual_importance_kl": 0.64044718176116,
+    "counterfactual_importance_kl": 0.6404471817611599,
     "different_trajectories_fraction": 0.8588235294117647,
     "overdeterminedness": 0.7411764705882353,
     "resampling_importance_accuracy": 0.004475703324808178,
@@ -483,7 +474,7 @@
       "reconsideration_uncertainty"
     ],
     "depends_on": [
-      "23",
+      "22",
       "24"
     ],
     "counterfactual_importance_accuracy": 0.20174973488865322,
@@ -505,13 +496,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.059259259259259345,
-    "counterfactual_importance_kl": 1.806880757099689,
+    "counterfactual_importance_kl": 1.8068807570996888,
     "different_trajectories_fraction": 0.9878048780487805,
     "overdeterminedness": 0.20731707317073167,
     "resampling_importance_accuracy": 0.056097560975609806,
-    "resampling_importance_kl": 1.775423269513198,
+    "resampling_importance_kl": 1.7754232695131982,
     "forced_importance_accuracy": 0.16000000000000003,
-    "forced_importance_kl": 3.9428170703683754,
+    "forced_importance_kl": 3.942817070368375,
     "accuracy": 0.7439024390243902
   },
   {
@@ -543,12 +534,11 @@
       "reconsideration_uncertainty"
     ],
     "depends_on": [
-      "8",
-      "14",
-      "23"
+      "15",
+      "27"
     ],
     "counterfactual_importance_accuracy": 0.3083823941687692,
-    "counterfactual_importance_kl": 1.6665651768388572,
+    "counterfactual_importance_kl": 1.666565176838857,
     "different_trajectories_fraction": 0.9775280898876404,
     "overdeterminedness": 0.2247191011235955,
     "resampling_importance_accuracy": -0.29843792819950665,
@@ -562,20 +552,17 @@
     "chunk_idx": 29,
     "summary": "manage blood pressure",
     "function_tags": [
-      "reconsideration_uncertainty"
+      "knowledge_activation"
     ],
-    "depends_on": [
-      "14",
-      "23"
-    ],
+    "depends_on": [],
     "counterfactual_importance_accuracy": -0.16130820399113077,
-    "counterfactual_importance_kl": 1.6814972047045895,
+    "counterfactual_importance_kl": 1.6814972047045897,
     "different_trajectories_fraction": 1.0,
     "overdeterminedness": 0.08536585365853655,
     "resampling_importance_accuracy": 0.16130820399113077,
-    "resampling_importance_kl": 1.6814972047045895,
+    "resampling_importance_kl": 1.6814972047045897,
     "forced_importance_accuracy": 0.14,
-    "forced_importance_kl": 2.6481907861430933,
+    "forced_importance_kl": 2.648190786143093,
     "accuracy": 0.6341463414634146
   },
   {
@@ -589,13 +576,13 @@
       "10"
     ],
     "counterfactual_importance_accuracy": 0.07198022860673459,
-    "counterfactual_importance_kl": 0.3138122844056356,
+    "counterfactual_importance_kl": 0.3138122844056355,
     "different_trajectories_fraction": 0.8863636363636364,
     "overdeterminedness": 0.125,
     "resampling_importance_accuracy": -0.07256297918948518,
-    "resampling_importance_kl": 1.243177665562255,
+    "resampling_importance_kl": 1.2431776655622548,
     "forced_importance_accuracy": -0.14,
-    "forced_importance_kl": 1.6363688423010951,
+    "forced_importance_kl": 1.636368842301095,
     "accuracy": 0.7954545454545454
   },
   {
@@ -626,10 +613,8 @@
       "evidence_evaluation"
     ],
     "depends_on": [
-      "3",
-      "8",
-      "9",
-      "14"
+      "14",
+      "22"
     ],
     "counterfactual_importance_accuracy": -0.08972125435540068,
     "counterfactual_importance_kl": 1.3753382133853629,
@@ -649,8 +634,8 @@
       "evidence_evaluation"
     ],
     "depends_on": [
-      "8",
-      "12"
+      "12",
+      "13"
     ],
     "counterfactual_importance_accuracy": 0.0,
     "counterfactual_importance_kl": 0.0,
@@ -670,7 +655,7 @@
       "evidence_evaluation"
     ],
     "depends_on": [
-      "16",
+      "4",
       "18"
     ],
     "counterfactual_importance_accuracy": 0.3142542652724271,
@@ -678,9 +663,9 @@
     "different_trajectories_fraction": 0.2839506172839506,
     "overdeterminedness": 0.024691358024691357,
     "resampling_importance_accuracy": -0.3217690264103766,
-    "resampling_importance_kl": 1.0810980583320557,
+    "resampling_importance_kl": 1.0810980583320555,
     "forced_importance_accuracy": 0.0,
-    "forced_importance_kl": 9.967887399199315,
+    "forced_importance_kl": 9.967887399199313,
     "accuracy": 0.7901234567901234
   },
   {
@@ -697,13 +682,13 @@
       "32"
     ],
     "counterfactual_importance_accuracy": 0.2605633802816901,
-    "counterfactual_importance_kl": 1.528052364243971,
+    "counterfactual_importance_kl": 1.5280523642439712,
     "different_trajectories_fraction": 0.8354430379746836,
     "overdeterminedness": 0.17721518987341767,
     "resampling_importance_accuracy": -0.228917810661437,
     "resampling_importance_kl": 1.4715552970358021,
     "forced_importance_accuracy": -0.1,
-    "forced_importance_kl": 5.993720371500329,
+    "forced_importance_kl": 5.993720371500331,
     "accuracy": 0.46835443037974683
   },
   {
@@ -721,7 +706,7 @@
     "different_trajectories_fraction": 0.7464788732394366,
     "overdeterminedness": 0.15492957746478875,
     "resampling_importance_accuracy": -0.23943661971830985,
-    "resampling_importance_kl": 14.11667176544104,
+    "resampling_importance_kl": 14.116671765441042,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 17.00368478510309,
     "accuracy": 0.23943661971830985
@@ -737,11 +722,11 @@
       "36"
     ],
     "counterfactual_importance_accuracy": 0.0,
-    "counterfactual_importance_kl": 1.209534814169687,
+    "counterfactual_importance_kl": 1.2095348141696871,
     "different_trajectories_fraction": 0.8690476190476191,
     "overdeterminedness": 0.3571428571428571,
     "resampling_importance_accuracy": 0.0,
-    "resampling_importance_kl": 1.0302511251340558,
+    "resampling_importance_kl": 1.0302511251340556,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 3.3293862071206597,
     "accuracy": 0.0

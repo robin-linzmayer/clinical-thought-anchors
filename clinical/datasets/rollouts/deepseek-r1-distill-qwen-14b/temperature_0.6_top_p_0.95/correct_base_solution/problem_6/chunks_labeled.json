@@ -26,11 +26,11 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.07601880877742945,
-    "counterfactual_importance_kl": 2.3908823929542327,
+    "counterfactual_importance_kl": 2.390882392954232,
     "different_trajectories_fraction": 0.35365853658536583,
     "overdeterminedness": 0.7804878048780488,
     "resampling_importance_accuracy": 0.1302660753880266,
-    "resampling_importance_kl": 2.834770228012595,
+    "resampling_importance_kl": 2.8347702280125944,
     "forced_importance_accuracy": 0.12,
     "forced_importance_kl": 1.1608548380610577,
     "accuracy": 0.25609756097560976
@@ -38,17 +38,17 @@
   {
     "chunk": "The patient is a 56-year-old man with a history of hypertension.",
     "chunk_idx": 2,
-    "summary": "note patient history",
+    "summary": "identify patient history",
     "function_tags": [
       "case_representation"
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.16748768472906406,
-    "counterfactual_importance_kl": 7.193427654438022,
+    "counterfactual_importance_kl": 7.193427654438021,
     "different_trajectories_fraction": 0.07954545454545454,
     "overdeterminedness": 0.9318181818181819,
     "resampling_importance_accuracy": -0.07601880877742945,
-    "resampling_importance_kl": 2.916414613264175,
+    "resampling_importance_kl": 2.9164146132641755,
     "forced_importance_accuracy": -0.16000000000000003,
     "forced_importance_kl": 1.572583130443396,
     "accuracy": 0.38636363636363635
@@ -56,7 +56,7 @@
   {
     "chunk": "He's presenting with progressive fatigue and new onset muscle cramps.",
     "chunk_idx": 3,
-    "summary": "assess fatigue symptoms",
+    "summary": "identify symptoms",
     "function_tags": [
       "case_representation"
     ],
@@ -68,7 +68,7 @@
     "resampling_importance_accuracy": 0.005444646098003603,
     "resampling_importance_kl": 3.179603241969345,
     "forced_importance_accuracy": -0.03999999999999998,
-    "forced_importance_kl": 7.09132624922475,
+    "forced_importance_kl": 7.091326249224748,
     "accuracy": 0.3103448275862069
   },
   {
@@ -98,13 +98,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.1476793248945148,
-    "counterfactual_importance_kl": 0.7591440975585524,
+    "counterfactual_importance_kl": 0.7591440975585523,
     "different_trajectories_fraction": 0.039473684210526314,
     "overdeterminedness": 0.7894736842105263,
     "resampling_importance_accuracy": 0.04680213191205862,
     "resampling_importance_kl": 2.511545808392626,
     "forced_importance_accuracy": 0.06999999999999995,
-    "forced_importance_kl": 9.003018059886209,
+    "forced_importance_kl": 9.00301805988621,
     "accuracy": 0.4342105263157895
   },
   {
@@ -122,7 +122,7 @@
     "resampling_importance_accuracy": -0.18689501116902457,
     "resampling_importance_kl": 2.477200198622832,
     "forced_importance_accuracy": 0.030000000000000027,
-    "forced_importance_kl": 0.663942136802433,
+    "forced_importance_kl": 0.6639421368024331,
     "accuracy": 0.4810126582278481
   },
   {
@@ -134,11 +134,11 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.05959302325581395,
-    "counterfactual_importance_kl": 1.416305882616546,
+    "counterfactual_importance_kl": 1.4163058826165458,
     "different_trajectories_fraction": 0.7529411764705882,
     "overdeterminedness": 0.5764705882352941,
     "resampling_importance_accuracy": 0.07797537619699041,
-    "resampling_importance_kl": 1.295171923400155,
+    "resampling_importance_kl": 1.2951719234001553,
     "forced_importance_accuracy": 0.08999999999999997,
     "forced_importance_kl": 0.38180902794440974,
     "accuracy": 0.29411764705882354
@@ -170,13 +170,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": 0.11538461538461536,
-    "counterfactual_importance_kl": 1.4339703051934385,
+    "counterfactual_importance_kl": 1.4339703051934383,
     "different_trajectories_fraction": 0.0547945205479452,
     "overdeterminedness": 0.2191780821917808,
     "resampling_importance_accuracy": 0.09694415173867232,
-    "resampling_importance_kl": 3.3595452718536176,
+    "resampling_importance_kl": 3.3595452718536167,
     "forced_importance_accuracy": 0.10000000000000003,
-    "forced_importance_kl": 2.8219591191645255,
+    "forced_importance_kl": 2.821959119164525,
     "accuracy": 0.2876712328767123
   },
   {
@@ -254,7 +254,7 @@
     "resampling_importance_accuracy": 0.06945784294809959,
     "resampling_importance_kl": 2.731810830949313,
     "forced_importance_accuracy": -0.07,
-    "forced_importance_kl": 3.707191997757488,
+    "forced_importance_kl": 3.7071919977574876,
     "accuracy": 0.4647887323943662
   },
   {
@@ -290,7 +290,7 @@
       "9"
     ],
     "counterfactual_importance_accuracy": -0.08849189862899876,
-    "counterfactual_importance_kl": 3.1931775500690445,
+    "counterfactual_importance_kl": 3.193177550069045,
     "different_trajectories_fraction": 0.3670886075949367,
     "overdeterminedness": 0.6329113924050633,
     "resampling_importance_accuracy": 0.1303949977123684,
@@ -310,7 +310,7 @@
       "15"
     ],
     "counterfactual_importance_accuracy": -0.0848265658392241,
-    "counterfactual_importance_kl": 3.875337394631775,
+    "counterfactual_importance_kl": 3.8753373946317744,
     "different_trajectories_fraction": 0.927710843373494,
     "overdeterminedness": 0.6024096385542168,
     "resampling_importance_accuracy": 0.0594784200091506,
@@ -328,13 +328,13 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": 0.2796317606444189,
-    "counterfactual_importance_kl": 3.7867395720452115,
+    "counterfactual_importance_kl": 3.786739572045211,
     "different_trajectories_fraction": 1.0,
     "overdeterminedness": 0.12658227848101267,
     "resampling_importance_accuracy": -0.2796317606444189,
-    "resampling_importance_kl": 3.7867395720452115,
+    "resampling_importance_kl": 3.786739572045211,
     "forced_importance_accuracy": -0.57,
-    "forced_importance_kl": 21.02596845888437,
+    "forced_importance_kl": 21.025968458884368,
     "accuracy": 0.7341772151898734
   },
   {
@@ -348,13 +348,13 @@
       "17"
     ],
     "counterfactual_importance_accuracy": 0.24049773755656106,
-    "counterfactual_importance_kl": 7.467235468108019,
+    "counterfactual_importance_kl": 7.467235468108018,
     "different_trajectories_fraction": 0.8831168831168831,
     "overdeterminedness": 0.22077922077922074,
     "resampling_importance_accuracy": -0.23916083916083913,
     "resampling_importance_kl": 7.863835226276437,
     "forced_importance_accuracy": 0.0,
-    "forced_importance_kl": 2.6903834628013445,
+    "forced_importance_kl": 2.690383462801345,
     "accuracy": 0.45454545454545453
   },
   {
@@ -372,7 +372,7 @@
     "different_trajectories_fraction": 0.8307692307692308,
     "overdeterminedness": 0.07692307692307687,
     "resampling_importance_accuracy": -0.08105625717566017,
-    "resampling_importance_kl": 8.407465926020661,
+    "resampling_importance_kl": 8.40746592602066,
     "forced_importance_accuracy": 0.32,
     "forced_importance_kl": 2.1745777645841238,
     "accuracy": 0.2153846153846154
@@ -393,9 +393,9 @@
     "different_trajectories_fraction": 0.9253731343283582,
     "overdeterminedness": 0.16417910447761197,
     "resampling_importance_accuracy": 0.1559942224362061,
-    "resampling_importance_kl": 10.310082091161092,
+    "resampling_importance_kl": 10.31008209116109,
     "forced_importance_accuracy": -0.16,
-    "forced_importance_kl": 5.647521142219431,
+    "forced_importance_kl": 5.647521142219432,
     "accuracy": 0.13432835820895522
   },
   {
@@ -414,15 +414,15 @@
     "different_trajectories_fraction": 0.8870967741935484,
     "overdeterminedness": 0.4032258064516129,
     "resampling_importance_accuracy": -0.011841567986933477,
-    "resampling_importance_kl": 4.83373398093839,
+    "resampling_importance_kl": 4.833733980938391,
     "forced_importance_accuracy": -0.16,
-    "forced_importance_kl": 7.181138068265567,
+    "forced_importance_kl": 7.181138068265566,
     "accuracy": 0.2903225806451613
   },
   {
     "chunk": "However, if the diuretic effect is significant, you might see a rise in sodium later due to aldosterone effects.",
     "chunk_idx": 22,
-    "summary": "rise sodium later",
+    "summary": "see sodium rise",
     "function_tags": [
       "knowledge_activation"
     ],
@@ -430,11 +430,11 @@
       "19"
     ],
     "counterfactual_importance_accuracy": 0.0233246945575713,
-    "counterfactual_importance_kl": 6.342727875095674,
+    "counterfactual_importance_kl": 6.342727875095673,
     "different_trajectories_fraction": 0.9367088607594937,
     "overdeterminedness": 0.08860759493670889,
     "resampling_importance_accuracy": -0.004508409918501821,
-    "resampling_importance_kl": 6.157709668634922,
+    "resampling_importance_kl": 6.157709668634923,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 1.1236413920507327,
     "accuracy": 0.27848101265822783
@@ -451,7 +451,7 @@
       "22"
     ],
     "counterfactual_importance_accuracy": 0.07857733664185276,
-    "counterfactual_importance_kl": 4.017157724382773,
+    "counterfactual_importance_kl": 4.0171577243827725,
     "different_trajectories_fraction": 0.8493150684931506,
     "overdeterminedness": 0.3287671232876712,
     "resampling_importance_accuracy": -0.09448542325254652,
@@ -468,15 +468,15 @@
       "evidence_evaluation"
     ],
     "depends_on": [
-      "8",
-      "3"
+      "3",
+      "8"
     ],
     "counterfactual_importance_accuracy": -0.15584415584415584,
-    "counterfactual_importance_kl": 6.611389070548788,
+    "counterfactual_importance_kl": 6.611389070548785,
     "different_trajectories_fraction": 0.9871794871794872,
     "overdeterminedness": 0.4358974358974359,
     "resampling_importance_accuracy": 0.15817515817515818,
-    "resampling_importance_kl": 6.766669186171943,
+    "resampling_importance_kl": 6.766669186171944,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 8.333353276972943,
     "accuracy": 0.1794871794871795
@@ -492,11 +492,11 @@
       "24"
     ],
     "counterfactual_importance_accuracy": -0.17956656346749222,
-    "counterfactual_importance_kl": 2.8596410044003115,
+    "counterfactual_importance_kl": 2.859641004400311,
     "different_trajectories_fraction": 0.22077922077922077,
     "overdeterminedness": 0.4155844155844156,
     "resampling_importance_accuracy": 0.1360218728639781,
-    "resampling_importance_kl": 2.688078506155892,
+    "resampling_importance_kl": 2.6880785061558914,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 3.623944956299385,
     "accuracy": 0.33766233766233766
@@ -504,7 +504,7 @@
   {
     "chunk": "That explains the new onset cramps.",
     "chunk_idx": 26,
-    "summary": "identify cramps onset",
+    "summary": "explain cramps onset",
     "function_tags": [
       "evidence_evaluation"
     ],
@@ -512,11 +512,11 @@
       "25"
     ],
     "counterfactual_importance_accuracy": 0.04312865497076018,
-    "counterfactual_importance_kl": 1.4773805372002913,
+    "counterfactual_importance_kl": 1.4773805372002915,
     "different_trajectories_fraction": 1.0,
     "overdeterminedness": 0.8552631578947368,
     "resampling_importance_accuracy": -0.04312865497076018,
-    "resampling_importance_kl": 1.4773805372002913,
+    "resampling_importance_kl": 1.4773805372002915,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 3.371536125019513,
     "accuracy": 0.47368421052631576
@@ -536,7 +536,7 @@
     "different_trajectories_fraction": 0.25,
     "overdeterminedness": 0.6388888888888888,
     "resampling_importance_accuracy": 0.06240219092331767,
-    "resampling_importance_kl": 3.4290590449793847,
+    "resampling_importance_kl": 3.4290590449793843,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 2.222901427327401,
     "accuracy": 0.4305555555555556
@@ -556,9 +556,9 @@
     "different_trajectories_fraction": 0.9859154929577465,
     "overdeterminedness": 0.12676056338028174,
     "resampling_importance_accuracy": -0.04991977179532897,
-    "resampling_importance_kl": 2.358243257404213,
+    "resampling_importance_kl": 2.3582432574042125,
     "forced_importance_accuracy": 0.0,
-    "forced_importance_kl": 5.977555271177741,
+    "forced_importance_kl": 5.977555271177742,
     "accuracy": 0.49295774647887325
   },
   {
@@ -578,7 +578,7 @@
     "resampling_importance_accuracy": 0.11875977812544453,
     "resampling_importance_kl": 2.440621577480628,
     "forced_importance_accuracy": 0.02,
-    "forced_importance_kl": 5.497727023240708,
+    "forced_importance_kl": 5.497727023240707,
     "accuracy": 0.4430379746835443
   },
   {
@@ -592,19 +592,19 @@
       "4"
     ],
     "counterfactual_importance_accuracy": -0.31976744186046513,
-    "counterfactual_importance_kl": 0.46832373454426146,
+    "counterfactual_importance_kl": 0.4683237345442615,
     "different_trajectories_fraction": 0.1797752808988764,
     "overdeterminedness": 0.6292134831460674,
     "resampling_importance_accuracy": 0.007969689051476325,
-    "resampling_importance_kl": 1.8620853542317477,
+    "resampling_importance_kl": 1.862085354231748,
     "forced_importance_accuracy": -0.01,
-    "forced_importance_kl": 2.702507231205171,
+    "forced_importance_kl": 2.7025072312051712,
     "accuracy": 0.5617977528089888
   },
   {
     "chunk": "That's combination therapy, which is often used when blood pressure is resistant to treatment.",
     "chunk_idx": 31,
-    "summary": "describe combination therapy",
+    "summary": "identify combination therapy",
     "function_tags": [
       "evidence_evaluation"
     ],
@@ -612,7 +612,7 @@
       "30"
     ],
     "counterfactual_importance_accuracy": -0.02734129478315528,
-    "counterfactual_importance_kl": 1.7567974327462406,
+    "counterfactual_importance_kl": 1.7567974327462408,
     "different_trajectories_fraction": 0.8604651162790697,
     "overdeterminedness": 0.43023255813953487,
     "resampling_importance_accuracy": 0.011627906976744207,
@@ -630,11 +630,11 @@
     ],
     "depends_on": [],
     "counterfactual_importance_accuracy": -0.09189951294539866,
-    "counterfactual_importance_kl": 5.593253369466163,
+    "counterfactual_importance_kl": 5.5932533694661615,
     "different_trajectories_fraction": 0.9651162790697675,
     "overdeterminedness": 0.32558139534883723,
     "resampling_importance_accuracy": 0.0888174171202375,
-    "resampling_importance_kl": 5.383492166923924,
+    "resampling_importance_kl": 5.383492166923925,
     "forced_importance_accuracy": 0.05,
     "forced_importance_kl": 5.485145696029079,
     "accuracy": 0.5813953488372093
@@ -650,13 +650,13 @@
       "32"
     ],
     "counterfactual_importance_accuracy": -0.2558612440191388,
-    "counterfactual_importance_kl": 0.905567308775744,
+    "counterfactual_importance_kl": 0.9055673087757439,
     "different_trajectories_fraction": 0.9361702127659575,
     "overdeterminedness": 0.03191489361702127,
     "resampling_importance_accuracy": 0.25610302351623737,
     "resampling_importance_kl": 0.9028201371224804,
     "forced_importance_accuracy": 0.9299999999999999,
-    "forced_importance_kl": 23.181575921545928,
+    "forced_importance_kl": 23.18157592154593,
     "accuracy": 0.6702127659574468
   },
   {
@@ -683,13 +683,12 @@
   {
     "chunk": "Aldosterone excess leads to sodium retention and potassium loss, which fits with his lab values.",
     "chunk_idx": 35,
-    "summary": "retain sodium, lose potassium",
+    "summary": "identify sodium retention",
     "function_tags": [
       "evidence_evaluation"
     ],
     "depends_on": [
-      "8",
-      "33"
+      "34"
     ],
     "counterfactual_importance_accuracy": -0.022727272727272707,
     "counterfactual_importance_kl": 0.4768681532465461,
@@ -744,7 +743,7 @@
   {
     "chunk": "3. Hyperthyroidism: Usually causes weight loss, palpitations, etc., but his BUN is slightly elevated, which could be from dehydration if he's on diuretics, but his thyroid function isn't provided.",
     "chunk_idx": 38,
-    "summary": "check dehydration possibility",
+    "summary": "elevate BUN from dehydration",
     "function_tags": [
       "knowledge_activation"
     ],
@@ -865,7 +864,7 @@
   {
     "chunk": "Given his lab values, primary aldosteronism seems likely because of the hypokalemia and the pattern of electrolyte abnormalities.",
     "chunk_idx": 44,
-    "summary": "suggest primary aldosteronism",
+    "summary": "identify primary aldosteronism",
     "function_tags": [
       "diagnostic_verification"
     ],
@@ -953,7 +952,6 @@
       "reconsideration_uncertainty"
     ],
     "depends_on": [
-      "18",
       "47"
     ],
     "counterfactual_importance_accuracy": 0.0,
@@ -974,7 +972,9 @@
       "evidence_evaluation"
     ],
     "depends_on": [
-      "48"
+      "48",
+      "18",
+      "44"
     ],
     "counterfactual_importance_accuracy": 0.0,
     "counterfactual_importance_kl": 0.0,
@@ -1034,7 +1034,7 @@
       "diagnostic_commitment"
     ],
     "depends_on": [
-      "47",
+      "49",
       "51"
     ],
     "counterfactual_importance_accuracy": 0.0,

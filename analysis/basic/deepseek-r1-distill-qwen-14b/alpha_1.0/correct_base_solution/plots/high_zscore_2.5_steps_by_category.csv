@@ -1,3 +1,4 @@
 category,avg_zscore,std_zscore,standard_error,count
-Knowledge Activation,2.759983724982539,0.0,0.0,1
+Knowledge Activation,-0.59646537242497,3.356449097407509,2.3733679174843165,2
 Case Representation,-2.78471967062171,0.0,0.0,1
+Diagnostic Commitment,-2.983197611082297,0.0,0.0,1

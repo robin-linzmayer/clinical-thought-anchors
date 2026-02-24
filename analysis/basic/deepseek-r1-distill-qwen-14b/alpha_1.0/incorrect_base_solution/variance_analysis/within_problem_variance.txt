@@ -11,7 +11,7 @@ Problem 6:
 
     Chunk 16:
       Importance: -0.466212 (z-score: -2.34)
-      Function tags: case_representation
+      Function tags: evidence_evaluation
       Text: His blood pressure is significantly high, so we need to think about why his hypertension is resistan...
 
     Chunk 10:
@@ -48,4 +48,86 @@ Problem 6:
       Importance: 0.308382 (z-score: 1.55)
       Function tags: reconsideration_uncertainty
       Text: But given that he's on a diuretic, which itself can cause hypokalemia, it's a bit tricky.
+
+Problem 24:
+  Overall variance: 0.027074
+  Mean importance: 0.033203
+  Potential fork reasoning steps:
+    Chunk 11:
+      Importance: 0.350340 (z-score: 1.93)
+      Function tags: case_representation
+      Text: When talking to him, he has word-finding difficulty and is inattentive.
+
+    Chunk 9:
+      Importance: 0.343750 (z-score: 1.89)
+      Function tags: case_representation
+      Text: On physical exam, he's an elderly man who laughs inappropriately and is a poor historian.
+
+    Chunk 13:
+      Importance: -0.270828 (z-score: -1.85)
+      Function tags: hypothesis_generation
+      Text: Now, considering his age, the sudden onset of symptoms over a few months, and the exam findings, I'm...
+
+    Chunk 19:
+      Importance: 0.318846 (z-score: 1.74)
+      Function tags: evidence_evaluation
+      Text: But the progression over a few months might be more consistent with Alzheimer's or another degenerat...
+
+    Chunk 2:
+      Importance: -0.217968 (z-score: -1.53)
+      Function tags: case_representation
+      Text: First, the patient's presenting complaint is a change in behavior over the past few months.
+
+Problem 84:
+  Overall variance: 0.019651
+  Mean importance: 0.025579
+  Potential fork reasoning steps:
+    Chunk 8:
+      Importance: 0.405263 (z-score: 2.71)
+      Function tags: case_representation
+      Text: Looking at his vital signs: blood pressure is 120/75, which is a bit low but not critically so.
+
+    Chunk 20:
+      Importance: 0.384615 (z-score: 2.56)
+      Function tags: case_representation
+      Text: His history of emigrating from Mexico and visiting twice a year doesn't immediately point to a diagn...
+
+    Chunk 2:
+      Importance: -0.289474 (z-score: -2.25)
+      Function tags: case_representation
+      Text: First, his main symptoms: he's been having shortness of breath that's worse when lying down.
+
+    Chunk 19:
+      Importance: 0.337321 (z-score: 2.22)
+      Function tags: evidence_evaluation
+      Text: The digestive symptoms could be due to a hiatal hernia, which is common in people with heart failure...
+
+    Chunk 16:
+      Importance: -0.204204 (z-score: -1.64)
+      Function tags: reconsideration_uncertainty
+      Text: That's a bit confusing because heart failure usually has some ECG changes, but maybe it's early or t...
+
+Problem 95:
+  Overall variance: 0.010466
+  Mean importance: 0.010168
+  Potential fork reasoning steps:
+    Chunk 20:
+      Importance: 0.449515 (z-score: 4.29)
+      Function tags: hypothesis_generation
+      Text: The fact that she has Crohn's disease makes me think about possible complications like primary scler...
+
+    Chunk 21:
+      Importance: -0.256098 (z-score: -2.60)
+      Function tags: knowledge_activation
+      Text: PSC causes inflammation and stricturing of the bile ducts, leading to dilation and possible stones.
+
+    Chunk 26:
+      Importance: 0.194923 (z-score: 1.81)
+      Function tags: knowledge_activation
+      Text: In PSC, the bile ducts are inflamed and narrowed, leading to dilation as the ducts try to compensate...
+
+    Chunk 34:
+      Importance: 0.181887 (z-score: 1.68)
+      Function tags: evidence_evaluation
+      Text: But the presence of a dilated CBD suggests something more chronic, like PSC, which can cause recurre...
 

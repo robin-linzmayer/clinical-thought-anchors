@@ -1,0 +1,661 @@
+[
+  {
+    "chunk": "Alright, so I'm trying to figure out the diagnosis for this 65-year-old man who's been having some behavioral and memory issues.",
+    "chunk_idx": 0,
+    "summary": "determine diagnosis",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.102381798791326,
+    "counterfactual_importance_kl": 0.8911727753296572,
+    "different_trajectories_fraction": 0.3118279569892473,
+    "overdeterminedness": 0.6559139784946236,
+    "resampling_importance_accuracy": 0.09422458707460371,
+    "resampling_importance_kl": 0.9030249935238176,
+    "forced_importance_accuracy": 0.009999999999999998,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.21505376344086022
+  },
+  {
+    "chunk": "Let me go through the information step by step.",
+    "chunk_idx": 1,
+    "summary": "none",
+    "function_tags": [
+      "unknown"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.03628117913832196,
+    "counterfactual_importance_kl": 0.3561255055906083,
+    "different_trajectories_fraction": 0.6494845360824743,
+    "overdeterminedness": 0.8247422680412371,
+    "resampling_importance_accuracy": -0.04397222806648432,
+    "resampling_importance_kl": 0.4401259320199302,
+    "forced_importance_accuracy": 0.010000000000000002,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.30927835051546393
+  },
+  {
+    "chunk": "First, the patient's presenting complaint is a change in behavior over the past few months.",
+    "chunk_idx": 2,
+    "summary": "change behavior noted",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "0"
+    ],
+    "counterfactual_importance_accuracy": 0.12727272727272732,
+    "counterfactual_importance_kl": 0.2519377946084356,
+    "different_trajectories_fraction": 0.10204081632653061,
+    "overdeterminedness": 0.8979591836734694,
+    "resampling_importance_accuracy": 0.007421150278293098,
+    "resampling_importance_kl": 0.702834408211701,
+    "forced_importance_accuracy": -0.02,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2653061224489796
+  },
+  {
+    "chunk": "Initially, he was noted to be behaving inappropriately, using foul language, and grabbing people unexpectedly.",
+    "chunk_idx": 3,
+    "summary": "exhibit inappropriate behavior",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "2"
+    ],
+    "counterfactual_importance_accuracy": -0.06462585034013607,
+    "counterfactual_importance_kl": 0.6000924386955382,
+    "different_trajectories_fraction": 0.030303030303030304,
+    "overdeterminedness": 0.9090909090909091,
+    "resampling_importance_accuracy": 0.12523191094619668,
+    "resampling_importance_kl": 0.32980168784623803,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2727272727272727
+  },
+  {
+    "chunk": "Now, it's progressed to worsening memory and trouble taking care of himself.",
+    "chunk_idx": 4,
+    "summary": "worsening memory noted",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "3"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9387755102040817,
+    "resampling_importance_accuracy": -0.08868083315800546,
+    "resampling_importance_kl": 0.8953369328557452,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.3979591836734694
+  },
+  {
+    "chunk": "That sounds like a significant decline, possibly in cognitive function.",
+    "chunk_idx": 5,
+    "summary": "assess cognitive decline",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "4"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 1.0750710183337757,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.6391752577319587,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 1.0750710183337757,
+    "forced_importance_accuracy": -0.01,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.30927835051546393
+  },
+  {
+    "chunk": "Looking at his vital signs: temperature is 98.1\u00b0F, which is a bit low but not significantly so.",
+    "chunk_idx": 6,
+    "summary": "check temperature=98.1\u00b0F",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.6701030927835052,
+    "resampling_importance_accuracy": -0.04612045577862184,
+    "resampling_importance_kl": 0.8783057859671403,
+    "forced_importance_accuracy": 0.03,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.30927835051546393
+  },
+  {
+    "chunk": "Blood pressure is 162/103 mmHg, which is on the higher side\u2014maybe indicative of hypertension.",
+    "chunk_idx": 7,
+    "summary": "identify hypertension risk",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.25,
+    "counterfactual_importance_kl": 0.36895577612994174,
+    "different_trajectories_fraction": 0.07368421052631578,
+    "overdeterminedness": 0.6210526315789473,
+    "resampling_importance_accuracy": -0.01315789473684209,
+    "resampling_importance_kl": 0.4589406991102882,
+    "forced_importance_accuracy": -0.02,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2631578947368421
+  },
+  {
+    "chunk": "Pulse is 83/min, which is normal.",
+    "chunk_idx": 8,
+    "summary": "check pulse=83/min",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.08459512837393018,
+    "counterfactual_importance_kl": 0.6923726442191971,
+    "different_trajectories_fraction": 0.6458333333333334,
+    "overdeterminedness": 0.7395833333333333,
+    "resampling_importance_accuracy": 0.07653061224489793,
+    "resampling_importance_kl": 0.4437434993219297,
+    "forced_importance_accuracy": -0.01,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.25
+  },
+  {
+    "chunk": "Respirations are 13/min, also within normal range, and oxygen saturation is 98% on room air, so no signs of respiratory distress.",
+    "chunk_idx": 9,
+    "summary": "check respiratory status",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.05773195876288656,
+    "counterfactual_importance_kl": 0.0827330239515616,
+    "different_trajectories_fraction": 0.05102040816326531,
+    "overdeterminedness": 0.9693877551020408,
+    "resampling_importance_accuracy": -0.06879865348201136,
+    "resampling_importance_kl": 0.015673488502934214,
+    "forced_importance_accuracy": 0.019999999999999997,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.32653061224489793
+  },
+  {
+    "chunk": "Physical exam findings include an elderly man who laughs inappropriately and is a poor historian.",
+    "chunk_idx": 10,
+    "summary": "describe patient behavior",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.2777777777777778,
+    "counterfactual_importance_kl": 0.558043968575948,
+    "different_trajectories_fraction": 0.020618556701030927,
+    "overdeterminedness": 0.7835051546391752,
+    "resampling_importance_accuracy": -0.03550973654066436,
+    "resampling_importance_kl": 0.05843529947432871,
+    "forced_importance_accuracy": -0.009999999999999998,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.25773195876288657
+  },
+  {
+    "chunk": "When engaged in conversation, he has word-finding difficulty and is inattentive.",
+    "chunk_idx": 11,
+    "summary": "identify word-finding difficulty",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9090909090909091,
+    "resampling_importance_accuracy": -0.00572737686139746,
+    "resampling_importance_kl": 0.6389572124868182,
+    "forced_importance_accuracy": -0.01,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2222222222222222
+  },
+  {
+    "chunk": "These are classic signs of cognitive impairment, possibly dementia.",
+    "chunk_idx": 12,
+    "summary": "identify cognitive impairment",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "10",
+      "11"
+    ],
+    "counterfactual_importance_accuracy": 0.03986254295532646,
+    "counterfactual_importance_kl": 0.7773104359202713,
+    "different_trajectories_fraction": 0.30927835051546393,
+    "overdeterminedness": 0.6701030927835052,
+    "resampling_importance_accuracy": 0.010309278350515455,
+    "resampling_importance_kl": 0.24392685826478971,
+    "forced_importance_accuracy": 0.019999999999999997,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.21649484536082475
+  },
+  {
+    "chunk": "Now, considering his age and the symptoms, I'm thinking of different types of dementia.",
+    "chunk_idx": 13,
+    "summary": "consider dementia types",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "12"
+    ],
+    "counterfactual_importance_accuracy": 0.04103576914636825,
+    "counterfactual_importance_kl": 0.461879173488546,
+    "different_trajectories_fraction": 0.9587628865979382,
+    "overdeterminedness": 0.23711340206185572,
+    "resampling_importance_accuracy": -0.06353881758889124,
+    "resampling_importance_kl": 0.6493446101591432,
+    "forced_importance_accuracy": -0.019999999999999997,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2268041237113402
+  },
+  {
+    "chunk": "Alzheimer's disease is the most common, but there are others like vascular dementia, Lewy body dementia, and frontotemporal dementia.",
+    "chunk_idx": 14,
+    "summary": "list types of dementia",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "13"
+    ],
+    "counterfactual_importance_accuracy": -0.3163265306122449,
+    "counterfactual_importance_kl": 0.9111493303866892,
+    "different_trajectories_fraction": 0.02040816326530612,
+    "overdeterminedness": 0.7755102040816326,
+    "resampling_importance_accuracy": 0.15306122448979595,
+    "resampling_importance_kl": 0.2816973628074606,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.5447271754344307,
+    "accuracy": 0.16326530612244897
+  },
+  {
+    "chunk": "His inappropriate behavior and language issues might point more towards frontotemporal dementia, which often affects behavior and language before memory.",
+    "chunk_idx": 15,
+    "summary": "identify dementia symptoms",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "3",
+      "11",
+      "14"
+    ],
+    "counterfactual_importance_accuracy": 0.427643784786642,
+    "counterfactual_importance_kl": 1.402899889489054,
+    "different_trajectories_fraction": 0.22448979591836735,
+    "overdeterminedness": 0.1428571428571429,
+    "resampling_importance_accuracy": -0.15306122448979595,
+    "resampling_importance_kl": 0.282900591776093,
+    "forced_importance_accuracy": 0.99,
+    "forced_importance_kl": 24.540070193743936,
+    "accuracy": 0.3163265306122449
+  },
+  {
+    "chunk": "However, the memory problems are also present, which can overlap.",
+    "chunk_idx": 16,
+    "summary": "identify memory problems",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "4",
+      "15"
+    ],
+    "counterfactual_importance_accuracy": -0.12272727272727274,
+    "counterfactual_importance_kl": 0.058372711393750165,
+    "different_trajectories_fraction": 0.5612244897959183,
+    "overdeterminedness": 0.5510204081632653,
+    "resampling_importance_accuracy": 0.08673469387755103,
+    "resampling_importance_kl": 0.025477316943962162,
+    "forced_importance_accuracy": -0.81,
+    "forced_importance_kl": 1.714798428046371,
+    "accuracy": 0.16326530612244897
+  },
+  {
+    "chunk": "Another possibility is vascular dementia, which can occur after a stroke or multiple infarcts.",
+    "chunk_idx": 17,
+    "summary": "identify vascular dementia",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "13"
+    ],
+    "counterfactual_importance_accuracy": -0.04675675675675672,
+    "counterfactual_importance_kl": 0.010076692803598832,
+    "different_trajectories_fraction": 0.74,
+    "overdeterminedness": 0.19999999999999996,
+    "resampling_importance_accuracy": 0.03999999999999998,
+    "resampling_importance_kl": 0.006970691623779973,
+    "forced_importance_accuracy": -0.12,
+    "forced_importance_kl": 0.4019825903959131,
+    "accuracy": 0.25
+  },
+  {
+    "chunk": "His blood pressure is quite high, which could be a risk factor.",
+    "chunk_idx": 18,
+    "summary": "identify risk factor",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "7",
+      "17"
+    ],
+    "counterfactual_importance_accuracy": -0.30927835051546393,
+    "counterfactual_importance_kl": 1.0103196805237316,
+    "different_trajectories_fraction": 0.02,
+    "overdeterminedness": 0.75,
+    "resampling_importance_accuracy": 0.01927835051546395,
+    "resampling_importance_kl": 0.01507696578192197,
+    "forced_importance_accuracy": 0.03,
+    "forced_importance_kl": 0.018756520115069265,
+    "accuracy": 0.29
+  },
+  {
+    "chunk": "But the symptoms here don't specifically point to vascular causes, like stepwise cognitive decline or focal neurological signs, which aren't mentioned.",
+    "chunk_idx": 19,
+    "summary": "identify non-vascular symptoms",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "4",
+      "18"
+    ],
+    "counterfactual_importance_accuracy": 0.10118152524167562,
+    "counterfactual_importance_kl": 0.025912102527281107,
+    "different_trajectories_fraction": 0.979381443298969,
+    "overdeterminedness": 0.12371134020618557,
+    "resampling_importance_accuracy": -0.1051967178624027,
+    "resampling_importance_kl": 0.03308650336143763,
+    "forced_importance_accuracy": -0.04000000000000001,
+    "forced_importance_kl": 0.013471085972204182,
+    "accuracy": 0.30927835051546393
+  },
+  {
+    "chunk": "Lewy body dementia could also be considered because of the inappropriate laughter and possible attention issues, but usually, it's associated with fluctuating cognitive symptoms and visual hallucinations, which aren't highlighted here.",
+    "chunk_idx": 20,
+    "summary": "consider lewy body dementia",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "11",
+      "14"
+    ],
+    "counterfactual_importance_accuracy": 0.12000000000000001,
+    "counterfactual_importance_kl": 0.08663191954526323,
+    "different_trajectories_fraction": 0.9693877551020408,
+    "overdeterminedness": 0.15306122448979587,
+    "resampling_importance_accuracy": -0.12408163265306123,
+    "resampling_importance_kl": 0.10962123070062478,
+    "forced_importance_accuracy": 0.06,
+    "forced_importance_kl": 0.21641046993790486,
+    "accuracy": 0.20408163265306123
+  },
+  {
+    "chunk": "Alzheimer's disease typically presents with memory loss, especially short-term memory, and can eventually involve language and attention.",
+    "chunk_idx": 21,
+    "summary": "identify memory loss",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "14"
+    ],
+    "counterfactual_importance_accuracy": 0.03221649484536082,
+    "counterfactual_importance_kl": 0.03813773680439819,
+    "different_trajectories_fraction": 0.08,
+    "overdeterminedness": 0.29000000000000004,
+    "resampling_importance_accuracy": 0.012783505154639177,
+    "resampling_importance_kl": 0.21357908000850337,
+    "forced_importance_accuracy": -0.12,
+    "forced_importance_kl": 3.7874733430633185,
+    "accuracy": 0.08
+  },
+  {
+    "chunk": "The word-finding difficulty and inattentiveness align with this, but the initial inappropriate behavior is more suggestive of frontotemporal.",
+    "chunk_idx": 22,
+    "summary": "identify frontotemporal behavior",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "3",
+      "11",
+      "21"
+    ],
+    "counterfactual_importance_accuracy": -0.07189189189189188,
+    "counterfactual_importance_kl": 0.2905725038014218,
+    "different_trajectories_fraction": 0.7628865979381443,
+    "overdeterminedness": 0.865979381443299,
+    "resampling_importance_accuracy": 0.08721649484536081,
+    "resampling_importance_kl": 0.2564007477630462,
+    "forced_importance_accuracy": 0.36,
+    "forced_importance_kl": 0.7100905671574501,
+    "accuracy": 0.09278350515463918
+  },
+  {
+    "chunk": "However, sometimes in the early stages, Alzheimer's can present with more subtle changes, and the behavior issues might be part of the progression.",
+    "chunk_idx": 23,
+    "summary": "identify subtle changes",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "3",
+      "22"
+    ],
+    "counterfactual_importance_accuracy": 0.1991919191919192,
+    "counterfactual_importance_kl": 0.595070600481714,
+    "different_trajectories_fraction": 0.5,
+    "overdeterminedness": 0.35,
+    "resampling_importance_accuracy": -0.09919191919191918,
+    "resampling_importance_kl": 0.2770052965844028,
+    "forced_importance_accuracy": -0.36,
+    "forced_importance_kl": 9.10959007769491,
+    "accuracy": 0.18
+  },
+  {
+    "chunk": "But given the prominence of the behavioral changes like inappropriate language and grabbing, frontotemporal dementia seems more likely.",
+    "chunk_idx": 24,
+    "summary": "suggest frontotemporal dementia",
+    "function_tags": [
+      "diagnostic_commitment"
+    ],
+    "depends_on": [
+      "3",
+      "15",
+      "22"
+    ],
+    "counterfactual_importance_accuracy": -0.5962752525252526,
+    "counterfactual_importance_kl": 0.8053748401258944,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.12121212121212122,
+    "resampling_importance_accuracy": 0.5962752525252526,
+    "resampling_importance_kl": 0.8053748401258944,
+    "forced_importance_accuracy": 0.38,
+    "forced_importance_kl": 0.5707910505121322,
+    "accuracy": 0.08080808080808081
+  },
+  {
+    "chunk": "I should also consider other causes of cognitive impairment, such as normal pressure hydrocephalus, but that usually presents with gait problems and urinary incontinence, which aren't mentioned.",
+    "chunk_idx": 25,
+    "summary": "consider other causes",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "13"
+    ],
+    "counterfactual_importance_accuracy": 0.18312153796024766,
+    "counterfactual_importance_kl": 0.07371101249444274,
+    "different_trajectories_fraction": 0.96875,
+    "overdeterminedness": 0.44791666666666663,
+    "resampling_importance_accuracy": -0.1720328282828283,
+    "resampling_importance_kl": 0.06241861644218404,
+    "forced_importance_accuracy": -0.020000000000000018,
+    "forced_importance_kl": 0.21893142353035006,
+    "accuracy": 0.6770833333333334
+  },
+  {
+    "chunk": "Infections like meningitis or encephalitis are less likely given the lack of systemic symptoms and normal CSF pressures.",
+    "chunk_idx": 26,
+    "summary": "assess infection likelihood",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "25"
+    ],
+    "counterfactual_importance_accuracy": -0.02244897959183667,
+    "counterfactual_importance_kl": 0.010689121174954117,
+    "different_trajectories_fraction": 0.7070707070707071,
+    "overdeterminedness": 0.303030303030303,
+    "resampling_importance_accuracy": 0.04596990311276017,
+    "resampling_importance_kl": 0.04454328229689033,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.45119174662897477,
+    "accuracy": 0.5050505050505051
+  },
+  {
+    "chunk": "Substance abuse or medication side effects could cause some cognitive issues, but there's no mention of substance use or medications that could cause this.",
+    "chunk_idx": 27,
+    "summary": "identify cognitive issues",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.01483273721859879,
+    "counterfactual_importance_kl": 0.0017676287380976388,
+    "different_trajectories_fraction": 0.9897959183673469,
+    "overdeterminedness": 0.10204081632653061,
+    "resampling_importance_accuracy": 0.010204081632653073,
+    "resampling_importance_kl": 0.001215450428687967,
+    "forced_importance_accuracy": -0.04999999999999999,
+    "forced_importance_kl": 0.4979924273606119,
+    "accuracy": 0.5510204081632653
+  },
+  {
+    "chunk": "His blood pressure is high, but without evidence of strokes or vascular issues on imaging, it's less likely to be the primary cause.",
+    "chunk_idx": 28,
+    "summary": "assess blood pressure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "7",
+      "19"
+    ],
+    "counterfactual_importance_accuracy": -0.024931622133389397,
+    "counterfactual_importance_kl": 0.05403418957131727,
+    "different_trajectories_fraction": 0.9897959183673469,
+    "overdeterminedness": 0.2142857142857143,
+    "resampling_importance_accuracy": 0.020408163265306145,
+    "resampling_importance_kl": 0.052611687266929524,
+    "forced_importance_accuracy": 0.18,
+    "forced_importance_kl": 0.9024065475648161,
+    "accuracy": 0.5612244897959183
+  },
+  {
+    "chunk": "So, putting it all together, the most likely diagnosis is frontotemporal dementia, given the prominent behavioral and language changes, along with mild memory issues.",
+    "chunk_idx": 29,
+    "summary": "diagnose frontotemporal dementia",
+    "function_tags": [
+      "diagnostic_commitment"
+    ],
+    "depends_on": [
+      "15",
+      "24"
+    ],
+    "counterfactual_importance_accuracy": -0.4083694083694084,
+    "counterfactual_importance_kl": 0.19325734640388909,
+    "different_trajectories_fraction": 0.14285714285714285,
+    "overdeterminedness": 0.5816326530612245,
+    "resampling_importance_accuracy": 0.3981653267367553,
+    "resampling_importance_kl": 6.778191796005707,
+    "forced_importance_accuracy": 0.51,
+    "forced_importance_kl": 12.301380773927388,
+    "accuracy": 0.5816326530612245
+  },
+  {
+    "chunk": "However, Alzheimer's disease is still a strong contender, especially since memory problems are progressing.",
+    "chunk_idx": 30,
+    "summary": "identify memory problems",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "21",
+      "29"
+    ],
+    "counterfactual_importance_accuracy": 0.024531024531024515,
+    "counterfactual_importance_kl": 0.016054078324217586,
+    "different_trajectories_fraction": 0.6363636363636364,
+    "overdeterminedness": 0.16161616161616166,
+    "resampling_importance_accuracy": -0.02020202020202022,
+    "resampling_importance_kl": 0.020413196258127545,
+    "forced_importance_accuracy": -0.81,
+    "forced_importance_kl": 1.6607312067790194,
+    "accuracy": 0.9797979797979798
+  },
+  {
+    "chunk": "To confirm, further testing like an MRI to look for atrophy patterns, especially in the frontal and temporal lobes for frontotemporal, or hippocampal atrophy for Alzheimer's, would be useful.",
+    "chunk_idx": 31,
+    "summary": "suggest mri testing",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "29",
+      "30"
+    ],
+    "counterfactual_importance_accuracy": 0.17511627906976746,
+    "counterfactual_importance_kl": 0.12130546845201544,
+    "different_trajectories_fraction": 0.8686868686868687,
+    "overdeterminedness": 0.5353535353535354,
+    "resampling_importance_accuracy": -0.16959595959595952,
+    "resampling_importance_kl": 0.12120756457072349,
+    "forced_importance_accuracy": 0.35000000000000003,
+    "forced_importance_kl": 0.25984072132179303,
+    "accuracy": 0.9595959595959596
+  },
+  {
+    "chunk": "Neuropsychological testing could also help differentiate the types based on the pattern of cognitive deficits.",
+    "chunk_idx": 32,
+    "summary": "differentiate cognitive deficits",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "29",
+      "30"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 0.0,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.79
+  }
+]

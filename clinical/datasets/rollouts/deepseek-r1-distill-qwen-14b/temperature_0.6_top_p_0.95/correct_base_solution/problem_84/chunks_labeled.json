@@ -1,0 +1,709 @@
+[
+  {
+    "chunk": "Okay, so I have this case to solve.",
+    "chunk_idx": 0,
+    "summary": "solve case",
+    "function_tags": [
+      "unknown"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.1364185110663984,
+    "counterfactual_importance_kl": 6.724270281986572,
+    "different_trajectories_fraction": 0.9210526315789473,
+    "overdeterminedness": 0.5789473684210527,
+    "resampling_importance_accuracy": 0.14807264640474427,
+    "resampling_importance_kl": 6.694559722997696,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.3377695083615273,
+    "accuracy": 0.3026315789473684
+  },
+  {
+    "chunk": "Let me read through it again carefully.",
+    "chunk_idx": 1,
+    "summary": "review text",
+    "function_tags": [
+      "unknown"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.08179162609542356,
+    "counterfactual_importance_kl": 7.239654172235461,
+    "different_trajectories_fraction": 0.9154929577464789,
+    "overdeterminedness": 0.5915492957746479,
+    "resampling_importance_accuracy": -0.07095738990907469,
+    "resampling_importance_kl": 8.294682252713544,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.249563767083514,
+    "accuracy": 0.4507042253521127
+  },
+  {
+    "chunk": "A 52-year-old man comes in with ongoing shortness of breath, especially when lying down.",
+    "chunk_idx": 2,
+    "summary": "assess shortness of breath",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.0013386880856760541,
+    "counterfactual_importance_kl": 5.604011725294042,
+    "different_trajectories_fraction": 0.22784810126582278,
+    "overdeterminedness": 0.6075949367088608,
+    "resampling_importance_accuracy": 0.06603629708708247,
+    "resampling_importance_kl": 5.266587815314845,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.4561439349899502,
+    "accuracy": 0.379746835443038
+  },
+  {
+    "chunk": "He also has palpitations during strenuous activities.",
+    "chunk_idx": 3,
+    "summary": "experiencing palpitations",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.09999999999999998,
+    "counterfactual_importance_kl": 13.077873739536471,
+    "different_trajectories_fraction": 0.04819277108433735,
+    "overdeterminedness": 0.9397590361445783,
+    "resampling_importance_accuracy": -0.04578313253012045,
+    "resampling_importance_kl": 8.23922803549376,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.8848473741658325,
+    "accuracy": 0.4457831325301205
+  },
+  {
+    "chunk": "Additionally, he's having trouble digesting food, with regurgitation and dysphagia.",
+    "chunk_idx": 4,
+    "summary": "identify digestive issues",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.92,
+    "resampling_importance_accuracy": 0.02528735632183904,
+    "resampling_importance_kl": 6.863444262857637,
+    "forced_importance_accuracy": 0.05,
+    "forced_importance_kl": 0.6587866455908022,
+    "accuracy": 0.4
+  },
+  {
+    "chunk": "He's from Mexico but has been in the US for 20 years, visiting twice a year.",
+    "chunk_idx": 5,
+    "summary": "visit count=40",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.8505747126436781,
+    "resampling_importance_accuracy": 0.1003536693191866,
+    "resampling_importance_kl": 9.364448565791298,
+    "forced_importance_accuracy": 0.4,
+    "forced_importance_kl": 3.299969336144108,
+    "accuracy": 0.42528735632183906
+  },
+  {
+    "chunk": "His vital signs are BP 120/75, respiratory rate 19, pulse 100.",
+    "chunk_idx": 6,
+    "summary": "record vital signs",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9102564102564102,
+    "resampling_importance_accuracy": -0.001250781738586615,
+    "resampling_importance_kl": 9.36450656990273,
+    "forced_importance_accuracy": -0.29000000000000004,
+    "forced_importance_kl": 3.6562745381982054,
+    "accuracy": 0.5256410256410257
+  },
+  {
+    "chunk": "Physical exam shows jugular vein distention and pitting edema in the ankles.",
+    "chunk_idx": 7,
+    "summary": "observe symptoms",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9390243902439024,
+    "resampling_importance_accuracy": -0.12695434646654163,
+    "resampling_importance_kl": 7.651646288272523,
+    "forced_importance_accuracy": -0.16,
+    "forced_importance_kl": 5.8803277029056416,
+    "accuracy": 0.524390243902439
+  },
+  {
+    "chunk": "On chest auscultation, there are bilateral basilar crackles and an S3 gallop.",
+    "chunk_idx": 8,
+    "summary": "identify crackles and S3",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9743589743589743,
+    "resampling_importance_accuracy": -0.14133833646028765,
+    "resampling_importance_kl": 7.6966949680975985,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.5882658138955181,
+    "accuracy": 0.3974358974358974
+  },
+  {
+    "chunk": "The chest X-ray is pending, and ECG shows no significant findings.",
+    "chunk_idx": 9,
+    "summary": "pending chest x-ray",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.1626016260162602,
+    "counterfactual_importance_kl": 4.9653567482504455,
+    "different_trajectories_fraction": 0.2926829268292683,
+    "overdeterminedness": 0.6463414634146342,
+    "resampling_importance_accuracy": 0.07317073170731708,
+    "resampling_importance_kl": 5.196344398866097,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.7621437224701084,
+    "accuracy": 0.25609756097560976
+  },
+  {
+    "chunk": "Alright, let's break this down.",
+    "chunk_idx": 10,
+    "summary": "break down problem",
+    "function_tags": [
+      "unknown"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.04565217391304344,
+    "counterfactual_importance_kl": 5.366199173042436,
+    "different_trajectories_fraction": 0.2804878048780488,
+    "overdeterminedness": 0.8536585365853658,
+    "resampling_importance_accuracy": 0.020731707317073134,
+    "resampling_importance_kl": 7.483873739462192,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.3808732238705905,
+    "accuracy": 0.32926829268292684
+  },
+  {
+    "chunk": "First, the symptoms.",
+    "chunk_idx": 11,
+    "summary": "identify symptoms",
+    "function_tags": [
+      "unknown"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.09234234234234234,
+    "counterfactual_importance_kl": 6.127147865995049,
+    "different_trajectories_fraction": 0.4625,
+    "overdeterminedness": 0.65,
+    "resampling_importance_accuracy": 0.06666666666666671,
+    "resampling_importance_kl": 6.599161236668885,
+    "forced_importance_accuracy": 0.01,
+    "forced_importance_kl": 1.4572548266555967,
+    "accuracy": 0.35
+  },
+  {
+    "chunk": "Shortness of breath worse when lying down suggests orthopnea, which is often a sign of fluid overload, like in heart failure.",
+    "chunk_idx": 12,
+    "summary": "suggest orthopnea diagnosis",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "2"
+    ],
+    "counterfactual_importance_accuracy": -0.13345690454124187,
+    "counterfactual_importance_kl": 2.6679918094480697,
+    "different_trajectories_fraction": 0.15476190476190477,
+    "overdeterminedness": 0.3928571428571429,
+    "resampling_importance_accuracy": 0.10140562248995982,
+    "resampling_importance_kl": 6.219400366169902,
+    "forced_importance_accuracy": -0.01,
+    "forced_importance_kl": 13.960368024567405,
+    "accuracy": 0.4166666666666667
+  },
+  {
+    "chunk": "Palpitations during activity could be related to arrhythmia or just increased heart rate.",
+    "chunk_idx": 13,
+    "summary": "identify heart rate increase",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "3"
+    ],
+    "counterfactual_importance_accuracy": -0.011904761904761862,
+    "counterfactual_importance_kl": 3.2907785959272435,
+    "different_trajectories_fraction": 0.14457831325301204,
+    "overdeterminedness": 0.4337349397590361,
+    "resampling_importance_accuracy": -0.006167527251864646,
+    "resampling_importance_kl": 8.147674146085752,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.1056126375671897,
+    "accuracy": 0.5180722891566265
+  },
+  {
+    "chunk": "Digestive issues, regurgitation, and dysphagia might point towards a gastrointestinal problem, maybe something like a hiatal hernia causing reflux, but I need to think about how that ties in with the other symptoms.",
+    "chunk_idx": 14,
+    "summary": "consider hiatal hernia",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "4"
+    ],
+    "counterfactual_importance_accuracy": 0.2939244663382594,
+    "counterfactual_importance_kl": 11.221965608068361,
+    "different_trajectories_fraction": 0.08333333333333333,
+    "overdeterminedness": 0.0714285714285714,
+    "resampling_importance_accuracy": 0.05131362889983582,
+    "resampling_importance_kl": 9.194359689078649,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.8461955355574773,
+    "accuracy": 0.5119047619047619
+  },
+  {
+    "chunk": "Vital signs: Blood pressure is a bit low, 120/75.",
+    "chunk_idx": 15,
+    "summary": "record blood pressure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6"
+    ],
+    "counterfactual_importance_accuracy": 0.1833030852994555,
+    "counterfactual_importance_kl": 7.412982444913023,
+    "different_trajectories_fraction": 0.4367816091954023,
+    "overdeterminedness": 0.3563218390804598,
+    "resampling_importance_accuracy": -0.11494252873563215,
+    "resampling_importance_kl": 7.041367122143888,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.06811163960445807,
+    "accuracy": 0.5632183908045977
+  },
+  {
+    "chunk": "Normal BP is around 120/80, so this is slightly below normal.",
+    "chunk_idx": 16,
+    "summary": "identify low bp",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "15"
+    ],
+    "counterfactual_importance_accuracy": 0.07807486631016042,
+    "counterfactual_importance_kl": 9.063709247595622,
+    "different_trajectories_fraction": 0.8850574712643678,
+    "overdeterminedness": 0.735632183908046,
+    "resampling_importance_accuracy": -0.07180527383367141,
+    "resampling_importance_kl": 8.360583250260007,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.4714794851333761,
+    "accuracy": 0.4482758620689655
+  },
+  {
+    "chunk": "Respiratory rate is 19, which is within normal range (usually up to 20 is okay).",
+    "chunk_idx": 17,
+    "summary": "confirm respiratory rate=19",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6"
+    ],
+    "counterfactual_importance_accuracy": -0.09024064171122992,
+    "counterfactual_importance_kl": 5.95067122842497,
+    "different_trajectories_fraction": 0.2,
+    "overdeterminedness": 0.7411764705882353,
+    "resampling_importance_accuracy": 0.06671122994652406,
+    "resampling_importance_kl": 4.837217819462814,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.2727437929571464,
+    "accuracy": 0.3764705882352941
+  },
+  {
+    "chunk": "Pulse is 100, which is tachycardic, so heart rate is elevated.",
+    "chunk_idx": 18,
+    "summary": "identify tachycardia",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6"
+    ],
+    "counterfactual_importance_accuracy": -0.12169312169312169,
+    "counterfactual_importance_kl": 1.4799449081499727,
+    "different_trajectories_fraction": 0.07954545454545454,
+    "overdeterminedness": 0.6590909090909092,
+    "resampling_importance_accuracy": -0.03577441077441079,
+    "resampling_importance_kl": 7.382243617207866,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.49127020984040065,
+    "accuracy": 0.4431818181818182
+  },
+  {
+    "chunk": "Physical exam: Jugular vein distention (JVD) is a classic sign of fluid overload, often from right-sided heart failure or volume overload.",
+    "chunk_idx": 19,
+    "summary": "identify jugular vein distention",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "7"
+    ],
+    "counterfactual_importance_accuracy": -0.09891598915989158,
+    "counterfactual_importance_kl": 6.326703589032474,
+    "different_trajectories_fraction": 0.8888888888888888,
+    "overdeterminedness": 0.33333333333333337,
+    "resampling_importance_accuracy": 0.08039747064137309,
+    "resampling_importance_kl": 6.259203348378742,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 4.80699679233846,
+    "accuracy": 0.4074074074074074
+  },
+  {
+    "chunk": "Pitting edema in the ankles suggests fluid retention, which again points towards heart failure or kidney issues.",
+    "chunk_idx": 20,
+    "summary": "suggest fluid retention",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "7"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.5365853658536586,
+    "resampling_importance_accuracy": -0.028034763106251748,
+    "resampling_importance_kl": 8.423072730008158,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.5575800678475765,
+    "accuracy": 0.4878048780487805
+  },
+  {
+    "chunk": "Bilateral basilar crackles on chest exam are heard at the base of the lungs and are indicative of pulmonary congestion, commonly seen in heart failure.",
+    "chunk_idx": 21,
+    "summary": "identify pulmonary congestion",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "8"
+    ],
+    "counterfactual_importance_accuracy": -0.1628787878787879,
+    "counterfactual_importance_kl": 6.667228061604336,
+    "different_trajectories_fraction": 0.13793103448275862,
+    "overdeterminedness": 0.29885057471264365,
+    "resampling_importance_accuracy": 0.11977533960292586,
+    "resampling_importance_kl": 8.682670925830635,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.4344002980043301,
+    "accuracy": 0.45977011494252873
+  },
+  {
+    "chunk": "The S3 gallop is an additional sign of heart failure; it's an extra heart sound that occurs during ventricular filling, often due to volume overload.",
+    "chunk_idx": 22,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "8"
+    ],
+    "counterfactual_importance_accuracy": -0.18906394810009264,
+    "counterfactual_importance_kl": 9.601497656826819,
+    "different_trajectories_fraction": 0.14772727272727273,
+    "overdeterminedness": 0.30681818181818177,
+    "resampling_importance_accuracy": 0.07105695509309962,
+    "resampling_importance_kl": 7.27001809533723,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.0679065578113525,
+    "accuracy": 0.5795454545454546
+  },
+  {
+    "chunk": "ECG is normal, which is interesting because in heart failure, ECG can show changes like\u623f\u98a4 or\u623f\u5ba4\u4f20\u5bfc\u963b\u6ede, but here it's normal, so maybe it's an acute issue or not related to rhythm.",
+    "chunk_idx": 23,
+    "summary": "note normal ECG",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "9"
+    ],
+    "counterfactual_importance_accuracy": 0.06222222222222229,
+    "counterfactual_importance_kl": 8.639414945595242,
+    "different_trajectories_fraction": 0.9036144578313253,
+    "overdeterminedness": 0.40963855421686746,
+    "resampling_importance_accuracy": -0.07282463186077648,
+    "resampling_importance_kl": 8.21780996695195,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.6506024096385542
+  },
+  {
+    "chunk": "Putting this together: The main symptoms and signs point towards heart failure.",
+    "chunk_idx": 24,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "12",
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "counterfactual_importance_accuracy": 0.1937233630375823,
+    "counterfactual_importance_kl": 12.86780531906252,
+    "different_trajectories_fraction": 0.9888888888888889,
+    "overdeterminedness": 0.47777777777777775,
+    "resampling_importance_accuracy": -0.19846743295019154,
+    "resampling_importance_kl": 12.932360666700111,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.5777777777777777
+  },
+  {
+    "chunk": "Orthopnea, JVD, crackles, S3 gallop, and edema are classic signs.",
+    "chunk_idx": 25,
+    "summary": "identify classic signs",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "24"
+    ],
+    "counterfactual_importance_accuracy": 0.02153316106804476,
+    "counterfactual_importance_kl": 6.916270668271743,
+    "different_trajectories_fraction": 0.3103448275862069,
+    "overdeterminedness": 0.7126436781609196,
+    "resampling_importance_accuracy": -0.030473135525260597,
+    "resampling_importance_kl": 6.548144567333997,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.3793103448275862
+  },
+  {
+    "chunk": "The palpitations could be due to\u623f\u98a4 or another arrhythmia, but the ECG didn't show anything.",
+    "chunk_idx": 26,
+    "summary": "check ecg results",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "13",
+      "23"
+    ],
+    "counterfactual_importance_accuracy": 0.013636363636363669,
+    "counterfactual_importance_kl": 5.264144709097213,
+    "different_trajectories_fraction": 0.1744186046511628,
+    "overdeterminedness": 0.15116279069767447,
+    "resampling_importance_accuracy": 0.03752642706131076,
+    "resampling_importance_kl": 7.570522859720652,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.3488372093023256
+  },
+  {
+    "chunk": "Maybe it's intermittent or not captured during the test.",
+    "chunk_idx": 27,
+    "summary": "check test capture",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "26"
+    ],
+    "counterfactual_importance_accuracy": 0.08403805496828753,
+    "counterfactual_importance_kl": 6.2116237130315435,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.4204545454545454,
+    "resampling_importance_accuracy": -0.08403805496828753,
+    "resampling_importance_kl": 6.2116237130315435,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.38636363636363635
+  },
+  {
+    "chunk": "The digestive symptoms\u2014regurgitation and dysphagia\u2014could be from a hiatal hernia causing gastroesophageal reflux, but the more concerning signs are pointing towards heart failure.",
+    "chunk_idx": 28,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "14"
+    ],
+    "counterfactual_importance_accuracy": -0.13095238095238093,
+    "counterfactual_importance_kl": 3.7606816144082944,
+    "different_trajectories_fraction": 0.6511627906976745,
+    "overdeterminedness": 0.05813953488372092,
+    "resampling_importance_accuracy": 0.07862679955703211,
+    "resampling_importance_kl": 4.210854526649164,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.3023255813953488
+  },
+  {
+    "chunk": "Maybe the patient has both issues, but the primary concern is heart failure.",
+    "chunk_idx": 29,
+    "summary": "identify heart failure",
+    "function_tags": [
+      "reconsideration_uncertainty"
+    ],
+    "depends_on": [
+      "28"
+    ],
+    "counterfactual_importance_accuracy": 0.08683473389355739,
+    "counterfactual_importance_kl": 5.249089419519628,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.11904761904761907,
+    "resampling_importance_accuracy": -0.08683473389355739,
+    "resampling_importance_kl": 5.249089419519628,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.38095238095238093
+  },
+  {
+    "chunk": "He's from Mexico, so I should consider possible endemic diseases, like Chagas disease, which can cause cardiomyopathy leading to heart failure.",
+    "chunk_idx": 30,
+    "summary": "consider endemic diseases",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "5"
+    ],
+    "counterfactual_importance_accuracy": -0.5871212121212122,
+    "counterfactual_importance_kl": 4.874380709804283,
+    "different_trajectories_fraction": 0.7764705882352941,
+    "overdeterminedness": 0.17647058823529416,
+    "resampling_importance_accuracy": 0.5808823529411764,
+    "resampling_importance_kl": 7.588437712017795,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.29411764705882354
+  },
+  {
+    "chunk": "Chagas is caused by Trypanosoma cruzi and is common in Latin America.",
+    "chunk_idx": 31,
+    "summary": "identify disease cause",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "30"
+    ],
+    "counterfactual_importance_accuracy": 0.10465116279069764,
+    "counterfactual_importance_kl": 9.569761615683392,
+    "different_trajectories_fraction": 0.03409090909090909,
+    "overdeterminedness": 0.7386363636363636,
+    "resampling_importance_accuracy": 0.02034883720930236,
+    "resampling_importance_kl": 8.041399257955058,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.875
+  },
+  {
+    "chunk": "It can cause dilated cardiomyopathy, which would explain the heart failure signs.",
+    "chunk_idx": 32,
+    "summary": "explain heart failure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "31",
+      "24"
+    ],
+    "counterfactual_importance_accuracy": -0.10989010989010994,
+    "counterfactual_importance_kl": 4.057314336731435,
+    "different_trajectories_fraction": 0.32558139534883723,
+    "overdeterminedness": 0.627906976744186,
+    "resampling_importance_accuracy": 0.07168412982366468,
+    "resampling_importance_kl": 6.9003803374272294,
+    "forced_importance_accuracy": 0.02,
+    "forced_importance_kl": 0.02020270731731536,
+    "accuracy": 0.8953488372093024
+  },
+  {
+    "chunk": "Other possibilities: Chronic kidney disease can cause fluid retention and pulmonary congestion, but the absence of other signs like anemia or azotemia makes it less likely.",
+    "chunk_idx": 33,
+    "summary": "list possibilities",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "19",
+      "20",
+      "21"
+    ],
+    "counterfactual_importance_accuracy": -0.021339125990288754,
+    "counterfactual_importance_kl": 8.34792206557737,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.37362637362637363,
+    "resampling_importance_accuracy": 0.021339125990288754,
+    "resampling_importance_kl": 8.34792206557737,
+    "forced_importance_accuracy": 0.009999999999999998,
+    "forced_importance_kl": 0.4245166869226705,
+    "accuracy": 0.967032967032967
+  },
+  {
+    "chunk": "COPD could cause crackles, but he doesn't have a smoking history mentioned, and his symptoms are more fluid-related.",
+    "chunk_idx": 34,
+    "summary": "identify fluid-related symptoms",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "21"
+    ],
+    "counterfactual_importance_accuracy": 0.010752688172043001,
+    "counterfactual_importance_kl": 6.449936157879815,
+    "different_trajectories_fraction": 0.8837209302325582,
+    "overdeterminedness": 0.40697674418604646,
+    "resampling_importance_accuracy": 0.0008752188047012055,
+    "resampling_importance_kl": 7.1016667732685,
+    "forced_importance_accuracy": 0.06,
+    "forced_importance_kl": 0.46253830098150683,
+    "accuracy": 0.9883720930232558
+  },
+  {
+    "chunk": "So, the most likely diagnosis is heart failure, specifically due to Chagas disease, given his history of living in an endemic area.",
+    "chunk_idx": 35,
+    "summary": "diagnose heart failure",
+    "function_tags": [
+      "diagnostic_commitment",
+      "final_answer_emission"
+    ],
+    "depends_on": [
+      "24",
+      "30",
+      "32"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 0.0,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.989247311827957
+  }
+]
