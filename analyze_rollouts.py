@@ -3433,8 +3433,9 @@ def plot_chunk_accuracy_by_position(
             f"Problem {problem_idx}: Sentence accuracy by position{suffix}"
         )
 
-        # Set x-axis limits to focus on first 100 chunks
-        plt.xlim(-3, 100 if max_chunks_to_show is None else max_chunks_to_show)
+        # Set x-axis limits to the actual number of chunks in this problem
+        num_chunks = int(chunk_indices.max()) + 1 if len(chunk_indices) > 0 else 10
+        plt.xlim(-1, num_chunks + 1)
 
         # Set y-axis limits for accuracy
         plt.ylim(-0.1, 1.1)

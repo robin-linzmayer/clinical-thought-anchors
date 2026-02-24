@@ -188,67 +188,6 @@ def check_answer_for_domain(answer: str, problem: Dict, domain: str) -> bool:
         return check_answer(answer, problem["gt_answer"])
 
 
-# ── Adaptive sampling helpers ──────────────────────────────────────────────
-
-ADAPTIVE_STAGES = [50, 100]
-
-
-def wilson_ci(k: int, n: int, z: float = 1.96) -> Tuple[float, float]:
-    """Wilson score 95% confidence interval for a Bernoulli proportion."""
-    if n == 0:
-        return (0.0, 1.0)
-    p_hat = k / n
-    denom = 1.0 + (z ** 2 / n)
-    center = (p_hat + (z ** 2 / (2 * n))) / denom
-    radius = (z / denom) * np.sqrt((p_hat * (1 - p_hat) / n) + (z ** 2 / (4 * n ** 2)))
-    return (max(0.0, center - radius), min(1.0, center + radius))
-
-
-def classify_chunks_adaptive(problem_dir: Path, num_chunks: int, epsilon: float) -> Dict[int, str]:
-    """Classify each chunk as RESOLVED or UNCERTAIN based on adjacent-pair delta CIs.
-
-    A chunk is UNCERTAIN if either its pair with chunk i-1 or i+1 has an
-    ambiguous accuracy difference (delta CI straddles [-epsilon, +epsilon]).
-    """
-    # Load (k, n) for each chunk
-    chunk_stats = {}
-    for ci in range(num_chunks):
-        sf = problem_dir / f"chunk_{ci}" / "solutions.json"
-        if not sf.exists():
-            continue
-        with open(sf, 'r', encoding='utf-8') as f:
-            sols = json.load(f)
-        valid = [s for s in sols if 'answer' in s and 'error' not in s]
-        k = sum(1 for s in valid if s.get('is_correct', False))
-        n = len(valid)
-        if n > 0:
-            chunk_stats[ci] = (k, n)
-
-    # Classify based on adjacent-pair delta CIs
-    uncertain_set = set()
-    for ci in sorted(chunk_stats.keys()):
-        k_i, n_i = chunk_stats[ci]
-        ci_i = wilson_ci(k_i, n_i)
-
-        # Check pair with next chunk
-        if ci + 1 in chunk_stats:
-            k_next, n_next = chunk_stats[ci + 1]
-            ci_next = wilson_ci(k_next, n_next)
-            delta_lo = ci_i[0] - ci_next[1]
-            delta_hi = ci_i[1] - ci_next[0]
-            # UNCERTAIN if delta CI straddles the boundary
-            within = (delta_lo >= -epsilon and delta_hi <= epsilon)
-            outside = (delta_hi < -epsilon or delta_lo > epsilon)
-            if not within and not outside:
-                uncertain_set.add(ci)
-                uncertain_set.add(ci + 1)
-
-    result = {}
-    for ci in chunk_stats:
-        result[ci] = "UNCERTAIN" if ci in uncertain_set else "RESOLVED"
-    return result
-
-
 # Set up argument parser
 import argparse
 parser = argparse.ArgumentParser(description='Generate chain-of-thought solutions with rollouts')
@@ -257,7 +196,7 @@ parser.add_argument('-b', '--base_solution_type', type=str, default='correct', c
 parser.add_argument('-r', '--rollout_type', type=str, default='default', choices=['default', 'forced_answer'], help='Type of rollout to generate')
 parser.add_argument('-o', '--output_dir', type=str, default='math_rollouts', help='Directory to save results')
 parser.add_argument('-np', '--num_problems', type=int, default=100, help='Number of problems to sample')
-parser.add_argument('-nr', '--num_rollouts', type=str, default='100', help='Number of rollouts per chunk, or "adaptive" for two-stage (50→100) sampling')
+parser.add_argument('-nr', '--num_rollouts', type=int, default=100, help='Number of rollouts per chunk')
 parser.add_argument('-t', '--temperature', type=float, default=0.6, help='Temperature for rollout generation')
 parser.add_argument('-tp', '--top_p', type=float, default=0.95, help='Top-p sampling parameter')
 parser.add_argument('-mt', '--max_tokens', type=int, default=16384, help='Maximum number of tokens for generation')
@@ -283,16 +222,7 @@ parser.add_argument('-bs', '--batch_size', type=int, default=8, help='Batch size
 parser.add_argument('-mr', '--max_retries', type=int, default=1, help='Maximum number of retries for API requests')
 parser.add_argument('-os', '--output_suffix', type=str, default=None, help='Suffix to add to the output directory')
 parser.add_argument('--domain', type=str, default='math', choices=['math', 'diagnostic'], help='Problem domain: math or diagnostic')
-parser.add_argument('--adaptive_epsilon', type=float, default=0.10, help='Effect-size threshold for adaptive classification (default 0.10)')
 args = parser.parse_args()
-
-# Parse num_rollouts: integer or "adaptive"
-adaptive_mode = args.num_rollouts.lower() == "adaptive"
-if adaptive_mode:
-    num_rollouts_effective = ADAPTIVE_STAGES[0]  # Stage 1 target
-    print(f"Adaptive mode: stages {ADAPTIVE_STAGES}, epsilon = {args.adaptive_epsilon}")
-else:
-    num_rollouts_effective = int(args.num_rollouts)
 
 # Override default output_dir for diagnostic domain
 if args.domain == 'diagnostic' and args.output_dir == 'math_rollouts':
@@ -300,13 +230,7 @@ if args.domain == 'diagnostic' and args.output_dir == 'math_rollouts':
 
 # Create output directory
 base_output_dir = Path(args.output_dir) / args.model.split("/")[-1] / f"temperature_{str(args.temperature)}_top_p_{str(args.top_p)}"
-# Build suffix: combine output_suffix and adaptive tag
-suffix_parts = []
-if args.output_suffix:
-    suffix_parts.append(args.output_suffix)
-if adaptive_mode:
-    suffix_parts.append("adaptive")
-combined_suffix = "_".join(suffix_parts)
+combined_suffix = args.output_suffix or ""
 
 if args.rollout_type == 'forced_answer':
     # NOTE: For forced answer rollouts, we use the correct base solution (we copy the files from the correct base solution directory before running this script)
@@ -898,8 +822,6 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
         cumulative_chunks.append(current_cumulative.strip())
     
     # Process each chunk
-    if adaptive_mode:
-        print(f"Problem {problem_idx}, Stage 1 (n={ADAPTIVE_STAGES[0]}): Processing {len(chunks)} chunks")
     for chunk_idx, (chunk, full_prefix) in enumerate(zip(chunks, cumulative_chunks)):
         if args.include_chunks and str(chunk_idx) not in args.include_chunks.split(","):
             print(f"Problem {problem_idx}, Chunk {chunk_idx}: Skipping (not in include_chunks)")
@@ -943,7 +865,7 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
                 print(f"Problem {problem_idx}, Chunk {chunk_idx}: Found {len(valid_existing_solutions)} valid solutions")
         
         # Generate rollouts if needed
-        num_rollouts_needed = num_rollouts_effective - len(valid_existing_solutions)
+        num_rollouts_needed = args.num_rollouts - len(valid_existing_solutions)
         
         if num_rollouts_needed > 0:
             print(f"Problem {problem_idx}, Chunk {chunk_idx}: Generating {num_rollouts_needed} rollouts")
@@ -1012,91 +934,6 @@ async def process_problem(problem_idx: int, problem: Dict) -> None:
             print(f"Problem {problem_idx}, Chunk {chunk_idx}: Saved {len(all_solutions)} solutions")
         else:
             print(f"Problem {problem_idx}, Chunk {chunk_idx}: Already have {len(valid_existing_solutions)} valid solutions")
-
-    # ── Adaptive Stage 2 ──────────────────────────────────────────────────
-    if adaptive_mode and len(ADAPTIVE_STAGES) > 1:
-        stage2_target = ADAPTIVE_STAGES[1]
-        classifications = classify_chunks_adaptive(problem_dir, len(chunks), args.adaptive_epsilon)
-        uncertain_chunks = sorted(ci for ci, label in classifications.items() if label == "UNCERTAIN")
-        resolved_count = sum(1 for label in classifications.values() if label == "RESOLVED")
-
-        # Print compact per-chunk summary
-        for ci, label in sorted(classifications.items()):
-            sf = problem_dir / f"chunk_{ci}" / "solutions.json"
-            if sf.exists():
-                with open(sf, 'r', encoding='utf-8') as f:
-                    sols = json.load(f)
-                valid = [s for s in sols if 'answer' in s and 'error' not in s]
-                k = sum(1 for s in valid if s.get('is_correct', False))
-                n = len(valid)
-                ci_lo, ci_hi = wilson_ci(k, n)
-                print(f"  Chunk {ci:3d}: {k:3d}/{n:3d} = {k/n:.2f}  CI[{ci_lo:.2f},{ci_hi:.2f}]  {label}")
-
-        print(f"\nProblem {problem_idx}, Stage 2 (n={stage2_target}): {len(uncertain_chunks)} UNCERTAIN chunks ({resolved_count} RESOLVED)")
-
-        if not uncertain_chunks:
-            print(f"  All chunks resolved at Stage 1. Skipping Stage 2.")
-        else:
-            for chunk_idx in uncertain_chunks:
-                chunk = chunks[chunk_idx]
-                full_prefix = cumulative_chunks[chunk_idx]
-                chunk_dir = problem_dir / f"chunk_{chunk_idx}"
-                solutions_file = chunk_dir / "solutions.json"
-
-                existing_solutions = []
-                if solutions_file.exists():
-                    with open(solutions_file, 'r', encoding='utf-8') as f:
-                        existing_solutions = json.load(f)
-                valid_existing = [s for s in existing_solutions if 'answer' in s and 'error' not in s]
-                num_needed = stage2_target - len(valid_existing)
-
-                if num_needed <= 0:
-                    print(f"Problem {problem_idx}, Chunk {chunk_idx} (Stage 2): Already have {len(valid_existing)} solutions")
-                    continue
-
-                print(f"Problem {problem_idx}, Chunk {chunk_idx} (Stage 2): Generating {num_needed} additional rollouts")
-
-                if args.provider == "Local":
-                    prompts = []
-                    for _ in range(num_needed):
-                        prefix_without_chunk = full_prefix.replace(chunk, "").strip()
-                        prompt = get_prompt(problem, prefix=prefix_without_chunk, domain=args.domain)
-                        if args.rollout_type == 'forced_answer':
-                            prompt += "\n</think>\n\nTherefore, the final answers is \\boxed{"
-                        prompts.append(prompt)
-
-                    batch_results = generate_with_local_model_batch(prompts, args.temperature, args.top_p, args.max_tokens)
-
-                    new_solutions = []
-                    for i, result in enumerate(batch_results):
-                        rollout_text = result.get('text', '')
-                        if 'error' in result:
-                            new_solutions.append({"error": result['error']})
-                            continue
-                        prefix_without_chunk = full_prefix.replace(chunk, "").strip()
-                        chunks_from_rollout = split_solution_into_chunks(rollout_text) if rollout_text else []
-                        chunk_resampled = chunks_from_rollout[0] if chunks_from_rollout else ""
-                        prompt = prompts[i]
-                        extracted_answers = extract_boxed_answers(f"{prompt}{rollout_text}" if args.rollout_type == 'forced_answer' else rollout_text)
-                        answer = extracted_answers[0] if extracted_answers else ""
-                        is_correct = check_answer_for_domain(answer, problem, args.domain)
-                        new_solutions.append({
-                            "chunk_removed": chunk,
-                            "prefix_without_chunk": prefix_without_chunk,
-                            "chunk_resampled": chunk_resampled,
-                            "rollout": rollout_text,
-                            "full_cot": f"{prompt}{rollout_text}",
-                            "answer": answer,
-                            "is_correct": is_correct,
-                        })
-                else:
-                    tasks = [generate_rollout(problem, chunk, full_prefix, args.temperature, args.rollout_type) for _ in range(num_needed)]
-                    new_solutions = await asyncio.gather(*tasks)
-
-                all_solutions = existing_solutions + new_solutions
-                with open(solutions_file, 'w', encoding='utf-8') as f:
-                    json.dump(all_solutions, f, indent=2)
-                print(f"Problem {problem_idx}, Chunk {chunk_idx} (Stage 2): Saved {len(all_solutions)} total solutions")
 
 async def main():
     """Main function to run the script."""
