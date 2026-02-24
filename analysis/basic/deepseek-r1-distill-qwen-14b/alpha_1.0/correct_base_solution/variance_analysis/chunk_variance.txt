@@ -38,18 +38,18 @@ Problem 24: Variance = 0.037128
   Potential reasoning forks:
     Fork 1: Chunks 1-6
       Text: 'Let me go through the information step by step. First, the patient's presenting complaint is a ch...'
-      Tags: case_representation, unknown
+      Tags: unknown, case_representation
     Fork 2: Chunks 10-15
       Text: 'Physical exam findings include an elderly man who laughs inappropriately and is a poor historian....'
-      Tags: evidence_evaluation, case_representation, hypothesis_generation, knowledge_activation
+      Tags: case_representation, evidence_evaluation, knowledge_activation, hypothesis_generation
     Fork 3: Chunks 19-27
       Text: 'But the symptoms here don't specifically point to vascular causes, like stepwise cognitive declin...'
       Tags: reconsideration_uncertainty, evidence_evaluation, knowledge_activation, hypothesis_generation
     Fork 4: Chunks 30-32
       Text: 'However, Alzheimer's disease is still a strong contender, especially since memory problems are pr...'
-      Tags: reconsideration_uncertainty, diagnostic_verification
+      Tags: diagnostic_verification, reconsideration_uncertainty
 
-Problem 95: Variance = 0.023354
+Problem 95: Variance = 0.025180
   Chunks by importance:
     1. Chunk 23: 0.2907 - hypothesis_generation - 'In someone with a history of Crohn's, a strictu...'
     2. Chunk 6: 0.2660 - case_representation - 'During these episodes, she experiences nausea a...'
@@ -57,46 +57,38 @@ Problem 95: Variance = 0.023354
     4. Chunk 12: 0.2302 - case_representation - 'Bowel sounds are normal, and the stool is brown...'
     5. Chunk 2: 0.1890 - case_representation - 'First, the patient is a 38-year-old woman with ...'
     6. Chunk 9: 0.1387 - case_representation - 'Her vital signs are slightly elevated temperatu...'
-    7. Chunk 28: 0.0958 - evidence_evaluation - 'However, PSC usually progresses more insidiousl...'
-    8. Chunk 16: 0.0833 - case_representation - 'Platelets are 170,000, which is on the lower si...'
-    9. Chunk 29: 0.0698 - evidence_evaluation - 'The fact that the gallbladder has stones but no...'
-    10. Chunk 1: 0.0464 - unknown - 'Let me start by going through the information s...'
-    11. Chunk 22: 0.0312 - reconsideration_uncertainty - 'The gallstones are present, but since she doesn...'
-    12. Chunk 21: 0.0033 - evidence_evaluation - 'The CBD is dilated, but the gallbladder doesn't...'
-    13. Chunk 3: 0.0000 - case_representation - 'She had Crohn's disease seven years ago, which ...'
-    14. Chunk 5: 0.0000 - case_representation - 'She's presenting with three episodes of severe,...'
-    15. Chunk 17: 0.0000 - case_representation - 'The ultrasound shows a normal liver, a common b...'
-    16. Chunk 18: 0.0000 - evidence_evaluation - 'No wall thickening or pericholecystic fluid, wh...'
-    17. Chunk 32: 0.0000 - diagnostic_commitment - 'So, considering her history, presentation, labs...'
-    18. Chunk 8: -0.0467 - evidence_evaluation - 'No diarrhea, dysuria, or hematuria, which rules...'
-    19. Chunk 20: -0.0528 - evidence_evaluation - 'Her elevated liver enzymes and bilirubin point ...'
-    20. Chunk 15: -0.0626 - case_representation - 'Her white blood cell count is 9,500, which is a...'
-    21. Chunk 7: -0.0715 - case_representation - 'She's asymptomatic between episodes, so it's no...'
-    22. Chunk 0: -0.0759 - unknown - 'Okay, so I'm trying to figure out what's going ...'
-    23. Chunk 19: -0.0862 - knowledge_activation - 'So putting this together: She has a history of ...'
-    24. Chunk 25: -0.0870 - knowledge_activation - 'This is sometimes referred to as "gallstone pan...'
-    25. Chunk 13: -0.1205 - case_representation - 'Looking at the labs: Her liver enzymes are elev...'
-    26. Chunk 26: -0.1346 - hypothesis_generation - 'Another consideration is primary sclerosing cho...'
-    27. Chunk 31: -0.1402 - evidence_evaluation - 'The elevated alkaline phosphatase and bilirubin...'
-    28. Chunk 30: -0.1905 - evidence_evaluation - 'The pain is more likely coming from the CBD or ...'
-    29. Chunk 11: -0.2100 - evidence_evaluation - 'The abdomen is soft, with tenderness in the rig...'
-    30. Chunk 14: -0.2314 - case_representation - 'Total bilirubin is 4.1 mg/dL, which is elevated.'
-    31. Chunk 24: -0.2417 - evidence_evaluation - 'The pain episodes could be due to stones passin...'
-    32. Chunk 4: -0.2549 - knowledge_activation - 'That's important because Crohn's can sometimes ...'
-    33. Chunk 10: -0.3127 - case_representation - 'On exam, there's mild scleral icterus, which su...'
+    7. Chunk 16: 0.0833 - case_representation - 'Platelets are 170,000, which is on the lower si...'
+    8. Chunk 1: 0.0464 - unknown - 'Let me start by going through the information s...'
+    9. Chunk 22: 0.0312 - reconsideration_uncertainty - 'The gallstones are present, but since she doesn...'
+    10. Chunk 21: 0.0033 - evidence_evaluation - 'The CBD is dilated, but the gallbladder doesn't...'
+    11. Chunk 3: 0.0000 - case_representation - 'She had Crohn's disease seven years ago, which ...'
+    12. Chunk 5: 0.0000 - case_representation - 'She's presenting with three episodes of severe,...'
+    13. Chunk 17: 0.0000 - case_representation - 'The ultrasound shows a normal liver, a common b...'
+    14. Chunk 18: 0.0000 - evidence_evaluation - 'No wall thickening or pericholecystic fluid, wh...'
+    15. Chunk 8: -0.0467 - evidence_evaluation - 'No diarrhea, dysuria, or hematuria, which rules...'
+    16. Chunk 20: -0.0528 - evidence_evaluation - 'Her elevated liver enzymes and bilirubin point ...'
+    17. Chunk 15: -0.0626 - case_representation - 'Her white blood cell count is 9,500, which is a...'
+    18. Chunk 7: -0.0715 - case_representation - 'She's asymptomatic between episodes, so it's no...'
+    19. Chunk 0: -0.0759 - unknown - 'Okay, so I'm trying to figure out what's going ...'
+    20. Chunk 19: -0.0862 - knowledge_activation - 'So putting this together: She has a history of ...'
+    21. Chunk 25: -0.0870 - knowledge_activation - 'This is sometimes referred to as "gallstone pan...'
+    22. Chunk 13: -0.1205 - case_representation - 'Looking at the labs: Her liver enzymes are elev...'
+    23. Chunk 26: -0.1346 - hypothesis_generation - 'Another consideration is primary sclerosing cho...'
+    24. Chunk 11: -0.2100 - evidence_evaluation - 'The abdomen is soft, with tenderness in the rig...'
+    25. Chunk 14: -0.2314 - case_representation - 'Total bilirubin is 4.1 mg/dL, which is elevated.'
+    26. Chunk 24: -0.2417 - evidence_evaluation - 'The pain episodes could be due to stones passin...'
+    27. Chunk 4: -0.2549 - knowledge_activation - 'That's important because Crohn's can sometimes ...'
+    28. Chunk 10: -0.3127 - case_representation - 'On exam, there's mild scleral icterus, which su...'
   Potential reasoning forks:
     Fork 1: Chunks 1-6
       Text: 'Let me start by going through the information step by step. First, the patient is a 38-year-old w...'
-      Tags: case_representation, unknown
+      Tags: unknown, case_representation
     Fork 2: Chunks 16-18
       Text: 'Platelets are 170,000, which is on the lower side but not dangerously low. The ultrasound shows a...'
       Tags: case_representation, evidence_evaluation
     Fork 3: Chunks 21-23
       Text: 'The CBD is dilated, but the gallbladder doesn't show signs of acute inflammation. The gallstones ...'
       Tags: reconsideration_uncertainty, evidence_evaluation, hypothesis_generation
-    Fork 4: Chunks 27-29
-      Text: 'PSC causes strictures in the bile ducts and can lead to pain and elevated liver enzymes. However,...'
-      Tags: evidence_evaluation, knowledge_activation
 
 Problem 84: Variance = 0.020460
   Chunks by importance:
@@ -139,13 +131,13 @@ Problem 84: Variance = 0.020460
   Potential reasoning forks:
     Fork 1: Chunks 1-8
       Text: 'Let me read through it again carefully. A 52-year-old man comes in with ongoing shortness of brea...'
-      Tags: case_representation, unknown
+      Tags: unknown, case_representation
     Fork 2: Chunks 13-16
       Text: 'Palpitations during activity could be related to arrhythmia or just increased heart rate. Digesti...'
       Tags: evidence_evaluation
     Fork 3: Chunks 23-35
       Text: 'ECG is normal, which is interesting because in heart failure, ECG can show changes like房颤 or房室传导阻...'
-      Tags: diagnostic_commitment, hypothesis_generation, final_answer_emission, knowledge_activation, evidence_evaluation, reconsideration_uncertainty
+      Tags: reconsideration_uncertainty, final_answer_emission, hypothesis_generation, diagnostic_commitment, evidence_evaluation, knowledge_activation
 
 Problem 6: Variance = 0.011686
   Chunks by importance:
@@ -214,5 +206,5 @@ Problem 6: Variance = 0.011686
       Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-52
       Text: 'The patient has low potassium, so this is a possibility. 2. Cushing's syndrome: Can cause hyperte...'
-      Tags: diagnostic_commitment, knowledge_activation, diagnostic_verification, evidence_evaluation, reconsideration_uncertainty
+      Tags: reconsideration_uncertainty, diagnostic_commitment, diagnostic_verification, evidence_evaluation, knowledge_activation
 

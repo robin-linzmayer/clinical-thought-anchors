@@ -51,10 +51,10 @@ Problem 6: Variance = 0.039749
       Tags: case_representation, knowledge_activation
     Fork 3: Chunks 28-30
       Text: 'But given that he's on a diuretic, which itself can cause hypokalemia, it's a bit tricky. His BUN...'
-      Tags: evidence_evaluation, reconsideration_uncertainty
+      Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-36
       Text: 'His hypertension is well-controlled on multiple meds, but it's still high, so maybe resistant hyp...'
-      Tags: diagnostic_commitment, evidence_evaluation, diagnostic_verification
+      Tags: diagnostic_commitment, diagnostic_verification, evidence_evaluation
 
 Problem 24: Variance = 0.027074
   Chunks by importance:
@@ -129,7 +129,7 @@ Problem 84: Variance = 0.019651
       Tags: case_representation
     Fork 2: Chunks 15-20
       Text: 'The chest X-ray would likely show pulmonary congestion and possibly an enlarged heart, but the EC...'
-      Tags: reconsideration_uncertainty, case_representation, evidence_evaluation
+      Tags: case_representation, reconsideration_uncertainty, evidence_evaluation
 
 Problem 95: Variance = 0.010466
   Chunks by importance:

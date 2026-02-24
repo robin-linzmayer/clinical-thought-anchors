@@ -30,38 +30,33 @@ Problem 24:
       Text: Alzheimer's disease is the most common, but there are others like vascular dementia, Lewy body demen...
 
 Problem 95:
-  Overall variance: 0.023354
-  Mean importance: -0.019487
+  Overall variance: 0.025180
+  Mean importance: -0.017068
   Potential fork reasoning steps:
     Chunk 23:
-      Importance: 0.290670 (z-score: 2.03)
+      Importance: 0.290670 (z-score: 1.94)
       Function tags: hypothesis_generation
       Text: In someone with a history of Crohn's, a stricture in the common bile duct is a possibility.
 
     Chunk 10:
-      Importance: -0.312661 (z-score: -1.92)
+      Importance: -0.312661 (z-score: -1.86)
       Function tags: case_representation
       Text: On exam, there's mild scleral icterus, which suggests some mild jaundice.
 
     Chunk 6:
-      Importance: 0.266010 (z-score: 1.87)
+      Importance: 0.266010 (z-score: 1.78)
       Function tags: case_representation
       Text: During these episodes, she experiences nausea and vomiting.
 
     Chunk 27:
-      Importance: 0.231707 (z-score: 1.64)
+      Importance: 0.231707 (z-score: 1.57)
       Function tags: knowledge_activation
       Text: PSC causes strictures in the bile ducts and can lead to pain and elevated liver enzymes.
 
     Chunk 12:
-      Importance: 0.230233 (z-score: 1.63)
+      Importance: 0.230233 (z-score: 1.56)
       Function tags: case_representation
       Text: Bowel sounds are normal, and the stool is brown with no occult blood, so no signs of upper GI bleedi...
-
-    Chunk 4:
-      Importance: -0.254902 (z-score: -1.54)
-      Function tags: knowledge_activation
-      Text: That's important because Crohn's can sometimes lead to complications elsewhere, like in the liver or...
 
 Problem 84:
   Overall variance: 0.020460
