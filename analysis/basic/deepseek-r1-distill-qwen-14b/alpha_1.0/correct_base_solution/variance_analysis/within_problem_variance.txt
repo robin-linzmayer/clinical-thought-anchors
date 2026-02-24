@@ -1,113 +1,21 @@
 Problems with high variance in chunk importance (potential reasoning forks):
 
-Problem 24:
-  Overall variance: 0.037128
-  Mean importance: -0.021453
-  Potential fork reasoning steps:
-    Chunk 24:
-      Importance: -0.596275 (z-score: -2.98)
-      Function tags: diagnostic_commitment
-      Text: But given the prominence of the behavioral changes like inappropriate language and grabbing, frontot...
-
-    Chunk 15:
-      Importance: 0.427644 (z-score: 2.33)
-      Function tags: evidence_evaluation
-      Text: His inappropriate behavior and language issues might point more towards frontotemporal dementia, whi...
-
-    Chunk 29:
-      Importance: -0.408369 (z-score: -2.01)
-      Function tags: diagnostic_commitment
-      Text: So, putting it all together, the most likely diagnosis is frontotemporal dementia, given the promine...
-
-    Chunk 10:
-      Importance: 0.277778 (z-score: 1.55)
-      Function tags: case_representation
-      Text: Physical exam findings include an elderly man who laughs inappropriately and is a poor historian.
-
-    Chunk 14:
-      Importance: -0.316327 (z-score: -1.53)
-      Function tags: knowledge_activation
-      Text: Alzheimer's disease is the most common, but there are others like vascular dementia, Lewy body demen...
-
 Problem 95:
-  Overall variance: 0.025180
-  Mean importance: -0.017068
+  Overall variance: 0.021338
+  Mean importance: -0.011665
   Potential fork reasoning steps:
-    Chunk 23:
-      Importance: 0.290670 (z-score: 1.94)
-      Function tags: hypothesis_generation
-      Text: In someone with a history of Crohn's, a stricture in the common bile duct is a possibility.
-
-    Chunk 10:
-      Importance: -0.312661 (z-score: -1.86)
-      Function tags: case_representation
-      Text: On exam, there's mild scleral icterus, which suggests some mild jaundice.
-
-    Chunk 6:
-      Importance: 0.266010 (z-score: 1.78)
-      Function tags: case_representation
-      Text: During these episodes, she experiences nausea and vomiting.
-
-    Chunk 27:
-      Importance: 0.231707 (z-score: 1.57)
-      Function tags: knowledge_activation
-      Text: PSC causes strictures in the bile ducts and can lead to pain and elevated liver enzymes.
-
-    Chunk 12:
-      Importance: 0.230233 (z-score: 1.56)
-      Function tags: case_representation
-      Text: Bowel sounds are normal, and the stool is brown with no occult blood, so no signs of upper GI bleedi...
-
-Problem 84:
-  Overall variance: 0.020460
-  Mean importance: -0.021703
-  Potential fork reasoning steps:
-    Chunk 30:
-      Importance: -0.587121 (z-score: -3.95)
-      Function tags: knowledge_activation
-      Text: He's from Mexico, so I should consider possible endemic diseases, like Chagas disease, which can cau...
-
-    Chunk 14:
-      Importance: 0.293924 (z-score: 2.21)
+    Chunk 19:
+      Importance: 0.444444 (z-score: 3.12)
       Function tags: evidence_evaluation
-      Text: Digestive issues, regurgitation, and dysphagia might point towards a gastrointestinal problem, maybe...
+      Text: No wall thickening or pericholecystic fluid, which would suggest cholecystitis.
 
-    Chunk 24:
-      Importance: 0.193723 (z-score: 1.51)
-      Function tags: hypothesis_generation
-      Text: Putting this together: The main symptoms and signs point towards heart failure.
+    Chunk 21:
+      Importance: -0.398538 (z-score: -2.65)
+      Function tags: knowledge_activation, hypothesis_generation
+      Text: Putting this together, the patient has a history of Crohn's, which can cause complications like narr...
 
-Problem 6:
-  Overall variance: 0.011686
-  Mean importance: -0.018731
-  Potential fork reasoning steps:
-    Chunk 30:
-      Importance: -0.319767 (z-score: -2.78)
-      Function tags: case_representation
-      Text: He's on three antihypertensives: hydrochlorothiazide (diuretic), lisinopril (ACE inhibitor), and aml...
-
-    Chunk 17:
-      Importance: 0.279632 (z-score: 2.76)
-      Function tags: knowledge_activation
-      Text: Hydrochlorothiazide is a diuretic, which can cause electrolyte imbalances.
-
-    Chunk 18:
-      Importance: 0.240498 (z-score: 2.40)
-      Function tags: knowledge_activation
-      Text: It's a thiazide diuretic, which typically causes loss of potassium and chloride, leading to hypokale...
-
-    Chunk 6:
-      Importance: 0.232198 (z-score: 2.32)
-      Function tags: case_representation
-      Text: His temperature is slightly below normal at 98.0°F, but that's probably not significant.
-
-    Chunk 33:
-      Importance: -0.255861 (z-score: -2.19)
-      Function tags: knowledge_activation
-      Text: 1. Primary aldosteronism: This can cause high blood pressure and hypokalemia.
-
-    Chunk 20:
-      Importance: -0.193548 (z-score: -1.62)
-      Function tags: evidence_evaluation
-      Text: Wait, his sodium is low, chloride is low, potassium is low.
+    Chunk 26:
+      Importance: -0.235955 (z-score: -1.54)
+      Function tags: diagnostic_commitment
+      Text: So, the most likely diagnosis is choledocholithiasis, which is gallstones in the common bile duct.
 

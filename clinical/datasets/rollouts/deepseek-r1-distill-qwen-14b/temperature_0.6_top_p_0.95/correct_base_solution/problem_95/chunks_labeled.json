@@ -7,33 +7,33 @@
       "unknown"
     ],
     "depends_on": [],
-    "counterfactual_importance_accuracy": -0.07586206896551728,
-    "counterfactual_importance_kl": 5.206951195852417,
-    "different_trajectories_fraction": 0.4787234042553192,
-    "overdeterminedness": 0.6063829787234043,
-    "resampling_importance_accuracy": 0.024089019320127192,
-    "resampling_importance_kl": 6.939375280467167,
-    "forced_importance_accuracy": -0.04000000000000001,
-    "forced_importance_kl": 3.1955947795737796,
-    "accuracy": 0.5851063829787234
+    "counterfactual_importance_accuracy": 0.0765083972631142,
+    "counterfactual_importance_kl": 4.881083120491014,
+    "different_trajectories_fraction": 0.5888888888888889,
+    "overdeterminedness": 0.6222222222222222,
+    "resampling_importance_accuracy": -0.0073260073260073,
+    "resampling_importance_kl": 5.834938126488291,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.5180398442285952,
+    "accuracy": 0.6666666666666666
   },
   {
-    "chunk": "Let me start by going through the information step by step.",
+    "chunk": "Let me start by going through all the information step by step.",
     "chunk_idx": 1,
-    "summary": "no specific action",
+    "summary": "review information step",
     "function_tags": [
       "unknown"
     ],
     "depends_on": [],
-    "counterfactual_importance_accuracy": 0.046427814288742764,
-    "counterfactual_importance_kl": 9.219292036883026,
-    "different_trajectories_fraction": 0.6091954022988506,
-    "overdeterminedness": 0.5632183908045977,
-    "resampling_importance_accuracy": 0.042489990959576396,
-    "resampling_importance_kl": 7.690735556270841,
-    "forced_importance_accuracy": 0.05,
-    "forced_importance_kl": 0.5597853764507013,
-    "accuracy": 0.6091954022988506
+    "counterfactual_importance_accuracy": 0.01906779661016944,
+    "counterfactual_importance_kl": 7.8025014366081225,
+    "different_trajectories_fraction": 0.6483516483516484,
+    "overdeterminedness": 0.5934065934065934,
+    "resampling_importance_accuracy": -0.03434065934065933,
+    "resampling_importance_kl": 7.038762109866646,
+    "forced_importance_accuracy": -0.010000000000000002,
+    "forced_importance_kl": 2.0465255805214326,
+    "accuracy": 0.6593406593406593
   },
   {
     "chunk": "First, the patient is a 38-year-old woman with a history of hypertension and hyperlipidemia.",
@@ -43,20 +43,20 @@
       "case_representation"
     ],
     "depends_on": [],
-    "counterfactual_importance_accuracy": 0.18901660280970622,
-    "counterfactual_importance_kl": 8.736518627097775,
-    "different_trajectories_fraction": 0.30337078651685395,
-    "overdeterminedness": 0.8764044943820225,
-    "resampling_importance_accuracy": -0.09996125532739253,
-    "resampling_importance_kl": 6.96768155376246,
+    "counterfactual_importance_accuracy": -0.10930232558139541,
+    "counterfactual_importance_kl": 8.482474586417407,
+    "different_trajectories_fraction": 0.22727272727272727,
+    "overdeterminedness": 0.875,
+    "resampling_importance_accuracy": 0.08430232558139539,
+    "resampling_importance_kl": 8.286954940525964,
     "forced_importance_accuracy": 0.020000000000000004,
-    "forced_importance_kl": 1.6314667989879603,
-    "accuracy": 0.651685393258427
+    "forced_importance_kl": 2.862722896266173,
+    "accuracy": 0.625
   },
   {
-    "chunk": "She had Crohn's disease seven years ago, which required resection of the terminal ileum.",
+    "chunk": "Seven years ago, she had terminal ileum resection for Crohn's disease.",
     "chunk_idx": 3,
-    "summary": "resection terminal ileum",
+    "summary": "perform ileum resection",
     "function_tags": [
       "case_representation"
     ],
@@ -64,15 +64,15 @@
     "counterfactual_importance_accuracy": 0.0,
     "counterfactual_importance_kl": 0.0,
     "different_trajectories_fraction": 0.0,
-    "overdeterminedness": 0.7931034482758621,
-    "resampling_importance_accuracy": -0.051724137931034475,
-    "resampling_importance_kl": 8.370274916622526,
-    "forced_importance_accuracy": 0.13,
-    "forced_importance_kl": 3.3708038477242184,
-    "accuracy": 0.5517241379310345
+    "overdeterminedness": 0.813953488372093,
+    "resampling_importance_accuracy": -0.0648578811369509,
+    "resampling_importance_kl": 7.1792376044464765,
+    "forced_importance_accuracy": 0.16999999999999998,
+    "forced_importance_kl": 1.3114544212720962,
+    "accuracy": 0.7093023255813954
   },
   {
-    "chunk": "That's important because Crohn's can sometimes lead to complications elsewhere, like in the liver or bile ducts.",
+    "chunk": "That's interesting because Crohn's can sometimes lead to other complications, like strictures or fistulas.",
     "chunk_idx": 4,
     "summary": "identify complications",
     "function_tags": [
@@ -81,15 +81,15 @@
     "depends_on": [
       "3"
     ],
-    "counterfactual_importance_accuracy": -0.25490196078431376,
-    "counterfactual_importance_kl": 3.9201980531574128,
-    "different_trajectories_fraction": 0.10714285714285714,
-    "overdeterminedness": 0.41666666666666663,
-    "resampling_importance_accuracy": 0.08823529411764708,
-    "resampling_importance_kl": 10.48428394806656,
-    "forced_importance_accuracy": 0.06999999999999998,
-    "forced_importance_kl": 7.1747215111879346,
-    "accuracy": 0.5
+    "counterfactual_importance_accuracy": 0.13647058823529412,
+    "counterfactual_importance_kl": 10.46098669970274,
+    "different_trajectories_fraction": 0.2777777777777778,
+    "overdeterminedness": 0.6,
+    "resampling_importance_accuracy": -0.0209150326797386,
+    "resampling_importance_kl": 8.719799137568023,
+    "forced_importance_accuracy": -0.07999999999999999,
+    "forced_importance_kl": 1.4381094186962153,
+    "accuracy": 0.6444444444444445
   },
   {
     "chunk": "She's presenting with three episodes of severe, sharp, right upper quadrant abdominal pain, each lasting about an hour.",
@@ -99,15 +99,15 @@
       "case_representation"
     ],
     "depends_on": [],
-    "counterfactual_importance_accuracy": 0.0,
-    "counterfactual_importance_kl": 0.0,
-    "different_trajectories_fraction": 0.0,
-    "overdeterminedness": 0.9882352941176471,
-    "resampling_importance_accuracy": 0.022875816993464082,
-    "resampling_importance_kl": 9.673402364843817,
-    "forced_importance_accuracy": -0.16999999999999998,
-    "forced_importance_kl": 11.856095022715422,
-    "accuracy": 0.5882352941176471
+    "counterfactual_importance_accuracy": -0.1966292134831461,
+    "counterfactual_importance_kl": 1.6625991096676072,
+    "different_trajectories_fraction": 0.023529411764705882,
+    "overdeterminedness": 0.9411764705882353,
+    "resampling_importance_accuracy": 0.07309980171844022,
+    "resampling_importance_kl": 7.221050890163952,
+    "forced_importance_accuracy": -0.020000000000000018,
+    "forced_importance_kl": 5.408126701590268,
+    "accuracy": 0.6235294117647059
   },
   {
     "chunk": "During these episodes, she experiences nausea and vomiting.",
@@ -117,524 +117,423 @@
       "case_representation"
     ],
     "depends_on": [],
-    "counterfactual_importance_accuracy": 0.2660098522167488,
-    "counterfactual_importance_kl": 17.34939106701126,
-    "different_trajectories_fraction": 0.07777777777777778,
-    "overdeterminedness": 0.7888888888888889,
-    "resampling_importance_accuracy": -0.16283524904214564,
-    "resampling_importance_kl": 7.723936257625573,
-    "forced_importance_accuracy": 0.1,
-    "forced_importance_kl": 1.3328010446120764,
-    "accuracy": 0.6111111111111112
+    "counterfactual_importance_accuracy": -0.1333333333333333,
+    "counterfactual_importance_kl": 9.13722998910568,
+    "different_trajectories_fraction": 0.06741573033707865,
+    "overdeterminedness": 0.8202247191011236,
+    "resampling_importance_accuracy": -0.0632958801498128,
+    "resampling_importance_kl": 5.567573187709431,
+    "forced_importance_accuracy": 0.010000000000000009,
+    "forced_importance_kl": 1.5994568196216359,
+    "accuracy": 0.6966292134831461
   },
   {
-    "chunk": "She's asymptomatic between episodes, so it's not a continuous issue.",
+    "chunk": "She doesn't have diarrhea, dysuria, or hematuria, which rules out some other conditions like appendicitis or kidney stones.",
     "chunk_idx": 7,
-    "summary": "identify asymptomatic periods",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": -0.07153660012099217,
-    "counterfactual_importance_kl": 8.487903542410756,
-    "different_trajectories_fraction": 0.8735632183908046,
-    "overdeterminedness": 0.5747126436781609,
-    "resampling_importance_accuracy": 0.05747126436781613,
-    "resampling_importance_kl": 8.471669845834677,
-    "forced_importance_accuracy": -0.07,
-    "forced_importance_kl": 0.31367193300697643,
-    "accuracy": 0.4482758620689655
-  },
-  {
-    "chunk": "No diarrhea, dysuria, or hematuria, which rules out some other possibilities like kidney stones or gastrointestinal infections.",
-    "chunk_idx": 8,
     "summary": "rule out conditions",
     "function_tags": [
       "evidence_evaluation"
     ],
     "depends_on": [
       "5",
-      "6",
-      "7"
+      "6"
     ],
-    "counterfactual_importance_accuracy": -0.046717918391484314,
-    "counterfactual_importance_kl": 5.874269582536723,
-    "different_trajectories_fraction": 0.8735632183908046,
-    "overdeterminedness": 0.22988505747126442,
-    "resampling_importance_accuracy": 0.06728658142838684,
-    "resampling_importance_kl": 6.206975102247492,
-    "forced_importance_accuracy": 0.04000000000000001,
-    "forced_importance_kl": 3.590395561215919,
-    "accuracy": 0.5057471264367817
+    "counterfactual_importance_accuracy": 0.004273504273504258,
+    "counterfactual_importance_kl": 7.69818045860634,
+    "different_trajectories_fraction": 0.43333333333333335,
+    "overdeterminedness": 0.6666666666666667,
+    "resampling_importance_accuracy": -0.022222222222222143,
+    "resampling_importance_kl": 8.355228717744493,
+    "forced_importance_accuracy": -0.010000000000000009,
+    "forced_importance_kl": 4.762532325834719,
+    "accuracy": 0.6333333333333333
   },
   {
-    "chunk": "Her vital signs are slightly elevated temperature (36.9\u00b0C), blood pressure 130/95, which is a bit high but not critically so.",
+    "chunk": "She's asymptomatic between episodes, which makes me think it's something that comes and goes, maybe an intermittent issue.",
+    "chunk_idx": 8,
+    "summary": "identify intermittent issue",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "5",
+      "6"
+    ],
+    "counterfactual_importance_accuracy": 0.0032560032560032814,
+    "counterfactual_importance_kl": 6.28735887950035,
+    "different_trajectories_fraction": 0.6,
+    "overdeterminedness": 0.6111111111111112,
+    "resampling_importance_accuracy": 0.015262515262515208,
+    "resampling_importance_kl": 7.763270778892327,
+    "forced_importance_accuracy": -0.06999999999999999,
+    "forced_importance_kl": 1.2768330046932714,
+    "accuracy": 0.6111111111111112
+  },
+  {
+    "chunk": "Her vital signs are slightly elevated in temperature (36.9\u00b0C) and blood pressure (130/95).",
     "chunk_idx": 9,
     "summary": "record vital signs",
     "function_tags": [
       "case_representation"
     ],
     "depends_on": [],
-    "counterfactual_importance_accuracy": 0.1387096774193548,
-    "counterfactual_importance_kl": 8.562165923951115,
-    "different_trajectories_fraction": 0.33707865168539325,
-    "overdeterminedness": 0.1797752808988764,
-    "resampling_importance_accuracy": -0.07841005195119,
-    "resampling_importance_kl": 7.990373295803787,
-    "forced_importance_accuracy": -0.03,
-    "forced_importance_kl": 0.1182589425936145,
-    "accuracy": 0.5730337078651685
+    "counterfactual_importance_accuracy": -0.10196078431372546,
+    "counterfactual_importance_kl": 4.477051936137941,
+    "different_trajectories_fraction": 0.16483516483516483,
+    "overdeterminedness": 0.20879120879120883,
+    "resampling_importance_accuracy": 0.008920491273432418,
+    "resampling_importance_kl": 5.994714549946274,
+    "forced_importance_accuracy": 0.020000000000000004,
+    "forced_importance_kl": 0.5454606594063368,
+    "accuracy": 0.6263736263736264
   },
   {
-    "chunk": "On exam, there's mild scleral icterus, which suggests some mild jaundice.",
+    "chunk": "Slight elevation in temp could be from inflammation or infection.",
     "chunk_idx": 10,
-    "summary": "identify mild jaundice",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": -0.3126614987080103,
-    "counterfactual_importance_kl": 10.84200781092955,
-    "different_trajectories_fraction": 0.0967741935483871,
-    "overdeterminedness": 0.6881720430107527,
-    "resampling_importance_accuracy": 0.04026006501625401,
-    "resampling_importance_kl": 7.547312302048579,
-    "forced_importance_accuracy": 0.0,
-    "forced_importance_kl": 1.9826029537258498,
-    "accuracy": 0.4946236559139785
-  },
-  {
-    "chunk": "The abdomen is soft, with tenderness in the right upper quadrant but no guarding or rebound, which is a bit unusual because if it were appendicitis or cholecystitis, you might expect more guarding.",
-    "chunk_idx": 11,
-    "summary": "assess abdomen tenderness",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "5",
-      "10"
-    ],
-    "counterfactual_importance_accuracy": -0.20998278829604128,
-    "counterfactual_importance_kl": 10.595757976341577,
-    "different_trajectories_fraction": 0.08139534883720931,
-    "overdeterminedness": 0.15116279069767447,
-    "resampling_importance_accuracy": 0.10367049593723732,
-    "resampling_importance_kl": 8.97714878933972,
-    "forced_importance_accuracy": 0.009999999999999981,
-    "forced_importance_kl": 0.2999436036954203,
-    "accuracy": 0.5348837209302325
-  },
-  {
-    "chunk": "Bowel sounds are normal, and the stool is brown with no occult blood, so no signs of upper GI bleeding.",
-    "chunk_idx": 12,
-    "summary": "confirm normal stool",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": 0.23023255813953492,
-    "counterfactual_importance_kl": 6.844832925862041,
-    "different_trajectories_fraction": 0.060240963855421686,
-    "overdeterminedness": 0.5783132530120482,
-    "resampling_importance_accuracy": -0.0687867750070047,
-    "resampling_importance_kl": 9.129782413561605,
-    "forced_importance_accuracy": -0.03999999999999998,
-    "forced_importance_kl": 1.5011634165464354,
-    "accuracy": 0.6385542168674698
-  },
-  {
-    "chunk": "Looking at the labs: Her liver enzymes are elevated\u2014AST 187, ALT 260, and alkaline phosphatase 348.",
-    "chunk_idx": 13,
-    "summary": "elevate liver enzymes",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": -0.1205357142857143,
-    "counterfactual_importance_kl": 6.510533940377192,
-    "different_trajectories_fraction": 0.7441860465116279,
-    "overdeterminedness": 0.15116279069767447,
-    "resampling_importance_accuracy": 0.14451827242524917,
-    "resampling_importance_kl": 6.73645423677494,
-    "forced_importance_accuracy": 0.07999999999999999,
-    "forced_importance_kl": 1.1274572308443929,
-    "accuracy": 0.5697674418604651
-  },
-  {
-    "chunk": "Total bilirubin is 4.1 mg/dL, which is elevated.",
-    "chunk_idx": 14,
-    "summary": "report elevated bilirubin",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": -0.23137254901960785,
-    "counterfactual_importance_kl": 9.741247346182009,
-    "different_trajectories_fraction": 0.03296703296703297,
-    "overdeterminedness": 0.5164835164835164,
-    "resampling_importance_accuracy": -0.14957983193277313,
-    "resampling_importance_kl": 7.718401126451224,
-    "forced_importance_accuracy": 0.0,
-    "forced_importance_kl": 3.367217288915555,
-    "accuracy": 0.7142857142857143
-  },
-  {
-    "chunk": "Her white blood cell count is 9,500, which is a bit high but not extremely so.",
-    "chunk_idx": 15,
-    "summary": "report wbc=9500",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": -0.0626262626262627,
-    "counterfactual_importance_kl": 5.723507078963898,
-    "different_trajectories_fraction": 0.6470588235294118,
-    "overdeterminedness": 0.2823529411764706,
-    "resampling_importance_accuracy": 0.07973856209150332,
-    "resampling_importance_kl": 6.468001581553155,
-    "forced_importance_accuracy": -0.010000000000000009,
-    "forced_importance_kl": 1.1435113131306367,
-    "accuracy": 0.5647058823529412
-  },
-  {
-    "chunk": "Platelets are 170,000, which is on the lower side but not dangerously low.",
-    "chunk_idx": 16,
-    "summary": "report platelets=170,000",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": 0.08333333333333337,
-    "counterfactual_importance_kl": 9.313772477733481,
-    "different_trajectories_fraction": 0.2222222222222222,
-    "overdeterminedness": 0.6555555555555556,
-    "resampling_importance_accuracy": 0.022222222222222143,
-    "resampling_importance_kl": 8.638109846540305,
-    "forced_importance_accuracy": -0.06999999999999998,
-    "forced_importance_kl": 2.4683296503222234,
-    "accuracy": 0.6444444444444445
-  },
-  {
-    "chunk": "The ultrasound shows a normal liver, a common bile duct of 10 mm (which is definitely dilated\u2014normal is up to 6 mm), and a gallbladder with multiple stones.",
-    "chunk_idx": 17,
-    "summary": "identify dilated duct",
-    "function_tags": [
-      "case_representation"
-    ],
-    "depends_on": [],
-    "counterfactual_importance_accuracy": 0.0,
-    "counterfactual_importance_kl": 0.0,
-    "different_trajectories_fraction": 0.0,
-    "overdeterminedness": 0.20430107526881724,
-    "resampling_importance_accuracy": -0.023809523809523725,
-    "resampling_importance_kl": 6.882801133888762,
-    "forced_importance_accuracy": 0.04999999999999999,
-    "forced_importance_kl": 2.704432064589841,
-    "accuracy": 0.6666666666666666
-  },
-  {
-    "chunk": "No wall thickening or pericholecystic fluid, which would suggest acute cholecystitis.",
-    "chunk_idx": 18,
-    "summary": "identify absence of cholecystitis",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "17"
-    ],
-    "counterfactual_importance_accuracy": 0.0,
-    "counterfactual_importance_kl": 0.0,
-    "different_trajectories_fraction": 0.0,
-    "overdeterminedness": 0.7261904761904762,
-    "resampling_importance_accuracy": -0.053968253968254,
-    "resampling_importance_kl": 11.158829655799192,
-    "forced_importance_accuracy": 0.15999999999999998,
-    "forced_importance_kl": 2.316251585620867,
-    "accuracy": 0.6428571428571429
-  },
-  {
-    "chunk": "So putting this together: She has a history of Crohn's, which can cause strictures or inflammation in the biliary system.",
-    "chunk_idx": 19,
-    "summary": "identify crohn's complications",
+    "summary": "identify temp elevation",
     "function_tags": [
       "knowledge_activation"
     ],
     "depends_on": [
-      "3"
+      "9"
     ],
-    "counterfactual_importance_accuracy": -0.08624031007751942,
-    "counterfactual_importance_kl": 9.86388683438457,
-    "different_trajectories_fraction": 0.5333333333333333,
-    "overdeterminedness": 0.4444444444444444,
-    "resampling_importance_accuracy": 0.039018087855297146,
-    "resampling_importance_kl": 9.747943887736565,
-    "forced_importance_accuracy": -0.35,
-    "forced_importance_kl": 18.247474262136674,
-    "accuracy": 0.5888888888888889
+    "counterfactual_importance_accuracy": 0.014604462474644975,
+    "counterfactual_importance_kl": 9.180153055735051,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.5058823529411764,
+    "resampling_importance_accuracy": -0.014604462474644975,
+    "resampling_importance_kl": 9.180153055735051,
+    "forced_importance_accuracy": 0.009999999999999995,
+    "forced_importance_kl": 3.755599269294902,
+    "accuracy": 0.6352941176470588
   },
   {
-    "chunk": "Her elevated liver enzymes and bilirubin point towards some kind of biliary obstruction.",
+    "chunk": "Her BMI is 32, so she's overweight, which might be relevant for conditions like gallstones.",
+    "chunk_idx": 11,
+    "summary": "calculate bmi=32",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.020836286321757602,
+    "counterfactual_importance_kl": 7.451650800275464,
+    "different_trajectories_fraction": 0.9540229885057471,
+    "overdeterminedness": 0.26436781609195403,
+    "resampling_importance_accuracy": 0.014604462474644975,
+    "resampling_importance_kl": 7.552502361076198,
+    "forced_importance_accuracy": 0.06999999999999999,
+    "forced_importance_kl": 4.382371357230854,
+    "accuracy": 0.6206896551724138
+  },
+  {
+    "chunk": "Physical exam shows mild scleral icterus, which indicates some mild jaundice.",
+    "chunk_idx": 12,
+    "summary": "diagnose mild jaundice",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.06060606060606066,
+    "counterfactual_importance_kl": 8.906231326057036,
+    "different_trajectories_fraction": 0.12941176470588237,
+    "overdeterminedness": 0.48235294117647054,
+    "resampling_importance_accuracy": 0.03137254901960784,
+    "resampling_importance_kl": 9.094986694616257,
+    "forced_importance_accuracy": -0.009999999999999981,
+    "forced_importance_kl": 1.5319746825443439,
+    "accuracy": 0.6352941176470588
+  },
+  {
+    "chunk": "Her abdomen is soft, but there's tenderness in the right upper quadrant without guarding or rebound, which suggests it's not a perforated or acute abdomen situation.",
+    "chunk_idx": 13,
+    "summary": "assess abdominal tenderness",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.15474060822898028,
+    "counterfactual_importance_kl": 9.385107718603923,
+    "different_trajectories_fraction": 0.14942528735632185,
+    "overdeterminedness": 0.14942528735632188,
+    "resampling_importance_accuracy": -0.050387596899224785,
+    "resampling_importance_kl": 6.89630350696915,
+    "forced_importance_accuracy": -0.04000000000000001,
+    "forced_importance_kl": 2.04128142655282,
+    "accuracy": 0.6666666666666666
+  },
+  {
+    "chunk": "Bowel sounds are normal, and stool is brown with no occult blood, so no GI bleeding.",
+    "chunk_idx": 14,
+    "summary": "confirm no bleeding",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.11604938271604937,
+    "counterfactual_importance_kl": 8.49108414249278,
+    "different_trajectories_fraction": 0.23255813953488372,
+    "overdeterminedness": 0.8023255813953488,
+    "resampling_importance_accuracy": 0.0997703129486075,
+    "resampling_importance_kl": 6.895973851215836,
+    "forced_importance_accuracy": 0.04000000000000001,
+    "forced_importance_kl": 0.48253342657561094,
+    "accuracy": 0.6162790697674418
+  },
+  {
+    "chunk": "Looking at the labs: her bilirubin is elevated at 4.1 mg/dL, which is a bit high.",
+    "chunk_idx": 15,
+    "summary": "elevate bilirubin=4.1 mg/dL",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.05664794007490637,
+    "counterfactual_importance_kl": 6.26620528721031,
+    "different_trajectories_fraction": 0.5925925925925926,
+    "overdeterminedness": 0.07407407407407407,
+    "resampling_importance_accuracy": -0.06436398945762234,
+    "resampling_importance_kl": 6.208137700971748,
+    "forced_importance_accuracy": 0.06999999999999998,
+    "forced_importance_kl": 1.7164629424455964,
+    "accuracy": 0.7160493827160493
+  },
+  {
+    "chunk": "Her alkaline phosphatase and AST are also elevated, but ALT is only slightly up.",
+    "chunk_idx": 16,
+    "summary": "elevate alkaline phosphatase",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.06312292358803984,
+    "counterfactual_importance_kl": 3.7017780910542575,
+    "different_trajectories_fraction": 0.3146067415730337,
+    "overdeterminedness": 0.3932584269662921,
+    "resampling_importance_accuracy": -0.0005226025607525386,
+    "resampling_importance_kl": 6.388612893009059,
+    "forced_importance_accuracy": -0.06999999999999998,
+    "forced_importance_kl": 0.07454664544616925,
+    "accuracy": 0.651685393258427
+  },
+  {
+    "chunk": "This pattern (elevated ALP and AST more than ALT) suggests a cholestatic process, maybe something related to the bile ducts or gallbladder.",
+    "chunk_idx": 17,
+    "summary": "suggest cholestatic process",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "15",
+      "16"
+    ],
+    "counterfactual_importance_accuracy": -0.005267778753292429,
+    "counterfactual_importance_kl": 5.870820932682962,
+    "different_trajectories_fraction": 0.7790697674418605,
+    "overdeterminedness": 0.18604651162790697,
+    "resampling_importance_accuracy": -0.004103967168262668,
+    "resampling_importance_kl": 6.651392628647696,
+    "forced_importance_accuracy": 0.03,
+    "forced_importance_kl": 2.639775218933053,
+    "accuracy": 0.6511627906976745
+  },
+  {
+    "chunk": "Imaging shows a normal liver, a common bile duct of 10 mm (which is dilated, as normal is <6 mm), and a gallbladder with multiple stones.",
+    "chunk_idx": 18,
+    "summary": "identify bile duct dilation",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.04998774810095563,
+    "counterfactual_importance_kl": 8.254213392650932,
+    "different_trajectories_fraction": 0.6235294117647059,
+    "overdeterminedness": 0.23529411764705888,
+    "resampling_importance_accuracy": -0.036669213139801426,
+    "resampling_importance_kl": 7.614433966222484,
+    "forced_importance_accuracy": -0.04000000000000001,
+    "forced_importance_kl": 0.17463190329199213,
+    "accuracy": 0.6470588235294118
+  },
+  {
+    "chunk": "No wall thickening or pericholecystic fluid, which would suggest cholecystitis.",
+    "chunk_idx": 19,
+    "summary": "identify absence cholecystitis",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "18"
+    ],
+    "counterfactual_importance_accuracy": 0.4444444444444444,
+    "counterfactual_importance_kl": 5.111987724742088,
+    "different_trajectories_fraction": 0.012987012987012988,
+    "overdeterminedness": 0.8051948051948052,
+    "resampling_importance_accuracy": -0.05483405483405479,
+    "resampling_importance_kl": 5.42677790775798,
+    "forced_importance_accuracy": 0.04999999999999999,
+    "forced_importance_kl": 2.5346000642312925,
+    "accuracy": 0.6103896103896104
+  },
+  {
+    "chunk": "So, gallstones are present, but no signs of acute inflammation around the gallbladder.",
     "chunk_idx": 20,
-    "summary": "identify biliary obstruction",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "13",
-      "14"
-    ],
-    "counterfactual_importance_accuracy": -0.05281582952815833,
-    "counterfactual_importance_kl": 9.11519359362408,
-    "different_trajectories_fraction": 0.8488372093023255,
-    "overdeterminedness": 0.16279069767441856,
-    "resampling_importance_accuracy": 0.027648578811369506,
-    "resampling_importance_kl": 9.099278803562498,
-    "forced_importance_accuracy": 0.48,
-    "forced_importance_kl": 1.6456207096450677,
-    "accuracy": 0.627906976744186
-  },
-  {
-    "chunk": "The CBD is dilated, but the gallbladder doesn't show signs of acute inflammation.",
-    "chunk_idx": 21,
-    "summary": "dilate cbd",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "17"
-    ],
-    "counterfactual_importance_accuracy": 0.0033099430689792486,
-    "counterfactual_importance_kl": 9.616204534223222,
-    "different_trajectories_fraction": 0.9222222222222223,
-    "overdeterminedness": 0.2666666666666667,
-    "resampling_importance_accuracy": 0.0037851037851037717,
-    "resampling_importance_kl": 9.239642157134627,
-    "forced_importance_accuracy": -0.33999999999999997,
-    "forced_importance_kl": 7.462404286773719,
-    "accuracy": 0.6555555555555556
-  },
-  {
-    "chunk": "The gallstones are present, but since she doesn't have acute cholecystitis, maybe it's something else.",
-    "chunk_idx": 22,
     "summary": "identify gallstones present",
     "function_tags": [
-      "reconsideration_uncertainty"
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "18",
+      "19"
+    ],
+    "counterfactual_importance_accuracy": 0.033333333333333326,
+    "counterfactual_importance_kl": 7.073612919656963,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.2777777777777778,
+    "resampling_importance_accuracy": -0.033333333333333326,
+    "resampling_importance_kl": 7.073612919656963,
+    "forced_importance_accuracy": -0.06999999999999999,
+    "forced_importance_kl": 1.423558743441565,
+    "accuracy": 0.5555555555555556
+  },
+  {
+    "chunk": "Putting this together, the patient has a history of Crohn's, which can cause complications like narrowing of the bile ducts (choledocholithiasis) because of inflammation and stricturing.",
+    "chunk_idx": 21,
+    "summary": "identify complications from Crohn's",
+    "function_tags": [
+      "knowledge_activation",
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "3",
+      "4"
+    ],
+    "counterfactual_importance_accuracy": -0.3985380116959064,
+    "counterfactual_importance_kl": 9.240355870949115,
+    "different_trajectories_fraction": 0.8,
+    "overdeterminedness": 0.12222222222222223,
+    "resampling_importance_accuracy": 0.40409356725146195,
+    "resampling_importance_kl": 10.331347967873187,
+    "forced_importance_accuracy": 0.74,
+    "forced_importance_kl": 16.786213733472792,
+    "accuracy": 0.5222222222222223
+  },
+  {
+    "chunk": "The presence of gallstones and a dilated CBD on ultrasound supports this.",
+    "chunk_idx": 22,
+    "summary": "support gallstones presence",
+    "function_tags": [
+      "evidence_evaluation"
     ],
     "depends_on": [
       "18",
       "21"
     ],
-    "counterfactual_importance_accuracy": 0.03119143239625166,
-    "counterfactual_importance_kl": 8.985581399837422,
-    "different_trajectories_fraction": 0.9120879120879121,
-    "overdeterminedness": 0.09890109890109888,
-    "resampling_importance_accuracy": -0.0037851037851037717,
-    "resampling_importance_kl": 9.502398345057792,
-    "forced_importance_accuracy": -0.1,
-    "forced_importance_kl": 2.4058911176888094,
-    "accuracy": 0.6593406593406593
+    "counterfactual_importance_accuracy": -0.03693181818181823,
+    "counterfactual_importance_kl": 6.894918730583838,
+    "different_trajectories_fraction": 0.9263157894736842,
+    "overdeterminedness": 0.26315789473684215,
+    "resampling_importance_accuracy": 0.042434210526315796,
+    "resampling_importance_kl": 6.7490580029802665,
+    "forced_importance_accuracy": 0.08999999999999997,
+    "forced_importance_kl": 6.788578224990195,
+    "accuracy": 0.9263157894736842
   },
   {
-    "chunk": "In someone with a history of Crohn's, a stricture in the common bile duct is a possibility.",
+    "chunk": "The intermittent pain episodes fit with gallstones passing through the CBD, causing obstruction and pain each time.",
     "chunk_idx": 23,
-    "summary": "identify stricture possibility",
-    "function_tags": [
-      "hypothesis_generation"
-    ],
-    "depends_on": [
-      "19"
-    ],
-    "counterfactual_importance_accuracy": 0.29066985645933013,
-    "counterfactual_importance_kl": 9.61846299829893,
-    "different_trajectories_fraction": 0.9777777777777777,
-    "overdeterminedness": 0.05555555555555558,
-    "resampling_importance_accuracy": -0.28713450292397663,
-    "resampling_importance_kl": 9.824093322321307,
-    "forced_importance_accuracy": -0.04,
-    "forced_importance_kl": 10.85544065360414,
-    "accuracy": 0.6555555555555556
-  },
-  {
-    "chunk": "The pain episodes could be due to stones passing through a narrowed CBD, causing obstruction and pain.",
-    "chunk_idx": 24,
-    "summary": "identify obstruction cause",
+    "summary": "gallstones cause pain",
     "function_tags": [
       "evidence_evaluation"
     ],
     "depends_on": [
       "5",
-      "17",
+      "22"
+    ],
+    "counterfactual_importance_accuracy": 0.038485607008761025,
+    "counterfactual_importance_kl": 1.98327748478599,
+    "different_trajectories_fraction": 0.7083333333333334,
+    "overdeterminedness": 0.25,
+    "resampling_importance_accuracy": -0.02194148936170215,
+    "resampling_importance_kl": 1.3676069378204256,
+    "forced_importance_accuracy": -0.009999999999999898,
+    "forced_importance_kl": 6.5088734725798485,
+    "accuracy": 0.96875
+  },
+  {
+    "chunk": "She doesn't have the typical Charcot's triad (right upper quadrant pain, fever, jaundice) because her pericholecystic fluid is negative, so it's not acute cholecystitis.",
+    "chunk_idx": 24,
+    "summary": "confirm no cholecystitis",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "19",
       "23"
     ],
-    "counterfactual_importance_accuracy": -0.24173806609547127,
-    "counterfactual_importance_kl": 6.397008145142247,
-    "different_trajectories_fraction": 0.9052631578947369,
-    "overdeterminedness": 0.11578947368421055,
-    "resampling_importance_accuracy": 0.21052631578947373,
-    "resampling_importance_kl": 7.46929524196065,
-    "forced_importance_accuracy": 0.04,
-    "forced_importance_kl": 15.066939472334171,
-    "accuracy": 0.3684210526315789
-  },
-  {
-    "chunk": "This is sometimes referred to as \"gallstone pancreatitis\" or \"biliary pain.\" The intermittent nature of the pain, with asymptomatic periods, fits this scenario because stones can move and cause episodic obstruction.",
-    "chunk_idx": 25,
-    "summary": "describe gallstone pain",
-    "function_tags": [
-      "knowledge_activation"
-    ],
-    "depends_on": [
-      "24"
-    ],
-    "counterfactual_importance_accuracy": -0.08695652173913038,
-    "counterfactual_importance_kl": 9.260266085938811,
-    "different_trajectories_fraction": 0.968421052631579,
-    "overdeterminedness": 0.1473684210526316,
-    "resampling_importance_accuracy": 0.08409610983981686,
-    "resampling_importance_kl": 9.646647671216298,
-    "forced_importance_accuracy": 0.060000000000000005,
-    "forced_importance_kl": 18.98974790169008,
-    "accuracy": 0.5789473684210527
-  },
-  {
-    "chunk": "Another consideration is primary sclerosing cholangitis (PSC), which can occur in Crohn's patients.",
-    "chunk_idx": 26,
-    "summary": "mention PSC occurrence",
-    "function_tags": [
-      "hypothesis_generation"
-    ],
-    "depends_on": [
-      "3"
-    ],
-    "counterfactual_importance_accuracy": -0.13457556935817816,
-    "counterfactual_importance_kl": 7.5423096277781125,
+    "counterfactual_importance_accuracy": 0.008664180741390637,
+    "counterfactual_importance_kl": 1.8303322648508769,
     "different_trajectories_fraction": 1.0,
-    "overdeterminedness": 0.34782608695652173,
-    "resampling_importance_accuracy": 0.13457556935817816,
-    "resampling_importance_kl": 7.5423096277781125,
-    "forced_importance_accuracy": 0.13999999999999999,
-    "forced_importance_kl": 2.708334954258576,
-    "accuracy": 0.6630434782608695
+    "overdeterminedness": 0.45744680851063835,
+    "resampling_importance_accuracy": -0.008664180741390637,
+    "resampling_importance_kl": 1.8303322648508769,
+    "forced_importance_accuracy": -0.10000000000000009,
+    "forced_importance_kl": 0.7886025839350624,
+    "accuracy": 0.9468085106382979
   },
   {
-    "chunk": "PSC causes strictures in the bile ducts and can lead to pain and elevated liver enzymes.",
-    "chunk_idx": 27,
-    "summary": "elevate liver enzymes",
-    "function_tags": [
-      "knowledge_activation"
-    ],
-    "depends_on": [
-      "26"
-    ],
-    "counterfactual_importance_accuracy": 0.23170731707317072,
-    "counterfactual_importance_kl": 1.4423837601634777,
-    "different_trajectories_fraction": 0.011904761904761904,
-    "overdeterminedness": 0.7380952380952381,
-    "resampling_importance_accuracy": -0.029326364692218387,
-    "resampling_importance_kl": 6.26257679043643,
-    "forced_importance_accuracy": -0.09999999999999998,
-    "forced_importance_kl": 5.523182645184359,
-    "accuracy": 0.7976190476190477
-  },
-  {
-    "chunk": "However, PSC usually progresses more insidiously and might not present with the same episodic pain unless there's a superimposed issue like stones.",
-    "chunk_idx": 28,
-    "summary": "identify superimposed issues",
+    "chunk": "Instead, this is more about gallstones moving, causing obstruction and pain each time, which is why she has episodes.",
+    "chunk_idx": 25,
+    "summary": "gallstones cause obstruction",
     "function_tags": [
       "evidence_evaluation"
     ],
     "depends_on": [
-      "27",
+      "23",
       "24"
     ],
-    "counterfactual_importance_accuracy": 0.09579300809796565,
-    "counterfactual_importance_kl": 8.805541804114494,
-    "different_trajectories_fraction": 0.7439024390243902,
-    "overdeterminedness": 0.20731707317073167,
-    "resampling_importance_accuracy": -0.09359388774610644,
-    "resampling_importance_kl": 8.470493466905392,
-    "forced_importance_accuracy": 0.49,
-    "forced_importance_kl": 11.814177547734232,
-    "accuracy": 0.7682926829268293
+    "counterfactual_importance_accuracy": 0.1734550561797753,
+    "counterfactual_importance_kl": 3.4608269507213056,
+    "different_trajectories_fraction": 0.9896907216494846,
+    "overdeterminedness": 0.17525773195876293,
+    "resampling_importance_accuracy": -0.17409938607668252,
+    "resampling_importance_kl": 3.4485975363079566,
+    "forced_importance_accuracy": -0.15999999999999992,
+    "forced_importance_kl": 2.5649894501275234,
+    "accuracy": 0.9381443298969072
   },
   {
-    "chunk": "The fact that the gallbladder has stones but no wall thickening suggests that the gallbladder itself isn't acutely inflamed.",
-    "chunk_idx": 29,
-    "summary": "gallbladder not inflamed",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "17",
-      "18"
-    ],
-    "counterfactual_importance_accuracy": 0.06981694338016176,
-    "counterfactual_importance_kl": 8.196016690666795,
-    "different_trajectories_fraction": 0.9759036144578314,
-    "overdeterminedness": 0.12048192771084343,
-    "resampling_importance_accuracy": -0.06550339288187224,
-    "resampling_importance_kl": 8.222168106264602,
-    "forced_importance_accuracy": -0.14,
-    "forced_importance_kl": 3.945991167732067,
-    "accuracy": 0.6746987951807228
-  },
-  {
-    "chunk": "The pain is more likely coming from the CBD or the liver.",
-    "chunk_idx": 30,
-    "summary": "identify pain source",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "21",
-      "29"
-    ],
-    "counterfactual_importance_accuracy": -0.19052956010086863,
-    "counterfactual_importance_kl": 9.77477008282451,
-    "different_trajectories_fraction": 0.9885057471264368,
-    "overdeterminedness": 0.1954022988505747,
-    "resampling_importance_accuracy": 0.18598532059271566,
-    "resampling_importance_kl": 9.648206495985113,
-    "forced_importance_accuracy": 0.040000000000000036,
-    "forced_importance_kl": 4.742244806181248,
-    "accuracy": 0.6091954022988506
-  },
-  {
-    "chunk": "The elevated alkaline phosphatase and bilirubin support a cholestatic picture, which is consistent with CBD stones or strictures.",
-    "chunk_idx": 31,
-    "summary": "support cholestasis diagnosis",
-    "function_tags": [
-      "evidence_evaluation"
-    ],
-    "depends_on": [
-      "13",
-      "14",
-      "17"
-    ],
-    "counterfactual_importance_accuracy": -0.14024136496046613,
-    "counterfactual_importance_kl": 10.870036828414648,
-    "different_trajectories_fraction": 0.9759036144578314,
-    "overdeterminedness": 0.12048192771084343,
-    "resampling_importance_accuracy": 0.15987545688371463,
-    "resampling_importance_kl": 11.063654512301516,
-    "forced_importance_accuracy": 0.010000000000000009,
-    "forced_importance_kl": 5.285983335967274,
-    "accuracy": 0.7951807228915663
-  },
-  {
-    "chunk": "So, considering her history, presentation, labs, and imaging, the most likely diagnosis is gallstone-induced common bile duct obstruction, possibly with a stricture from her Crohn's disease.",
-    "chunk_idx": 32,
-    "summary": "diagnose bile duct obstruction",
+    "chunk": "So, the most likely diagnosis is choledocholithiasis, which is gallstones in the common bile duct.",
+    "chunk_idx": 26,
+    "summary": "diagnose choledocholithiasis",
     "function_tags": [
       "diagnostic_commitment"
     ],
     "depends_on": [
-      "19",
-      "20",
       "21",
+      "22",
       "23",
-      "24",
-      "31"
+      "25"
+    ],
+    "counterfactual_importance_accuracy": -0.2359550561797753,
+    "counterfactual_importance_kl": 14.810543420294293,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.4157303370786517,
+    "resampling_importance_accuracy": 0.2359550561797753,
+    "resampling_importance_kl": 14.810543420294293,
+    "forced_importance_accuracy": 0.08999999999999997,
+    "forced_importance_kl": 24.6942573872423,
+    "accuracy": 0.7640449438202247
+  },
+  {
+    "chunk": "This is often associated with gallstones in the gallbladder, which she has.",
+    "chunk_idx": 27,
+    "summary": "identify gallstones presence",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "18",
+      "26"
     ],
     "counterfactual_importance_accuracy": 0.0,
     "counterfactual_importance_kl": 0.0,
@@ -644,6 +543,6 @@
     "resampling_importance_kl": 0.0,
     "forced_importance_accuracy": 0.0,
     "forced_importance_kl": 0.0,
-    "accuracy": 0.9550561797752809
+    "accuracy": 1.0
   }
 ]

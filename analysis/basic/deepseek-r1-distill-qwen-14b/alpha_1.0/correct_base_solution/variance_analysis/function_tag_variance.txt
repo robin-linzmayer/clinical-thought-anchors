@@ -1,38 +1,14 @@
 Function tags with highest variance in importance:
 
-Diagnostic Commitment:
-  Variance: 0.064090
-  Mean: -0.200929
-  Count: 5
-  Coefficient of Variation: -0.318966
-
-Knowledge Activation:
-  Variance: 0.033795
-  Mean: -0.027423
-  Count: 24
-  Coefficient of Variation: -1.232355
+Evidence Evaluation:
+  Variance: 0.020307
+  Mean: 0.073746
+  Count: 9
+  Coefficient of Variation: 0.275359
 
 Case Representation:
-  Variance: 0.018391
-  Mean: -0.010186
-  Count: 44
-  Coefficient of Variation: -1.805503
-
-Hypothesis Generation:
-  Variance: 0.018287
-  Mean: 0.047978
-  Count: 9
-  Coefficient of Variation: 0.381147
-
-Evidence Evaluation:
-  Variance: 0.017258
-  Mean: -0.031889
-  Count: 45
-  Coefficient of Variation: -0.541172
-
-Reconsideration Uncertainty:
-  Variance: 0.007788
-  Mean: 0.015048
+  Variance: 0.008312
+  Mean: -0.050207
   Count: 12
-  Coefficient of Variation: 0.517547
+  Coefficient of Variation: -0.165557
 

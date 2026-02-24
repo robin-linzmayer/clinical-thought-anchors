@@ -1,4 +1,2 @@
 category,avg_zscore,std_zscore,standard_error,count
-Knowledge Activation,2.759983724982539,0.0,0.0,1
-Evidence Evaluation,2.2686537487118894,0.062054844530470055,0.04387940137297231,2
-Hypothesis Generation,1.9393382125107104,0.0,0.0,1
+Evidence Evaluation,3.122454586938004,0.0,0.0,1
