@@ -1,0 +1,17 @@
+{
+  "problem_idx": "problem_467",
+  "gt_answer": "Herpes simplex virus",
+  "accuracy": 0.3,
+  "approximate_mean_tokens": 1885.5,
+  "incorrect_answers": [
+    "West Nile virus encephalitis",
+    "West Nile Virus",
+    "Naegleria fowleri",
+    "Naegleria fowleri (Primary Amoebic Meningoencephalitis)"
+  ],
+  "correct_answers": [
+    "\\text{Viral meningitis}",
+    "Herpes Simplex Encephalitis"
+  ],
+  "problem": "A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\""
+}

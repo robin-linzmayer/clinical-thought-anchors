@@ -1,0 +1,902 @@
+[
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral Malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral Malaria}.",
+    "answer": "Cerebral Malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Neurocysticercosis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Neurocysticercosis}.",
+    "answer": "Neurocysticercosis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Balamuthia mandrillensis}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Balamuthia mandrillensis}.",
+    "answer": "Balamuthia mandrillensis",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Cerebral malaria}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Cerebral malaria}.",
+    "answer": "Cerebral malaria",
+    "is_correct": false
+  },
+  {
+    "chunk_removed": "Let's start by going through the information step by step.",
+    "prefix_without_chunk": "Alright, so I need to figure out the diagnosis for this 15-year-old girl.",
+    "chunk_resampled": "",
+    "rollout": "Naegleria fowleri}.",
+    "full_cot": "Solve this diagnostic problem step by step. You MUST put your final diagnosis in \\boxed{}. Problem: A previously healthy 15-year-old girl is brought to the emergency department 24 hours after the onset of a severe headache. She returned from a 1-week camping trip 3 days ago; she went spelunking and swimming in a freshwater lake during the trip. She is agitated, uncooperative, and oriented only to person. Her temperature is 38.9\u0412\u00b0C (102\u0412\u00b0F), pulse is 112/min, respirations are 20/min, and blood pressure is 100/68 mm Hg. There are several crusted insect bites on her extremities. Neurologic examination shows diffuse hyperreflexia and an extensor plantar response bilaterally. Her neck is supple without lymphadenopathy. An MRI of the brain shows asymmetrical, bitemporal hyperintensities. A lumbar puncture is performed. Cerebrospinal fluid analysis shows:\nOpening pressure 150 mm H2O\nGlucose 58 mg/dL\nProtein 108 mg/dL\nLeukocyte count 150/mm3\nSegmented neutrophils 15%\nLymphocytes 85%\nErythrocyte count 25/mm3\nWhat is the most likely causal pathogen?\" Diagnosis: \n<think>\nAlright, so I need to figure out the diagnosis for this 15-year-old girl.\n</think>\n\nTherefore, the final answers is \\boxed{Naegleria fowleri}.",
+    "answer": "Naegleria fowleri",
+    "is_correct": false
+  }
+]
