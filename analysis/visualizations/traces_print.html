@@ -122,7 +122,7 @@ h2 {
 <body>
 
 <h1>Reasoning Trace Visualization</h1>
-<p class="subtitle">8 trace(s)</p>
+<p class="subtitle">9 trace(s)</p>
 
 <div class="legend">
 <span class="legend-item"><span class="legend-dot" style="background:#4285F4;"></span>Case Representation</span>
@@ -4090,6 +4090,295 @@ Abdominal ultrasonography shows a normal liver, a common bile duct caliber of 10
       </span>
     </div>
     <div class="card-text">It explains the dilated CBD, elevated liver enzymes, mild jaundice, and her history of Crohn&#x27;s.</div>
+  </div>
+</div>
+</div>
+</section>
+<section class="page-break">
+  <h2>Problem 97 — Heart failure evaluation (correct)</h2>
+  <div class="problem-text">A 75-year-old man comes to the physician for the evaluation of progressive shortness of breath and fatigue over the past month. He reports that he cannot climb more than one flight of stairs without experiencing shortness of breath and dizziness. He has hypertension and hyperlipidemia. He has smoked one pack of cigarettes daily for the past 50 years. He does not drink alcohol. His medications include enalapril, atorvastatin, and low-dose aspirin. His temperature is 37В°C (98.6В°F), pulse is 70/min, respirations are 18/min, and blood pressure is 100/80 mm Hg. Physical examination shows weak peripheral pulses. Cardiac examination is shown. What is the most likely diagnosis?</div>
+  <div class="meta-row">
+    <div class="meta-box correct-ans">
+      <span class="meta-label">Correct Answer</span>
+      <span class="meta-value">Aortic valve stenosis</span>
+    </div>
+    <div class="meta-box model-ans">
+      <span class="meta-label">Model Answer</span>
+      <span class="meta-value">Aortic Stenosis</span>
+    </div>
+    <div class="meta-box bench"><span class="meta-label">Benchmark Accuracy</span><span class="meta-value">30%</span></div>
+  </div>
+  <div class="chunks"><div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#0</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +1.7%</span><span class="stat pos">Countf +6.3%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 19%</span>
+      </span>
+    </div>
+    <div class="card-text">Okay, so I&#x27;m trying to figure out the diagnosis for this 75-year-old man.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#1</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +1.9%</span><span class="stat neg">Countf -0.4%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 20%</span>
+      </span>
+    </div>
+    <div class="card-text">Let me start by going through the information step by step.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#2</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat neg">Resamp -2.9%</span><span class="stat neg">Countf -5.9%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 22%</span>
+      </span>
+    </div>
+    <div class="card-text">First, the patient&#x27;s presenting symptoms are progressive shortness of breath and fatigue over the past month.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#3</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +6.4%</span><span class="stat pos">Countf +-0.0%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 19%</span>
+      </span>
+    </div>
+    <div class="card-text">He can&#x27;t climb more than one flight of stairs without getting short of breath and dizzy.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#FBBC04;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#4</span>
+      <span class="tag-badge" style="background:#FBBC04;">Hypothesis</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +1.6%</span><span class="stat pos">Countf +2.5%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 26%</span>
+      </span>
+    </div>
+    <div class="card-text">That makes me think of something that affects his ability to exercise, maybe heart or lung issues.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#34A853;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#5</span>
+      <span class="tag-badge" style="background:#34A853;">Knowledge</span> 
+      <span class="card-stats">
+        <span class="stat neg">Resamp -8.7%</span><span class="stat pos">Countf +-0.0%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 27%</span>
+      </span>
+    </div>
+    <div class="card-text">He has a history of hypertension and hyperlipidemia, which are both risk factors for cardiovascular diseases.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#34A853;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#6</span>
+      <span class="tag-badge" style="background:#34A853;">Knowledge</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +8.4%</span><span class="stat pos">Countf +1.9%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 19%</span>
+      </span>
+    </div>
+    <div class="card-text">He&#x27;s been smoking a pack a day for 50 years, which is a big red flag for lung problems like COPD or maybe even lung cancer, but he doesn&#x27;t drink alcohol, so that&#x27;s one less variable.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#7</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat neg">Resamp -4.3%</span><span class="stat pos">Countf +-0.0%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 27%</span>
+      </span>
+    </div>
+    <div class="card-text">His medications include enalapril (an ACE inhibitor), atorvastatin (a statin for cholesterol), and low-dose aspirin.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#FA7B17;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#8</span>
+      <span class="tag-badge" style="background:#FA7B17;">Evidence</span> 
+      <span class="card-stats">
+        <span class="stat neg">Resamp -0.8%</span><span class="stat neg">Countf -0.4%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 23%</span>
+      </span>
+    </div>
+    <div class="card-text">Those are standard for hypertension and high cholesterol, so nothing unusual there.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#9</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat neg">Resamp -0.4%</span><span class="stat pos">Countf +21.4%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 22%</span>
+      </span>
+    </div>
+    <div class="card-text">Looking at his vital signs: temperature is 37°C, which is a bit low but within normal range.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#10</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +0.4%</span><span class="stat pos">Countf +21.9%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 21%</span>
+      </span>
+    </div>
+    <div class="card-text">Pulse is 70/min, which is average.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#11</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat neg">Resamp -4.0%</span><span class="stat pos">Countf +-0.0%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 22%</span>
+      </span>
+    </div>
+    <div class="card-text">Respirations are 18/min, also normal.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#12</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +3.6%</span><span class="stat pos">Countf +2.8%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 18%</span>
+      </span>
+    </div>
+    <div class="card-text">Blood pressure is 100/80 mm Hg, which is a bit low but could be due to medications like enalapril.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#13</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +0.8%</span><span class="stat pos">Countf +22.3%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 22%</span>
+      </span>
+    </div>
+    <div class="card-text">Physical exam shows weak peripheral pulses.</div>
+  </div>
+</div>
+<div class="chunk-card is-anchor">
+  <div class="accent-bar" style="background:#FBBC04;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#14</span>
+      <span class="tag-badge" style="background:#FBBC04;">Hypothesis</span> <span class="tag-badge" style="background:#FA7B17;">Evidence</span> <span class="anchor-badge pos">+ ANCHOR</span>
+      <span class="card-stats">
+        <span class="stat pos">Resamp +40.4%</span><span class="stat pos">Countf +37.1%</span><span class="stat pos">Forced +73.0%</span><span class="stat">acc 22%</span>
+      </span>
+    </div>
+    <div class="card-text">That makes me think about decreased blood flow or possible aortic stenosis, where the pulses are weak because the heart isn&#x27;t pumping effectively.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#EA4335;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#15</span>
+      <span class="tag-badge" style="background:#EA4335;">Uncertainty</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +3.9%</span><span class="stat pos">Countf +6.1%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 63%</span>
+      </span>
+    </div>
+    <div class="card-text">Cardiac exam is mentioned but not detailed, so I need to consider what that might show.</div>
+  </div>
+</div>
+<div class="chunk-card is-anchor">
+  <div class="accent-bar" style="background:#4285F4;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#16</span>
+      <span class="tag-badge" style="background:#4285F4;">Case</span> <span class="tag-badge" style="background:#FA7B17;">Evidence</span> <span class="anchor-badge neg">- ANCHOR</span>
+      <span class="card-stats">
+        <span class="stat neg">Resamp -18.2%</span><span class="stat neg">Countf -17.5%</span><span class="stat neg">Forced -14.0%</span><span class="stat">acc 67%</span>
+      </span>
+    </div>
+    <div class="card-text">Putting it all together: he&#x27;s an older man with risk factors for heart disease, smoking history, and symptoms of reduced cardiac output.</div>
+  </div>
+</div>
+<div class="chunk-card is-anchor">
+  <div class="accent-bar" style="background:#FA7B17;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#17</span>
+      <span class="tag-badge" style="background:#FA7B17;">Evidence</span> <span class="anchor-badge pos">+ ANCHOR</span>
+      <span class="card-stats">
+        <span class="stat pos">Resamp +50.5%</span><span class="stat pos">Countf +56.1%</span><span class="stat pos">Forced +41.0%</span><span class="stat">acc 48%</span>
+      </span>
+    </div>
+    <div class="card-text">The weak pulses could indicate aortic stenosis, which is a common condition in older adults, especially with a history of hypertension.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#FA7B17;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#18</span>
+      <span class="tag-badge" style="background:#FA7B17;">Evidence</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +1.0%</span><span class="stat pos">Countf +1.1%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 99%</span>
+      </span>
+    </div>
+    <div class="card-text">COPD is also possible, but the weak pulses are more indicative of a cardiac issue.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#FA7B17;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#19</span>
+      <span class="tag-badge" style="background:#FA7B17;">Evidence</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +0.0%</span><span class="stat pos">Countf +-0.0%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 100%</span>
+      </span>
+    </div>
+    <div class="card-text">His blood pressure is on the lower side, but that&#x27;s probably from the enalapril, so not too concerning.</div>
+  </div>
+</div>
+<div class="chunk-card">
+  <div class="accent-bar" style="background:#00897B;"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <span class="card-idx">#20</span>
+      <span class="tag-badge" style="background:#00897B;">Commitment</span> <span class="tag-badge" style="background:#E91E63;">Answer</span> 
+      <span class="card-stats">
+        <span class="stat pos">Resamp +0.0%</span><span class="stat pos">Countf +-0.0%</span><span class="stat pos">Forced +0.0%</span><span class="stat">acc 100%</span>
+      </span>
+    </div>
+    <div class="card-text">So, considering all this, the most likely diagnosis is aortic stenosis.</div>
   </div>
 </div>
 </div>

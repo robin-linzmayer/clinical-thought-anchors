@@ -140,7 +140,7 @@ def compute_z_scores(chunks, metric):
     return ((arr - np.mean(arr)) / std).tolist()
 
 
-def load_problem_data(rollouts_dir, problem_idx):
+def load_problem_data(rollouts_dir, problem_idx, forced_dir=None):
     problem_dir = rollouts_dir / f"problem_{problem_idx}"
     labeled_file = problem_dir / "chunks_labeled.json"
     problem_file = problem_dir / "problem.json"
@@ -157,6 +157,43 @@ def load_problem_data(rollouts_dir, problem_idx):
     if base_file.exists():
         with open(base_file, "r", encoding="utf-8") as f:
             base_solution = json.load(f)
+
+    # Load solution samples for each chunk
+    forced_problem_dir = (forced_dir / f"problem_{problem_idx}") if forced_dir else None
+    for c in chunks:
+        cidx = c.get("chunk_idx", 0)
+        # Regular rollout samples (resampled chunks)
+        sol_file = problem_dir / f"chunk_{cidx}" / "solutions.json"
+        c["_sample_resampled"] = []
+        c["_sample_dissimilar"] = []
+        if sol_file.exists():
+            with open(sol_file, "r", encoding="utf-8") as f:
+                sols = json.load(f)
+            # Collect unique resampled chunks
+            seen = set()
+            for s in sols:
+                txt = s.get("chunk_resampled", "")
+                if txt and txt not in seen:
+                    seen.add(txt)
+                    c["_sample_resampled"].append(txt)
+                    if len(c["_sample_resampled"]) >= 5:
+                        break
+        # Forced answer samples
+        c["_sample_forced"] = []
+        if forced_problem_dir:
+            forced_sol_file = forced_problem_dir / f"chunk_{cidx}" / "solutions.json"
+            if forced_sol_file.exists():
+                with open(forced_sol_file, "r", encoding="utf-8") as f:
+                    forced_sols = json.load(f)
+                seen_f = set()
+                for s in forced_sols:
+                    ans = s.get("answer", "")
+                    if ans and ans not in seen_f:
+                        seen_f.add(ans)
+                        c["_sample_forced"].append(ans)
+                        if len(c["_sample_forced"]) >= 5:
+                            break
+
     return chunks, problem, base_solution
 
 
@@ -227,61 +264,259 @@ def _build_js(js_data, metrics_js, default_metric):
     }
 
     function beadRadius(z) {
-        var mag = Math.min(Math.abs(z), 4);
-        return 6 + mag * 3;
+        return 5;
+    }
+
+    var tooltipEl = document.getElementById('bead-tooltip');
+    var tooltipTimeout = null;
+
+    function truncate(s, n) { return s.length > n ? s.substring(0, n) + '...' : s; }
+
+    function showTooltip(e, chunk) {
+        clearTimeout(tooltipTimeout);
+        var html = '<strong>#' + chunk.chunk_idx + ' ' + escapeHtml(chunk.tag_short) + '</strong><br>' + escapeHtml(truncate(chunk.text, 200));
+        tooltipEl.innerHTML = html;
+        tooltipEl.classList.add('visible');
+        positionTooltip(e);
+    }
+
+    function positionTooltip(e) {
+        var x = e.clientX + 16;
+        var y = e.clientY + 16;
+        var w = tooltipEl.offsetWidth;
+        var h = tooltipEl.offsetHeight;
+        if (x + w > window.innerWidth - 20) x = e.clientX - w - 16;
+        if (y + h > window.innerHeight - 20) y = e.clientY - h - 16;
+        tooltipEl.style.left = x + 'px';
+        tooltipEl.style.top = y + 'px';
+    }
+
+    function hideTooltip() {
+        tooltipTimeout = setTimeout(function() {
+            tooltipEl.classList.remove('visible');
+        }, 100);
+    }
+
+    function buildBeadRow(p) {
+        var zScores = computeZScores(p.chunks, currentMetric);
+        var nAnchors = zScores.filter(function(z) { return Math.abs(z) > 1.5; }).length;
+
+        var row = document.createElement('div');
+        row.className = 'overview-row';
+        row.addEventListener('click', function() { showDetail(p.idx, p.trace_type); });
+
+        var label = document.createElement('div');
+        label.className = 'row-label';
+        var nick = p.nickname ? ' ' + p.nickname : '';
+        var typeTag = currentFilter === 'both' ? ' <span class="row-type ' + p.trace_type + '">' + p.trace_type.charAt(0).toUpperCase() + '</span>' : '';
+        label.innerHTML = 'P' + p.idx + nick + typeTag +
+            '<span class="row-meta">' + p.chunks.length + ' steps' +
+            (nAnchors ? ', ' + nAnchors + ' anchors' : '') + '</span>';
+
+        var track = document.createElement('div');
+        track.className = 'bead-track';
+
+        p.chunks.forEach(function(c, i) {
+            var z = zScores[i];
+            var isAnchor = Math.abs(z) > 1.5;
+            var imp = c[currentMetric] || 0;
+            var mag = Math.min(Math.abs(z), 3);
+            var d = 10 + Math.round(mag * 4);
+            var bead = document.createElement('div');
+            bead.className = 'bead';
+            var glow = '';
+            if (isAnchor) {
+                var glowColor = imp >= 0 ? 'rgba(52,168,83,0.5)' : 'rgba(234,67,53,0.5)';
+                glow = 'box-shadow: 0 0 6px 2px ' + glowColor + ';';
+            }
+            bead.style.cssText = 'width:' + d + 'px; height:' + d + 'px; background:' + c.color + ';' + glow;
+            (function(idx, tt, ci, chunk) {
+                bead.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    showDetail(idx, tt, ci);
+                });
+                bead.addEventListener('mouseenter', function(e) { showTooltip(e, chunk); });
+                bead.addEventListener('mousemove', function(e) { positionTooltip(e); });
+                bead.addEventListener('mouseleave', hideTooltip);
+            })(p.idx, p.trace_type, i, c);
+            track.appendChild(bead);
+        });
+
+        var trackWrap = document.createElement('div');
+        trackWrap.className = 'bead-track-wrap';
+        var hint = document.createElement('div');
+        hint.className = 'scroll-hint';
+        trackWrap.appendChild(track);
+        trackWrap.appendChild(hint);
+
+        (function(tw, tr) {
+            function checkOverflow() {
+                if (tr.scrollWidth > tw.offsetWidth + 2) {
+                    tw.classList.add('has-overflow');
+                } else {
+                    tw.classList.remove('has-overflow');
+                }
+                if (tr.scrollLeft + tr.offsetWidth >= tr.scrollWidth - 4) {
+                    tw.classList.add('scrolled-end');
+                } else {
+                    tw.classList.remove('scrolled-end');
+                }
+            }
+            tr.addEventListener('scroll', checkOverflow);
+            setTimeout(checkOverflow, 50);
+        })(trackWrap, track);
+
+        row.appendChild(label);
+        row.appendChild(trackWrap);
+        return row;
     }
 
     function renderOverview() {
         var container = document.getElementById('overview');
         container.innerHTML = '';
-        DATA.forEach(function(p) {
-            if (p.trace_type !== currentFilter) return;
-            var zScores = computeZScores(p.chunks, currentMetric);
-            var nAnchors = zScores.filter(function(z) { return Math.abs(z) > 1.5; }).length;
 
-            var row = document.createElement('div');
-            row.className = 'overview-row';
-            row.addEventListener('click', function() { showDetail(p.idx, p.trace_type); });
-
-            var label = document.createElement('div');
-            label.className = 'row-label';
-            var nick = p.nickname ? ' ' + p.nickname : '';
-            label.innerHTML = 'P' + p.idx + nick +
-                '<span class="row-meta">' + p.chunks.length + ' steps' +
-                (nAnchors ? ', ' + nAnchors + ' anchors' : '') + '</span>';
-
-            var track = document.createElement('div');
-            track.className = 'bead-track';
-
-            p.chunks.forEach(function(c, i) {
-                var z = zScores[i];
-                var r = beadRadius(z);
-                var isAnchor = Math.abs(z) > 1.5;
-                var bead = document.createElement('div');
-                bead.className = 'bead';
-                var imp = c[currentMetric] || 0;
-                var glowColor = isAnchor ? (imp >= 0 ? '#34A85366' : '#EA433566') : '';
-                var glow = isAnchor ? 'box-shadow: 0 0 ' + Math.round(r*0.7) + 'px ' + Math.round(r*0.4) + 'px ' + glowColor + ';' : '';
-                bead.style.cssText = 'width:' + (r*2) + 'px; height:' + (r*2) + 'px; background:' + c.color + ';' + glow;
-                bead.title = '#' + c.chunk_idx + ' ' + c.tag_short + ': ' + c.summary;
-                (function(idx, tt, ci) {
-                    bead.addEventListener('click', function(e) {
-                        e.stopPropagation();
-                        showDetail(idx, tt, ci);
-                    });
-                })(p.idx, p.trace_type, i);
-                track.appendChild(bead);
+        if (currentFilter === 'both') {
+            var problemIndices = [];
+            var seen = {};
+            DATA.forEach(function(p) {
+                if (!seen[p.idx]) { seen[p.idx] = true; problemIndices.push(p.idx); }
             });
+            problemIndices.forEach(function(idx) {
+                var group = document.createElement('div');
+                group.className = 'overview-group';
 
-            row.appendChild(label);
-            row.appendChild(track);
-            container.appendChild(row);
-        });
+                // Problem label on the left
+                var problemLabel = document.createElement('div');
+                problemLabel.className = 'group-label';
+                var nick = '';
+                DATA.forEach(function(p) { if (p.idx === idx && p.nickname) nick = p.nickname; });
+                problemLabel.innerHTML = '<strong>P' + idx + '</strong>' + (nick ? '<br><span class="group-nick">' + escapeHtml(nick) + '</span>' : '');
+
+                var tracesCol = document.createElement('div');
+                tracesCol.className = 'group-traces';
+
+                ['correct', 'incorrect'].forEach(function(tt) {
+                    var p = null;
+                    DATA.forEach(function(d) { if (d.idx === idx && d.trace_type === tt) p = d; });
+                    if (!p) return;
+
+                    var traceRow = document.createElement('div');
+                    traceRow.className = 'group-trace-row';
+                    traceRow.addEventListener('click', function() { showDetail(p.idx, p.trace_type); });
+
+                    var zScores = computeZScores(p.chunks, currentMetric);
+                    var nAnchors = zScores.filter(function(z) { return Math.abs(z) > 1.5; }).length;
+
+                    var badge = document.createElement('div');
+                    badge.className = 'group-type-badge ' + tt;
+                    badge.innerHTML = (tt === 'correct' ? 'C' : 'I') + '<span class="group-steps">' + p.chunks.length + ' chunks<br>' + nAnchors + ' anchors</span>';
+                    var track = document.createElement('div');
+                    track.className = 'bead-track';
+
+                    p.chunks.forEach(function(c, i) {
+                        var z = zScores[i];
+                        var isAnchor = Math.abs(z) > 1.5;
+                        var imp = c[currentMetric] || 0;
+                        var mag = Math.min(Math.abs(z), 3);
+                        var d = 10 + Math.round(mag * 4);
+                        var bead = document.createElement('div');
+                        bead.className = 'bead';
+                        var glow = '';
+                        if (isAnchor) {
+                            var glowColor = imp >= 0 ? 'rgba(52,168,83,0.5)' : 'rgba(234,67,53,0.5)';
+                            glow = 'box-shadow: 0 0 6px 2px ' + glowColor + ';';
+                        }
+                        bead.style.cssText = 'width:' + d + 'px; height:' + d + 'px; background:' + c.color + ';' + glow;
+                        (function(pidx, ptt, ci, chunk) {
+                            bead.addEventListener('click', function(e) {
+                                e.stopPropagation();
+                                showDetail(pidx, ptt, ci);
+                            });
+                            bead.addEventListener('mouseenter', function(e) { showTooltip(e, chunk); });
+                            bead.addEventListener('mousemove', function(e) { positionTooltip(e); });
+                            bead.addEventListener('mouseleave', hideTooltip);
+                        })(p.idx, p.trace_type, i, c);
+                        track.appendChild(bead);
+                    });
+
+                    var trackWrap = document.createElement('div');
+                    trackWrap.className = 'bead-track-wrap';
+                    var hint = document.createElement('div');
+                    hint.className = 'scroll-hint';
+                    trackWrap.appendChild(track);
+                    trackWrap.appendChild(hint);
+                    (function(tw, tr) {
+                        function checkOverflow() {
+                            tw.classList.toggle('has-overflow', tr.scrollWidth > tw.offsetWidth + 2);
+                            tw.classList.toggle('scrolled-end', tr.scrollLeft + tr.offsetWidth >= tr.scrollWidth - 4);
+                        }
+                        tr.addEventListener('scroll', checkOverflow);
+                        setTimeout(checkOverflow, 50);
+                    })(trackWrap, track);
+
+                    traceRow.appendChild(badge);
+                    traceRow.appendChild(trackWrap);
+                    tracesCol.appendChild(traceRow);
+                });
+
+                group.appendChild(problemLabel);
+                group.appendChild(tracesCol);
+                container.appendChild(group);
+            });
+        } else {
+            DATA.forEach(function(p) {
+                if (p.trace_type !== currentFilter) return;
+                container.appendChild(buildBeadRow(p));
+            });
+        }
     }
 
     function showDetail(idx, traceType, chunkIndex) {
         activeDetail = {idx: idx, traceType: traceType};
         renderDetail(idx, traceType, chunkIndex);
+    }
+
+    var selectedCardIdx = null;
+
+    function populateSamplesPanel(panel, chunk) {
+        var isForced = currentMetric.indexOf('forced') !== -1;
+        var isCounterfactual = currentMetric.indexOf('counterfactual') !== -1;
+
+        var html = '<div class="sp-title">#' + chunk.chunk_idx + ' ' + escapeHtml(chunk.tag_short) + '</div>';
+
+        if (isForced && chunk.sample_forced && chunk.sample_forced.length > 0) {
+            html += '<div class="sp-section">Sample forced answers</div>';
+            chunk.sample_forced.forEach(function(s) {
+                html += '<div class="sp-sample">' + escapeHtml(s) + '</div>';
+            });
+        }
+
+        if (chunk.sample_resampled && chunk.sample_resampled.length > 0) {
+            var label = isCounterfactual ? 'Sample alternative chunks' : 'Sample resampled chunks';
+            html += '<div class="sp-section">' + label + '</div>';
+            chunk.sample_resampled.forEach(function(s) {
+                html += '<div class="sp-sample">' + escapeHtml(s) + '</div>';
+            });
+        }
+
+        if ((!chunk.sample_resampled || chunk.sample_resampled.length === 0) &&
+            (!chunk.sample_forced || chunk.sample_forced.length === 0)) {
+            html += '<div class="sp-section">No rollout samples available</div>';
+        }
+
+        panel.innerHTML = html;
+        panel.classList.add('visible');
+        var layout = panel.closest('.detail-layout');
+        if (layout) layout.classList.add('has-panel');
+    }
+
+    function alignPanelToCard(cardEl) {
+        var panel = document.getElementById('samples-panel');
+        var layout = cardEl.closest('.detail-layout');
+        if (!layout || !panel) return;
+        var layoutRect = layout.getBoundingClientRect();
+        var cardRect = cardEl.getBoundingClientRect();
+        panel.style.top = (cardRect.top - layoutRect.top) + 'px';
     }
 
     function renderDetail(idx, traceType, scrollToChunk) {
@@ -295,6 +530,7 @@ def _build_js(js_data, metrics_js, default_metric):
         var key = idx + '-' + traceType;
         var selectedMetric = currentMetric;
         var zScores = computeZScores(p.chunks, selectedMetric);
+        selectedCardIdx = null;
 
         var gtAnswer = p.gt_answer || 'N/A';
         var modelAnswer = p.model_answer || 'N/A';
@@ -318,7 +554,7 @@ def _build_js(js_data, metrics_js, default_metric):
             var anchorHtml = isAnchor ? '<span class="detail-anchor ' + anchorDir + '">' + (imp >= 0 ? '+' : '-') + ' ANCHOR</span>' : '';
             var anchorClass = isAnchor ? ' is-anchor' : '';
 
-            return '<div class="detail-card' + anchorClass + '" id="card-' + key + '-' + i + '">' +
+            return '<div class="detail-card' + anchorClass + '" data-chunk-idx="' + i + '" id="card-' + key + '-' + i + '">' +
                 '<div class="accent-bar" style="background:' + c.color + '; width:' + barWidth + 'px;"></div>' +
                 '<div class="card-body">' +
                 '<div class="card-header">' +
@@ -347,8 +583,51 @@ def _build_js(js_data, metrics_js, default_metric):
             benchAcc +
             '</div>' +
             '</div>' +
-            '<div class="detail-chunks">' + cards + '</div>' +
+            '<div class="detail-layout">' +
+            '<div class="detail-chunks-col"><div class="detail-chunks">' + cards + '</div></div>' +
+            '<div class="samples-panel" id="samples-panel"></div>' +
+            '</div>' +
             '</div>';
+
+        // Wire up hover + click handlers on detail cards
+        var detailCards = container.querySelectorAll('.detail-card');
+        var hoverTimeout = null;
+        detailCards.forEach(function(cardEl) {
+            var ci = parseInt(cardEl.getAttribute('data-chunk-idx'));
+            cardEl.addEventListener('mouseenter', function() {
+                if (selectedCardIdx !== null) return; // pinned — don't override
+                clearTimeout(hoverTimeout);
+                var panel = document.getElementById('samples-panel');
+                populateSamplesPanel(panel, p.chunks[ci]);
+                alignPanelToCard(cardEl);
+            });
+            cardEl.addEventListener('mouseleave', function() {
+                if (selectedCardIdx !== null) return;
+                hoverTimeout = setTimeout(function() {
+                    var panel = document.getElementById('samples-panel');
+                    panel.classList.remove('visible');
+                    var layout = panel.closest('.detail-layout');
+                    if (layout) layout.classList.remove('has-panel');
+                }, 200);
+            });
+            cardEl.addEventListener('click', function() {
+                clearTimeout(hoverTimeout);
+                detailCards.forEach(function(c) { c.classList.remove('selected'); });
+                var panel = document.getElementById('samples-panel');
+                if (selectedCardIdx === ci) {
+                    selectedCardIdx = null;
+                    panel.classList.remove('visible');
+                    var layout = panel.closest('.detail-layout');
+                    if (layout) layout.classList.remove('has-panel');
+                    return;
+                }
+                selectedCardIdx = ci;
+                cardEl.classList.add('selected');
+                populateSamplesPanel(panel, p.chunks[ci]);
+                alignPanelToCard(cardEl);
+                cardEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
 
         if (scrollToChunk !== undefined) {
             setTimeout(function() {
@@ -370,7 +649,7 @@ def _build_js(js_data, metrics_js, default_metric):
             b.classList.toggle('active', b.dataset.filter === filter);
         });
         renderOverview();
-        if (activeDetail && activeDetail.traceType !== filter) {
+        if (filter !== 'both' && activeDetail && activeDetail.traceType !== filter) {
             document.getElementById('detail-container').innerHTML = '';
             activeDetail = null;
         }
@@ -429,6 +708,9 @@ def generate_html(all_problems, default_metric):
                 if metric_key in FLIP_SIGN_METRICS:
                     val = -val
                 chunk_js[metric_key] = val
+            # Add solution samples for tooltips
+            chunk_js["sample_resampled"] = c.get("_sample_resampled", [])
+            chunk_js["sample_forced"] = c.get("_sample_forced", [])
             chunks_js.append(chunk_js)
 
         js_data.append({
@@ -500,19 +782,78 @@ h1 {{ font-size: 1.4em; font-weight: 500; margin-bottom: 4px; }}
 /* Overview */
 .section-title {{ font-size: 0.9em; font-weight: 500; color: var(--text-secondary); margin: 20px 0 8px; text-transform: uppercase; letter-spacing: 0.5px; }}
 .overview-row {{
-    display: flex; align-items: center; gap: 12px;
-    padding: 14px 12px; margin-bottom: 6px;
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 12px; margin-bottom: 6px;
     background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px;
     cursor: pointer; transition: background 0.15s;
     overflow: visible;
 }}
 .overview-row:hover {{ background: #E8F0FE; }}
+.overview {{ display: flex; flex-direction: column; }}
+.overview-group {{
+    display: flex; align-items: stretch; gap: 0;
+    margin-bottom: 6px; background: var(--card-bg);
+    border: 1px solid var(--border); border-radius: 8px;
+    cursor: pointer;
+}}
+.overview-group:hover {{ background: #E8F0FE; }}
+.group-label {{
+    width: 140px; flex-shrink: 0; padding: 10px 12px;
+    font-size: 0.85em; display: flex; flex-direction: column; justify-content: center;
+    border-right: 1px solid var(--border); line-height: 1.4;
+}}
+.group-nick {{ font-size: 0.85em; color: var(--text-secondary); font-weight: 400; }}
+.group-traces {{ flex: 1; min-width: 0; display: flex; flex-direction: column; }}
+.group-trace-row {{
+    display: flex; align-items: center; gap: 6px;
+    padding: 4px 8px; cursor: pointer;
+}}
+.group-trace-row + .group-trace-row {{ border-top: 1px solid #ECECEC; }}
+.group-trace-row:hover {{ background: rgba(66,133,244,0.06); }}
+.group-type-badge {{
+    flex-shrink: 0; text-align: center;
+    font-size: 0.75em; font-weight: 700; padding: 4px 8px;
+    border-radius: 4px; color: white; line-height: 1.3;
+    min-width: 60px;
+}}
+.group-type-badge.correct {{ background: #81C995; }}
+.group-type-badge.incorrect {{ background: #E8938A; }}
+.group-steps {{ display: block; font-size: 0.85em; font-weight: 400; opacity: 0.85; }}
 .overview-row.hidden {{ display: none; }}
-.row-label {{ min-width: 160px; font-size: 0.85em; font-weight: 500; display: flex; flex-direction: column; }}
+.row-label {{ width: 140px; flex-shrink: 0; font-size: 0.85em; font-weight: 500; display: flex; flex-direction: column; }}
 .row-meta {{ font-size: 0.75em; color: var(--text-secondary); font-weight: 400; }}
-.bead-track {{ display: flex; align-items: center; gap: 3px; flex-wrap: nowrap; overflow-x: auto; overflow-y: visible; padding: 10px 0; }}
-.bead {{ border-radius: 50%; flex-shrink: 0; transition: transform 0.15s; }}
+.bead-track-wrap {{
+    position: relative; flex: 1; min-width: 0; overflow-x: clip; overflow-y: visible;
+}}
+.bead-track {{
+    display: flex; align-items: center; gap: 3px; flex-wrap: nowrap;
+    overflow-x: auto; padding: 6px 20px 6px 0;
+    scrollbar-width: none;
+}}
+.bead-track::-webkit-scrollbar {{ display: none; }}
+.scroll-hint {{
+    position: absolute; right: 0; top: 0; bottom: 0; width: 20px;
+    background: linear-gradient(to right, transparent, rgba(0,0,0,0.06));
+    display: flex; align-items: center; justify-content: center;
+    pointer-events: none; opacity: 0; transition: opacity 0.2s;
+}}
+.scroll-hint::after {{
+    content: '\u203A'; font-size: 18px; color: #5F6368; font-weight: 700;
+}}
+.bead-track-wrap.has-overflow .scroll-hint {{ opacity: 1; }}
+.bead-track-wrap.scrolled-end .scroll-hint {{ opacity: 0; }}
+.bead {{ border-radius: 50%; flex: none; transition: transform 0.15s; cursor: pointer; position: relative; }}
 .bead:hover {{ transform: scale(1.4); z-index: 10; }}
+
+/* Tooltip */
+.bead-tooltip {{
+    display: none; position: fixed; z-index: 1000;
+    background: white; border: 1px solid var(--border); border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15); padding: 10px 14px;
+    max-width: 420px; font-size: 0.82em; line-height: 1.5;
+    pointer-events: none;
+}}
+.bead-tooltip.visible {{ display: block; }}
 
 /* Detail panel */
 .detail-panel {{ display: none; margin-bottom: 40px; }}
@@ -574,6 +915,26 @@ h1 {{ font-size: 1.4em; font-weight: 500; margin-bottom: 4px; }}
 .cm.imp.neg {{ color: #C5221F; }}
 .card-text {{ font-size: 0.95em; line-height: 1.65; color: var(--text); }}
 .detail-card.highlight {{ background: #FFF9C4; transition: background 0.6s; }}
+.detail-card.selected {{ background: #E8F0FE; }}
+
+/* Detail layout: chunks + samples panel */
+.detail-layout {{ position: relative; padding-right: 356px; }}
+.detail-layout:not(.has-panel) {{ padding-right: 0; }}
+.detail-chunks-col {{ }}
+.samples-panel {{
+    position: absolute; top: 0; right: 0;
+    width: 340px;
+    background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px; font-size: 0.85em; max-height: 50vh; overflow-y: auto;
+    display: none;
+}}
+.samples-panel.visible {{ display: block; }}
+.samples-panel .sp-title {{ font-weight: 600; margin-bottom: 8px; font-size: 0.95em; }}
+.samples-panel .sp-section {{ font-weight: 600; color: var(--text-secondary); font-size: 0.8em; margin: 10px 0 4px; text-transform: uppercase; letter-spacing: 0.3px; }}
+.samples-panel .sp-sample {{
+    padding: 6px 8px; margin: 4px 0; background: #F8F9FA; border-radius: 4px;
+    border-left: 3px solid var(--border); font-size: 0.92em; line-height: 1.5;
+}}
 </style>
 </head>
 <body>
@@ -586,6 +947,7 @@ h1 {{ font-size: 1.4em; font-weight: 500; margin-bottom: 4px; }}
         <div class="toggle-group" id="trace-filter">
             <button class="toggle-btn active" data-filter="correct" onclick="filterTraces('correct')">Correct</button>
             <button class="toggle-btn" data-filter="incorrect" onclick="filterTraces('incorrect')">Incorrect</button>
+            <button class="toggle-btn" data-filter="both" onclick="filterTraces('both')">Both</button>
         </div>
         <div class="metric-control">
             <select class="metric-select" id="global-metric" onchange="changeGlobalMetric(this.value)"></select>
@@ -599,6 +961,7 @@ h1 {{ font-size: 1.4em; font-weight: 500; margin-bottom: 4px; }}
     <div class="section-title">Detail</div>
     <div id="detail-container"></div>
 </div>
+<div class="bead-tooltip" id="bead-tooltip"></div>
 
 <script id="data-blob" type="application/json">{data_blob_json}</script>
 <script>{js_code}</script>
@@ -610,9 +973,11 @@ def main():
     parser = argparse.ArgumentParser(description="Generate HTML reasoning trace visualization")
     parser.add_argument("-ic", "--correct_dir", type=str, default=None)
     parser.add_argument("-ii", "--incorrect_dir", type=str, default=None)
+    parser.add_argument("-icf", "--correct_forced_dir", type=str, default=None)
+    parser.add_argument("-iif", "--incorrect_forced_dir", type=str, default=None)
     parser.add_argument("-p", "--problems", type=str, default=None, help="Comma-separated problem indices (default: auto-discover all)")
     parser.add_argument("-o", "--output_dir", type=str, default="analysis/visualizations")
-    parser.add_argument("-im", "--importance_metric", type=str, default="resampling_importance_accuracy")
+    parser.add_argument("-im", "--importance_metric", type=str, default="counterfactual_importance_accuracy")
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
@@ -620,6 +985,8 @@ def main():
 
     correct_dir = Path(args.correct_dir) if args.correct_dir else None
     incorrect_dir = Path(args.incorrect_dir) if args.incorrect_dir else None
+    correct_forced_dir = Path(args.correct_forced_dir) if args.correct_forced_dir else None
+    incorrect_forced_dir = Path(args.incorrect_forced_dir) if args.incorrect_forced_dir else None
 
     if args.problems:
         problem_indices = [int(x.strip()) for x in args.problems.split(",")]
@@ -630,10 +997,10 @@ def main():
     all_problems = []
 
     for idx in problem_indices:
-        for trace_type, rdir in [("correct", correct_dir), ("incorrect", incorrect_dir)]:
+        for trace_type, rdir, fdir in [("correct", correct_dir, correct_forced_dir), ("incorrect", incorrect_dir, incorrect_forced_dir)]:
             if rdir is None:
                 continue
-            chunks, problem, base_solution = load_problem_data(rdir, idx)
+            chunks, problem, base_solution = load_problem_data(rdir, idx, forced_dir=fdir)
             if chunks is None:
                 continue
             problem = problem or {}
