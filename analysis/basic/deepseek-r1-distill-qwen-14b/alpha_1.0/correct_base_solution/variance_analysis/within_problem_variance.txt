@@ -48,6 +48,30 @@ Problem 97:
       Function tags: case_representation, evidence_evaluation
       Text: Putting it all together: he's an older man with risk factors for heart disease, smoking history, and...
 
+Problem 207:
+  Overall variance: 0.022506
+  Mean importance: -0.019442
+  Potential fork reasoning steps:
+    Chunk 5:
+      Importance: 0.502577 (z-score: 3.48)
+      Function tags: case_representation
+      Text: He was born at 39 weeks via spontaneous vaginal delivery, which is normal and not preterm.
+
+    Chunk 25:
+      Importance: -0.354408 (z-score: -2.23)
+      Function tags: knowledge_activation
+      Text: Wait, but coarctation of the aorta is a narrowing of the aorta, often just after the aortic valve.
+
+    Chunk 28:
+      Importance: -0.272487 (z-score: -1.69)
+      Function tags: knowledge_activation
+      Text: The ejection click might not be as prominent as in aortic stenosis.
+
+    Chunk 3:
+      Importance: -0.259091 (z-score: -1.60)
+      Function tags: case_representation
+      Text: His mother says he's doing well and has no concerns.
+
 Problem 95:
   Overall variance: 0.021338
   Mean importance: -0.011665
@@ -119,4 +143,33 @@ Problem 6:
       Importance: -0.193548 (z-score: -1.62)
       Function tags: evidence_evaluation
       Text: Wait, his sodium is low, chloride is low, potassium is low.
+
+Problem 122:
+  Overall variance: 0.005813
+  Mean importance: -0.013583
+  Potential fork reasoning steps:
+    Chunk 28:
+      Importance: -0.312500 (z-score: -3.92)
+      Function tags: knowledge_activation
+      Text: Carbon monoxide poisoning can present with headaches, dizziness, and nausea, and it's something that...
+
+    Chunk 30:
+      Importance: 0.146970 (z-score: 2.11)
+      Function tags: evidence_evaluation
+      Text: His blood pressure is a bit low diastolic, but not critically so.
+
+    Chunk 39:
+      Importance: -0.155484 (z-score: -1.86)
+      Function tags: diagnostic_commitment
+      Text: So, considering all this, the most likely diagnosis is secondary polycythemia, probably due to carbo...
+
+    Chunk 34:
+      Importance: 0.120487 (z-score: 1.76)
+      Function tags: diagnostic_verification
+      Text: Carbon monoxide exposure is a big one here.
+
+    Chunk 27:
+      Importance: -0.140820 (z-score: -1.67)
+      Function tags: hypothesis_generation
+      Text: Alternatively, maybe his cabin has poor ventilation, leading to carbon monoxide exposure, which can ...
 

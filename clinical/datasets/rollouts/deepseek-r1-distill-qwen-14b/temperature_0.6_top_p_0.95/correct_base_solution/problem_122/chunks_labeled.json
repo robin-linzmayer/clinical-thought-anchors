@@ -1,0 +1,823 @@
+[
+  {
+    "chunk": "Okay, so I'm trying to figure out what's going on with this 52-year-old man.",
+    "chunk_idx": 0,
+    "summary": "assess 52-year-old man",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.055194805194805185,
+    "counterfactual_importance_kl": 2.5484349952441367,
+    "different_trajectories_fraction": 0.6666666666666666,
+    "overdeterminedness": 0.6547619047619048,
+    "resampling_importance_accuracy": -0.04329004329004328,
+    "resampling_importance_kl": 2.8432763790160815,
+    "forced_importance_accuracy": 0.22000000000000003,
+    "forced_importance_kl": 0.9426837744504571,
+    "accuracy": 0.09523809523809523
+  },
+  {
+    "chunk": "He's been having a headache and dizziness for about a month.",
+    "chunk_idx": 1,
+    "summary": "report symptoms",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "0"
+    ],
+    "counterfactual_importance_accuracy": -0.09333333333333334,
+    "counterfactual_importance_kl": 0.6491604523494626,
+    "different_trajectories_fraction": 0.1038961038961039,
+    "overdeterminedness": 0.7142857142857143,
+    "resampling_importance_accuracy": 0.041385281385281386,
+    "resampling_importance_kl": 2.9988116410452434,
+    "forced_importance_accuracy": 0.03999999999999998,
+    "forced_importance_kl": 2.6437272527779783,
+    "accuracy": 0.05194805194805195
+  },
+  {
+    "chunk": "Let me go through the details step by step.",
+    "chunk_idx": 2,
+    "summary": "none",
+    "function_tags": [
+      "unknown"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.028334345274235992,
+    "counterfactual_importance_kl": 3.649132026594008,
+    "different_trajectories_fraction": 0.8133333333333334,
+    "overdeterminedness": 0.72,
+    "resampling_importance_accuracy": -0.006913580246913589,
+    "resampling_importance_kl": 3.2618685173684683,
+    "forced_importance_accuracy": 0.020000000000000018,
+    "forced_importance_kl": 0.267952296156128,
+    "accuracy": 0.09333333333333334
+  },
+  {
+    "chunk": "First, his symptoms started about four weeks ago with a nagging headache.",
+    "chunk_idx": 3,
+    "summary": "report headache onset",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "1"
+    ],
+    "counterfactual_importance_accuracy": -0.011904761904761904,
+    "counterfactual_importance_kl": 3.191601240935446,
+    "different_trajectories_fraction": 0.1111111111111111,
+    "overdeterminedness": 0.8888888888888888,
+    "resampling_importance_accuracy": -0.07451499118165784,
+    "resampling_importance_kl": 3.086847631659403,
+    "forced_importance_accuracy": -0.15000000000000002,
+    "forced_importance_kl": 0.0935009356194247,
+    "accuracy": 0.08641975308641975
+  },
+  {
+    "chunk": "He thought it might be a cold and tried ibuprofen, but it only helped a little and temporarily.",
+    "chunk_idx": 4,
+    "summary": "try ibuprofen",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "3"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.6309523809523809,
+    "resampling_importance_accuracy": 0.05219780219780219,
+    "resampling_importance_kl": 2.4738090563574744,
+    "forced_importance_accuracy": 0.030000000000000027,
+    "forced_importance_kl": 0.21543123745380943,
+    "accuracy": 0.011904761904761904
+  },
+  {
+    "chunk": "Now he's also feeling dizzy and nauseous, which goes away when he steps outside to shovel snow.",
+    "chunk_idx": 5,
+    "summary": "step outside",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "3",
+      "4"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.717948717948718,
+    "resampling_importance_accuracy": 0.054945054945054944,
+    "resampling_importance_kl": 3.906042866721093,
+    "forced_importance_accuracy": -0.28,
+    "forced_importance_kl": 0.8264232693957843,
+    "accuracy": 0.0641025641025641
+  },
+  {
+    "chunk": "That's interesting because being outside seems to relieve his symptoms, which might suggest something related to his environment.",
+    "chunk_idx": 6,
+    "summary": "suggest environmental influence",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "5"
+    ],
+    "counterfactual_importance_accuracy": 0.094896331738437,
+    "counterfactual_importance_kl": 3.9189047585937224,
+    "different_trajectories_fraction": 0.7857142857142857,
+    "overdeterminedness": 0.5714285714285714,
+    "resampling_importance_accuracy": -0.09273182957393483,
+    "resampling_importance_kl": 3.510285273214849,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 3.0226733342639824,
+    "accuracy": 0.11904761904761904
+  },
+  {
+    "chunk": "Looking at his medical history, he has hypertension, type II diabetes, and asthma.",
+    "chunk_idx": 7,
+    "summary": "list medical conditions",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9736842105263158,
+    "resampling_importance_accuracy": 0.014224751066856334,
+    "resampling_importance_kl": 4.555076118134634,
+    "forced_importance_accuracy": -0.07999999999999999,
+    "forced_importance_kl": 0.36403909701470366,
+    "accuracy": 0.02631578947368421
+  },
+  {
+    "chunk": "His medications include amlodipine (which is a calcium channel blocker for blood pressure), metformin and glimepiride (both for diabetes), and a fluticasone/salmeterol inhaler, which is for asthma.",
+    "chunk_idx": 8,
+    "summary": "list medications",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [
+      "7"
+    ],
+    "counterfactual_importance_accuracy": -0.09411764705882353,
+    "counterfactual_importance_kl": 1.4805235990805699,
+    "different_trajectories_fraction": 0.04054054054054054,
+    "overdeterminedness": 0.6891891891891893,
+    "resampling_importance_accuracy": 0.053577106518282985,
+    "resampling_importance_kl": 2.448068142115095,
+    "forced_importance_accuracy": 0.049999999999999996,
+    "forced_importance_kl": 0.2523852120697224,
+    "accuracy": 0.04054054054054054
+  },
+  {
+    "chunk": "So, no recent changes in medications that I can tell.",
+    "chunk_idx": 9,
+    "summary": "no medication changes",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "8"
+    ],
+    "counterfactual_importance_accuracy": -0.01980640357408786,
+    "counterfactual_importance_kl": 2.144519073126144,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.788235294117647,
+    "resampling_importance_accuracy": 0.01980640357408786,
+    "resampling_importance_kl": 2.144519073126144,
+    "forced_importance_accuracy": -0.03,
+    "forced_importance_kl": 0.13536132647159999,
+    "accuracy": 0.09411764705882353
+  },
+  {
+    "chunk": "He's been living at his upstate cabin for five weeks and hasn't traveled elsewhere recently.",
+    "chunk_idx": 10,
+    "summary": "no travel recorded",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0062500000000000056,
+    "counterfactual_importance_kl": 2.972197684277906,
+    "different_trajectories_fraction": 0.4050632911392405,
+    "overdeterminedness": 0.7468354430379747,
+    "resampling_importance_accuracy": -0.026424050632911394,
+    "resampling_importance_kl": 2.4698940068227646,
+    "forced_importance_accuracy": 0.08000000000000002,
+    "forced_importance_kl": 3.1862290092024295,
+    "accuracy": 0.11392405063291139
+  },
+  {
+    "chunk": "He doesn't smoke or use illicit drugs, so those factors are out.",
+    "chunk_idx": 11,
+    "summary": "exclude smoking drugs",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.9875,
+    "resampling_importance_accuracy": -0.01900684931506849,
+    "resampling_importance_kl": 3.2011466881049104,
+    "forced_importance_accuracy": -0.04000000000000001,
+    "forced_importance_kl": 0.5362228632219209,
+    "accuracy": 0.0875
+  },
+  {
+    "chunk": "His vitals are: temperature 99\u00b0F (which is a low-grade fever), blood pressure 130/78 (which is okay, maybe a bit low diastolic?), pulse 72, and O2 sat 98%.",
+    "chunk_idx": 12,
+    "summary": "record vitals",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.024935064935064928,
+    "counterfactual_importance_kl": 1.4866400316088564,
+    "different_trajectories_fraction": 0.684931506849315,
+    "overdeterminedness": 0.136986301369863,
+    "resampling_importance_accuracy": -0.003558085749866574,
+    "resampling_importance_kl": 3.280332305839055,
+    "forced_importance_accuracy": 0.24999999999999997,
+    "forced_importance_kl": 1.082968909078542,
+    "accuracy": 0.0684931506849315
+  },
+  {
+    "chunk": "He's asymptomatic in the office, and the physical exam is unremarkable.",
+    "chunk_idx": 13,
+    "summary": "no significant findings",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.8961038961038961,
+    "resampling_importance_accuracy": 0.04349867000469411,
+    "resampling_importance_kl": 2.4008677767435223,
+    "forced_importance_accuracy": -0.04999999999999999,
+    "forced_importance_kl": 1.1110869787030588,
+    "accuracy": 0.06493506493506493
+  },
+  {
+    "chunk": "So, no obvious signs of distress when he's sitting there.",
+    "chunk_idx": 14,
+    "summary": "observe no distress",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "13"
+    ],
+    "counterfactual_importance_accuracy": 0.03475609756097561,
+    "counterfactual_importance_kl": 2.139419668024502,
+    "different_trajectories_fraction": 0.9879518072289156,
+    "overdeterminedness": 0.6746987951807228,
+    "resampling_importance_accuracy": -0.03343373493975904,
+    "resampling_importance_kl": 2.122968455133612,
+    "forced_importance_accuracy": -0.10999999999999999,
+    "forced_importance_kl": 1.4023790994841527,
+    "accuracy": 0.10843373493975904
+  },
+  {
+    "chunk": "The labs show hemoglobin of 20 g/dL and hematocrit of 60%.",
+    "chunk_idx": 15,
+    "summary": "report hemoglobin=20 g/dL",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": 0.03858024691358025,
+    "counterfactual_importance_kl": 0.7132557592601053,
+    "different_trajectories_fraction": 0.1,
+    "overdeterminedness": 0.675,
+    "resampling_importance_accuracy": 0.011419753086419751,
+    "resampling_importance_kl": 2.6166731651160497,
+    "forced_importance_accuracy": -0.16,
+    "forced_importance_kl": 0.8664607248341732,
+    "accuracy": 0.075
+  },
+  {
+    "chunk": "That's elevated.",
+    "chunk_idx": 16,
+    "summary": "elevate value",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "15"
+    ],
+    "counterfactual_importance_accuracy": 0.07034632034632035,
+    "counterfactual_importance_kl": 3.758491798138438,
+    "different_trajectories_fraction": 0.8148148148148148,
+    "overdeterminedness": 0.6790123456790124,
+    "resampling_importance_accuracy": -0.050705467372134036,
+    "resampling_importance_kl": 3.1653360527941783,
+    "forced_importance_accuracy": -0.03,
+    "forced_importance_kl": 1.336337299965953,
+    "accuracy": 0.08641975308641975
+  },
+  {
+    "chunk": "Normal hemoglobin for men is around 13.5-17.5 g/dL, so 20 is definitely high.",
+    "chunk_idx": 17,
+    "summary": "identify high hemoglobin",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "16"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.8928571428571429,
+    "resampling_importance_accuracy": 0.025261324041811847,
+    "resampling_importance_kl": 1.1043227362422638,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 1.3092823697946028,
+    "accuracy": 0.03571428571428571
+  },
+  {
+    "chunk": "Hematocrit is also elevated, which makes sense because it's the packed cell volume.",
+    "chunk_idx": 18,
+    "summary": "identify elevated hematocrit",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "16"
+    ],
+    "counterfactual_importance_accuracy": -0.020486555697823303,
+    "counterfactual_importance_kl": 2.4699518919155445,
+    "different_trajectories_fraction": 0.8658536585365854,
+    "overdeterminedness": 0.5,
+    "resampling_importance_accuracy": 0.029933481152993352,
+    "resampling_importance_kl": 2.613605255280529,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.6017308563236023,
+    "accuracy": 0.06097560975609756
+  },
+  {
+    "chunk": "Leukocyte count is normal, and platelets are okay too.",
+    "chunk_idx": 19,
+    "summary": "report normal counts",
+    "function_tags": [
+      "case_representation"
+    ],
+    "depends_on": [],
+    "counterfactual_importance_accuracy": -0.015433841520798033,
+    "counterfactual_importance_kl": 4.523923406355589,
+    "different_trajectories_fraction": 0.8961038961038961,
+    "overdeterminedness": 0.18181818181818177,
+    "resampling_importance_accuracy": 0.02597402597402597,
+    "resampling_importance_kl": 4.060919546072245,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.48610101052857047,
+    "accuracy": 0.09090909090909091
+  },
+  {
+    "chunk": "So, putting this together.",
+    "chunk_idx": 20,
+    "summary": "combine elements",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "1",
+      "5",
+      "15",
+      "19"
+    ],
+    "counterfactual_importance_accuracy": 0.059597523219814236,
+    "counterfactual_importance_kl": 2.7105127060939616,
+    "different_trajectories_fraction": 0.987012987012987,
+    "overdeterminedness": 0.16883116883116878,
+    "resampling_importance_accuracy": -0.058059587471352175,
+    "resampling_importance_kl": 2.9212818196796637,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.15215332842403884,
+    "accuracy": 0.11688311688311688
+  },
+  {
+    "chunk": "The headaches and dizziness are concerning.",
+    "chunk_idx": 21,
+    "summary": "identify symptoms",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "1",
+      "5"
+    ],
+    "counterfactual_importance_accuracy": 0.0032679738562091526,
+    "counterfactual_importance_kl": 3.997594897690495,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.3647058823529412,
+    "resampling_importance_accuracy": -0.0032679738562091526,
+    "resampling_importance_kl": 3.997594897690495,
+    "forced_importance_accuracy": 0.02,
+    "forced_importance_kl": 1.977295525754244,
+    "accuracy": 0.058823529411764705
+  },
+  {
+    "chunk": "The improvement when he's outside suggests it might be related to the environment.",
+    "chunk_idx": 22,
+    "summary": "suggest environmental influence",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6"
+    ],
+    "counterfactual_importance_accuracy": -0.05305821665438467,
+    "counterfactual_importance_kl": 3.4041934520080788,
+    "different_trajectories_fraction": 0.8194444444444444,
+    "overdeterminedness": 0.33333333333333337,
+    "resampling_importance_accuracy": 0.03140096618357488,
+    "resampling_importance_kl": 3.300029060284025,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 3.6962928680239613,
+    "accuracy": 0.05555555555555555
+  },
+  {
+    "chunk": "The elevated hemoglobin and hematocrit point towards polycythemia.",
+    "chunk_idx": 23,
+    "summary": "identify polycythemia",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "counterfactual_importance_accuracy": -0.0604890604890605,
+    "counterfactual_importance_kl": 3.3440677367352922,
+    "different_trajectories_fraction": 0.6086956521739131,
+    "overdeterminedness": 0.42028985507246375,
+    "resampling_importance_accuracy": 0.021151586368977682,
+    "resampling_importance_kl": 4.858091982654245,
+    "forced_importance_accuracy": -0.02,
+    "forced_importance_kl": 23.372864285462455,
+    "accuracy": 0.08695652173913043
+  },
+  {
+    "chunk": "Polycythemia can be primary (like in polycythemia vera, a myeloproliferative disorder) or secondary, meaning it's due to another cause.",
+    "chunk_idx": 24,
+    "summary": "identify polycythemia types",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "23"
+    ],
+    "counterfactual_importance_accuracy": -0.0038277511961722493,
+    "counterfactual_importance_kl": 7.445704874441173,
+    "different_trajectories_fraction": 0.5135135135135135,
+    "overdeterminedness": 0.5810810810810811,
+    "resampling_importance_accuracy": 0.0009828009828009715,
+    "resampling_importance_kl": 4.58686505871673,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.10810810810810811
+  },
+  {
+    "chunk": "Secondary causes could include chronic hypoxia, dehydration, or erythropoietin-stimulating agents.",
+    "chunk_idx": 25,
+    "summary": "list secondary causes",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "24"
+    ],
+    "counterfactual_importance_accuracy": 0.022222222222222227,
+    "counterfactual_importance_kl": 5.052184055391052,
+    "different_trajectories_fraction": 0.5454545454545454,
+    "overdeterminedness": 0.32727272727272727,
+    "resampling_importance_accuracy": 0.0020202020202020193,
+    "resampling_importance_kl": 3.273611988830027,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.10909090909090909
+  },
+  {
+    "chunk": "He's living at a cabin in the upstate, which might be at a higher altitude, but I'm not sure how high.",
+    "chunk_idx": 26,
+    "summary": "unsure altitude height",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "10",
+      "25"
+    ],
+    "counterfactual_importance_accuracy": 0.00303030303030305,
+    "counterfactual_importance_kl": 0.6513165247454765,
+    "different_trajectories_fraction": 0.15873015873015872,
+    "overdeterminedness": 0.5396825396825398,
+    "resampling_importance_accuracy": 0.08585858585858586,
+    "resampling_importance_kl": 3.55290548038815,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.1111111111111111
+  },
+  {
+    "chunk": "Alternatively, maybe his cabin has poor ventilation, leading to carbon monoxide exposure, which can cause secondary polycythemia.",
+    "chunk_idx": 27,
+    "summary": "identify carbon monoxide exposure",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "10",
+      "22"
+    ],
+    "counterfactual_importance_accuracy": -0.14081996434937613,
+    "counterfactual_importance_kl": 3.7675044246476688,
+    "different_trajectories_fraction": 0.5151515151515151,
+    "overdeterminedness": 0.6363636363636364,
+    "resampling_importance_accuracy": 0.09090909090909094,
+    "resampling_importance_kl": 3.9339187654427383,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.19696969696969696
+  },
+  {
+    "chunk": "Carbon monoxide poisoning can present with headaches, dizziness, and nausea, and it's something that can be triggered by indoor activities like shoveling snow, which might increase oxygen demand or bring him outside where the air is better.",
+    "chunk_idx": 28,
+    "summary": "identify symptoms",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "27"
+    ],
+    "counterfactual_importance_accuracy": -0.3125,
+    "counterfactual_importance_kl": 5.3868720206314755,
+    "different_trajectories_fraction": 0.07575757575757576,
+    "overdeterminedness": 0.43939393939393945,
+    "resampling_importance_accuracy": 0.0246212121212121,
+    "resampling_importance_kl": 1.9318617761700292,
+    "forced_importance_accuracy": 0.33,
+    "forced_importance_kl": 0.4004775665921999,
+    "accuracy": 0.2878787878787879
+  },
+  {
+    "chunk": "Another possibility is dehydration, but his symptoms seem more chronic.",
+    "chunk_idx": 29,
+    "summary": "consider dehydration possibility",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "25"
+    ],
+    "counterfactual_importance_accuracy": 0.026344086021505342,
+    "counterfactual_importance_kl": 0.8661193366026017,
+    "different_trajectories_fraction": 0.9375,
+    "overdeterminedness": 0.1875,
+    "resampling_importance_accuracy": -0.02217741935483869,
+    "resampling_importance_kl": 0.7753316003612458,
+    "forced_importance_accuracy": -0.26,
+    "forced_importance_kl": 0.2919995406406036,
+    "accuracy": 0.3125
+  },
+  {
+    "chunk": "His blood pressure is a bit low diastolic, but not critically so.",
+    "chunk_idx": 30,
+    "summary": "assess blood pressure",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "12"
+    ],
+    "counterfactual_importance_accuracy": 0.14696969696969697,
+    "counterfactual_importance_kl": 1.5045302098035669,
+    "different_trajectories_fraction": 0.967741935483871,
+    "overdeterminedness": 0.4193548387096774,
+    "resampling_importance_accuracy": -0.15395894428152496,
+    "resampling_importance_kl": 1.4665550997057721,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2903225806451613
+  },
+  {
+    "chunk": "Also, the improvement when he goes outside makes me think of something like carbon monoxide because once he's outside, he's getting fresh air.",
+    "chunk_idx": 31,
+    "summary": "breathe fresh air",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "6",
+      "27"
+    ],
+    "counterfactual_importance_accuracy": -0.057461406518010294,
+    "counterfactual_importance_kl": 1.7000711825124293,
+    "different_trajectories_fraction": 0.803030303030303,
+    "overdeterminedness": 0.28787878787878785,
+    "resampling_importance_accuracy": 0.09090909090909091,
+    "resampling_importance_kl": 1.663404531780273,
+    "forced_importance_accuracy": 0.56,
+    "forced_importance_kl": 0.9225514502224552,
+    "accuracy": 0.13636363636363635
+  },
+  {
+    "chunk": "Looking at his medications, none of them are known to cause polycythemia.",
+    "chunk_idx": 32,
+    "summary": "identify medication effects",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "8"
+    ],
+    "counterfactual_importance_accuracy": -0.07081807081807079,
+    "counterfactual_importance_kl": 0.8869626126405644,
+    "different_trajectories_fraction": 0.9848484848484849,
+    "overdeterminedness": 0.40909090909090906,
+    "resampling_importance_accuracy": 0.0743145743145743,
+    "resampling_importance_kl": 0.8992471556777214,
+    "forced_importance_accuracy": 0.16000000000000003,
+    "forced_importance_kl": 0.2428748232706791,
+    "accuracy": 0.22727272727272727
+  },
+  {
+    "chunk": "So, primary polycythemia is a possibility, but given his environment, secondary causes seem more likely.",
+    "chunk_idx": 33,
+    "summary": "consider secondary causes",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "23",
+      "24",
+      "27"
+    ],
+    "counterfactual_importance_accuracy": -0.07772304324028462,
+    "counterfactual_importance_kl": 2.923549561977483,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.19047619047619047,
+    "resampling_importance_accuracy": 0.07772304324028462,
+    "resampling_importance_kl": 2.923549561977483,
+    "forced_importance_accuracy": -0.14,
+    "forced_importance_kl": 0.027910369589166206,
+    "accuracy": 0.30158730158730157
+  },
+  {
+    "chunk": "Carbon monoxide exposure is a big one here.",
+    "chunk_idx": 34,
+    "summary": "identify carbon monoxide risk",
+    "function_tags": [
+      "diagnostic_verification"
+    ],
+    "depends_on": [
+      "27",
+      "28",
+      "31"
+    ],
+    "counterfactual_importance_accuracy": 0.12048681541582146,
+    "counterfactual_importance_kl": 7.352316936194587,
+    "different_trajectories_fraction": 1.0,
+    "overdeterminedness": 0.06896551724137934,
+    "resampling_importance_accuracy": -0.12048681541582146,
+    "resampling_importance_kl": 7.352316936194587,
+    "forced_importance_accuracy": 0.26,
+    "forced_importance_kl": 6.255418886076419,
+    "accuracy": 0.3793103448275862
+  },
+  {
+    "chunk": "It can cause chronic symptoms and elevate hemoglobin as the body tries to compensate for low oxygen levels.",
+    "chunk_idx": 35,
+    "summary": "elevate hemoglobin",
+    "function_tags": [
+      "knowledge_activation"
+    ],
+    "depends_on": [
+      "34"
+    ],
+    "counterfactual_importance_accuracy": -0.018292682926829285,
+    "counterfactual_importance_kl": 1.2060831191872488,
+    "different_trajectories_fraction": 0.7058823529411765,
+    "overdeterminedness": 0.3294117647058824,
+    "resampling_importance_accuracy": 0.009469153515064554,
+    "resampling_importance_kl": 1.0256268942576883,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.25882352941176473
+  },
+  {
+    "chunk": "Other possibilities could be chronic obstructive pulmonary disease (COPD), but he doesn't have a smoking history, and his asthma is being managed.",
+    "chunk_idx": 36,
+    "summary": "list possibilities",
+    "function_tags": [
+      "hypothesis_generation"
+    ],
+    "depends_on": [
+      "7",
+      "8"
+    ],
+    "counterfactual_importance_accuracy": 0.019568151147098506,
+    "counterfactual_importance_kl": 1.3665332350379589,
+    "different_trajectories_fraction": 0.9512195121951219,
+    "overdeterminedness": 0.2682926829268293,
+    "resampling_importance_accuracy": -0.0314505776636714,
+    "resampling_importance_kl": 1.2972057609308396,
+    "forced_importance_accuracy": -0.030000000000000027,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.2682926829268293
+  },
+  {
+    "chunk": "High altitude polycythemia is another, but I'm not sure about the cabin's elevation.",
+    "chunk_idx": 37,
+    "summary": "check cabin elevation",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "26"
+    ],
+    "counterfactual_importance_accuracy": -0.01649701649701646,
+    "counterfactual_importance_kl": 1.4350496952878191,
+    "different_trajectories_fraction": 0.9736842105263158,
+    "overdeterminedness": 0.07894736842105265,
+    "resampling_importance_accuracy": 0.022898154477101834,
+    "resampling_importance_kl": 1.3922158265773303,
+    "forced_importance_accuracy": -0.050000000000000044,
+    "forced_importance_kl": 0.09431067947025233,
+    "accuracy": 0.23684210526315788
+  },
+  {
+    "chunk": "Dehydration is possible, but his symptoms are more consistent with something else.",
+    "chunk_idx": 38,
+    "summary": "identify symptoms inconsistency",
+    "function_tags": [
+      "evidence_evaluation"
+    ],
+    "depends_on": [
+      "29"
+    ],
+    "counterfactual_importance_accuracy": -0.03977272727272729,
+    "counterfactual_importance_kl": 0.708162944811955,
+    "different_trajectories_fraction": 0.8571428571428571,
+    "overdeterminedness": 0.24675324675324672,
+    "resampling_importance_accuracy": 0.052759740259740284,
+    "resampling_importance_kl": 0.6185834391667203,
+    "forced_importance_accuracy": 0.040000000000000036,
+    "forced_importance_kl": 0.2172880093091453,
+    "accuracy": 0.2597402597402597
+  },
+  {
+    "chunk": "So, considering all this, the most likely diagnosis is secondary polycythemia, probably due to carbon monoxide exposure from his cabin.",
+    "chunk_idx": 39,
+    "summary": "diagnose secondary polycythemia",
+    "function_tags": [
+      "diagnostic_commitment"
+    ],
+    "depends_on": [
+      "23",
+      "27",
+      "34",
+      "35"
+    ],
+    "counterfactual_importance_accuracy": -0.1554838709677419,
+    "counterfactual_importance_kl": 1.5179164547519128,
+    "different_trajectories_fraction": 0.390625,
+    "overdeterminedness": 0.203125,
+    "resampling_importance_accuracy": 0.12298387096774194,
+    "resampling_importance_kl": 1.789799393054623,
+    "forced_importance_accuracy": -0.31999999999999995,
+    "forced_importance_kl": 0.9665893087593477,
+    "accuracy": 0.3125
+  },
+  {
+    "chunk": "This would explain his headaches, dizziness, nausea, and the elevated blood counts.",
+    "chunk_idx": 40,
+    "summary": "explain symptoms",
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "depends_on": [
+      "39"
+    ],
+    "counterfactual_importance_accuracy": 0.0,
+    "counterfactual_importance_kl": 0.0,
+    "different_trajectories_fraction": 0.0,
+    "overdeterminedness": 0.0,
+    "resampling_importance_accuracy": 0.0,
+    "resampling_importance_kl": 0.0,
+    "forced_importance_accuracy": 0.0,
+    "forced_importance_kl": 0.0,
+    "accuracy": 0.43548387096774194
+  }
+]

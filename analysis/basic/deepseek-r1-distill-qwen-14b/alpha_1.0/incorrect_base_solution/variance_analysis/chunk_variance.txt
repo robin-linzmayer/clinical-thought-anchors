@@ -54,7 +54,7 @@ Problem 6: Variance = 0.039749
       Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-36
       Text: 'His hypertension is well-controlled on multiple meds, but it's still high, so maybe resistant hyp...'
-      Tags: evidence_evaluation, diagnostic_commitment, diagnostic_verification
+      Tags: diagnostic_commitment, diagnostic_verification, evidence_evaluation
 
 Problem 24: Variance = 0.027074
   Chunks by importance:
@@ -85,10 +85,10 @@ Problem 24: Variance = 0.027074
   Potential reasoning forks:
     Fork 1: Chunks 5-6
       Text: 'That sounds like a significant decline, especially in a short period for someone his age. Looking...'
-      Tags: evidence_evaluation, case_representation
+      Tags: case_representation, evidence_evaluation
     Fork 2: Chunks 9-16
       Text: 'On physical exam, he's an elderly man who laughs inappropriately and is a poor historian. That ma...'
-      Tags: evidence_evaluation, knowledge_activation, case_representation
+      Tags: knowledge_activation, case_representation, evidence_evaluation
 
 Problem 84: Variance = 0.019651
   Chunks by importance:
@@ -129,7 +129,7 @@ Problem 84: Variance = 0.019651
       Tags: case_representation
     Fork 2: Chunks 15-20
       Text: 'The chest X-ray would likely show pulmonary congestion and possibly an enlarged heart, but the EC...'
-      Tags: reconsideration_uncertainty, evidence_evaluation, case_representation
+      Tags: reconsideration_uncertainty, case_representation, evidence_evaluation
 
 Problem 95: Variance = 0.010466
   Chunks by importance:
@@ -188,10 +188,10 @@ Problem 95: Variance = 0.010466
       Tags: evidence_evaluation
     Fork 3: Chunks 18-20
       Text: 'Putting this together: She has gallstones, a dilated CBD, and some mild liver enzyme elevations. ...'
-      Tags: evidence_evaluation, hypothesis_generation
+      Tags: hypothesis_generation, evidence_evaluation
     Fork 4: Chunks 23-26
       Text: 'The pain could be due to gallstones passing through the CBD, causing transient obstruction and pa...'
-      Tags: evidence_evaluation, knowledge_activation
+      Tags: knowledge_activation, evidence_evaluation
     Fork 5: Chunks 30-37
       Text: 'The ileum is involved in bile acid absorption. If there's a stricture or something post-surgery, ...'
       Tags: knowledge_activation, diagnostic_commitment, evidence_evaluation

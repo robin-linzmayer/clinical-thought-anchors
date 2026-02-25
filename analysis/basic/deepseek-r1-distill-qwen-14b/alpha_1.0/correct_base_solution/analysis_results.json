@@ -1,5 +1,1990 @@
 [
   {
+    "problem_idx": "122",
+    "problem_type": null,
+    "problem_level": null,
+    "base_accuracy": true,
+    "num_chunks": 41,
+    "labeled_chunks": [
+      {
+        "chunk": "Okay, so I'm trying to figure out what's going on with this 52-year-old man.",
+        "chunk_idx": 0,
+        "summary": "assess 52-year-old man",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.055194805194805185,
+        "counterfactual_importance_kl": 2.5484349952441367,
+        "different_trajectories_fraction": 0.6666666666666666,
+        "overdeterminedness": 0.6547619047619048,
+        "resampling_importance_accuracy": -0.04329004329004328,
+        "resampling_importance_kl": 2.8432763790160815,
+        "forced_importance_accuracy": 0.22000000000000003,
+        "forced_importance_kl": 0.9426837744504571,
+        "accuracy": 0.09523809523809523
+      },
+      {
+        "chunk": "He's been having a headache and dizziness for about a month.",
+        "chunk_idx": 1,
+        "summary": "report symptoms",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [
+          "0"
+        ],
+        "counterfactual_importance_accuracy": -0.09333333333333334,
+        "counterfactual_importance_kl": 0.6491604523494626,
+        "different_trajectories_fraction": 0.1038961038961039,
+        "overdeterminedness": 0.7142857142857143,
+        "resampling_importance_accuracy": 0.041385281385281386,
+        "resampling_importance_kl": 2.9988116410452434,
+        "forced_importance_accuracy": 0.03999999999999998,
+        "forced_importance_kl": 2.6437272527779783,
+        "accuracy": 0.05194805194805195
+      },
+      {
+        "chunk": "Let me go through the details step by step.",
+        "chunk_idx": 2,
+        "summary": "none",
+        "function_tags": [
+          "unknown"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.028334345274235992,
+        "counterfactual_importance_kl": 3.649132026594008,
+        "different_trajectories_fraction": 0.8133333333333334,
+        "overdeterminedness": 0.72,
+        "resampling_importance_accuracy": -0.006913580246913589,
+        "resampling_importance_kl": 3.2618685173684683,
+        "forced_importance_accuracy": 0.020000000000000018,
+        "forced_importance_kl": 0.267952296156128,
+        "accuracy": 0.09333333333333334
+      },
+      {
+        "chunk": "First, his symptoms started about four weeks ago with a nagging headache.",
+        "chunk_idx": 3,
+        "summary": "report headache onset",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [
+          "1"
+        ],
+        "counterfactual_importance_accuracy": -0.011904761904761904,
+        "counterfactual_importance_kl": 3.191601240935446,
+        "different_trajectories_fraction": 0.1111111111111111,
+        "overdeterminedness": 0.8888888888888888,
+        "resampling_importance_accuracy": -0.07451499118165784,
+        "resampling_importance_kl": 3.086847631659403,
+        "forced_importance_accuracy": -0.15000000000000002,
+        "forced_importance_kl": 0.0935009356194247,
+        "accuracy": 0.08641975308641975
+      },
+      {
+        "chunk": "He thought it might be a cold and tried ibuprofen, but it only helped a little and temporarily.",
+        "chunk_idx": 4,
+        "summary": "try ibuprofen",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [
+          "3"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.6309523809523809,
+        "resampling_importance_accuracy": 0.05219780219780219,
+        "resampling_importance_kl": 2.4738090563574744,
+        "forced_importance_accuracy": 0.030000000000000027,
+        "forced_importance_kl": 0.21543123745380943,
+        "accuracy": 0.011904761904761904
+      },
+      {
+        "chunk": "Now he's also feeling dizzy and nauseous, which goes away when he steps outside to shovel snow.",
+        "chunk_idx": 5,
+        "summary": "step outside",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [
+          "3",
+          "4"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.717948717948718,
+        "resampling_importance_accuracy": 0.054945054945054944,
+        "resampling_importance_kl": 3.906042866721093,
+        "forced_importance_accuracy": -0.28,
+        "forced_importance_kl": 0.8264232693957843,
+        "accuracy": 0.0641025641025641
+      },
+      {
+        "chunk": "That's interesting because being outside seems to relieve his symptoms, which might suggest something related to his environment.",
+        "chunk_idx": 6,
+        "summary": "suggest environmental influence",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "5"
+        ],
+        "counterfactual_importance_accuracy": 0.094896331738437,
+        "counterfactual_importance_kl": 3.9189047585937224,
+        "different_trajectories_fraction": 0.7857142857142857,
+        "overdeterminedness": 0.5714285714285714,
+        "resampling_importance_accuracy": -0.09273182957393483,
+        "resampling_importance_kl": 3.510285273214849,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 3.0226733342639824,
+        "accuracy": 0.11904761904761904
+      },
+      {
+        "chunk": "Looking at his medical history, he has hypertension, type II diabetes, and asthma.",
+        "chunk_idx": 7,
+        "summary": "list medical conditions",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.9736842105263158,
+        "resampling_importance_accuracy": 0.014224751066856334,
+        "resampling_importance_kl": 4.555076118134634,
+        "forced_importance_accuracy": -0.07999999999999999,
+        "forced_importance_kl": 0.36403909701470366,
+        "accuracy": 0.02631578947368421
+      },
+      {
+        "chunk": "His medications include amlodipine (which is a calcium channel blocker for blood pressure), metformin and glimepiride (both for diabetes), and a fluticasone/salmeterol inhaler, which is for asthma.",
+        "chunk_idx": 8,
+        "summary": "list medications",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [
+          "7"
+        ],
+        "counterfactual_importance_accuracy": -0.09411764705882353,
+        "counterfactual_importance_kl": 1.4805235990805699,
+        "different_trajectories_fraction": 0.04054054054054054,
+        "overdeterminedness": 0.6891891891891893,
+        "resampling_importance_accuracy": 0.053577106518282985,
+        "resampling_importance_kl": 2.448068142115095,
+        "forced_importance_accuracy": 0.049999999999999996,
+        "forced_importance_kl": 0.2523852120697224,
+        "accuracy": 0.04054054054054054
+      },
+      {
+        "chunk": "So, no recent changes in medications that I can tell.",
+        "chunk_idx": 9,
+        "summary": "no medication changes",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8"
+        ],
+        "counterfactual_importance_accuracy": -0.01980640357408786,
+        "counterfactual_importance_kl": 2.144519073126144,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.788235294117647,
+        "resampling_importance_accuracy": 0.01980640357408786,
+        "resampling_importance_kl": 2.144519073126144,
+        "forced_importance_accuracy": -0.03,
+        "forced_importance_kl": 0.13536132647159999,
+        "accuracy": 0.09411764705882353
+      },
+      {
+        "chunk": "He's been living at his upstate cabin for five weeks and hasn't traveled elsewhere recently.",
+        "chunk_idx": 10,
+        "summary": "no travel recorded",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0062500000000000056,
+        "counterfactual_importance_kl": 2.972197684277906,
+        "different_trajectories_fraction": 0.4050632911392405,
+        "overdeterminedness": 0.7468354430379747,
+        "resampling_importance_accuracy": -0.026424050632911394,
+        "resampling_importance_kl": 2.4698940068227646,
+        "forced_importance_accuracy": 0.08000000000000002,
+        "forced_importance_kl": 3.1862290092024295,
+        "accuracy": 0.11392405063291139
+      },
+      {
+        "chunk": "He doesn't smoke or use illicit drugs, so those factors are out.",
+        "chunk_idx": 11,
+        "summary": "exclude smoking drugs",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.9875,
+        "resampling_importance_accuracy": -0.01900684931506849,
+        "resampling_importance_kl": 3.2011466881049104,
+        "forced_importance_accuracy": -0.04000000000000001,
+        "forced_importance_kl": 0.5362228632219209,
+        "accuracy": 0.0875
+      },
+      {
+        "chunk": "His vitals are: temperature 99\u00b0F (which is a low-grade fever), blood pressure 130/78 (which is okay, maybe a bit low diastolic?), pulse 72, and O2 sat 98%.",
+        "chunk_idx": 12,
+        "summary": "record vitals",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.024935064935064928,
+        "counterfactual_importance_kl": 1.4866400316088564,
+        "different_trajectories_fraction": 0.684931506849315,
+        "overdeterminedness": 0.136986301369863,
+        "resampling_importance_accuracy": -0.003558085749866574,
+        "resampling_importance_kl": 3.280332305839055,
+        "forced_importance_accuracy": 0.24999999999999997,
+        "forced_importance_kl": 1.082968909078542,
+        "accuracy": 0.0684931506849315
+      },
+      {
+        "chunk": "He's asymptomatic in the office, and the physical exam is unremarkable.",
+        "chunk_idx": 13,
+        "summary": "no significant findings",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.8961038961038961,
+        "resampling_importance_accuracy": 0.04349867000469411,
+        "resampling_importance_kl": 2.4008677767435223,
+        "forced_importance_accuracy": -0.04999999999999999,
+        "forced_importance_kl": 1.1110869787030588,
+        "accuracy": 0.06493506493506493
+      },
+      {
+        "chunk": "So, no obvious signs of distress when he's sitting there.",
+        "chunk_idx": 14,
+        "summary": "observe no distress",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "13"
+        ],
+        "counterfactual_importance_accuracy": 0.03475609756097561,
+        "counterfactual_importance_kl": 2.139419668024502,
+        "different_trajectories_fraction": 0.9879518072289156,
+        "overdeterminedness": 0.6746987951807228,
+        "resampling_importance_accuracy": -0.03343373493975904,
+        "resampling_importance_kl": 2.122968455133612,
+        "forced_importance_accuracy": -0.10999999999999999,
+        "forced_importance_kl": 1.4023790994841527,
+        "accuracy": 0.10843373493975904
+      },
+      {
+        "chunk": "The labs show hemoglobin of 20 g/dL and hematocrit of 60%.",
+        "chunk_idx": 15,
+        "summary": "report hemoglobin=20 g/dL",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.03858024691358025,
+        "counterfactual_importance_kl": 0.7132557592601053,
+        "different_trajectories_fraction": 0.1,
+        "overdeterminedness": 0.675,
+        "resampling_importance_accuracy": 0.011419753086419751,
+        "resampling_importance_kl": 2.6166731651160497,
+        "forced_importance_accuracy": -0.16,
+        "forced_importance_kl": 0.8664607248341732,
+        "accuracy": 0.075
+      },
+      {
+        "chunk": "That's elevated.",
+        "chunk_idx": 16,
+        "summary": "elevate value",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "15"
+        ],
+        "counterfactual_importance_accuracy": 0.07034632034632035,
+        "counterfactual_importance_kl": 3.758491798138438,
+        "different_trajectories_fraction": 0.8148148148148148,
+        "overdeterminedness": 0.6790123456790124,
+        "resampling_importance_accuracy": -0.050705467372134036,
+        "resampling_importance_kl": 3.1653360527941783,
+        "forced_importance_accuracy": -0.03,
+        "forced_importance_kl": 1.336337299965953,
+        "accuracy": 0.08641975308641975
+      },
+      {
+        "chunk": "Normal hemoglobin for men is around 13.5-17.5 g/dL, so 20 is definitely high.",
+        "chunk_idx": 17,
+        "summary": "identify high hemoglobin",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "16"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.8928571428571429,
+        "resampling_importance_accuracy": 0.025261324041811847,
+        "resampling_importance_kl": 1.1043227362422638,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 1.3092823697946028,
+        "accuracy": 0.03571428571428571
+      },
+      {
+        "chunk": "Hematocrit is also elevated, which makes sense because it's the packed cell volume.",
+        "chunk_idx": 18,
+        "summary": "identify elevated hematocrit",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "16"
+        ],
+        "counterfactual_importance_accuracy": -0.020486555697823303,
+        "counterfactual_importance_kl": 2.4699518919155445,
+        "different_trajectories_fraction": 0.8658536585365854,
+        "overdeterminedness": 0.5,
+        "resampling_importance_accuracy": 0.029933481152993352,
+        "resampling_importance_kl": 2.613605255280529,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.6017308563236023,
+        "accuracy": 0.06097560975609756
+      },
+      {
+        "chunk": "Leukocyte count is normal, and platelets are okay too.",
+        "chunk_idx": 19,
+        "summary": "report normal counts",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.015433841520798033,
+        "counterfactual_importance_kl": 4.523923406355589,
+        "different_trajectories_fraction": 0.8961038961038961,
+        "overdeterminedness": 0.18181818181818177,
+        "resampling_importance_accuracy": 0.02597402597402597,
+        "resampling_importance_kl": 4.060919546072245,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.48610101052857047,
+        "accuracy": 0.09090909090909091
+      },
+      {
+        "chunk": "So, putting this together.",
+        "chunk_idx": 20,
+        "summary": "combine elements",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "1",
+          "5",
+          "15",
+          "19"
+        ],
+        "counterfactual_importance_accuracy": 0.059597523219814236,
+        "counterfactual_importance_kl": 2.7105127060939616,
+        "different_trajectories_fraction": 0.987012987012987,
+        "overdeterminedness": 0.16883116883116878,
+        "resampling_importance_accuracy": -0.058059587471352175,
+        "resampling_importance_kl": 2.9212818196796637,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.15215332842403884,
+        "accuracy": 0.11688311688311688
+      },
+      {
+        "chunk": "The headaches and dizziness are concerning.",
+        "chunk_idx": 21,
+        "summary": "identify symptoms",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "1",
+          "5"
+        ],
+        "counterfactual_importance_accuracy": 0.0032679738562091526,
+        "counterfactual_importance_kl": 3.997594897690495,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.3647058823529412,
+        "resampling_importance_accuracy": -0.0032679738562091526,
+        "resampling_importance_kl": 3.997594897690495,
+        "forced_importance_accuracy": 0.02,
+        "forced_importance_kl": 1.977295525754244,
+        "accuracy": 0.058823529411764705
+      },
+      {
+        "chunk": "The improvement when he's outside suggests it might be related to the environment.",
+        "chunk_idx": 22,
+        "summary": "suggest environmental influence",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "6"
+        ],
+        "counterfactual_importance_accuracy": -0.05305821665438467,
+        "counterfactual_importance_kl": 3.4041934520080788,
+        "different_trajectories_fraction": 0.8194444444444444,
+        "overdeterminedness": 0.33333333333333337,
+        "resampling_importance_accuracy": 0.03140096618357488,
+        "resampling_importance_kl": 3.300029060284025,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 3.6962928680239613,
+        "accuracy": 0.05555555555555555
+      },
+      {
+        "chunk": "The elevated hemoglobin and hematocrit point towards polycythemia.",
+        "chunk_idx": 23,
+        "summary": "identify polycythemia",
+        "function_tags": [
+          "hypothesis_generation"
+        ],
+        "depends_on": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "counterfactual_importance_accuracy": -0.0604890604890605,
+        "counterfactual_importance_kl": 3.3440677367352922,
+        "different_trajectories_fraction": 0.6086956521739131,
+        "overdeterminedness": 0.42028985507246375,
+        "resampling_importance_accuracy": 0.021151586368977682,
+        "resampling_importance_kl": 4.858091982654245,
+        "forced_importance_accuracy": -0.02,
+        "forced_importance_kl": 23.372864285462455,
+        "accuracy": 0.08695652173913043
+      },
+      {
+        "chunk": "Polycythemia can be primary (like in polycythemia vera, a myeloproliferative disorder) or secondary, meaning it's due to another cause.",
+        "chunk_idx": 24,
+        "summary": "identify polycythemia types",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.0038277511961722493,
+        "counterfactual_importance_kl": 7.445704874441173,
+        "different_trajectories_fraction": 0.5135135135135135,
+        "overdeterminedness": 0.5810810810810811,
+        "resampling_importance_accuracy": 0.0009828009828009715,
+        "resampling_importance_kl": 4.58686505871673,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.10810810810810811
+      },
+      {
+        "chunk": "Secondary causes could include chronic hypoxia, dehydration, or erythropoietin-stimulating agents.",
+        "chunk_idx": 25,
+        "summary": "list secondary causes",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "24"
+        ],
+        "counterfactual_importance_accuracy": 0.022222222222222227,
+        "counterfactual_importance_kl": 5.052184055391052,
+        "different_trajectories_fraction": 0.5454545454545454,
+        "overdeterminedness": 0.32727272727272727,
+        "resampling_importance_accuracy": 0.0020202020202020193,
+        "resampling_importance_kl": 3.273611988830027,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.10909090909090909
+      },
+      {
+        "chunk": "He's living at a cabin in the upstate, which might be at a higher altitude, but I'm not sure how high.",
+        "chunk_idx": 26,
+        "summary": "unsure altitude height",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "10",
+          "25"
+        ],
+        "counterfactual_importance_accuracy": 0.00303030303030305,
+        "counterfactual_importance_kl": 0.6513165247454765,
+        "different_trajectories_fraction": 0.15873015873015872,
+        "overdeterminedness": 0.5396825396825398,
+        "resampling_importance_accuracy": 0.08585858585858586,
+        "resampling_importance_kl": 3.55290548038815,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.1111111111111111
+      },
+      {
+        "chunk": "Alternatively, maybe his cabin has poor ventilation, leading to carbon monoxide exposure, which can cause secondary polycythemia.",
+        "chunk_idx": 27,
+        "summary": "identify carbon monoxide exposure",
+        "function_tags": [
+          "hypothesis_generation"
+        ],
+        "depends_on": [
+          "10",
+          "22"
+        ],
+        "counterfactual_importance_accuracy": -0.14081996434937613,
+        "counterfactual_importance_kl": 3.7675044246476688,
+        "different_trajectories_fraction": 0.5151515151515151,
+        "overdeterminedness": 0.6363636363636364,
+        "resampling_importance_accuracy": 0.09090909090909094,
+        "resampling_importance_kl": 3.9339187654427383,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.19696969696969696
+      },
+      {
+        "chunk": "Carbon monoxide poisoning can present with headaches, dizziness, and nausea, and it's something that can be triggered by indoor activities like shoveling snow, which might increase oxygen demand or bring him outside where the air is better.",
+        "chunk_idx": 28,
+        "summary": "identify symptoms",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "27"
+        ],
+        "counterfactual_importance_accuracy": -0.3125,
+        "counterfactual_importance_kl": 5.3868720206314755,
+        "different_trajectories_fraction": 0.07575757575757576,
+        "overdeterminedness": 0.43939393939393945,
+        "resampling_importance_accuracy": 0.0246212121212121,
+        "resampling_importance_kl": 1.9318617761700292,
+        "forced_importance_accuracy": 0.33,
+        "forced_importance_kl": 0.4004775665921999,
+        "accuracy": 0.2878787878787879
+      },
+      {
+        "chunk": "Another possibility is dehydration, but his symptoms seem more chronic.",
+        "chunk_idx": 29,
+        "summary": "consider dehydration possibility",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "25"
+        ],
+        "counterfactual_importance_accuracy": 0.026344086021505342,
+        "counterfactual_importance_kl": 0.8661193366026017,
+        "different_trajectories_fraction": 0.9375,
+        "overdeterminedness": 0.1875,
+        "resampling_importance_accuracy": -0.02217741935483869,
+        "resampling_importance_kl": 0.7753316003612458,
+        "forced_importance_accuracy": -0.26,
+        "forced_importance_kl": 0.2919995406406036,
+        "accuracy": 0.3125
+      },
+      {
+        "chunk": "His blood pressure is a bit low diastolic, but not critically so.",
+        "chunk_idx": 30,
+        "summary": "assess blood pressure",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "12"
+        ],
+        "counterfactual_importance_accuracy": 0.14696969696969697,
+        "counterfactual_importance_kl": 1.5045302098035669,
+        "different_trajectories_fraction": 0.967741935483871,
+        "overdeterminedness": 0.4193548387096774,
+        "resampling_importance_accuracy": -0.15395894428152496,
+        "resampling_importance_kl": 1.4665550997057721,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.2903225806451613
+      },
+      {
+        "chunk": "Also, the improvement when he goes outside makes me think of something like carbon monoxide because once he's outside, he's getting fresh air.",
+        "chunk_idx": 31,
+        "summary": "breathe fresh air",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "6",
+          "27"
+        ],
+        "counterfactual_importance_accuracy": -0.057461406518010294,
+        "counterfactual_importance_kl": 1.7000711825124293,
+        "different_trajectories_fraction": 0.803030303030303,
+        "overdeterminedness": 0.28787878787878785,
+        "resampling_importance_accuracy": 0.09090909090909091,
+        "resampling_importance_kl": 1.663404531780273,
+        "forced_importance_accuracy": 0.56,
+        "forced_importance_kl": 0.9225514502224552,
+        "accuracy": 0.13636363636363635
+      },
+      {
+        "chunk": "Looking at his medications, none of them are known to cause polycythemia.",
+        "chunk_idx": 32,
+        "summary": "identify medication effects",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8"
+        ],
+        "counterfactual_importance_accuracy": -0.07081807081807079,
+        "counterfactual_importance_kl": 0.8869626126405644,
+        "different_trajectories_fraction": 0.9848484848484849,
+        "overdeterminedness": 0.40909090909090906,
+        "resampling_importance_accuracy": 0.0743145743145743,
+        "resampling_importance_kl": 0.8992471556777214,
+        "forced_importance_accuracy": 0.16000000000000003,
+        "forced_importance_kl": 0.2428748232706791,
+        "accuracy": 0.22727272727272727
+      },
+      {
+        "chunk": "So, primary polycythemia is a possibility, but given his environment, secondary causes seem more likely.",
+        "chunk_idx": 33,
+        "summary": "consider secondary causes",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "23",
+          "24",
+          "27"
+        ],
+        "counterfactual_importance_accuracy": -0.07772304324028462,
+        "counterfactual_importance_kl": 2.923549561977483,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.19047619047619047,
+        "resampling_importance_accuracy": 0.07772304324028462,
+        "resampling_importance_kl": 2.923549561977483,
+        "forced_importance_accuracy": -0.14,
+        "forced_importance_kl": 0.027910369589166206,
+        "accuracy": 0.30158730158730157
+      },
+      {
+        "chunk": "Carbon monoxide exposure is a big one here.",
+        "chunk_idx": 34,
+        "summary": "identify carbon monoxide risk",
+        "function_tags": [
+          "diagnostic_verification"
+        ],
+        "depends_on": [
+          "27",
+          "28",
+          "31"
+        ],
+        "counterfactual_importance_accuracy": 0.12048681541582146,
+        "counterfactual_importance_kl": 7.352316936194587,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.06896551724137934,
+        "resampling_importance_accuracy": -0.12048681541582146,
+        "resampling_importance_kl": 7.352316936194587,
+        "forced_importance_accuracy": 0.26,
+        "forced_importance_kl": 6.255418886076419,
+        "accuracy": 0.3793103448275862
+      },
+      {
+        "chunk": "It can cause chronic symptoms and elevate hemoglobin as the body tries to compensate for low oxygen levels.",
+        "chunk_idx": 35,
+        "summary": "elevate hemoglobin",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "34"
+        ],
+        "counterfactual_importance_accuracy": -0.018292682926829285,
+        "counterfactual_importance_kl": 1.2060831191872488,
+        "different_trajectories_fraction": 0.7058823529411765,
+        "overdeterminedness": 0.3294117647058824,
+        "resampling_importance_accuracy": 0.009469153515064554,
+        "resampling_importance_kl": 1.0256268942576883,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.25882352941176473
+      },
+      {
+        "chunk": "Other possibilities could be chronic obstructive pulmonary disease (COPD), but he doesn't have a smoking history, and his asthma is being managed.",
+        "chunk_idx": 36,
+        "summary": "list possibilities",
+        "function_tags": [
+          "hypothesis_generation"
+        ],
+        "depends_on": [
+          "7",
+          "8"
+        ],
+        "counterfactual_importance_accuracy": 0.019568151147098506,
+        "counterfactual_importance_kl": 1.3665332350379589,
+        "different_trajectories_fraction": 0.9512195121951219,
+        "overdeterminedness": 0.2682926829268293,
+        "resampling_importance_accuracy": -0.0314505776636714,
+        "resampling_importance_kl": 1.2972057609308396,
+        "forced_importance_accuracy": -0.030000000000000027,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.2682926829268293
+      },
+      {
+        "chunk": "High altitude polycythemia is another, but I'm not sure about the cabin's elevation.",
+        "chunk_idx": 37,
+        "summary": "check cabin elevation",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "26"
+        ],
+        "counterfactual_importance_accuracy": -0.01649701649701646,
+        "counterfactual_importance_kl": 1.4350496952878191,
+        "different_trajectories_fraction": 0.9736842105263158,
+        "overdeterminedness": 0.07894736842105265,
+        "resampling_importance_accuracy": 0.022898154477101834,
+        "resampling_importance_kl": 1.3922158265773303,
+        "forced_importance_accuracy": -0.050000000000000044,
+        "forced_importance_kl": 0.09431067947025233,
+        "accuracy": 0.23684210526315788
+      },
+      {
+        "chunk": "Dehydration is possible, but his symptoms are more consistent with something else.",
+        "chunk_idx": 38,
+        "summary": "identify symptoms inconsistency",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "29"
+        ],
+        "counterfactual_importance_accuracy": -0.03977272727272729,
+        "counterfactual_importance_kl": 0.708162944811955,
+        "different_trajectories_fraction": 0.8571428571428571,
+        "overdeterminedness": 0.24675324675324672,
+        "resampling_importance_accuracy": 0.052759740259740284,
+        "resampling_importance_kl": 0.6185834391667203,
+        "forced_importance_accuracy": 0.040000000000000036,
+        "forced_importance_kl": 0.2172880093091453,
+        "accuracy": 0.2597402597402597
+      },
+      {
+        "chunk": "So, considering all this, the most likely diagnosis is secondary polycythemia, probably due to carbon monoxide exposure from his cabin.",
+        "chunk_idx": 39,
+        "summary": "diagnose secondary polycythemia",
+        "function_tags": [
+          "diagnostic_commitment"
+        ],
+        "depends_on": [
+          "23",
+          "27",
+          "34",
+          "35"
+        ],
+        "counterfactual_importance_accuracy": -0.1554838709677419,
+        "counterfactual_importance_kl": 1.5179164547519128,
+        "different_trajectories_fraction": 0.390625,
+        "overdeterminedness": 0.203125,
+        "resampling_importance_accuracy": 0.12298387096774194,
+        "resampling_importance_kl": 1.789799393054623,
+        "forced_importance_accuracy": -0.31999999999999995,
+        "forced_importance_kl": 0.9665893087593477,
+        "accuracy": 0.3125
+      },
+      {
+        "chunk": "This would explain his headaches, dizziness, nausea, and the elevated blood counts.",
+        "chunk_idx": 40,
+        "summary": "explain symptoms",
+        "function_tags": [
+          "final_answer_emission"
+        ],
+        "depends_on": [
+          "39"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.0,
+        "resampling_importance_accuracy": 0.0,
+        "resampling_importance_kl": 0.0,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.43548387096774194
+      }
+    ],
+    "token_counts": [
+      [
+        0,
+        1687.38
+      ],
+      [
+        1,
+        1654.94
+      ],
+      [
+        2,
+        1736.17
+      ],
+      [
+        3,
+        1743.84
+      ],
+      [
+        4,
+        1762.29
+      ],
+      [
+        5,
+        1881.02
+      ],
+      [
+        6,
+        1842.91
+      ],
+      [
+        7,
+        1752.5
+      ],
+      [
+        8,
+        1629.72
+      ],
+      [
+        9,
+        1761.3
+      ],
+      [
+        10,
+        1799.59
+      ],
+      [
+        11,
+        1859.92
+      ],
+      [
+        12,
+        1784.62
+      ],
+      [
+        13,
+        1812.19
+      ],
+      [
+        14,
+        1777.42
+      ],
+      [
+        15,
+        1819.24
+      ],
+      [
+        16,
+        1914.69
+      ],
+      [
+        17,
+        1878.23
+      ],
+      [
+        18,
+        1993.63
+      ],
+      [
+        19,
+        1940.97
+      ],
+      [
+        20,
+        1881.78
+      ],
+      [
+        21,
+        1852.52
+      ],
+      [
+        22,
+        1612.52
+      ],
+      [
+        23,
+        1663.38
+      ],
+      [
+        24,
+        1543.26
+      ],
+      [
+        25,
+        1539.7
+      ],
+      [
+        26,
+        1601.69
+      ],
+      [
+        27,
+        1591.73
+      ],
+      [
+        28,
+        1451.17
+      ],
+      [
+        29,
+        1504.05
+      ],
+      [
+        30,
+        1492.73
+      ],
+      [
+        31,
+        1466.51
+      ],
+      [
+        32,
+        1582.81
+      ],
+      [
+        33,
+        1488.94
+      ],
+      [
+        34,
+        1438.47
+      ],
+      [
+        35,
+        1522.1
+      ],
+      [
+        36,
+        1504.73
+      ],
+      [
+        37,
+        1514.38
+      ],
+      [
+        38,
+        1491.18
+      ],
+      [
+        39,
+        1468.53
+      ],
+      [
+        40,
+        1469.79
+      ]
+    ],
+    "forced_answer_accuracies": [
+      0.24,
+      0.46,
+      0.5,
+      0.52,
+      0.37,
+      0.4,
+      0.12,
+      0.12,
+      0.04,
+      0.09,
+      0.06,
+      0.14,
+      0.1,
+      0.35,
+      0.3,
+      0.19,
+      0.03,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02,
+      0.02,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.33,
+      0.07,
+      0.07,
+      0.63,
+      0.79,
+      0.65,
+      0.91,
+      0.91,
+      0.88,
+      0.83,
+      0.87,
+      0.55
+    ]
+  },
+  {
+    "problem_idx": "207",
+    "problem_type": null,
+    "problem_level": null,
+    "base_accuracy": true,
+    "num_chunks": 38,
+    "labeled_chunks": [
+      {
+        "chunk": "Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information provided.",
+        "chunk_idx": 0,
+        "summary": "determine diagnosis",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.12105263157894736,
+        "counterfactual_importance_kl": 0.36300659966553417,
+        "different_trajectories_fraction": 0.4,
+        "overdeterminedness": 0.7052631578947368,
+        "resampling_importance_accuracy": -0.08421052631578946,
+        "resampling_importance_kl": 0.9846646893622636,
+        "forced_importance_accuracy": -0.38000000000000006,
+        "forced_importance_kl": 0.3012087194514341,
+        "accuracy": 0.4105263157894737
+      },
+      {
+        "chunk": "Let me start by going through the details step by step.",
+        "chunk_idx": 1,
+        "summary": "no specific action",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.07622105796856515,
+        "counterfactual_importance_kl": 0.7819437656071859,
+        "different_trajectories_fraction": 0.6421052631578947,
+        "overdeterminedness": 0.8315789473684211,
+        "resampling_importance_accuracy": -0.05827455236028217,
+        "resampling_importance_kl": 0.526705136240141,
+        "forced_importance_accuracy": 0.07,
+        "forced_importance_kl": 0.009885430817975382,
+        "accuracy": 0.3263157894736842
+      },
+      {
+        "chunk": "First, the child is 5 years old and had a well-child visit.",
+        "chunk_idx": 2,
+        "summary": "child age=5",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.08970610863209727,
+        "counterfactual_importance_kl": 0.7237816063350236,
+        "different_trajectories_fraction": 0.6907216494845361,
+        "overdeterminedness": 0.5463917525773196,
+        "resampling_importance_accuracy": 0.16494845360824745,
+        "resampling_importance_kl": 2.489250801400367,
+        "forced_importance_accuracy": 0.21999999999999997,
+        "forced_importance_kl": 0.10492286424592628,
+        "accuracy": 0.26804123711340205
+      },
+      {
+        "chunk": "His mother says he's doing well and has no concerns.",
+        "chunk_idx": 3,
+        "summary": "no concerns reported",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.25909090909090904,
+        "counterfactual_importance_kl": 4.588397100060483,
+        "different_trajectories_fraction": 0.1134020618556701,
+        "overdeterminedness": 0.5773195876288659,
+        "resampling_importance_accuracy": -0.08298969072164952,
+        "resampling_importance_kl": 2.560450964911812,
+        "forced_importance_accuracy": -0.17999999999999994,
+        "forced_importance_kl": 0.06707497765411999,
+        "accuracy": 0.4329896907216495
+      },
+      {
+        "chunk": "That means there are no obvious symptoms or issues she's noticing.",
+        "chunk_idx": 4,
+        "summary": "identify no symptoms",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [
+          "3"
+        ],
+        "counterfactual_importance_accuracy": 0.06361556064073226,
+        "counterfactual_importance_kl": 0.7983480808770059,
+        "different_trajectories_fraction": 0.92,
+        "overdeterminedness": 0.43999999999999995,
+        "resampling_importance_accuracy": -0.06578947368421051,
+        "resampling_importance_kl": 0.952416694227741,
+        "forced_importance_accuracy": 0.06999999999999995,
+        "forced_importance_kl": 0.009989156048567191,
+        "accuracy": 0.35
+      },
+      {
+        "chunk": "He was born at 39 weeks via spontaneous vaginal delivery, which is normal and not preterm.",
+        "chunk_idx": 5,
+        "summary": "born at 39 weeks",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.5025773195876289,
+        "counterfactual_importance_kl": 0.7026329170512788,
+        "different_trajectories_fraction": 0.042105263157894736,
+        "overdeterminedness": 0.6526315789473685,
+        "resampling_importance_accuracy": -0.036787845903418326,
+        "resampling_importance_kl": 2.8134249349946736,
+        "forced_importance_accuracy": 0.19000000000000006,
+        "forced_importance_kl": 0.15063345003889783,
+        "accuracy": 0.28421052631578947
+      },
+      {
+        "chunk": "He's up to date on vaccines and meeting all developmental milestones, so no delays there.",
+        "chunk_idx": 6,
+        "summary": "no delays noted",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.145124716553288,
+        "counterfactual_importance_kl": 0.1844776689690576,
+        "different_trajectories_fraction": 0.3711340206185567,
+        "overdeterminedness": 0.7938144329896908,
+        "resampling_importance_accuracy": 0.11992425836313908,
+        "resampling_importance_kl": 1.3926114991316416,
+        "forced_importance_accuracy": -0.19000000000000006,
+        "forced_importance_kl": 0.08605571426681052,
+        "accuracy": 0.24742268041237114
+      },
+      {
+        "chunk": "On physical exam, the right upper extremity blood pressure is 150/80 mm Hg.",
+        "chunk_idx": 7,
+        "summary": "measure blood pressure",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.02373737373737378,
+        "counterfactual_importance_kl": 1.340094019469852,
+        "different_trajectories_fraction": 0.20408163265306123,
+        "overdeterminedness": 0.7959183673469388,
+        "resampling_importance_accuracy": 0.006390434961863534,
+        "resampling_importance_kl": 0.8877367733006302,
+        "forced_importance_accuracy": 0.22000000000000008,
+        "forced_importance_kl": 0.12992193197476773,
+        "accuracy": 0.3673469387755102
+      },
+      {
+        "chunk": "That seems high because, for a child, normal blood pressure can vary, but generally, a BP of 150/80 might be elevated.",
+        "chunk_idx": 8,
+        "summary": "identify elevated BP",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "7"
+        ],
+        "counterfactual_importance_accuracy": 0.03030303030303033,
+        "counterfactual_importance_kl": 0.4836147663410872,
+        "different_trajectories_fraction": 0.5555555555555556,
+        "overdeterminedness": 0.18181818181818177,
+        "resampling_importance_accuracy": -0.04040404040404044,
+        "resampling_importance_kl": 0.5015149545351592,
+        "forced_importance_accuracy": 0.039999999999999925,
+        "forced_importance_kl": 0.20100683612836556,
+        "accuracy": 0.37373737373737376
+      },
+      {
+        "chunk": "However, I should check what's considered normal for a 5-year-old.",
+        "chunk_idx": 9,
+        "summary": "check normal range",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.06750392464678179,
+        "counterfactual_importance_kl": 0.9463115262021596,
+        "different_trajectories_fraction": 0.9479166666666666,
+        "overdeterminedness": 0.8125,
+        "resampling_importance_accuracy": 0.07482993197278914,
+        "resampling_importance_kl": 0.9150776461947259,
+        "forced_importance_accuracy": -0.28,
+        "forced_importance_kl": 0.18168750317029794,
+        "accuracy": 0.3333333333333333
+      },
+      {
+        "chunk": "I think the normal range is around 100-120 mmHg for systolic and 60-80 for diastolic, so 150 is definitely high.",
+        "chunk_idx": 10,
+        "summary": "identify high blood pressure",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "9"
+        ],
+        "counterfactual_importance_accuracy": 0.1232269503546099,
+        "counterfactual_importance_kl": 0.5606238548583109,
+        "different_trajectories_fraction": 0.9591836734693877,
+        "overdeterminedness": 0.3571428571428571,
+        "resampling_importance_accuracy": -0.11649659863945577,
+        "resampling_importance_kl": 0.7347292227137181,
+        "forced_importance_accuracy": 0.38,
+        "forced_importance_kl": 0.6340871417829539,
+        "accuracy": 0.40816326530612246
+      },
+      {
+        "chunk": "He has 2+ radial pulses and trace femoral pulses.",
+        "chunk_idx": 11,
+        "summary": "identify pulse strengths",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.027083333333333293,
+        "counterfactual_importance_kl": 0.2747220713016301,
+        "different_trajectories_fraction": 0.10416666666666667,
+        "overdeterminedness": 0.8645833333333334,
+        "resampling_importance_accuracy": 0.13541666666666663,
+        "resampling_importance_kl": 1.197990310874188,
+        "forced_importance_accuracy": -0.039999999999999925,
+        "forced_importance_kl": 0.011477182588405122,
+        "accuracy": 0.2916666666666667
+      },
+      {
+        "chunk": "Radial pulses are in the arms, and femoral are in the groin.",
+        "chunk_idx": 12,
+        "summary": "identify pulse locations",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.09353741496598644,
+        "counterfactual_importance_kl": 1.514086620718048,
+        "different_trajectories_fraction": 0.875,
+        "overdeterminedness": 0.32291666666666663,
+        "resampling_importance_accuracy": -0.1515731292517007,
+        "resampling_importance_kl": 1.3783248565045512,
+        "forced_importance_accuracy": -0.020000000000000018,
+        "forced_importance_kl": 0.0021626918840862187,
+        "accuracy": 0.4270833333333333
+      },
+      {
+        "chunk": "2+ might be normal, but trace could indicate something is a bit off.",
+        "chunk_idx": 13,
+        "summary": "check trace anomaly",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "11",
+          "12"
+        ],
+        "counterfactual_importance_accuracy": 0.033719931271477654,
+        "counterfactual_importance_kl": 1.7591553678270826,
+        "different_trajectories_fraction": 0.9795918367346939,
+        "overdeterminedness": 0.173469387755102,
+        "resampling_importance_accuracy": -0.038396802019776965,
+        "resampling_importance_kl": 1.7248456777375858,
+        "forced_importance_accuracy": -0.08999999999999997,
+        "forced_importance_kl": 0.029120594122106644,
+        "accuracy": 0.2755102040816326
+      },
+      {
+        "chunk": "Maybe decreased femoral pulses could suggest something like coarctation of the aorta, which can cause reduced pulse strength in the lower extremities.",
+        "chunk_idx": 14,
+        "summary": "suggest coarctation diagnosis",
+        "function_tags": [
+          "hypothesis_generation"
+        ],
+        "depends_on": [
+          "13"
+        ],
+        "counterfactual_importance_accuracy": -0.0598266703941851,
+        "counterfactual_importance_kl": 1.230614914869104,
+        "different_trajectories_fraction": 0.7525773195876289,
+        "overdeterminedness": 0.3608247422680413,
+        "resampling_importance_accuracy": 0.02819272038712395,
+        "resampling_importance_kl": 1.1244387769039543,
+        "forced_importance_accuracy": 0.19999999999999996,
+        "forced_importance_kl": 4.565284781060713,
+        "accuracy": 0.23711340206185566
+      },
+      {
+        "chunk": "Cardiac auscultation is regular rate and rhythm, so no irregular heartbeats.",
+        "chunk_idx": 15,
+        "summary": "note regular rhythm",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": -0.047509326311169664,
+        "counterfactual_importance_kl": 1.3807683480589732,
+        "different_trajectories_fraction": 0.9489795918367347,
+        "overdeterminedness": 0.4897959183673469,
+        "resampling_importance_accuracy": 0.05102040816326531,
+        "resampling_importance_kl": 1.3098157826076282,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.2653061224489796
+      },
+      {
+        "chunk": "S1 and S2 are normal, which means the heart valves are closing properly.",
+        "chunk_idx": 16,
+        "summary": "confirm normal valves",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.011958762886597973,
+        "counterfactual_importance_kl": 0.9548420916204885,
+        "different_trajectories_fraction": 0.7653061224489796,
+        "overdeterminedness": 0.9591836734693877,
+        "resampling_importance_accuracy": -0.04828529349884286,
+        "resampling_importance_kl": 0.6924065244354392,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.3163265306122449
+      },
+      {
+        "chunk": "However, there's a 2/6 long systolic murmur with a systolic ejection click heard over the left sternal border and back.",
+        "chunk_idx": 17,
+        "summary": "identify murmur presence",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.9484536082474226,
+        "resampling_importance_accuracy": 0.07216494845360827,
+        "resampling_importance_kl": 0.7064477712243368,
+        "forced_importance_accuracy": -0.13,
+        "forced_importance_kl": 0.13926206733201335,
+        "accuracy": 0.26804123711340205
+      },
+      {
+        "chunk": "A systolic murmur is heard between S1 and S2, and a ejection click is a click that occurs just after S1, often associated with aortic stenosis or sclerosis, or maybe a bicuspid aortic valve.",
+        "chunk_idx": 18,
+        "summary": "identify ejection click",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "17"
+        ],
+        "counterfactual_importance_accuracy": 0.07723525681674065,
+        "counterfactual_importance_kl": 0.07834426076659799,
+        "different_trajectories_fraction": 0.8556701030927835,
+        "overdeterminedness": 0.5567010309278351,
+        "resampling_importance_accuracy": -0.05599565925122085,
+        "resampling_importance_kl": 0.6954736522766783,
+        "forced_importance_accuracy": -0.24,
+        "forced_importance_kl": 3.273026208062638,
+        "accuracy": 0.3402061855670103
+      },
+      {
+        "chunk": "The point of maximal impulse (PMI) is normal, so the heart's apex beat is in the correct location, which would be around the 4th or 5th intercostal space on the left sternal border.",
+        "chunk_idx": 19,
+        "summary": "identify PMI location",
+        "function_tags": [
+          "case_representation"
+        ],
+        "depends_on": [],
+        "counterfactual_importance_accuracy": 0.022458628841607597,
+        "counterfactual_importance_kl": 1.0571319953449465,
+        "different_trajectories_fraction": 0.9473684210526315,
+        "overdeterminedness": 0.4,
+        "resampling_importance_accuracy": -0.028891377379619276,
+        "resampling_importance_kl": 0.9831865333957853,
+        "forced_importance_accuracy": -0.27,
+        "forced_importance_kl": 0.16501249436061488,
+        "accuracy": 0.28421052631578947
+      },
+      {
+        "chunk": "That suggests no enlargement of the heart, so probably not something like hypertrophic cardiomyopathy.",
+        "chunk_idx": 20,
+        "summary": "exclude hypertrophic cardiomyopathy",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "19"
+        ],
+        "counterfactual_importance_accuracy": -0.047198641765704596,
+        "counterfactual_importance_kl": 1.1800107323555955,
+        "different_trajectories_fraction": 0.9893617021276596,
+        "overdeterminedness": 0.18085106382978722,
+        "resampling_importance_accuracy": 0.049944008958566655,
+        "resampling_importance_kl": 1.170936283100189,
+        "forced_importance_accuracy": 0.08000000000000002,
+        "forced_importance_kl": 0.02518247734471312,
+        "accuracy": 0.2553191489361702
+      },
+      {
+        "chunk": "Putting this together: The blood pressure is high in the right arm.",
+        "chunk_idx": 21,
+        "summary": "identify high blood pressure",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "8"
+        ],
+        "counterfactual_importance_accuracy": 0.061103979460847224,
+        "counterfactual_importance_kl": 1.0682275016396168,
+        "different_trajectories_fraction": 0.8631578947368421,
+        "overdeterminedness": 0.4,
+        "resampling_importance_accuracy": -0.0736842105263158,
+        "resampling_importance_kl": 0.9017374926330824,
+        "forced_importance_accuracy": 0.56,
+        "forced_importance_kl": 13.20702966270346,
+        "accuracy": 0.30526315789473685
+      },
+      {
+        "chunk": "The pulses are weaker in the femoral area, which might indicate a narrowing somewhere in the aorta, like coarctation.",
+        "chunk_idx": 22,
+        "summary": "indicate narrowing aorta",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "13",
+          "14"
+        ],
+        "counterfactual_importance_accuracy": 0.13603765127745407,
+        "counterfactual_importance_kl": 0.10360039688902556,
+        "different_trajectories_fraction": 0.4842105263157895,
+        "overdeterminedness": 0.2947368421052632,
+        "resampling_importance_accuracy": -0.12848616386326642,
+        "resampling_importance_kl": 0.14421388910372782,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.23157894736842105
+      },
+      {
+        "chunk": "The systolic murmur and ejection click could point towards aortic stenosis or a bicuspid aortic valve.",
+        "chunk_idx": 23,
+        "summary": "identify aortic stenosis",
+        "function_tags": [
+          "evidence_evaluation"
+        ],
+        "depends_on": [
+          "17",
+          "18"
+        ],
+        "counterfactual_importance_accuracy": -0.2180339985218034,
+        "counterfactual_importance_kl": 1.3332847073967478,
+        "different_trajectories_fraction": 0.422680412371134,
+        "overdeterminedness": 0.20618556701030932,
+        "resampling_importance_accuracy": 0.1393314589190878,
+        "resampling_importance_kl": 2.4256873643186894,
+        "forced_importance_accuracy": -0.050000000000000044,
+        "forced_importance_kl": 0.05129329438702418,
+        "accuracy": 0.10309278350515463
+      },
+      {
+        "chunk": "A bicuspid valve can sometimes cause a click and a murmur, especially if there's some stenosis.",
+        "chunk_idx": 24,
+        "summary": "identify valve issues",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.14378478664192948,
+        "counterfactual_importance_kl": 1.115327788331849,
+        "different_trajectories_fraction": 0.7777777777777778,
+        "overdeterminedness": 0.1515151515151515,
+        "resampling_importance_accuracy": 0.1351267779839208,
+        "resampling_importance_kl": 0.862877317173339,
+        "forced_importance_accuracy": -0.52,
+        "forced_importance_kl": 0.6454548269454005,
+        "accuracy": 0.24242424242424243
+      },
+      {
+        "chunk": "Wait, but coarctation of the aorta is a narrowing of the aorta, often just after the aortic valve.",
+        "chunk_idx": 25,
+        "summary": "define coarctation aorta",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "14"
+        ],
+        "counterfactual_importance_accuracy": -0.35440774247843465,
+        "counterfactual_importance_kl": 1.3995833866357827,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.13265306122448983,
+        "resampling_importance_accuracy": 0.35440774247843465,
+        "resampling_importance_kl": 1.3995833866357827,
+        "forced_importance_accuracy": 0.5700000000000001,
+        "forced_importance_kl": 13.352380730360936,
+        "accuracy": 0.37755102040816324
+      },
+      {
+        "chunk": "It can cause high blood pressure in the upper extremities and low or absent pulses in the lower extremities.",
+        "chunk_idx": 26,
+        "summary": "identify blood pressure effects",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "25"
+        ],
+        "counterfactual_importance_accuracy": 0.021246952281435028,
+        "counterfactual_importance_kl": 3.148614004311523,
+        "different_trajectories_fraction": 0.29896907216494845,
+        "overdeterminedness": 0.30927835051546393,
+        "resampling_importance_accuracy": 0.005414974487139457,
+        "resampling_importance_kl": 1.7611493367345483,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.7319587628865979
+      },
+      {
+        "chunk": "The murmur in coarctation is usually a continuous or harsh systolic one, but sometimes it can vary.",
+        "chunk_idx": 27,
+        "summary": "describe murmur characteristics",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "25"
+        ],
+        "counterfactual_importance_accuracy": 0.16255339345040343,
+        "counterfactual_importance_kl": 0.6649474491944363,
+        "different_trajectories_fraction": 0.43434343434343436,
+        "overdeterminedness": 0.202020202020202,
+        "resampling_importance_accuracy": -0.15574108431251288,
+        "resampling_importance_kl": 0.5868372909032223,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.7373737373737373
+      },
+      {
+        "chunk": "The ejection click might not be as prominent as in aortic stenosis.",
+        "chunk_idx": 28,
+        "summary": "compare ejection click",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.27248677248677255,
+        "counterfactual_importance_kl": 1.0372582194332458,
+        "different_trajectories_fraction": 0.2755102040816326,
+        "overdeterminedness": 0.326530612244898,
+        "resampling_importance_accuracy": 0.061224489795918435,
+        "resampling_importance_kl": 1.9983541541121628,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.5816326530612245
+      },
+      {
+        "chunk": "Alternatively, aortic stenosis would present with a harsh systolic murmur, often with a click.",
+        "chunk_idx": 29,
+        "summary": "describe aortic stenosis",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "18"
+        ],
+        "counterfactual_importance_accuracy": -0.16666666666666663,
+        "counterfactual_importance_kl": 0.1878289698957882,
+        "different_trajectories_fraction": 0.04081632653061224,
+        "overdeterminedness": 0.3877551020408163,
+        "resampling_importance_accuracy": 0.023809523809523725,
+        "resampling_importance_kl": 0.4273021122582692,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.6428571428571429
+      },
+      {
+        "chunk": "The blood pressure might be high if there's significant obstruction, but sometimes in stenosis, the blood pressure could be normal or elevated.",
+        "chunk_idx": 30,
+        "summary": "assess blood pressure",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "29"
+        ],
+        "counterfactual_importance_accuracy": 0.1428571428571428,
+        "counterfactual_importance_kl": 0.27868087680509346,
+        "different_trajectories_fraction": 0.98989898989899,
+        "overdeterminedness": 0.13131313131313127,
+        "resampling_importance_accuracy": -0.1360544217687074,
+        "resampling_importance_kl": 0.26919978314872806,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.6666666666666666
+      },
+      {
+        "chunk": "Another thought: The combination of high blood pressure in the upper extremities, weak femoral pulses, and a systolic murmur with a click makes me think of coarctation of the aorta.",
+        "chunk_idx": 31,
+        "summary": "suspect coarctation diagnosis",
+        "function_tags": [
+          "hypothesis_generation"
+        ],
+        "depends_on": [
+          "21",
+          "22",
+          "23"
+        ],
+        "counterfactual_importance_accuracy": -0.2113922732479434,
+        "counterfactual_importance_kl": 0.527121135099934,
+        "different_trajectories_fraction": 0.9897959183673469,
+        "overdeterminedness": 0.12244897959183676,
+        "resampling_importance_accuracy": 0.2168625025767883,
+        "resampling_importance_kl": 0.53664760549891,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.5306122448979592
+      },
+      {
+        "chunk": "The click might be from the aortic valve itself if it's bicuspid.",
+        "chunk_idx": 32,
+        "summary": "identify bicuspid click",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "31"
+        ],
+        "counterfactual_importance_accuracy": -0.17603369914643607,
+        "counterfactual_importance_kl": 1.422313409549656,
+        "different_trajectories_fraction": 0.9393939393939394,
+        "overdeterminedness": 0.12121212121212122,
+        "resampling_importance_accuracy": 0.1597417473706133,
+        "resampling_importance_kl": 1.3119637788482668,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.7474747474747475
+      },
+      {
+        "chunk": "So in coarctation, the aorta is narrowed, leading to increased pressure above the obstruction (upper body) and decreased below (lower body).",
+        "chunk_idx": 33,
+        "summary": "identify pressure changes",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "26"
+        ],
+        "counterfactual_importance_accuracy": -0.08588235294117641,
+        "counterfactual_importance_kl": 0.8627763919447162,
+        "different_trajectories_fraction": 0.8762886597938144,
+        "overdeterminedness": 0.14432989690721654,
+        "resampling_importance_accuracy": 0.07278350515463916,
+        "resampling_importance_kl": 0.7378604210041539,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.9072164948453608
+      },
+      {
+        "chunk": "The pulse discrepancy is a classic sign.",
+        "chunk_idx": 34,
+        "summary": "identify pulse discrepancy",
+        "function_tags": [
+          "knowledge_activation"
+        ],
+        "depends_on": [
+          "22"
+        ],
+        "counterfactual_importance_accuracy": -0.021052631578947323,
+        "counterfactual_importance_kl": 0.8502629019102907,
+        "different_trajectories_fraction": 0.95,
+        "overdeterminedness": 0.41000000000000003,
+        "resampling_importance_accuracy": 0.020000000000000018,
+        "resampling_importance_kl": 0.8036127665121127,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.98
+      },
+      {
+        "chunk": "I should also consider other possibilities, like a patent ductus arteriosus (PDA), but that usually causes a continuous murmur, not a systolic one.",
+        "chunk_idx": 35,
+        "summary": "consider patent ductus arteriosus",
+        "function_tags": [
+          "reconsideration_uncertainty"
+        ],
+        "depends_on": [
+          "31"
+        ],
+        "counterfactual_importance_accuracy": 0.020000000000000018,
+        "counterfactual_importance_kl": 0.030463942079773654,
+        "different_trajectories_fraction": 1.0,
+        "overdeterminedness": 0.6599999999999999,
+        "resampling_importance_accuracy": -0.020000000000000018,
+        "resampling_importance_kl": 0.030463942079773654,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 1.0
+      },
+      {
+        "chunk": "Or maybe a ventricular septal defect, but that would have a pansystolic murmur, not a long systolic with a click.",
+        "chunk_idx": 36,
+        "summary": "identify heart defect",
+        "function_tags": [
+          "reconsideration_uncertainty"
+        ],
+        "depends_on": [
+          "31"
+        ],
+        "counterfactual_importance_accuracy": -0.02197802197802201,
+        "counterfactual_importance_kl": 0.6894513724654183,
+        "different_trajectories_fraction": 0.91,
+        "overdeterminedness": 0.13,
+        "resampling_importance_accuracy": 0.020000000000000018,
+        "resampling_importance_kl": 0.6051017112561198,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 0.98
+      },
+      {
+        "chunk": "So, putting it all together, the most likely diagnosis is coarctation of the aorta, possibly with a bicuspid aortic valve.",
+        "chunk_idx": 37,
+        "summary": "diagnose coarctation aorta",
+        "function_tags": [
+          "diagnostic_commitment",
+          "final_answer_emission"
+        ],
+        "depends_on": [
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36"
+        ],
+        "counterfactual_importance_accuracy": 0.0,
+        "counterfactual_importance_kl": 0.0,
+        "different_trajectories_fraction": 0.0,
+        "overdeterminedness": 0.0,
+        "resampling_importance_accuracy": 0.0,
+        "resampling_importance_kl": 0.0,
+        "forced_importance_accuracy": 0.0,
+        "forced_importance_kl": 0.0,
+        "accuracy": 1.0
+      }
+    ],
+    "token_counts": [
+      [
+        0,
+        1311.78
+      ],
+      [
+        1,
+        1288.27
+      ],
+      [
+        2,
+        1386.34
+      ],
+      [
+        3,
+        1366.86
+      ],
+      [
+        4,
+        1361.44
+      ],
+      [
+        5,
+        1397.74
+      ],
+      [
+        6,
+        1348.79
+      ],
+      [
+        7,
+        1341.77
+      ],
+      [
+        8,
+        1326.81
+      ],
+      [
+        9,
+        1394.66
+      ],
+      [
+        10,
+        1446.94
+      ],
+      [
+        11,
+        1431.92
+      ],
+      [
+        12,
+        1450.54
+      ],
+      [
+        13,
+        1458.77
+      ],
+      [
+        14,
+        1433.84
+      ],
+      [
+        15,
+        1409.53
+      ],
+      [
+        16,
+        1481.62
+      ],
+      [
+        17,
+        1382.72
+      ],
+      [
+        18,
+        1419.89
+      ],
+      [
+        19,
+        1329.04
+      ],
+      [
+        20,
+        1371.86
+      ],
+      [
+        21,
+        1390.64
+      ],
+      [
+        22,
+        1321.42
+      ],
+      [
+        23,
+        1281.73
+      ],
+      [
+        24,
+        1363.04
+      ],
+      [
+        25,
+        1301.12
+      ],
+      [
+        26,
+        1446.3
+      ],
+      [
+        27,
+        1435.62
+      ],
+      [
+        28,
+        1511.27
+      ],
+      [
+        29,
+        1525.83
+      ],
+      [
+        30,
+        1534.06
+      ],
+      [
+        31,
+        1545.1
+      ],
+      [
+        32,
+        1696.73
+      ],
+      [
+        33,
+        1470.49
+      ],
+      [
+        34,
+        1456.93
+      ],
+      [
+        35,
+        1435.5
+      ],
+      [
+        36,
+        1438.78
+      ],
+      [
+        37,
+        1385.8
+      ]
+    ],
+    "forced_answer_accuracies": [
+      0.79,
+      0.41,
+      0.48,
+      0.7,
+      0.52,
+      0.59,
+      0.78,
+      0.59,
+      0.81,
+      0.85,
+      0.57,
+      0.95,
+      0.91,
+      0.89,
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      0.87,
+      0.63,
+      0.36,
+      0.44,
+      1.0,
+      1.0,
+      0.95,
+      0.43,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
     "problem_idx": "24",
     "problem_type": null,
     "problem_level": null,
@@ -3731,28 +5716,28 @@
       ]
     ],
     "forced_answer_accuracies": [
-      0.04,
-      0.04,
-      0.03,
-      0.05,
-      0.22,
       0.14,
-      0.12,
-      0.13,
-      0.12,
-      0.05,
       0.07,
-      0.08,
-      0.15,
-      0.14,
-      0.1,
-      0.14,
-      0.21,
-      0.14,
-      0.17,
       0.13,
-      0.18,
-      0.11,
+      0.14,
+      0.3,
+      0.22,
+      0.3,
+      0.27,
+      0.39,
+      0.26,
+      0.32,
+      0.21,
+      0.44,
+      0.42,
+      0.36,
+      0.42,
+      0.57,
+      0.44,
+      0.54,
+      0.5,
+      0.55,
+      0.29,
       0.85,
       0.94,
       0.93,

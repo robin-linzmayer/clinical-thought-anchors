@@ -38,13 +38,13 @@ Problem 24: Variance = 0.037128
   Potential reasoning forks:
     Fork 1: Chunks 1-6
       Text: 'Let me go through the information step by step. First, the patient's presenting complaint is a ch...'
-      Tags: case_representation, unknown
+      Tags: unknown, case_representation
     Fork 2: Chunks 10-15
       Text: 'Physical exam findings include an elderly man who laughs inappropriately and is a poor historian....'
-      Tags: knowledge_activation, case_representation, evidence_evaluation, hypothesis_generation
+      Tags: knowledge_activation, hypothesis_generation, case_representation, evidence_evaluation
     Fork 3: Chunks 19-27
       Text: 'But the symptoms here don't specifically point to vascular causes, like stepwise cognitive declin...'
-      Tags: reconsideration_uncertainty, evidence_evaluation, knowledge_activation, hypothesis_generation
+      Tags: knowledge_activation, hypothesis_generation, reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 30-32
       Text: 'However, Alzheimer's disease is still a strong contender, especially since memory problems are pr...'
       Tags: reconsideration_uncertainty, diagnostic_verification
@@ -75,13 +75,73 @@ Problem 97: Variance = 0.025005
   Potential reasoning forks:
     Fork 1: Chunks 0-8
       Text: 'Okay, so I'm trying to figure out the diagnosis for this 75-year-old man. Let me start by going t...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation, hypothesis_generation
+      Tags: knowledge_activation, hypothesis_generation, case_representation, evidence_evaluation
     Fork 2: Chunks 11-12
       Text: 'Respirations are 18/min, also normal. Blood pressure is 100/80 mm Hg, which is a bit low but coul...'
       Tags: case_representation
     Fork 3: Chunks 15-20
       Text: 'Cardiac exam is mentioned but not detailed, so I need to consider what that might show. Putting i...'
-      Tags: reconsideration_uncertainty, final_answer_emission, evidence_evaluation, case_representation, diagnostic_commitment
+      Tags: reconsideration_uncertainty, case_representation, diagnostic_commitment, final_answer_emission, evidence_evaluation
+
+Problem 207: Variance = 0.022506
+  Chunks by importance:
+    1. Chunk 5: 0.5026 - case_representation - 'He was born at 39 weeks via spontaneous vaginal...'
+    2. Chunk 27: 0.1626 - knowledge_activation - 'The murmur in coarctation is usually a continuo...'
+    3. Chunk 30: 0.1429 - knowledge_activation - 'The blood pressure might be high if there's sig...'
+    4. Chunk 22: 0.1360 - evidence_evaluation - 'The pulses are weaker in the femoral area, whic...'
+    5. Chunk 10: 0.1232 - knowledge_activation - 'I think the normal range is around 100-120 mmHg...'
+    6. Chunk 0: 0.1211 - case_representation - 'Okay, so I need to figure out the diagnosis for...'
+    7. Chunk 12: 0.0935 - knowledge_activation - 'Radial pulses are in the arms, and femoral are ...'
+    8. Chunk 18: 0.0772 - knowledge_activation - 'A systolic murmur is heard between S1 and S2, a...'
+    9. Chunk 1: 0.0762 - case_representation - 'Let me start by going through the details step ...'
+    10. Chunk 4: 0.0636 - case_representation - 'That means there are no obvious symptoms or iss...'
+    11. Chunk 21: 0.0611 - evidence_evaluation - 'Putting this together: The blood pressure is hi...'
+    12. Chunk 13: 0.0337 - evidence_evaluation - '2+ might be normal, but trace could indicate so...'
+    13. Chunk 8: 0.0303 - evidence_evaluation - 'That seems high because, for a child, normal bl...'
+    14. Chunk 19: 0.0225 - case_representation - 'The point of maximal impulse (PMI) is normal, s...'
+    15. Chunk 26: 0.0212 - knowledge_activation - 'It can cause high blood pressure in the upper e...'
+    16. Chunk 35: 0.0200 - reconsideration_uncertainty - 'I should also consider other possibilities, lik...'
+    17. Chunk 16: 0.0120 - case_representation - 'S1 and S2 are normal, which means the heart val...'
+    18. Chunk 17: 0.0000 - case_representation - 'However, there's a 2/6 long systolic murmur wit...'
+    19. Chunk 37: 0.0000 - diagnostic_commitment, final_answer_emission - 'So, putting it all together, the most likely di...'
+    20. Chunk 34: -0.0211 - knowledge_activation - 'The pulse discrepancy is a classic sign.'
+    21. Chunk 36: -0.0220 - reconsideration_uncertainty - 'Or maybe a ventricular septal defect, but that ...'
+    22. Chunk 7: -0.0237 - case_representation - 'On physical exam, the right upper extremity blo...'
+    23. Chunk 11: -0.0271 - case_representation - 'He has 2+ radial pulses and trace femoral pulses.'
+    24. Chunk 20: -0.0472 - evidence_evaluation - 'That suggests no enlargement of the heart, so p...'
+    25. Chunk 15: -0.0475 - case_representation - 'Cardiac auscultation is regular rate and rhythm...'
+    26. Chunk 14: -0.0598 - hypothesis_generation - 'Maybe decreased femoral pulses could suggest so...'
+    27. Chunk 9: -0.0675 - knowledge_activation - 'However, I should check what's considered norma...'
+    28. Chunk 33: -0.0859 - knowledge_activation - 'So in coarctation, the aorta is narrowed, leadi...'
+    29. Chunk 2: -0.0897 - case_representation - 'First, the child is 5 years old and had a well-...'
+    30. Chunk 24: -0.1438 - knowledge_activation - 'A bicuspid valve can sometimes cause a click an...'
+    31. Chunk 6: -0.1451 - case_representation - 'He's up to date on vaccines and meeting all dev...'
+    32. Chunk 29: -0.1667 - knowledge_activation - 'Alternatively, aortic stenosis would present wi...'
+    33. Chunk 32: -0.1760 - knowledge_activation - 'The click might be from the aortic valve itself...'
+    34. Chunk 31: -0.2114 - hypothesis_generation - 'Another thought: The combination of high blood ...'
+    35. Chunk 23: -0.2180 - evidence_evaluation - 'The systolic murmur and ejection click could po...'
+    36. Chunk 3: -0.2591 - case_representation - 'His mother says he's doing well and has no conc...'
+    37. Chunk 28: -0.2725 - knowledge_activation - 'The ejection click might not be as prominent as...'
+    38. Chunk 25: -0.3544 - knowledge_activation - 'Wait, but coarctation of the aorta is a narrowi...'
+  Potential reasoning forks:
+    Fork 1: Chunks 0-1
+      Text: 'Okay, so I need to figure out the diagnosis for this 5-year-old boy based on the information prov...'
+      Tags: case_representation
+    Fork 2: Chunks 4-5
+      Text: 'That means there are no obvious symptoms or issues she's noticing. He was born at 39 weeks via sp...'
+      Tags: case_representation
+    Fork 3: Chunks 8-13
+      Text: 'That seems high because, for a child, normal blood pressure can vary, but generally, a BP of 150/...'
+      Tags: knowledge_activation, evidence_evaluation
+    Fork 4: Chunks 16-22
+      Text: 'S1 and S2 are normal, which means the heart valves are closing properly. However, there's a 2/6 l...'
+      Tags: knowledge_activation, case_representation, evidence_evaluation
+    Fork 5: Chunks 26-27
+      Text: 'It can cause high blood pressure in the upper extremities and low or absent pulses in the lower e...'
+      Tags: knowledge_activation
+    Fork 6: Chunks 35-37
+      Text: 'I should also consider other possibilities, like a patent ductus arteriosus (PDA), but that usual...'
+      Tags: final_answer_emission, reconsideration_uncertainty, diagnostic_commitment
 
 Problem 95: Variance = 0.021338
   Chunks by importance:
@@ -116,16 +176,16 @@ Problem 95: Variance = 0.021338
   Potential reasoning forks:
     Fork 1: Chunks 0-4
       Text: 'Okay, so I'm trying to figure out what's going on with this patient. Let me start by going throug...'
-      Tags: knowledge_activation, case_representation, unknown
+      Tags: knowledge_activation, unknown, case_representation
     Fork 2: Chunks 7-12
       Text: 'She doesn't have diarrhea, dysuria, or hematuria, which rules out some other conditions like appe...'
-      Tags: evidence_evaluation, knowledge_activation, case_representation
+      Tags: knowledge_activation, case_representation, evidence_evaluation
     Fork 3: Chunks 15-20
       Text: 'Looking at the labs: her bilirubin is elevated at 4.1 mg/dL, which is a bit high. Her alkaline ph...'
-      Tags: evidence_evaluation, case_representation
+      Tags: case_representation, evidence_evaluation
     Fork 4: Chunks 23-27
       Text: 'The intermittent pain episodes fit with gallstones passing through the CBD, causing obstruction a...'
-      Tags: evidence_evaluation, diagnostic_verification
+      Tags: diagnostic_verification, evidence_evaluation
 
 Problem 84: Variance = 0.020460
   Chunks by importance:
@@ -168,13 +228,13 @@ Problem 84: Variance = 0.020460
   Potential reasoning forks:
     Fork 1: Chunks 1-8
       Text: 'Let me read through it again carefully. A 52-year-old man comes in with ongoing shortness of brea...'
-      Tags: case_representation, unknown
+      Tags: unknown, case_representation
     Fork 2: Chunks 13-16
       Text: 'Palpitations during activity could be related to arrhythmia or just increased heart rate. Digesti...'
       Tags: evidence_evaluation
     Fork 3: Chunks 23-35
       Text: 'ECG is normal, which is interesting because in heart failure, ECG can show changes like房颤 or房室传导阻...'
-      Tags: reconsideration_uncertainty, final_answer_emission, evidence_evaluation, knowledge_activation, diagnostic_commitment, hypothesis_generation
+      Tags: reconsideration_uncertainty, knowledge_activation, hypothesis_generation, diagnostic_commitment, final_answer_emission, evidence_evaluation
 
 Problem 6: Variance = 0.011686
   Chunks by importance:
@@ -243,5 +303,68 @@ Problem 6: Variance = 0.011686
       Tags: reconsideration_uncertainty, evidence_evaluation
     Fork 4: Chunks 34-52
       Text: 'The patient has low potassium, so this is a possibility. 2. Cushing's syndrome: Can cause hyperte...'
-      Tags: reconsideration_uncertainty, evidence_evaluation, knowledge_activation, diagnostic_commitment, diagnostic_verification
+      Tags: reconsideration_uncertainty, knowledge_activation, diagnostic_verification, diagnostic_commitment, evidence_evaluation
+
+Problem 122: Variance = 0.005813
+  Chunks by importance:
+    1. Chunk 30: 0.1470 - evidence_evaluation - 'His blood pressure is a bit low diastolic, but ...'
+    2. Chunk 34: 0.1205 - diagnostic_verification - 'Carbon monoxide exposure is a big one here.'
+    3. Chunk 6: 0.0949 - evidence_evaluation - 'That's interesting because being outside seems ...'
+    4. Chunk 16: 0.0703 - evidence_evaluation - 'That's elevated.'
+    5. Chunk 20: 0.0596 - evidence_evaluation - 'So, putting this together.'
+    6. Chunk 0: 0.0552 - case_representation - 'Okay, so I'm trying to figure out what's going ...'
+    7. Chunk 15: 0.0386 - case_representation - 'The labs show hemoglobin of 20 g/dL and hematoc...'
+    8. Chunk 14: 0.0348 - evidence_evaluation - 'So, no obvious signs of distress when he's sitt...'
+    9. Chunk 2: 0.0283 - unknown - 'Let me go through the details step by step.'
+    10. Chunk 29: 0.0263 - evidence_evaluation - 'Another possibility is dehydration, but his sym...'
+    11. Chunk 25: 0.0222 - knowledge_activation - 'Secondary causes could include chronic hypoxia,...'
+    12. Chunk 36: 0.0196 - hypothesis_generation - 'Other possibilities could be chronic obstructiv...'
+    13. Chunk 10: 0.0063 - case_representation - 'He's been living at his upstate cabin for five ...'
+    14. Chunk 21: 0.0033 - evidence_evaluation - 'The headaches and dizziness are concerning.'
+    15. Chunk 26: 0.0030 - evidence_evaluation - 'He's living at a cabin in the upstate, which mi...'
+    16. Chunk 4: 0.0000 - case_representation - 'He thought it might be a cold and tried ibuprof...'
+    17. Chunk 5: 0.0000 - case_representation - 'Now he's also feeling dizzy and nauseous, which...'
+    18. Chunk 7: 0.0000 - case_representation - 'Looking at his medical history, he has hyperten...'
+    19. Chunk 11: 0.0000 - case_representation - 'He doesn't smoke or use illicit drugs, so those...'
+    20. Chunk 13: 0.0000 - case_representation - 'He's asymptomatic in the office, and the physic...'
+    21. Chunk 17: 0.0000 - knowledge_activation - 'Normal hemoglobin for men is around 13.5-17.5 g...'
+    22. Chunk 40: 0.0000 - final_answer_emission - 'This would explain his headaches, dizziness, na...'
+    23. Chunk 24: -0.0038 - knowledge_activation - 'Polycythemia can be primary (like in polycythem...'
+    24. Chunk 3: -0.0119 - case_representation - 'First, his symptoms started about four weeks ag...'
+    25. Chunk 19: -0.0154 - case_representation - 'Leukocyte count is normal, and platelets are ok...'
+    26. Chunk 37: -0.0165 - evidence_evaluation - 'High altitude polycythemia is another, but I'm ...'
+    27. Chunk 35: -0.0183 - knowledge_activation - 'It can cause chronic symptoms and elevate hemog...'
+    28. Chunk 9: -0.0198 - evidence_evaluation - 'So, no recent changes in medications that I can...'
+    29. Chunk 18: -0.0205 - knowledge_activation - 'Hematocrit is also elevated, which makes sense ...'
+    30. Chunk 12: -0.0249 - case_representation - 'His vitals are: temperature 99°F (which is a lo...'
+    31. Chunk 38: -0.0398 - evidence_evaluation - 'Dehydration is possible, but his symptoms are m...'
+    32. Chunk 22: -0.0531 - evidence_evaluation - 'The improvement when he's outside suggests it m...'
+    33. Chunk 31: -0.0575 - evidence_evaluation - 'Also, the improvement when he goes outside make...'
+    34. Chunk 23: -0.0605 - hypothesis_generation - 'The elevated hemoglobin and hematocrit point to...'
+    35. Chunk 32: -0.0708 - evidence_evaluation - 'Looking at his medications, none of them are kn...'
+    36. Chunk 33: -0.0777 - evidence_evaluation - 'So, primary polycythemia is a possibility, but ...'
+    37. Chunk 1: -0.0933 - case_representation - 'He's been having a headache and dizziness for a...'
+    38. Chunk 8: -0.0941 - case_representation - 'His medications include amlodipine (which is a ...'
+    39. Chunk 27: -0.1408 - hypothesis_generation - 'Alternatively, maybe his cabin has poor ventila...'
+    40. Chunk 39: -0.1555 - diagnostic_commitment - 'So, considering all this, the most likely diagn...'
+    41. Chunk 28: -0.3125 - knowledge_activation - 'Carbon monoxide poisoning can present with head...'
+  Potential reasoning forks:
+    Fork 1: Chunks 0-7
+      Text: 'Okay, so I'm trying to figure out what's going on with this 52-year-old man. Let me go through th...'
+      Tags: unknown, case_representation, evidence_evaluation
+    Fork 2: Chunks 10-17
+      Text: 'He's been living at his upstate cabin for five weeks and hasn't traveled elsewhere recently. He d...'
+      Tags: knowledge_activation, case_representation, evidence_evaluation
+    Fork 3: Chunks 20-21
+      Text: 'So, putting this together. The headaches and dizziness are concerning.'
+      Tags: evidence_evaluation
+    Fork 4: Chunks 24-26
+      Text: 'Polycythemia can be primary (like in polycythemia vera, a myeloproliferative disorder) or seconda...'
+      Tags: knowledge_activation, evidence_evaluation
+    Fork 5: Chunks 29-30
+      Text: 'Another possibility is dehydration, but his symptoms seem more chronic. His blood pressure is a b...'
+      Tags: evidence_evaluation
+    Fork 6: Chunks 34-36
+      Text: 'Carbon monoxide exposure is a big one here. Other possibilities could be chronic obstructive pulm...'
+      Tags: hypothesis_generation, diagnostic_verification
 
