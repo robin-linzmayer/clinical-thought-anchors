@@ -41,13 +41,54 @@ Problem 24: Variance = 0.037128
       Tags: unknown, case_representation
     Fork 2: Chunks 10-15
       Text: 'Physical exam findings include an elderly man who laughs inappropriately and is a poor historian....'
-      Tags: knowledge_activation, hypothesis_generation, case_representation, evidence_evaluation
+      Tags: hypothesis_generation, case_representation, knowledge_activation, evidence_evaluation
     Fork 3: Chunks 19-27
       Text: 'But the symptoms here don't specifically point to vascular causes, like stepwise cognitive declin...'
-      Tags: knowledge_activation, hypothesis_generation, reconsideration_uncertainty, evidence_evaluation
+      Tags: hypothesis_generation, evidence_evaluation, reconsideration_uncertainty, knowledge_activation
     Fork 4: Chunks 30-32
       Text: 'However, Alzheimer's disease is still a strong contender, especially since memory problems are pr...'
-      Tags: reconsideration_uncertainty, diagnostic_verification
+      Tags: diagnostic_verification, reconsideration_uncertainty
+
+Problem 417: Variance = 0.028633
+  Chunks by importance:
+    1. Chunk 6: 0.5000 - case_representation - 'Blood pressure is 90/40, which is low.'
+    2. Chunk 17: 0.2581 - case_representation - 'Breath sounds are absent on the left, which is ...'
+    3. Chunk 0: 0.0944 - case_representation - 'Okay, so I'm trying to figure out what's going ...'
+    4. Chunk 21: 0.0860 - evidence_evaluation - 'Putting it all together: the patient was in a h...'
+    5. Chunk 19: 0.0222 - case_representation - 'Also, he was intubated and put on mechanical ve...'
+    6. Chunk 7: 0.0141 - knowledge_activation - 'Hypotension can be due to blood loss, infection...'
+    7. Chunk 26: 0.0115 - evidence_evaluation - 'The crepitus is more about the ribs than the he...'
+    8. Chunk 1: 0.0051 - case_representation - 'He was a restrained passenger, which probably m...'
+    9. Chunk 4: 0.0000 - case_representation - 'First, his vital signs: pulse is 130/min, which...'
+    10. Chunk 13: 0.0000 - evidence_evaluation - 'That means the heart sounds are normal, so prob...'
+    11. Chunk 16: 0.0000 - knowledge_activation - 'Flail chest occurs when multiple ribs are broke...'
+    12. Chunk 18: 0.0000 - hypothesis_generation - 'Absent breath sounds can mean a few things: may...'
+    13. Chunk 27: 0.0000 - diagnostic_commitment - 'Also, the flail chest is a classic sign of mult...'
+    14. Chunk 11: -0.0060 - evidence_evaluation - 'Diffuse crepitus suggests it's not just a small...'
+    15. Chunk 3: -0.0098 - unknown - 'Let me go through the details step by step.'
+    16. Chunk 9: -0.0250 - case_representation - 'He has superficial abrasions, so minor skin inj...'
+    17. Chunk 25: -0.0311 - evidence_evaluation - 'I don't think it's a heart issue because the ca...'
+    18. Chunk 8: -0.0471 - evidence_evaluation - 'Given the context, blood loss seems more likely.'
+    19. Chunk 22: -0.0639 - evidence_evaluation - 'The flail chest (chest wall moving inward) and ...'
+    20. Chunk 23: -0.0661 - knowledge_activation - 'Pneumothorax is when air leaks into the pleural...'
+    21. Chunk 5: -0.0865 - case_representation - 'Respirations are 35/min, which is also elevated...'
+    22. Chunk 24: -0.0902 - evidence_evaluation - 'This would explain the shortness of breath, hyp...'
+    23. Chunk 12: -0.1000 - case_representation - 'On cardiac exam, he's tachycardic, but no murmu...'
+    24. Chunk 20: -0.1181 - case_representation - 'They started IV fluids with saline, which is st...'
+    25. Chunk 15: -0.1329 - hypothesis_generation - 'That sounds like a sign of a flail chest.'
+    26. Chunk 14: -0.1727 - case_representation - 'The upper part of the left chest wall moving in...'
+    27. Chunk 2: -0.4353 - case_representation - 'Now, he's in the ER with shortness of breath an...'
+    28. Chunk 10: -0.4523 - knowledge_activation - 'Crepitus usually means some sort of injury to t...'
+  Potential reasoning forks:
+    Fork 1: Chunks 0-13
+      Text: 'Okay, so I'm trying to figure out what's going on with this 43-year-old man who was in a high-spe...'
+      Tags: unknown, case_representation, knowledge_activation, evidence_evaluation
+    Fork 2: Chunks 16-21
+      Text: 'Flail chest occurs when multiple ribs are broken, and a segment of the chest wall moves paradoxic...'
+      Tags: hypothesis_generation, case_representation, knowledge_activation, evidence_evaluation
+    Fork 3: Chunks 26-27
+      Text: 'The crepitus is more about the ribs than the heart. Also, the flail chest is a classic sign of mu...'
+      Tags: evidence_evaluation, diagnostic_commitment
 
 Problem 97: Variance = 0.025005
   Chunks by importance:
@@ -75,13 +116,13 @@ Problem 97: Variance = 0.025005
   Potential reasoning forks:
     Fork 1: Chunks 0-8
       Text: 'Okay, so I'm trying to figure out the diagnosis for this 75-year-old man. Let me start by going t...'
-      Tags: knowledge_activation, hypothesis_generation, case_representation, evidence_evaluation
+      Tags: hypothesis_generation, case_representation, knowledge_activation, evidence_evaluation
     Fork 2: Chunks 11-12
       Text: 'Respirations are 18/min, also normal. Blood pressure is 100/80 mm Hg, which is a bit low but coul...'
       Tags: case_representation
     Fork 3: Chunks 15-20
       Text: 'Cardiac exam is mentioned but not detailed, so I need to consider what that might show. Putting i...'
-      Tags: reconsideration_uncertainty, case_representation, diagnostic_commitment, final_answer_emission, evidence_evaluation
+      Tags: final_answer_emission, case_representation, evidence_evaluation, reconsideration_uncertainty, diagnostic_commitment
 
 Problem 207: Variance = 0.022506
   Chunks by importance:
@@ -132,10 +173,10 @@ Problem 207: Variance = 0.022506
       Tags: case_representation
     Fork 3: Chunks 8-13
       Text: 'That seems high because, for a child, normal blood pressure can vary, but generally, a BP of 150/...'
-      Tags: knowledge_activation, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation
     Fork 4: Chunks 16-22
       Text: 'S1 and S2 are normal, which means the heart valves are closing properly. However, there's a 2/6 l...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: case_representation, knowledge_activation, evidence_evaluation
     Fork 5: Chunks 26-27
       Text: 'It can cause high blood pressure in the upper extremities and low or absent pulses in the lower e...'
       Tags: knowledge_activation
@@ -176,10 +217,10 @@ Problem 95: Variance = 0.021338
   Potential reasoning forks:
     Fork 1: Chunks 0-4
       Text: 'Okay, so I'm trying to figure out what's going on with this patient. Let me start by going throug...'
-      Tags: knowledge_activation, unknown, case_representation
+      Tags: unknown, case_representation, knowledge_activation
     Fork 2: Chunks 7-12
       Text: 'She doesn't have diarrhea, dysuria, or hematuria, which rules out some other conditions like appe...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: case_representation, evidence_evaluation, knowledge_activation
     Fork 3: Chunks 15-20
       Text: 'Looking at the labs: her bilirubin is elevated at 4.1 mg/dL, which is a bit high. Her alkaline ph...'
       Tags: case_representation, evidence_evaluation
@@ -234,7 +275,7 @@ Problem 84: Variance = 0.020460
       Tags: evidence_evaluation
     Fork 3: Chunks 23-35
       Text: 'ECG is normal, which is interesting because in heart failure, ECG can show changes like房颤 or房室传导阻...'
-      Tags: reconsideration_uncertainty, knowledge_activation, hypothesis_generation, diagnostic_commitment, final_answer_emission, evidence_evaluation
+      Tags: final_answer_emission, evidence_evaluation, knowledge_activation, reconsideration_uncertainty, diagnostic_commitment, hypothesis_generation
 
 Problem 6: Variance = 0.011686
   Chunks by importance:
@@ -294,16 +335,16 @@ Problem 6: Variance = 0.011686
   Potential reasoning forks:
     Fork 1: Chunks 3-14
       Text: 'He's presenting with progressive fatigue and new onset muscle cramps. His medications haven't cha...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: case_representation, knowledge_activation, evidence_evaluation
     Fork 2: Chunks 17-23
       Text: 'Hydrochlorothiazide is a diuretic, which can cause electrolyte imbalances. It's a thiazide diuret...'
-      Tags: knowledge_activation, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation
     Fork 3: Chunks 26-28
       Text: 'That explains the new onset cramps. Wait, but the question is about the underlying etiology of hi...'
-      Tags: reconsideration_uncertainty, evidence_evaluation
+      Tags: evidence_evaluation, reconsideration_uncertainty
     Fork 4: Chunks 34-52
       Text: 'The patient has low potassium, so this is a possibility. 2. Cushing's syndrome: Can cause hyperte...'
-      Tags: reconsideration_uncertainty, knowledge_activation, diagnostic_verification, diagnostic_commitment, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation, reconsideration_uncertainty, diagnostic_commitment, diagnostic_verification
 
 Problem 122: Variance = 0.005813
   Chunks by importance:
@@ -354,17 +395,17 @@ Problem 122: Variance = 0.005813
       Tags: unknown, case_representation, evidence_evaluation
     Fork 2: Chunks 10-17
       Text: 'He's been living at his upstate cabin for five weeks and hasn't traveled elsewhere recently. He d...'
-      Tags: knowledge_activation, case_representation, evidence_evaluation
+      Tags: case_representation, knowledge_activation, evidence_evaluation
     Fork 3: Chunks 20-21
       Text: 'So, putting this together. The headaches and dizziness are concerning.'
       Tags: evidence_evaluation
     Fork 4: Chunks 24-26
       Text: 'Polycythemia can be primary (like in polycythemia vera, a myeloproliferative disorder) or seconda...'
-      Tags: knowledge_activation, evidence_evaluation
+      Tags: evidence_evaluation, knowledge_activation
     Fork 5: Chunks 29-30
       Text: 'Another possibility is dehydration, but his symptoms seem more chronic. His blood pressure is a b...'
       Tags: evidence_evaluation
     Fork 6: Chunks 34-36
       Text: 'Carbon monoxide exposure is a big one here. Other possibilities could be chronic obstructive pulm...'
-      Tags: hypothesis_generation, diagnostic_verification
+      Tags: diagnostic_verification, hypothesis_generation
 

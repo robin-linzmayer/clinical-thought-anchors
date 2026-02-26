@@ -29,6 +29,30 @@ Problem 24:
       Function tags: knowledge_activation
       Text: Alzheimer's disease is the most common, but there are others like vascular dementia, Lewy body demen...
 
+Problem 417:
+  Overall variance: 0.028633
+  Mean importance: -0.030206
+  Potential fork reasoning steps:
+    Chunk 6:
+      Importance: 0.500000 (z-score: 3.13)
+      Function tags: case_representation
+      Text: Blood pressure is 90/40, which is low.
+
+    Chunk 10:
+      Importance: -0.452301 (z-score: -2.49)
+      Function tags: knowledge_activation
+      Text: Crepitus usually means some sort of injury to the bones or joints, maybe a fracture.
+
+    Chunk 2:
+      Importance: -0.435294 (z-score: -2.39)
+      Function tags: case_representation
+      Text: Now, he's in the ER with shortness of breath and severe pain.
+
+    Chunk 17:
+      Importance: 0.258086 (z-score: 1.70)
+      Function tags: case_representation
+      Text: Breath sounds are absent on the left, which is a big clue.
+
 Problem 97:
   Overall variance: 0.025005
   Mean importance: -0.073930
