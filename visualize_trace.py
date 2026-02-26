@@ -864,7 +864,7 @@ h1 {{ font-size: 1.4em; font-weight: 500; margin-bottom: 4px; }}
 .problem-text {{
     font-size: 0.88em; line-height: 1.6; color: var(--text-secondary);
     background: var(--card-bg); padding: 12px 16px; border-radius: 8px;
-    border: 1px solid var(--border); max-height: 160px; overflow-y: auto;
+    border: 1px solid var(--border);
     margin-bottom: 10px;
 }}
 .answer-row {{
